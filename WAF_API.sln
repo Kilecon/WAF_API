@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WAF_API_Presentation", "WAF_API_Presentation\WAF_API_Presentation.csproj", "{5A498974-1D26-4065-B1D7-045D5B4DC253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WAF_API_Infrastructure", "WAF_API_Infrastructure\WAF_API_Infrastructure.csproj", "{7A42BA9D-8E35-4BBB-B026-B49BAFA34F3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WAF_API_Application", "WAF_API_Application\WAF_API_Application.csproj", "{1E37F359-0FD7-4BA9-A2BA-6DBEDF74FDB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WAF_API_Domain", "WAF_API_Domain\WAF_API_Domain.csproj", "{064F91E6-032C-47E4-98D6-B9575929FE97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WAF_API_Exceptions", "WAF_API_Exceptions\WAF_API_Exceptions.csproj", "{E9F15273-756C-46FA-A5C8-AAF2FC32FB68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WAF_API_Tests", "WAF_API_Tests\WAF_API_Tests.csproj", "{1C0B22B5-0FD3-434B-86AA-E7EA9C6F651E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A498974-1D26-4065-B1D7-045D5B4DC253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A498974-1D26-4065-B1D7-045D5B4DC253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A498974-1D26-4065-B1D7-045D5B4DC253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A498974-1D26-4065-B1D7-045D5B4DC253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A42BA9D-8E35-4BBB-B026-B49BAFA34F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A42BA9D-8E35-4BBB-B026-B49BAFA34F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A42BA9D-8E35-4BBB-B026-B49BAFA34F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A42BA9D-8E35-4BBB-B026-B49BAFA34F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E37F359-0FD7-4BA9-A2BA-6DBEDF74FDB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E37F359-0FD7-4BA9-A2BA-6DBEDF74FDB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E37F359-0FD7-4BA9-A2BA-6DBEDF74FDB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E37F359-0FD7-4BA9-A2BA-6DBEDF74FDB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{064F91E6-032C-47E4-98D6-B9575929FE97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064F91E6-032C-47E4-98D6-B9575929FE97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064F91E6-032C-47E4-98D6-B9575929FE97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064F91E6-032C-47E4-98D6-B9575929FE97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F15273-756C-46FA-A5C8-AAF2FC32FB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F15273-756C-46FA-A5C8-AAF2FC32FB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F15273-756C-46FA-A5C8-AAF2FC32FB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F15273-756C-46FA-A5C8-AAF2FC32FB68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C0B22B5-0FD3-434B-86AA-E7EA9C6F651E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0B22B5-0FD3-434B-86AA-E7EA9C6F651E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0B22B5-0FD3-434B-86AA-E7EA9C6F651E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0B22B5-0FD3-434B-86AA-E7EA9C6F651E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
