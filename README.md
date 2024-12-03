@@ -6,9 +6,15 @@ TODO :
 
 - Ajouter route GET random Challenge
 
+- PUT Challenge Validate Challenge (id only)
+
 - Supprimer PUT Ratings
 
 - Tokens sur les routes DELETE, PUT
+
+- Modifier la gestion d'erreurs (routes modifiés)
+
+- Refaire les Tests Unitaires
 
 
 ## 📌 Table of Contents :
