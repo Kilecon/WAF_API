@@ -2,14 +2,13 @@
 
 TODO :
 
-- Modifier le domain challenge
+- Ajouter route GET par SentenceId pour avoir une moyenne (+ faire un get des x meilleurs moyennes)
 
-- Ajouter les ratings
+- Ajouter route GET random Challenge
 
-- Tokens
+- Supprimer PUT Ratings
 
-- Ajout des catégories 
-
+- Tokens sur les routes DELETE, PUT
 
 
 ## 📌 Table of Contents :
