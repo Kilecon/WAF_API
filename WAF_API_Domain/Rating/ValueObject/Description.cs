@@ -1,4 +1,4 @@
-﻿namespace WAF_API_Domain.Comment.ValueObject
+﻿namespace WAF_API_Domain.Rating.ValueObject
 {
     /// <summary>
     /// Defines the <see cref="Description" />

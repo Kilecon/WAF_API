@@ -10,8 +10,8 @@
     using MongoDB.Bson.Serialization.Serializers;
     using MongoDB.Driver;
     using WAF_API_Application.Services;
-    using WAF_API_Domain.Comment.Dtos;
-    using WAF_API_Domain.Comment.Factory;
+    using WAF_API_Domain.Rating.Dtos;
+    using WAF_API_Domain.Rating.Factory;
     using WAF_API_Domain.Note.Dtos;
     using WAF_API_Domain.Note.Factory;
     using WAF_API_Infrastructure.DbSettings;
@@ -19,7 +19,7 @@
     using System;
     using System.IO;
     using WAF_API_Application.Services.NoteService;
-    using WAF_API_Application.Services.CommentService;
+    using WAF_API_Application.Services.RatingService;
 
     /// <summary>
     /// Defines the <see cref="Program" />
@@ -54,11 +54,11 @@
             builder.Services.AddScoped<IChallengeService, ChallengeService>();
             builder.Services.AddScoped<IChallengeFactory, ChallengeFactory>();
 
-            builder.Services.AddScoped<IBaseRepository<CommentDto>, CommentRepository>();
-            builder.Services.AddScoped<IBaseRepository<CommentDto>, CommentRepository>();
-            builder.Services.AddScoped<ICommentRepository, CommentRepository>();
-            builder.Services.AddScoped<ICommentService, CommentService>();
-            builder.Services.AddScoped<ICommentFactory, CommentFactory>();
+            builder.Services.AddScoped<IBaseRepository<RatingDto>, RatingRepository>();
+            builder.Services.AddScoped<IBaseRepository<RatingDto>, RatingRepository>();
+            builder.Services.AddScoped<IRatingRepository, RatingRepository>();
+            builder.Services.AddScoped<IRatingService, RatingService>();
+            builder.Services.AddScoped<IRatingFactory, RatingFactory>();
 
             // Register controllers for API
             builder.Services.AddControllers().ConfigureApiBehaviorOptions(x => { x.SuppressMapClientErrors = true; });

@@ -1,33 +1,33 @@
 ﻿namespace WAF_API_Application.Tests
 {
     /// <summary>
-    /// Defines the <see cref="CommentsServiceTests" />
+    /// Defines the <see cref="RatingsServiceTests" />
     /// </summary>
-    public class CommentsServiceTests
+    public class RatingsServiceTests
     {
         ///// <summary>
         ///// Defines the _mockFactory
         ///// </summary>
-        //private readonly Mock<ICommentFactory> _mockFactory;
+        //private readonly Mock<IRatingFactory> _mockFactory;
 
         ///// <summary>
         ///// Defines the _mockRepository
         ///// </summary>
-        //private readonly Mock<IBaseRepository<CommentDto>> _mockRepository;
+        //private readonly Mock<IBaseRepository<RatingDto>> _mockRepository;
 
         ///// <summary>
         ///// Defines the _service
         ///// </summary>
-        //private readonly CommentService _service;
+        //private readonly RatingService _service;
 
         ///// <summary>
-        ///// Initializes a new instance of the <see cref="CommentsServiceTests"/> class.
+        ///// Initializes a new instance of the <see cref="RatingsServiceTests"/> class.
         ///// </summary>
-        //public CommentsServiceTests()
+        //public RatingsServiceTests()
         //{
-        //    _mockFactory = new Mock<ICommentFactory>();
-        //    _mockRepository = new Mock<IBaseRepository<CommentDto>>();
-        //    _service = new CommentService(_mockFactory.Object, _mockRepository.Object);
+        //    _mockFactory = new Mock<IRatingFactory>();
+        //    _mockRepository = new Mock<IBaseRepository<RatingDto>>();
+        //    _service = new RatingService(_mockFactory.Object, _mockRepository.Object);
         //}
 
         ///// <summary>
@@ -38,8 +38,8 @@
         //public async Task UpdateAsync_ShouldThrowInvalidIdException_WhenIdIsNotFound()
         //{
         //    // Arrange
-        //    var cmd = new UpdateCommentCmd { Id = "7af6dfb8-aaf7-4ed6-ab2c-c7635c79b34a", Sentence = "Updated Sentence", Description = "Updated Description" };
-        //    _mockRepository.Setup(r => r.GetItemById(cmd.Id)).Throws(new NotInDbException("Comment not found"));
+        //    var cmd = new UpdateRatingCmd { Id = "7af6dfb8-aaf7-4ed6-ab2c-c7635c79b34a", Sentence = "Updated Sentence", Description = "Updated Description" };
+        //    _mockRepository.Setup(r => r.GetItemById(cmd.Id)).Throws(new NotInDbException("Rating not found"));
 
         //    var err = new InvalidIdException();
 
@@ -49,15 +49,15 @@
         //}
 
         ///// <summary>
-        ///// The DeleteAsync_ShouldDeleteComment_WhenIdExists
+        ///// The DeleteAsync_ShouldDeleteRating_WhenIdExists
         ///// </summary>
         ///// <returns>The <see cref="Task"/></returns>
         //[Fact]
-        //public async Task DeleteAsync_ShouldDeleteComment_WhenIdExists()
+        //public async Task DeleteAsync_ShouldDeleteRating_WhenIdExists()
         //{
         //    // Arrange
         //    var id = "7af6dfb8-aaf7-4ed6-ab2c-c7635c79b34a";
-        //    var dto = new CommentDto { Id = id, Sentence = "Test Sentence", Description = "Test Description" };
+        //    var dto = new RatingDto { Id = id, Sentence = "Test Sentence", Description = "Test Description" };
         //    _mockRepository.Setup(r => r.GetItemById(id)).ReturnsAsync(dto);
         //    _mockRepository.Setup(r => r.DeleteByIdAsync(id)).Returns(Task.CompletedTask);
 
@@ -77,11 +77,11 @@
         //{
         //    // Arrange
         //    var id = "non-existent-id";
-        //    _mockRepository.Setup(r => r.GetItemById(id)).Throws(new NotInDbException("Comment not found"));
+        //    _mockRepository.Setup(r => r.GetItemById(id)).Throws(new NotInDbException("Rating not found"));
 
         //    // Act & Assert
         //    var exception = await Assert.ThrowsAsync<NotInDbException>(() => _service.DeleteAsync(id));
-        //    Assert.Equal("Comment not found", exception.Message);
+        //    Assert.Equal("Rating not found", exception.Message);
         //}
     }
 }

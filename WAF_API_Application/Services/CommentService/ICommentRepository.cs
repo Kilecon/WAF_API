@@ -1,12 +1,12 @@
-﻿namespace WAF_API_Application.Services.CommentService
+﻿namespace WAF_API_Application.Services.RatingService
 {
     using WAF_API_Application.Services;
-    using WAF_API_Domain.Comment.Dtos;
+    using WAF_API_Domain.Rating.Dtos;
 
     /// <summary>
-    /// Defines the <see cref="ICommentRepository" />
+    /// Defines the <see cref="IRatingRepository" />
     /// </summary>
-    public interface ICommentRepository : IBaseRepository<CommentDto>
+    public interface IRatingRepository : IBaseRepository<RatingDto>
     {
     }
 }

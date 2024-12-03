@@ -1,20 +1,20 @@
-﻿namespace WAF_API_Application.Services.CommentService
+﻿namespace WAF_API_Application.Services.RatingService
 {
-    using WAF_API_Domain.Comment.Commands;
-    using WAF_API_Domain.Comment.Dtos;
+    using WAF_API_Domain.Rating.Commands;
+    using WAF_API_Domain.Rating.Dtos;
     using System.Threading.Tasks;
     using WAF_API_Application.Services;
 
     /// <summary>
-    /// Defines the <see cref="ICommentService" />
+    /// Defines the <see cref="IRatingService" />
     /// </summary>
-    public interface ICommentService : IService<CommentDto, CreateCommentCmd, UpdateCommentCmd>
+    public interface IRatingService : IService<RatingDto, CreateRatingCmd, UpdateRatingCmd>
     {
         /// <summary>
         /// The UpdateAsync
         /// </summary>
-        /// <param name="comment">The comment<see cref="UpdateCommentCmd"/></param>
+        /// <param name="comment">The comment<see cref="UpdateRatingCmd"/></param>
         /// <returns>The <see cref="Task"/></returns>
-        Task UpdateAsync(UpdateCommentCmd comment);
+        Task UpdateAsync(UpdateRatingCmd comment);
     }
 }

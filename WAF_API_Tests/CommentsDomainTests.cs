@@ -2,31 +2,31 @@
 {
 
     /// <summary>
-    /// Defines the <see cref="CommentsDomainTests" />
+    /// Defines the <see cref="RatingsDomainTests" />
     /// </summary>
-    public class CommentsDomainTests
+    public class RatingsDomainTests
     {
         ///// <summary>
         ///// Defines the _factory
         ///// </summary>
-        //private readonly CommentFactory _factory;
+        //private readonly RatingFactory _factory;
 
         ///// <summary>
-        ///// Initializes a new instance of the <see cref="CommentsDomainTests"/> class.
+        ///// Initializes a new instance of the <see cref="RatingsDomainTests"/> class.
         ///// </summary>
-        //public CommentsDomainTests()
+        //public RatingsDomainTests()
         //{
-        //    _factory = new CommentFactory();
+        //    _factory = new RatingFactory();
         //}
 
         ///// <summary>
-        ///// The CreateIntance_ShouldCreateCommentAr_WhenCommandIsValid
+        ///// The CreateIntance_ShouldCreateRatingAr_WhenCommandIsValid
         ///// </summary>
         //[Fact]
-        //public void CreateIntance_ShouldCreateCommentAr_WhenCommandIsValid()
+        //public void CreateIntance_ShouldCreateRatingAr_WhenCommandIsValid()
         //{
         //    // Arrange
-        //    var cmd = new CreateCommentCmd { Sentence = "Valid Sentence.", Description = "Valid Description." };
+        //    var cmd = new CreateRatingCmd { Sentence = "Valid Sentence.", Description = "Valid Description." };
         //    var id = "7af6dfb8-aaf7-4ed6-ab2c-c7635c79b34a";
 
         //    // Act
@@ -41,13 +41,13 @@
         //}
 
         ///// <summary>
-        ///// The UpdateIntance_ShouldCreateCommentAr_WhenCommandIsValid
+        ///// The UpdateIntance_ShouldCreateRatingAr_WhenCommandIsValid
         ///// </summary>
         //[Fact]
-        //public void UpdateIntance_ShouldCreateCommentAr_WhenCommandIsValid()
+        //public void UpdateIntance_ShouldCreateRatingAr_WhenCommandIsValid()
         //{
         //    // Arrange
-        //    var cmd = new UpdateCommentCmd { Id = "7af6dfb8-aaf7-4ed6-ab2c-c7635c79b34a", Sentence = "Updated Sentence", Description = "Updated Description." };
+        //    var cmd = new UpdateRatingCmd { Id = "7af6dfb8-aaf7-4ed6-ab2c-c7635c79b34a", Sentence = "Updated Sentence", Description = "Updated Description." };
 
         //    // Act
         //    var result = _factory.UpdateIntance(cmd);
@@ -67,7 +67,7 @@
         //public void UpdateIntance_ShouldThrowInvalidCommandException_WhenCommandIsInvalid()
         //{
         //    // Arrange
-        //    var cmd = new UpdateCommentCmd { Id = "12345", Sentence = "Valid.", Description = "Updated Description." };
+        //    var cmd = new UpdateRatingCmd { Id = "12345", Sentence = "Valid.", Description = "Updated Description." };
 
         //    var err = new InvalidIdException();
         //    // Act & Assert
