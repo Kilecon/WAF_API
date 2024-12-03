@@ -23,7 +23,7 @@
         {
             try
             {
-                return new CommentAr(new Id(id), new Title(cmd.Title), new Description(cmd.Description));
+                return new CommentAr(new Id(id), new Sentence(cmd.Sentence), new Description(cmd.Description));
 
             }
             catch (Exception)
@@ -41,7 +41,7 @@
         {
             try
             {
-                return new CommentAr(new Id(cmd.Id), new Title(cmd.Title), new Description(cmd.Description));
+                return new CommentAr(new Id(cmd.Id), new Sentence(cmd.Sentence), new Description(cmd.Description));
 
             }
             catch (InvalidIdException)

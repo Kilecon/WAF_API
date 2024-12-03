@@ -7,14 +7,10 @@
     /// </summary>
     public class CreateChallengeCmd : Cmd
     {
-        /// <summary>
-        /// Gets or sets the Title
-        /// </summary>
-        public string? Title { get; set; }
+        public string? Sentence { get; set; }
+        public string? Lang { get; set; }
+        public IEnumerable<string>? Gamemodes { get; set; }
 
-        /// <summary>
-        /// Gets or sets the Description
-        /// </summary>
-        public string? Description { get; set; }
+        public IEnumerable<string>? Categories { get; set; }
     }
 }

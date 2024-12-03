@@ -1,9 +1,9 @@
 ﻿namespace WAF_API_Domain.Comment.ValueObject
 {
     /// <summary>
-    /// Defines the <see cref="Title" />
+    /// Defines the <see cref="Sentence" />
     /// </summary>
-    public class Title
+    public class Sentence
     {
         /// <summary>
         /// Gets the Value
@@ -11,10 +11,10 @@
         public string? Value { get; private set; }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="Title"/> class.
+        /// Initializes a new instance of the <see cref="Sentence"/> class.
         /// </summary>
         /// <param name="value">The value<see cref="string"/></param>
-        public Title(string value)
+        public Sentence(string value)
         {
             if (string.IsNullOrEmpty(value))
             {

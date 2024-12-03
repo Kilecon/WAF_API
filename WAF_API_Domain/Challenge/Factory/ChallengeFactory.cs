@@ -6,6 +6,7 @@
     using WAF_API_Domain.ValueObject;
     using WAF_API_Exceptions.ApplicationExceptions;
     using System;
+    using WAF_API_Domain.Challenge.ValueObject;
 
     /// <summary>
     /// Defines the <see cref="ChallengeFactory" />
@@ -22,7 +23,7 @@
         {
             try
             {
-                return new ChallengeAr(new Id(id), new Title(cmd.Title), new Description(cmd.Description));
+                return new ChallengeAr(new Id(id), new Sentence(cmd.Sentence), new Lang(cmd.Lang), new Gamemodes(cmd.Gamemodes), new Categories(cmd.Categories));
 
             }
             catch (Exception)
@@ -40,7 +41,7 @@
         {
             try
             {
-                return new ChallengeAr(new Id(cmd.Id), new Title(cmd.Title), new Description(cmd.Description), new IsChecked(cmd.IsChecked));
+                return new ChallengeAr(new Id(cmd.Id), new Sentence(cmd.Sentence), new Lang(cmd.Lang), new Gamemodes(cmd.Gamemodes), new Categories(cmd.Categories), new IsChecked(cmd.IsChecked));
 
             }
             catch (InvalidIdException)

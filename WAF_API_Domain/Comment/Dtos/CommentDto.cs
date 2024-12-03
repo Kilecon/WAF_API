@@ -4,6 +4,6 @@ namespace WAF_API_Domain.Comment.Dtos;
 
 public class CommentDto : Dto
 {
-    public string? Title { get; set; }
+    public string? Sentence { get; set; }
     public string? Description { get; set; }
 }

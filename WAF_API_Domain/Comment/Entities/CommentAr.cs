@@ -15,9 +15,9 @@
         public Id Id { get; private set; }
 
         /// <summary>
-        /// Gets the Title
+        /// Gets the Sentence
         /// </summary>
-        public Title Title { get; private set; }
+        public Sentence Sentence { get; private set; }
 
         /// <summary>
         /// Gets the Description
@@ -33,12 +33,12 @@
         /// Initializes a new instance of the <see cref="CommentAr"/> class.
         /// </summary>
         /// <param name="id">The id<see cref="Id"/></param>
-        /// <param name="title">The title<see cref="Title"/></param>
+        /// <param name="title">The title<see cref="Sentence"/></param>
         /// <param name="description">The description<see cref="Description"/></param>
-        public CommentAr(Id id, Title title, Description description)
+        public CommentAr(Id id, Sentence title, Description description)
         {
             Id = id;
-            Title = title;
+            Sentence = title;
             Description = description;
             LastUpdateUnixTimestamp = new LastUpdateUnixTimestamp();
         }
@@ -52,7 +52,7 @@
             return new CommentDto
             {
                 Id = Id.Value,
-                Title = Title.Value,
+                Sentence = Sentence.Value,
                 Description = Description.Value,
                 LastUpdateUnixTimestamp = LastUpdateUnixTimestamp.Value
             };

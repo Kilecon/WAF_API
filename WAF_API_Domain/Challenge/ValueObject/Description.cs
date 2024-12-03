@@ -3,6 +3,7 @@
     /// <summary>
     /// Defines the <see cref="Description" />
     /// </summary>
+    [Obsolete]
     public class Description
     {
         /// <summary>

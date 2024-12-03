@@ -8,9 +8,9 @@
     public class CreateCommentCmd : Cmd
     {
         /// <summary>
-        /// Gets or sets the Title
+        /// Gets or sets the Sentence
         /// </summary>
-        public string? Title { get; set; }
+        public string? Sentence { get; set; }
 
         /// <summary>
         /// Gets or sets the Description

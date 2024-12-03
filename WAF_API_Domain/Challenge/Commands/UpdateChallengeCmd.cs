@@ -7,19 +7,11 @@
     /// </summary>
     public class UpdateChallengeCmd : IdCmd
     {
-        /// <summary>
-        /// Gets or sets the Title
-        /// </summary>
-        public string? Title { get; set; }
+        public string? Sentence { get; set; }
+        public string? Lang { get; set; }
+        public IEnumerable<string>? Gamemodes { get; set; }
 
-        /// <summary>
-        /// Gets or sets the Description
-        /// </summary>
-        public string? Description { get; set; }
-
-        /// <summary>
-        /// Gets or sets a value indicating whether IsChecked
-        /// </summary>
+        public IEnumerable<string>? Categories { get; set; }
         public bool IsChecked { get; set; }
     }
 }
