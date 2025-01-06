@@ -2,9 +2,9 @@ namespace WAF_API_Tests
 {
 
     /// <summary>
-    /// Defines the <see cref="RatingsPrésentationTests" />
+    /// Defines the <see cref="RatingsPresentationTests" />
     /// </summary>
-    public class RatingsPrésentationTests
+    public class RatingsPresentationTests
     {
         ///// <summary>
         ///// Defines the _mockRatingService

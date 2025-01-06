@@ -14,14 +14,14 @@ namespace WAF_API_Domain.Dare.Entities
         public LastUpdateUnixTimestamp LastUpdateUnixTimestamp { get; private set; }
         public QuestionEn QuestionEn { get; private set; }
         public QuestionFr QuestionFr { get; private set; }
-        public WAF_API_Domain.ValueObject.Notation Rating { get; private set; }
+        public Notation Rating { get; private set; }
         public DareAr(Id id, QuestionEn questionEn, QuestionFr questionFr) 
         {
             Id = id;
             QuestionFr = questionFr;
             QuestionEn = questionEn;
             LastUpdateUnixTimestamp = new LastUpdateUnixTimestamp();
-            Rating = new WAF_API_Domain.ValueObject.Notation();
+            Rating = new Notation();
         }
 
         public DareAr(Id id, QuestionEn questionEn, QuestionFr questionFr, Notation rating)

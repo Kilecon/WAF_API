@@ -10,11 +10,4 @@
     <ProjectReference Include="..\WAF_API_Exceptions\WAF_API_Exceptions.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="NeverHaveIEver\ValueObject\" />
-    <Folder Include="Paranoia\" />
-    <Folder Include="Truth\" />
-    <Folder Include="WouldYouRather\" />
-  </ItemGroup>
-
 </Project>
