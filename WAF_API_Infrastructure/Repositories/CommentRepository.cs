@@ -1,14 +1,13 @@
 ﻿namespace WAF_API_Infrastructure.Repositories
 {
     using MongoDB.Driver;
-    using WAF_API_Application.Services;
-    using WAF_API_Application.Services.RatingService;
-    using WAF_API_Domain.Rating.Dtos;
+    using WAF_API_Application.Services.DareService;
+    using WAF_API_Domain.Dare.Dtos;
 
     /// <summary>
-    /// Defines the <see cref="RatingRepository" />
+    /// Defines the <see cref="DareRepository" />
     /// </summary>
-    public class RatingRepository(IMongoDatabase database) : BaseRepository<RatingDto>(database), IRatingRepository
+    public class DareRepository(IMongoDatabase database) : BaseRepository<DareDto>(database), IDareRepository
     {
     }
 }

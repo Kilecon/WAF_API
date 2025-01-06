@@ -10,16 +10,13 @@
     using MongoDB.Bson.Serialization.Serializers;
     using MongoDB.Driver;
     using WAF_API_Application.Services;
-    using WAF_API_Domain.Rating.Dtos;
-    using WAF_API_Domain.Rating.Factory;
-    using WAF_API_Domain.Note.Dtos;
-    using WAF_API_Domain.Note.Factory;
     using WAF_API_Infrastructure.DbSettings;
     using WAF_API_Infrastructure.Repositories;
     using System;
     using System.IO;
-    using WAF_API_Application.Services.NoteService;
-    using WAF_API_Application.Services.RatingService;
+    using WAF_API_Domain.Dare.Dtos;
+    using WAF_API_Application.Services.DareService;
+    using WAF_API_Domain.Dare.Factory;
 
     /// <summary>
     /// Defines the <see cref="Program" />
@@ -48,17 +45,11 @@
             });
 
             // Register repositories and services (scoped for request lifetime)
-            builder.Services.AddScoped<IBaseRepository<ChallengeDto>, NoteRepository>();
-            builder.Services.AddScoped<IBaseRepository<ChallengeDto>, NoteRepository>();
-            builder.Services.AddScoped<IChallengeRepository, NoteRepository>();
-            builder.Services.AddScoped<IChallengeService, ChallengeService>();
-            builder.Services.AddScoped<IChallengeFactory, ChallengeFactory>();
-
-            builder.Services.AddScoped<IBaseRepository<RatingDto>, RatingRepository>();
-            builder.Services.AddScoped<IBaseRepository<RatingDto>, RatingRepository>();
-            builder.Services.AddScoped<IRatingRepository, RatingRepository>();
-            builder.Services.AddScoped<IRatingService, RatingService>();
-            builder.Services.AddScoped<IRatingFactory, RatingFactory>();
+            builder.Services.AddScoped<IBaseRepository<DareDto>, DareRepository>();
+            builder.Services.AddScoped<IBaseRepository<DareDto>, DareRepository>();
+            builder.Services.AddScoped<IDareRepository, DareRepository>();
+            builder.Services.AddScoped<IDareService, DareService>();
+            builder.Services.AddScoped<IDareFactory, DareFactory>();
 
             // Register controllers for API
             builder.Services.AddControllers().ConfigureApiBehaviorOptions(x => { x.SuppressMapClientErrors = true; });

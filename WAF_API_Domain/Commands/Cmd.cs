@@ -10,7 +10,7 @@
     /// <summary>
     /// Defines the <see cref="IdCmd" />
     /// </summary>
-    public class IdCmd : Cmd
+    public abstract class IdCmd : Cmd
     {
         /// <summary>
         /// Gets or sets the Id
