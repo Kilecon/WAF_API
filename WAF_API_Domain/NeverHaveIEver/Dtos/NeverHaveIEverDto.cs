@@ -9,5 +9,8 @@ namespace WAF_API_Domain.NeverHaveIEver.Dtos
 {
     public class NeverHaveIEverDto : Dto
     {
+        public string? QuestionEn { get; set; }
+        public string? QuestionFr { get; set; }
+        public float? Rating { get; set; }
     }
 }

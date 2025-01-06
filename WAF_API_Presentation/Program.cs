@@ -1,23 +1,30 @@
-﻿namespace WAF_API_Presentation
-{
-    using Microsoft.AspNetCore.Builder;
-    using Microsoft.Extensions.Configuration;
-    using Microsoft.Extensions.DependencyInjection;
-    using Microsoft.Extensions.Options;
-    using Microsoft.OpenApi.Models;
-    using MongoDB.Bson;
-    using MongoDB.Bson.Serialization;
-    using MongoDB.Bson.Serialization.Serializers;
-    using MongoDB.Driver;
-    using WAF_API_Application.Services;
-    using WAF_API_Infrastructure.DbSettings;
-    using WAF_API_Infrastructure.Repositories;
-    using System;
-    using System.IO;
-    using WAF_API_Domain.Dare.Dtos;
-    using WAF_API_Application.Services.DareService;
-    using WAF_API_Domain.Dare.Factory;
+﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
+using Microsoft.OpenApi.Models;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization;
+using MongoDB.Bson.Serialization.Serializers;
+using MongoDB.Driver;
+using WAF_API_Application.Services;
+using WAF_API_Infrastructure.DbSettings;
+using WAF_API_Infrastructure.Repositories;
+using System;
+using System.IO;
+using WAF_API_Domain.Dare.Dtos;
+using WAF_API_Application.Services.DareService;
+using WAF_API_Application.Services.NeverHaveIEverService;
+using WAF_API_Application.Services.ParanoiaService;
+using WAF_API_Application.Services.TruthService;
+using WAF_API_Domain.Dare.Factory;
+using WAF_API_Domain.NeverHaveIEver.Factory;
+using WAF_API_Domain.Paranoia.Factory;
+using WAF_API_Domain.Truth.Factory;
 
+namespace WAF_API_Presentation
+
+{
     /// <summary>
     /// Defines the <see cref="Program" />
     /// </summary>
@@ -50,6 +57,15 @@
             builder.Services.AddScoped<IDareRepository, DareRepository>();
             builder.Services.AddScoped<IDareService, DareService>();
             builder.Services.AddScoped<IDareFactory, DareFactory>();
+            builder.Services.AddScoped<INeverHaveIEverRepository, NeverHaveIEverRepository>() ;
+            builder.Services.AddScoped<INeverHaveIEverService, NeverHaveIEverService>();
+            builder.Services.AddScoped<INeverHaveIEverFactory, NeverHaveIEverFactory>();
+            builder.Services.AddScoped<ITruthFactory, TruthFactory>();
+            builder.Services.AddScoped<ITruthService, TruthService>();
+            builder.Services.AddScoped<ITruthRepository, TruthRepository>();
+            builder.Services.AddScoped<IParanoiaFactory, ParanoiaFactory>();
+            builder.Services.AddScoped<IParanoiaService, ParanoiaService>();
+            builder.Services.AddScoped<IParanoiaRepository, ParanoiaRepository>();
 
             // Register controllers for API
             builder.Services.AddControllers().ConfigureApiBehaviorOptions(x => { x.SuppressMapClientErrors = true; });

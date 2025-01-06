@@ -1,36 +1,38 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using WAF_API_Application.Services.TruthService;
+using WAF_API_Domain.Truth.Dtos;
+using WAF_API_Domain.Truth.Commands;
 using WAF_API_Exceptions.ApplicationExceptions;
 using WAF_API_Exceptions.DomainExceptions;
 using WAF_API_Exceptions.InfrastructureExceptions;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using WAF_API_Application.Services.DareService;
-using WAF_API_Application.Services.ParanoiaService;
-using WAF_API_Domain.Paranoia.Dtos;
-using WAF_API_Domain.Paranoia.Commands;
+
 namespace WAF_API_Presentation.Controllers
 {
     /// <summary>
-    /// Controller for managing "ParanoiaDto" Documents
+    /// Controller for managing "TruthDto" Documents
     /// </summary>
     [Route("api/[controller]")]
     [ApiController]
-    public class ParanoiaController(IParanoiaService noteService) : ControllerBase
+    public class TruthController(ITruthService noteService) : ControllerBase
     {
         /// <summary>
         /// Defines the _noteService
         /// </summary>
-        private readonly IParanoiaService _noteService = noteService;
+        private readonly ITruthService _noteService = noteService;
 
         /// <summary>
-        /// Retrieves all "ParanoiaDto" Documents
+        /// Retrieves all "TruthDto" Documents
         /// </summary>
-        /// <returns>A list of "ParanoiaDto" Documents</returns>
+        /// <returns>A list of "TruthDto" Documents</returns>
         [HttpGet]
-        [ProducesResponseType(typeof(IEnumerable<ParanoiaDto>), 200)]
+        [ProducesResponseType(typeof(IEnumerable<TruthDto>), 200)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<IEnumerable<ParanoiaDto>>> GetNotes()
+        public async Task<ActionResult<IEnumerable<TruthDto>>> GetNotes()
         {
             try
             {
@@ -44,17 +46,17 @@ namespace WAF_API_Presentation.Controllers
         }
 
         /// <summary>
-        /// Retrieves a "ParanoiaDto" Document by its ID
+        /// Retrieves a "TruthDto" Document by its ID
         /// </summary>
-        /// <param name="id">The ID of the "ParanoiaDto" Document</param>
-        /// <returns>The "ParanoiaDto" Document with the specified ID</returns>
+        /// <param name="id">The ID of the "TruthDto" Document</param>
+        /// <returns>The "TruthDto" Document with the specified ID</returns>
         [HttpGet("{id}")]
-        [ProducesResponseType(typeof(ParanoiaDto), 200)]
+        [ProducesResponseType(typeof(TruthDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(418)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<ParanoiaDto>> GetNoteById(string id)
+        public async Task<ActionResult<TruthDto>> GetNoteById(string id)
         {
             try
             {
@@ -80,15 +82,15 @@ namespace WAF_API_Presentation.Controllers
         }
 
         /// <summary>
-        /// Creates a new "ParanoiaDto" Documents
+        /// Creates a new "TruthDto" Documents
         /// </summary>
         /// <param name="note">The note to be added</param>
-        /// <returns>The created "ParanoiaDto" Documents</returns>
+        /// <returns>The created "TruthDto" Documents</returns>
         [HttpPost]
         [ProducesResponseType(201)]
         [ProducesResponseType(400)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult> CreateNote([FromQuery] CreateParanoiaCmd note)
+        public async Task<ActionResult> CreateNote([FromQuery] CreateTruthCmd note)
         {
             try
             {
@@ -107,9 +109,9 @@ namespace WAF_API_Presentation.Controllers
         }
 
         /// <summary>
-        /// Updates a "ParanoiaDto" Document by its ID
+        /// Updates a "DareDto" Document by its ID
         /// </summary>
-        /// <param name="note">The note<see cref="UpdateParanoiaCmd"/></param>
+        /// <param name="note">The note<see cref="UpdateTruthCmd"/></param>
         /// <returns>No content if the update is successful</returns>
         [HttpPut]
         [ProducesResponseType(204)]
@@ -117,7 +119,7 @@ namespace WAF_API_Presentation.Controllers
         [ProducesResponseType(404)]
         [ProducesResponseType(418)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult> UpdateNote([FromQuery] UpdateParanoiaCmd note)
+        public async Task<ActionResult> UpdateNote([FromQuery] UpdateTruthCmd note)
         {
             try
             {
@@ -145,9 +147,9 @@ namespace WAF_API_Presentation.Controllers
         }
 
         /// <summary>
-        /// Deletes a "ParanoiaDto" Document by its ID
+        /// Deletes a "TruthDto" Document by its ID
         /// </summary>
-        /// <param name="id">The ID of the "ParanoiaDto" Document to delete</param>
+        /// <param name="id">The ID of the "TruthDto" Document to delete</param>
         /// <returns>No content if the deletion is successful</returns>
         [HttpDelete("{id}")]
         [ProducesResponseType(204)]

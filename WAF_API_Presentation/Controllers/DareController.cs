@@ -1,15 +1,16 @@
+using Microsoft.AspNetCore.Mvc;
+using WAF_API_Exceptions.ApplicationExceptions;
+using WAF_API_Exceptions.DomainExceptions;
+using WAF_API_Exceptions.InfrastructureExceptions;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using WAF_API_Application.Services.DareService;
+using WAF_API_Domain.Dare.Dtos;
+using WAF_API_Domain.Dare.Commands;
+    
 namespace WAF_API_Presentation.Controllers
 {
-    using Microsoft.AspNetCore.Mvc;
-    using WAF_API_Exceptions.ApplicationExceptions;
-    using WAF_API_Exceptions.DomainExceptions;
-    using WAF_API_Exceptions.InfrastructureExceptions;
-    using System;
-    using System.Collections.Generic;
-    using System.Threading.Tasks;
-    using WAF_API_Application.Services.DareService;
-    using WAF_API_Domain.Dare.Dtos;
-    using WAF_API_Domain.Dare.Commands;
 
     /// <summary>
     /// Controller for managing "DareDto" Documents
