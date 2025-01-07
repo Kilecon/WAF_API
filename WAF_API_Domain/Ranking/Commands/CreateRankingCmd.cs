@@ -9,5 +9,8 @@ namespace WAF_API_Domain.Ranking.Commands
 {
     public class CreateRankingCmd : Cmd
     {
+        public string QuestionId { get; set; }
+        public string QuestionTypeName { get; set; }
+        public bool IsLiked { get; set; }
     }
 }

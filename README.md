@@ -2,15 +2,15 @@
 
 TODO :
 
-- Ajouter route GET par SentenceId pour avoir une moyenne (+ faire un get des x meilleurs moyennes)
+- Modifier Controller et service Ranking pour ajouter toutes les routes
 
-- Ajouter route GET random Challenge
+- Modifier Controller et service Dare (modifier BaseRepo et les services) pour ajouter pour le get (nombre voulu) [puis implem aux autres types de questions]
 
-- PUT Challenge Validate Challenge (id only)
+- Ajouter  un UpsertMany() pour toutes les questions => pour pouvoir pousser une liste de json
 
-- Supprimer PUT Ratings
+- Logique de notation [Passage des floats des dtos en string]
 
-- Tokens sur les routes DELETE, PUT
+- Tokens
 
 - Modifier la gestion d'erreurs (routes modifiés)
 

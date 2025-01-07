@@ -9,6 +9,7 @@
     using System.Data;
     using System.Linq;
     using System.Threading.Tasks;
+    using MongoDB.Bson;
 
     /// <summary>
     /// Defines the <see cref="BaseRepository{TDto}" />
@@ -190,6 +191,24 @@
             {
                 throw new NotInDbException($"\"{typeof(TDto).Name}\"Document not found.");
             }
+        }
+
+        public async Task<IEnumerable<TDto>> GetSeveralItems(int number)
+        {
+            if (number <= 0)
+            {
+                throw new ArgumentException("Le nombre d'éléments doit être supérieur à 0.", nameof(number));
+            }
+
+            var pipeline = new[]
+                {
+                new BsonDocument("$match", new BsonDocument("TypeName", typeof(TDto).Name)),
+                new BsonDocument("$sample", new BsonDocument("size", number))
+                };
+
+            var documents = await _collection.Aggregate<StoredDto<TDto>>(pipeline).ToListAsync();
+
+            return documents.Select(doc => ToDto(doc));
         }
     }
 }
