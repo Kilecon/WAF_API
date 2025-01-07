@@ -210,5 +210,45 @@
 
             return documents.Select(doc => ToDto(doc));
         }
+        
+        /// <summary>
+        /// Performs an upsert operation for multiple items at once.
+        /// </summary>
+        /// <param name="items">The list of items to upsert<see cref="IEnumerable{TDto}"/></param>
+        /// <returns>The <see cref="Task"/></returns>
+        public async Task UpsertMany(IEnumerable<TDto> items)
+        {
+            if (items == null || !items.Any())
+            {
+                throw new ArgumentException("The items collection must not be null or empty.", nameof(items));
+            }
+
+            var operations = new List<WriteModel<StoredDto<TDto>>>();
+
+            foreach (var item in items)
+            {
+                var storedItem = UpdateStoredDto(item);
+
+                var filter = Builders<StoredDto<TDto>>.Filter.And(
+                    Builders<StoredDto<TDto>>.Filter.Eq("Id", storedItem.Id),
+                    Builders<StoredDto<TDto>>.Filter.Eq("TypeName", typeof(TDto).Name)
+                );
+
+                var update = Builders<StoredDto<TDto>>.Update
+                    .SetOnInsert(x => x.Id, storedItem.Id)
+                    .Set(x => x.Payload, storedItem.Payload)
+                    .Set(x => x.LastUpdateUnixTimestamp, storedItem.LastUpdateUnixTimestamp)
+                    .Set(x => x.TypeName, storedItem.TypeName);
+
+                var upsertOperation = new UpdateOneModel<StoredDto<TDto>>(filter, update) { IsUpsert = true };
+                operations.Add(upsertOperation);
+            }
+
+            if (operations.Any())
+            {
+                await _collection.BulkWriteAsync(operations, new BulkWriteOptions { IsOrdered = false });
+            }
+        }
+
     }
 }
