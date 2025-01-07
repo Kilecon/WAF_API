@@ -1,0 +1,714 @@
+[
+  {
+    "QuestionEn": "Do you like anyone in this group more than a friend ?",
+    "QuestionFr": "Aimez-vous quelqu'un dans ce groupe plus qu'un ami ?"
+  },
+  {
+    "QuestionEn": "What do you stress about the most ?",
+    "QuestionFr": "Qu'est-ce qui vous stresse le plus ?"
+  },
+  {
+    "QuestionEn": "What is your guilty pleasure ?",
+    "QuestionFr": "Quel est votre plaisir coupable ?"
+  },
+  {
+    "QuestionEn": "If you had to name one thing that makes you stand out from others, what would that be ?",
+    "QuestionFr": "Si vous deviez nommer une chose qui vous distingue des autres, quelle serait-elle ?"
+  },
+  {
+    "QuestionEn": "Where was your secret hiding place as a child ?",
+    "QuestionFr": "Où était votre cachette secrète quand vous étiez enfant ?"
+  },
+  {
+    "QuestionEn": "What is the most interesting class you've ever taken ?",
+    "QuestionFr": "Quel est le cours le plus intéressant que vous ayez suivi ?"
+  },
+  {
+    "QuestionEn": "How old is the oldest person you've dated ?",
+    "QuestionFr": "Quel âge a la personne la plus âgée avec qui tu es sortie ?"
+  },
+  {
+    "QuestionEn": "What’s the craziest thing you’ve done in front of a mirror ?",
+    "QuestionFr": "Quelle est la chose la plus folle que vous ayez faite devant un miroir ?"
+  },
+  {
+    "QuestionEn": "What's the most ridiculous rumor you've heard about yourself ?",
+    "QuestionFr": "Quelle est la rumeur la plus ridicule que vous ayez entendue sur vous-même ?"
+  },
+  {
+    "QuestionEn": "If you could change the length of each day to make it perfect for you, how many hours would it be ?",
+    "QuestionFr": "Si vous pouviez modifier la durée de chaque journée pour la rendre parfaite pour vous, combien d'heures cela ferait-elle ?"
+  },
+  {
+    "QuestionEn": "Would you stay naked at home if you lived alone ?",
+    "QuestionFr": "Resterais-tu nu à la maison si tu vivais seul ?"
+  },
+  {
+    "QuestionEn": "Do you sing in the shower ?",
+    "QuestionFr": "Chantez-vous sous la douche ?"
+  },
+  {
+    "QuestionEn": "What is the thing that you shouldn't know but you know entirely about it ?",
+    "QuestionFr": "Quelle est la chose que vous ne devriez pas savoir mais que vous savez ?"
+  },
+  {
+    "QuestionEn": "Have you ever had a crush on a friend's partner ?",
+    "QuestionFr": "Avez-vous déjà eu le béguin pour le partenaire d'un ami ?"
+  },
+  {
+    "QuestionEn": "What's your story about breaking the law ?",
+    "QuestionFr": "Quelle est votre histoire sur le fait d'avoir enfreint la loi ?"
+  },
+  {
+    "QuestionEn": "Would you ever swap partners with anyone ?",
+    "QuestionFr": "Échangeriez-vous jamais des partenaires avec n'importe qui ?"
+  },
+  {
+    "QuestionEn": "What's the worst excuse you tried to use on a teacher or parent ?",
+    "QuestionFr": "Quelle est la pire excuse que vous ayez essayé d'utiliser contre un enseignant ou un parent ?"
+  },
+  {
+    "QuestionEn": "Have you ever been at an event that you think will one day be in history books ?",
+    "QuestionFr": "Avez-vous déjà assisté à un événement qui, selon vous, sera un jour dans les livres d'histoire ?"
+  },
+  {
+    "QuestionEn": "What's the worst thing you can remember that's happened to you ?",
+    "QuestionFr": "Quelle est la pire chose dont vous vous souveniez qui vous soit arrivée ?"
+  },
+  {
+    "QuestionEn": "Do you have a bucket list ?",
+    "QuestionFr": "Avez-vous une liste de choses à faire ?"
+  },
+  {
+    "QuestionEn": "Have you hidden test results ?",
+    "QuestionFr": "Avez-vous masqué les résultats des tests ?"
+  },
+  {
+    "QuestionEn": "What would you do with a million dollars ?",
+    "QuestionFr": "Que feriez-vous avec un million de dollars ?"
+  },
+  {
+    "QuestionEn": "Have you ever been cheated on ?",
+    "QuestionFr": "Avez-vous déjà été trompé ?"
+  },
+  {
+    "QuestionEn": "What's the meanest thing you've ever done ?",
+    "QuestionFr": "Quelle est la chose la plus méchante que vous ayez jamais faite ?"
+  },
+  {
+    "QuestionEn": "What was your favorite childhood show ?",
+    "QuestionFr": "Quelle était votre émission d'enfance préférée ?"
+  },
+  {
+    "QuestionEn": "Describe the person next to you in 3 words.",
+    "QuestionFr": "Décrivez la personne à côté de vous en 3 mots."
+  },
+  {
+    "QuestionEn": "Do you have a crush on anyone ?",
+    "QuestionFr": "As-tu le béguin pour quelqu'un ?"
+  },
+  {
+    "QuestionEn": "What's the most interesting thing you have in your pockets right now ?",
+    "QuestionFr": "Quelle est la chose la plus intéressante que vous ayez dans vos poches en ce moment ?"
+  },
+  {
+    "QuestionEn": "If you were to work at a circus, what job would you choose ?",
+    "QuestionFr": "Si vous deviez travailler dans un cirque, quel métier choisiriez-vous ?"
+  },
+  {
+    "QuestionEn": "What's the weirdest thing you've done ?",
+    "QuestionFr": "Quelle est la chose la plus étrange que vous ayez faite ?"
+  },
+  {
+    "QuestionEn": "Who is your favorite athlete ?",
+    "QuestionFr": "Quel est ton athlète préféré ?"
+  },
+  {
+    "QuestionEn": "What bores you beyond measure ?",
+    "QuestionFr": "Qu'est-ce qui vous ennuie outre mesure ?"
+  },
+  {
+    "QuestionEn": "What's the worst thing you have ever done ?",
+    "QuestionFr": "Quelle est la pire chose que vous ayez jamais faite ?"
+  },
+  {
+    "QuestionEn": "What law have you broken the most in your life ?",
+    "QuestionFr": "Quelle loi avez-vous le plus enfreint dans votre vie ?"
+  },
+  {
+    "QuestionEn": "If you were the opposite gender for the day ? What do you think you would wear ? What would you do ?",
+    "QuestionFr": "Si vous étiez le sexe opposé pour la journée ? Que porteriez vous ? Que Feriez-vous ?"
+  },
+  {
+    "QuestionEn": "What is something you own that you have never used ?",
+    "QuestionFr": "Quel est l'objet que vous possédez et que vous n'avez jamais utilisé ?"
+  },
+  {
+    "QuestionEn": "Have you ever started an unintended fire ?",
+    "QuestionFr": "Avez-vous déjà déclenché un incendie involontaire ?"
+  },
+  {
+    "QuestionEn": "If you had a chance to stay with a person one night who would you choose ?",
+    "QuestionFr": "Si vous aviez la chance de rester avec quelqu'un une nuit, qui choisiriez-vous ?"
+  },
+  {
+    "QuestionEn": "If you could kiss one celebrity, who would it be ?",
+    "QuestionFr": "Si vous pouviez embrasser une célébrité, qui serait-ce ?"
+  },
+  {
+    "QuestionEn": "Would you consider yourself decisive or indecisive ?",
+    "QuestionFr": "Vous considérez-vous comme décisif ou indécis ?"
+  },
+  {
+    "QuestionEn": "What animal most resembles your personality ?",
+    "QuestionFr": "Quel animal ressemble le plus à votre personnalité ?"
+  },
+  {
+    "QuestionEn": "Have you ever been on TV ?",
+    "QuestionFr": "Avez-vous déjà été à la télévision ?"
+  },
+  {
+    "QuestionEn": "How many times do you take care of yourself a week ?",
+    "QuestionFr": "Combien de fois prenez-vous soin de vous par semaine ?"
+  },
+  {
+    "QuestionEn": "What's your current Golden Rule when it comes to living life ?",
+    "QuestionFr": "Quelle est votre règle d'or actuelle en matière de vie ?"
+  },
+  {
+    "QuestionEn": "What is the one thing that you never got the chance to do ?",
+    "QuestionFr": "Quelle est la chose que vous n'avez jamais eu la chance de faire ?"
+  },
+  {
+    "QuestionEn": "What was the last dream you had ?",
+    "QuestionFr": "Quel est le dernier rêve que vous ayez fait ?"
+  },
+  {
+    "QuestionEn": "Which date do you prefer more, breakfast date or dinner date ?",
+    "QuestionFr": "Quelle date préférez-vous, le date du petit-déjeuner ou le date du dîner ?"
+  },
+  {
+    "QuestionEn": "What is your biggest fear in a relationship ?",
+    "QuestionFr": "Quelle est votre plus grande peur dans une relation ?"
+  },
+  {
+    "QuestionEn": "Have you ever peed in your pants from laughing too hard ?",
+    "QuestionFr": "Avez-vous déjà fait pipi dans votre pantalon en riant trop fort ?"
+  },
+  {
+    "QuestionEn": "Do you ever feel like no one understands you ?",
+    "QuestionFr": "Avez-vous parfois l'impression que personne ne vous comprend ?"
+  },
+  {
+    "QuestionEn": "Have you had your first kiss ?",
+    "QuestionFr": "Avez-vous eu votre premier baiser ?"
+  },
+  {
+    "QuestionEn": "Have you ever drawn on someone when they were asleep ?",
+    "QuestionFr": "Avez-vous déjà dessiné sur quelqu'un alors qu'il dormait ?"
+  },
+  {
+    "QuestionEn": "What TV show are you embarrassed about watching ?",
+    "QuestionFr": "Quelle émission de télévision avez-vous honte de regarder ?"
+  },
+  {
+    "QuestionEn": "How far back can you trace your family tree ?",
+    "QuestionFr": "Jusqu'où pouvez-vous remonter votre arbre généalogique ?"
+  },
+  {
+    "QuestionEn": "Do you miss your ex ?",
+    "QuestionFr": "Votre ex vous manque ?"
+  },
+  {
+    "QuestionEn": "What would be the best thing about losing your hearing ?",
+    "QuestionFr": "Quelle serait la meilleure chose à propos de perdre votre audition ?"
+  },
+  {
+    "QuestionEn": "Was there ever a time in your life that you thought you were going to die ?",
+    "QuestionFr": "Y a-t-il déjà eu un moment dans votre vie où vous avez pensé que vous alliez mourir ?"
+  },
+  {
+    "QuestionEn": "Have you ever had a same-sex crush ?",
+    "QuestionFr": "Avez-vous déjà eu le béguin pour une personne du même sexe ?"
+  },
+  {
+    "QuestionEn": "Have you ever eaten food from the floor ?",
+    "QuestionFr": "Avez-vous déjà mangé de la nourriture par terre ?"
+  },
+  {
+    "QuestionEn": "Are you currently where you want to be in life ?",
+    "QuestionFr": "Êtes-vous actuellement là où vous voulez être dans la vie ?"
+  },
+  {
+    "QuestionEn": "What is your favorite game ?",
+    "QuestionFr": "Quel est votre jeu préféré ?"
+  },
+  {
+    "QuestionEn": "Do you have commitment issues ?",
+    "QuestionFr": "Avez-vous des problèmes d'engagement ?"
+  },
+  {
+    "QuestionEn": "If you could only save one person in this room from a fire, who would it be ?",
+    "QuestionFr": "Si vous ne pouviez sauver qu'une seule personne dans cette pièce d'un incendie, qui serait-ce ?"
+  },
+  {
+    "QuestionEn": "Who in this room do you think would be the best date ?",
+    "QuestionFr": "Selon vous, qui dans cette salle serait le meilleur rendez-vous ?"
+  },
+  {
+    "QuestionEn": "When was the last time you cried ? Why ?",
+    "QuestionFr": "À quand remonte la dernière fois que vous avez pleuré ? "
+  },
+  {
+    "QuestionEn": "Where are you ticklish ?",
+    "QuestionFr": "Où es-tu chatouilleux ?"
+  },
+  {
+    "QuestionEn": "What is the next thing you have on your to-buy list ?",
+    "QuestionFr": "Quelle est la prochaine chose que vous avez sur votre liste de choses à acheter ?"
+  },
+  {
+    "QuestionEn": "If you could pick your dick size/boob size, what would you choose ?",
+    "QuestionFr": "Si vous pouviez choisir votre taille de bite/votre taille de seins, que choisiriez-vous ?"
+  },
+  {
+    "QuestionEn": "How do you feel about sex in groups ?",
+    "QuestionFr": "Que pensez-vous du sexe en groupe ?"
+  },
+  {
+    "QuestionEn": "What's the most attractive body part on someone ?",
+    "QuestionFr": "Quelle est la partie du corps la plus attirante chez quelqu'un ?"
+  },
+  {
+    "QuestionEn": "What is the weirdest thing you dreamt of doing with someone ?",
+    "QuestionFr": "Quelle est la chose la plus étrange que vous ayez rêvé de faire avec quelqu'un ?"
+  },
+  {
+    "QuestionEn": "Tell us about the best orgasm you've ever had.",
+    "QuestionFr": "Parlez-nous du meilleur orgasme que vous ayez jamais eu."
+  },
+  {
+    "QuestionEn": "Do you like discussing or preparing what to be done in bed, or you prefer spontaneity ?",
+    "QuestionFr": "Vous aimez discuter ou préparer ce qu'il faut faire au lit, ou vous préférez la spontanéité ?"
+  },
+  {
+    "QuestionEn": "What is your opinion on MILFS/DILFS ?",
+    "QuestionFr": "Quelle est votre opinion sur les MILFS/DILFS ?"
+  },
+  {
+    "QuestionEn": "What is your favorite way of doing it ?",
+    "QuestionFr": "Quelle est votre façon préférée de le faire ?"
+  },
+  {
+    "QuestionEn": "Have you ever had a crush on a teacher ?",
+    "QuestionFr": "Avez-vous déjà eu le béguin pour un professeur ?"
+  },
+  {
+    "QuestionEn": "What's one sex act you will never do ?",
+    "QuestionFr": "Quel est l'acte sexuel que vous ne ferez jamais ?"
+  },
+  {
+    "QuestionEn": "What time of day is your sex drive highest ?",
+    "QuestionFr": "À quelle heure de la journée votre libido est-elle la plus élevée ?"
+  },
+  {
+    "QuestionEn": "After how many dates do you usually have sex ?",
+    "QuestionFr": "Après combien de rendez-vous avez-vous l'habitude de faire l'amour ?"
+  },
+  {
+    "QuestionEn": "Have you ever had sex with a classmate ?",
+    "QuestionFr": "Avez-vous déjà eu des relations sexuelles avec un camarade de classe ?"
+  },
+  {
+    "QuestionEn": "Do you have any kinks ?",
+    "QuestionFr": "Avez-vous des kinks ?"
+  },
+  {
+    "QuestionEn": "Do you like a lot of foreplay ? What sorts ?",
+    "QuestionFr": "Vous aimez beaucoup les préliminaires ? "
+  },
+  {
+    "QuestionEn": "What's the most embarrassing thing you've ever been caught doing ?",
+    "QuestionFr": "Quelle est la chose la plus embarrassante que vous ayez jamais été surprise en train de faire ?"
+  },
+  {
+    "QuestionEn": "What’s the dirtiest thing you have been caught doing as a teen ?",
+    "QuestionFr": "Quelle est la chose la plus sale que vous ayez été surpris en train de faire à l'adolescence ?"
+  },
+  {
+    "QuestionEn": "What turns you on the most ?",
+    "QuestionFr": "Qu'est-ce qui vous excite le plus ?"
+  },
+  {
+    "QuestionEn": "What is the wildest fantasy you ever had that actually came true ?",
+    "QuestionFr": "Quel est le fantasme le plus fou que vous ayez jamais eu et qui se soit réalisé ?"
+  },
+  {
+    "QuestionEn": "What song would you play in the background while having sex ?",
+    "QuestionFr": "Quelle chanson joueriez-vous en arrière-plan pendant que vous faisiez l'amour ?"
+  },
+  {
+    "QuestionEn": "If you had to pick one person here to have sex with, who would it be ?",
+    "QuestionFr": "Si vous deviez choisir une personne ici avec qui coucher, ce serait qui ?"
+  },
+  {
+    "QuestionEn": "Have you ever tasted cum ?",
+    "QuestionFr": "Avez-vous déjà goûté du sperme ?"
+  },
+  {
+    "QuestionEn": "Has anyone ever accidentally seen you naked ?",
+    "QuestionFr": "Quelqu'un t'a-t-il déjà vu nu accidentellement ?"
+  },
+  {
+    "QuestionEn": "Have you ever been stoned ?",
+    "QuestionFr": "Avez-vous déjà été lapidé ?"
+  },
+  {
+    "QuestionEn": "Do you prefer for your partner to be silent, or do you like moans ?",
+    "QuestionFr": "Préférez-vous que votre partenaire se taise ou aimez-vous les gémissements ?"
+  },
+  {
+    "QuestionEn": "What's your biggest turn-off ?",
+    "QuestionFr": "Quelle est votre plus grande déception ?"
+  },
+  {
+    "QuestionEn": "What's the raunchiest porn you've ever watched ?",
+    "QuestionFr": "Quel est le porno le plus torride que vous ayez jamais regardé ?"
+  },
+  {
+    "QuestionEn": "Have you ever used a flavored condom ?",
+    "QuestionFr": "Avez-vous déjà utilisé un préservatif aromatisé ?"
+  },
+  {
+    "QuestionEn": "Have you ever done something in the shower ?",
+    "QuestionFr": "Avez-vous déjà fait quelque chose sous la douche ?"
+  },
+  {
+    "QuestionEn": "Have you ever slept with someone of the same sex ?",
+    "QuestionFr": "Avez-vous déjà couché avec une personne du même sexe ?"
+  },
+  {
+    "QuestionEn": "What's been your worst sexual experience ?",
+    "QuestionFr": "Quelle a été votre pire expérience sexuelle ?"
+  },
+  {
+    "QuestionEn": "Have you ever tried being 'friends with benefits' ?",
+    "QuestionFr": "Avez-vous déjà essayé d'être des « amis avec des avantages » ?"
+  },
+  {
+    "QuestionEn": "Do you prefer to have a dominant, submissive or neutral partner ? Explain why ?",
+    "QuestionFr": "Préférez-vous avoir un partenaire dominant, soumis ou neutre ?"
+  },
+  {
+    "QuestionEn": "What is your favorite \"special\" toy ?",
+    "QuestionFr": "Quel est ton jouet \"spécial\" préféré ?"
+  },
+  {
+    "QuestionEn": "What is your opinion on love bites/hickeys ?",
+    "QuestionFr": "Quelle est votre opinion sur les suçons ?"
+  },
+  {
+    "QuestionEn": "Who's the most inappropriate person you've ever fantasied about ?",
+    "QuestionFr": "Quelle est la personne la plus inappropriée sur laquelle vous ayez jamais fantasmé ?"
+  },
+  {
+    "QuestionEn": "How many people have you kissed ?",
+    "QuestionFr": "Combien de personnes as-tu embrassées ?"
+  },
+  {
+    "QuestionEn": "Would you have sex with someone in this group ?",
+    "QuestionFr": "Auriez-vous des relations sexuelles avec quelqu'un de ce groupe ?"
+  },
+  {
+    "QuestionEn": "What is the craziest thing you've done naked ?",
+    "QuestionFr": "Quelle est la chose la plus folle que vous ayez faite nue ?"
+  },
+  {
+    "QuestionEn": "When was the last time you watched porn ?",
+    "QuestionFr": "À quand remonte la dernière fois que vous avez regardé du porno ?"
+  },
+  {
+    "QuestionEn": "Have you ever had a sexual dream about anyone here ?",
+    "QuestionFr": "Avez-vous déjà fait un rêve sexuel sur quelqu'un ici ?"
+  },
+  {
+    "QuestionEn": "What are some personality traits that turn you off ?",
+    "QuestionFr": "Quels sont les traits de personnalité qui vous rebutent ?"
+  },
+  {
+    "QuestionEn": "How many times a week do you touch yourself ?",
+    "QuestionFr": "Combien de fois par semaine vous touchez-vous ?"
+  },
+  {
+    "QuestionEn": "Do you prefer to be on top or bottom ?",
+    "QuestionFr": "Préférez-vous être en haut ou en bas ?"
+  },
+  {
+    "QuestionEn": "Are you turned on right now ?",
+    "QuestionFr": "Êtes-vous allumé en ce moment ?"
+  },
+  {
+    "QuestionEn": "Are you loud during sex ?",
+    "QuestionFr": "Êtes-vous bruyant pendant les rapports sexuels ?"
+  },
+  {
+    "QuestionEn": "Which sexual act are you best at ?",
+    "QuestionFr": "Dans quel acte sexuel êtes-vous le meilleur ?"
+  },
+  {
+    "QuestionEn": "Have you ever been caught having sex ?",
+    "QuestionFr": "Avez-vous déjà été surpris en train de faire l'amour ?"
+  },
+  {
+    "QuestionEn": "Do you prefer to give or receive ?",
+    "QuestionFr": "Préférez-vous donner ou recevoir ?"
+  },
+  {
+    "QuestionEn": "What's better, good looking or good in bed ?",
+    "QuestionFr": "Quoi de mieux, beau ou bon au lit ?"
+  },
+  {
+    "QuestionEn": "What is your favorite porn genre ?",
+    "QuestionFr": "Quel est votre genre porno préféré ?"
+  },
+  {
+    "QuestionEn": "How old were you when you masturbated for the first time ?",
+    "QuestionFr": "Quel âge aviez-vous lorsque vous vous êtes masturbé pour la première fois ?"
+  },
+  {
+    "QuestionEn": "If given the chance for a threesome with a friend and their partner, would you take it ?",
+    "QuestionFr": "Si vous aviez la possibilité de faire un trio avec un ami et son partenaire, le feriez-vous ?"
+  },
+  {
+    "QuestionEn": "What is your favorite position ?",
+    "QuestionFr": "Quel est votre poste préféré ?"
+  },
+  {
+    "QuestionEn": "What is the strangest thing that has ever turned you on ?",
+    "QuestionFr": "Quelle est la chose la plus étrange qui vous ait jamais excitée ?"
+  },
+  {
+    "QuestionEn": "Have you ever given oral sex ?",
+    "QuestionFr": "Avez-vous déjà pratiqué le sexe oral ?"
+  },
+  {
+    "QuestionEn": "How many times have you had wet dreams about someone ?",
+    "QuestionFr": "Combien de fois avez-vous eu des rêves humides à propos de quelqu'un ?"
+  },
+  {
+    "QuestionEn": "Any regrets concerning your sexual life ?",
+    "QuestionFr": "Des regrets concernant votre vie sexuelle ?"
+  },
+  {
+    "QuestionEn": "Have you ever used an embarrassing novelty condom (for example, that glows in the dark or has a picture of Darth Vader on it) ?",
+    "QuestionFr": "Avez-vous déjà utilisé un préservatif fantaisie embarrassant (par exemple, qui brille dans le noir ou qui porte une image de Dark Vador dessus) ?"
+  },
+  {
+    "QuestionEn": "Have you ever done a strip-tease for someone ?",
+    "QuestionFr": "Avez-vous déjà fait un strip-tease pour quelqu'un ?"
+  },
+  {
+    "QuestionEn": "Have you ever been high ?",
+    "QuestionFr": "Avez-vous déjà été défoncé ?"
+  },
+  {
+    "QuestionEn": "Have you ever watched hentai, and if so, did you enjoy it ?",
+    "QuestionFr": "Avez-vous déjà regardé du hentai, et si oui, avez-vous apprécié ?"
+  },
+  {
+    "QuestionEn": "Do you prefer to have music in the background, or for it to be quiet ?",
+    "QuestionFr": "Préférez-vous avoir de la musique en fond sonore, ou que ce soit silencieux ?"
+  },
+  {
+    "QuestionEn": "What is the longest you've had sex in one session ?",
+    "QuestionFr": "Quelle est la durée la plus longue que vous ayez eue en une seule séance ?"
+  },
+  {
+    "QuestionEn": "When did you watch adults-only videos for the first time ?",
+    "QuestionFr": "Quand avez-vous regardé des vidéos réservées aux adultes pour la première fois ?"
+  },
+  {
+    "QuestionEn": "Have you ever written a steamy story ?",
+    "QuestionFr": "Avez-vous déjà écrit une histoire torride ?"
+  },
+  {
+    "QuestionEn": "Have you taken multiple people's virginity ?",
+    "QuestionFr": "Avez-vous pris la virginité de plusieurs personnes ?"
+  },
+  {
+    "QuestionEn": "Who in this room would you like to make out with ?",
+    "QuestionFr": "Avec qui dans cette pièce aimerais-tu sortir ?"
+  },
+  {
+    "QuestionEn": "Have you ever tried cocaine ?",
+    "QuestionFr": "Avez-vous déjà essayé la cocaïne ?"
+  },
+  {
+    "QuestionEn": "Have you ever had a threesome ? If so, what was the ratio of guys to girls ?",
+    "QuestionFr": "Avez-vous déjà fait un plan à trois ? "
+  },
+  {
+    "QuestionEn": "What is the stupidest thing you've ever done while drunk ?",
+    "QuestionFr": "Quelle est la chose la plus stupide que vous ayez jamais faite en état d'ébriété ?"
+  },
+  {
+    "QuestionEn": "What type of music do you like to have sex to ?",
+    "QuestionFr": "Sur quel type de musique aimez-vous faire l'amour ?"
+  },
+  {
+    "QuestionEn": "How often do you think about sex ?",
+    "QuestionFr": "À quelle fréquence pensez-vous au sexe ?"
+  },
+  {
+    "QuestionEn": "What authority figure do you find really hot ?",
+    "QuestionFr": "Quelle figure d'autorité trouvez-vous vraiment sexy ?"
+  },
+  {
+    "QuestionEn": "Anal or oral sex ?",
+    "QuestionFr": "Sexe anal ou oral ?"
+  },
+  {
+    "QuestionEn": "Have you ever done it in the great outdoors ? If so, where ?",
+    "QuestionFr": "L'avez-vous déjà fait en pleine nature ? "
+  },
+  {
+    "QuestionEn": "What is the shortest time it has taken you to orgasm ?",
+    "QuestionFr": "Quel est le temps le plus court qu'il vous a fallu pour atteindre l'orgasme ?"
+  },
+  {
+    "QuestionEn": "What does your partner prefer on you: briefs, boxers, thong ?",
+    "QuestionFr": "Que préfère votre partenaire sur vous : slip, boxer, string ?"
+  },
+  {
+    "QuestionEn": "Do you like a lot of foreplay ?",
+    "QuestionFr": "Vous aimez beaucoup les préliminaires ?"
+  },
+  {
+    "QuestionEn": "If you could have a threesome with two other people here, who would you pick ?",
+    "QuestionFr": "Si vous pouviez faire un plan à trois avec deux autres personnes ici, qui choisiriez-vous ?"
+  },
+  {
+    "QuestionEn": "Does size matter to you ?",
+    "QuestionFr": "La taille compte-t-elle pour vous ?"
+  },
+  {
+    "QuestionEn": "Have you ever done it while other people were around without them knowing ?",
+    "QuestionFr": "L'avez-vous déjà fait alors que d'autres personnes étaient là sans qu'elles le sachent ?"
+  },
+  {
+    "QuestionEn": "Would you ever have sex underwater ?",
+    "QuestionFr": "Auriez-vous jamais des relations sexuelles sous l'eau ?"
+  },
+  {
+    "QuestionEn": "Have you ever done a sex train ?",
+    "QuestionFr": "Avez-vous déjà fait un train sexuel ?"
+  },
+  {
+    "QuestionEn": "What sex act would you never do again ?",
+    "QuestionFr": "Quel acte sexuel ne feriez-vous plus jamais ?"
+  },
+  {
+    "QuestionEn": "Were you turned on the first time you met your crush ?",
+    "QuestionFr": "Étiez-vous excité la première fois que vous avez rencontré votre crush ?"
+  },
+  {
+    "QuestionEn": "How about an orgy ?",
+    "QuestionFr": "Que diriez-vous d'une orgie ?"
+  },
+  {
+    "QuestionEn": "Have you ever sent nudes to someone ?",
+    "QuestionFr": "Avez-vous déjà envoyé des nudes à quelqu'un ?"
+  },
+  {
+    "QuestionEn": "When was the strongest orgasm you ever have, and what was it like ?",
+    "QuestionFr": "Quand avez-vous eu l'orgasme le plus fort de votre vie et comment était-il ?"
+  },
+  {
+    "QuestionEn": "Boxers or briefs ?",
+    "QuestionFr": "Boxers ou slips ?"
+  },
+  {
+    "QuestionEn": "Which is your favorite kind of sex: soft, slow, and sweet or aggressive, fast, and feisty ?",
+    "QuestionFr": "Quel est votre genre de sexe préféré : doux, lent et doux ou agressif, rapide et fougueux ?"
+  },
+  {
+    "QuestionEn": "Where's the best place to have sex ?",
+    "QuestionFr": "Quel est le meilleur endroit pour faire l'amour ?"
+  },
+  {
+    "QuestionEn": "How old do you think is “too old” for someone to still be a virgin ?",
+    "QuestionFr": "Selon vous, quel âge est « trop vieux » pour que quelqu'un soit encore vierge ?"
+  },
+  {
+    "QuestionEn": "When was the last time you orgasmed ?",
+    "QuestionFr": "Quand avez-vous eu un orgasme pour la dernière fois ?"
+  },
+  {
+    "QuestionEn": "Have you ever performed oral on someone of the same sex ?",
+    "QuestionFr": "Avez-vous déjà pratiqué l'oral sur une personne du même sexe ?"
+  },
+  {
+    "QuestionEn": "Have you ever used a fake ID ?",
+    "QuestionFr": "Avez-vous déjà utilisé une fausse carte d'identité ?"
+  },
+  {
+    "QuestionEn": "Would you make out with someone to climb up the social ladder ?",
+    "QuestionFr": "Embrasseriez-vous quelqu'un pour gravir les échelons sociaux ?"
+  },
+  {
+    "QuestionEn": "Have you had sex with someone in this group ?",
+    "QuestionFr": "Avez-vous eu des relations sexuelles avec quelqu'un de ce groupe ?"
+  },
+  {
+    "QuestionEn": "What do you think about masturbation ?",
+    "QuestionFr": "Que pensez-vous de la masturbation ?"
+  },
+  {
+    "QuestionEn": "What is the largest age gap you’ve had between you and someone you’ve had sex with ?",
+    "QuestionFr": "Quel est le plus grand écart d'âge que vous avez eu entre vous et quelqu'un avec qui vous avez eu des relations sexuelles ?"
+  },
+  {
+    "QuestionEn": "Have you ever tasted your own bodily fluids ?",
+    "QuestionFr": "Avez-vous déjà goûté vos propres fluides corporels ?"
+  },
+  {
+    "QuestionEn": "Have you ever paid for sex ?",
+    "QuestionFr": "Avez-vous déjà payé pour du sexe ?"
+  },
+  {
+    "QuestionEn": "If you found out someone had been masturbating to pictures of you, how would you feel ?",
+    "QuestionFr": "Si vous découvriez que quelqu'un s'est masturbé devant des photos de vous, comment vous sentiriez-vous ?"
+  },
+  {
+    "QuestionEn": "Who is the best roommate that you have ever had ?",
+    "QuestionFr": "Quel est le meilleur colocataire que vous ayez jamais eu ?"
+  },
+  {
+    "QuestionEn": "Have your ever fantasized about anyone here ?",
+    "QuestionFr": "Avez-vous déjà fantasmé sur quelqu'un ici ?"
+  },
+  {
+    "QuestionEn": "Have you ever had a friend with benefits ?",
+    "QuestionFr": "Avez-vous déjà eu un ami avec des avantages ?"
+  },
+  {
+    "QuestionEn": "What's the most embarrassing thing that turns you on ?",
+    "QuestionFr": "Quelle est la chose la plus embarrassante qui vous excite ?"
+  },
+  {
+    "QuestionEn": "Are you more dominant or more submissive in bed ?",
+    "QuestionFr": "Êtes-vous plutôt dominant ou plutôt soumis au lit ?"
+  },
+  {
+    "QuestionEn": "Out of everyone here, who would you feel the most comfortable with naked ?",
+    "QuestionFr": "Parmi tout le monde ici, avec qui vous sentiriez-vous le plus à l'aise nu ?"
+  },
+  {
+    "QuestionEn": "What 5 places do you want to kiss your partner ?",
+    "QuestionFr": "Quels sont les 5 endroits où vous voulez embrasser votre partenaire ?"
+  },
+  {
+    "QuestionEn": "Have you ever had a one night stand ? If so, how many have you had ?",
+    "QuestionFr": "As-tu deja eu un coup d'un soir ? "
+  }
+]
