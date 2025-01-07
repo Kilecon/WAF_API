@@ -249,6 +249,5 @@
                 await _collection.BulkWriteAsync(operations, new BulkWriteOptions { IsOrdered = false });
             }
         }
-
     }
 }
