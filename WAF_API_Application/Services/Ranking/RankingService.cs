@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using WAF_API_Domain.Ranking.Commands;
@@ -11,11 +12,11 @@ using WAF_API_Exceptions.InfrastructureExceptions;
 
 namespace WAF_API_Application.Services.Ranking
 {
-    public class RankingService
+    public class RankingService : IRankingService
     {
         private IRankingFactory _factory;
-        private readonly IRankingRepository _repo;
-        public RankingService(IRankingFactory factory, IRankingRepository repo)
+        private readonly IRankingRepository<RankingDto> _repo;
+        public RankingService(IRankingFactory factory, IRankingRepository<RankingDto> repo)
         {
             _factory = factory;
             _repo = repo;
@@ -25,14 +26,14 @@ namespace WAF_API_Application.Services.Ranking
         {
             var dare = _factory.CreateIntance(cmd, id);
 
-            return Task.FromResult(dare);
+            return Task.FromResult(dare.ToDto());
         }
 
         protected Task<RankingDto> UpdateSpecificAsync(UpdateRankingCmd cmd)
         {
             var dare = _factory.UpdateIntance(cmd);
 
-            return Task.FromResult(dare);
+            return Task.FromResult(dare.ToDto());
         }
 
         public async Task<RankingDto?> CreateAsync(CreateRankingCmd cmd)
@@ -60,10 +61,6 @@ namespace WAF_API_Application.Services.Ranking
                 throw;
             }
         }
-        public async Task<IEnumerable<RankingDto>> GetAllAsync()
-        {
-            return await _repo.GetItems();
-        }
 
         public async Task<RankingDto?> GetByIdAsync(string id)
         {
@@ -90,19 +87,26 @@ namespace WAF_API_Application.Services.Ranking
             }
         }
 
-        public async Task UpdateAsync(UpdateRankingCmd cmd)
+        public async Task<IEnumerable<RankingDto?>> GetByQuestionIdAsync(string id)
         {
             try
             {
-                var idTest = await GetByIdAsync(cmd.Id);
-            }
-            catch (Exception)
-            {
-                throw new InvalidIdException();
-            }
-            var dto = await UpdateSpecificAsync(cmd);
+                return await _repo.GetByQuestionId(id);
 
-            await _repo.UpdateAsync(dto);
+            }
+            catch (NotInDbException)
+            {
+                throw;
+            }
+        }
+        public Task<IEnumerable<RankingDto>> GetAllAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdateAsync(UpdateRankingCmd note)
+        {
+            throw new NotImplementedException();
         }
     }
 }

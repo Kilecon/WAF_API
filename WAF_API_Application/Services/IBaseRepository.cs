@@ -57,5 +57,7 @@
         /// <param name="id">The id<see cref="string"/></param>
         /// <returns>The <see cref="Task"/></returns>
         Task DeleteByIdAsync(string id);
+
+        Task<IEnumerable<TDto>> GetSeveralItems(int number);
     }
 }

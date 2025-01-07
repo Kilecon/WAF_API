@@ -17,6 +17,10 @@
     using WAF_API_Domain.Dare.Dtos;
     using WAF_API_Application.Services.DareService;
     using WAF_API_Domain.Dare.Factory;
+    using WAF_API_Application.Services.Ranking;
+    using WAF_API_Domain.Ranking.Models;
+    using WAF_API_Domain.Ranking.Factory;
+    using MongoDB.Bson.Serialization.IdGenerators;
 
     /// <summary>
     /// Defines the <see cref="Program" />
@@ -46,10 +50,15 @@
 
             // Register repositories and services (scoped for request lifetime)
             builder.Services.AddScoped<IBaseRepository<DareDto>, DareRepository>();
-            builder.Services.AddScoped<IBaseRepository<DareDto>, DareRepository>();
             builder.Services.AddScoped<IDareRepository, DareRepository>();
             builder.Services.AddScoped<IDareService, DareService>();
             builder.Services.AddScoped<IDareFactory, DareFactory>();
+
+            builder.Services.AddScoped<IRankingRepository<RankingDto>, RankingRepository>();
+            builder.Services.AddScoped<IRankingFactory, RankingFactory>();
+            builder.Services.AddScoped<IRankingRepository<RankingDto>, RankingRepository>();
+            builder.Services.AddScoped<IRankingService, RankingService>();
+
 
             // Register controllers for API
             builder.Services.AddControllers().ConfigureApiBehaviorOptions(x => { x.SuppressMapClientErrors = true; });
