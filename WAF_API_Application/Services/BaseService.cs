@@ -1,15 +1,16 @@
 ﻿using Microsoft.VisualBasic.CompilerServices;
+using WAF_API_Domain.Commands;
+using WAF_API_Domain.Models;
+using WAF_API_Exceptions.ApplicationExceptions;
+using WAF_API_Exceptions.InfrastructureExceptions;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace WAF_API_Application.Services
 {
-    using WAF_API_Domain.Commands;
-    using WAF_API_Domain.Models;
-    using WAF_API_Exceptions.ApplicationExceptions;
-    using WAF_API_Exceptions.InfrastructureExceptions;
-    using System;
-    using System.Collections.Generic;
-    using System.Threading.Tasks;
-
+ 
     /// <summary>
     /// Defines the <see cref="BaseService{TDto, TCmd, TCmd2}" />
     /// </summary>
@@ -48,6 +49,43 @@ namespace WAF_API_Application.Services
             var dto = await CreateSpecificAsync(cmd, id);
             return await _repo.AddAsync(dto);
         }
+        
+
+        /// <summary>
+        /// The CreateListAsync
+        /// </summary>
+        /// <param name="cmd">The cmd<see cref="TCmd"/></param>
+        /// <returns>The <see cref="Task{IEnumerable<TDto>}"/></returns>
+        public async Task<IEnumerable<TDto>> UpsertMany(IEnumerable<TCmd> cmds)
+        {
+            if (cmds == null || !cmds.Any())
+            {
+                throw new ArgumentException("The command list must not be null or empty.", nameof(cmds));
+            }
+
+            var dtos = new List<TDto>();
+
+            foreach (var cmd in cmds)
+            {
+                var id = Guid.NewGuid().ToString();
+                var idTest = await FindIdAsync(id);
+
+                if (idTest == null)
+                {
+                    var dto = await CreateSpecificAsync(cmd, id);
+                    if (dto != null)
+                    {
+                        dtos.Add(dto);
+                    }
+                }
+            }
+
+            // Perform the bulk upsert operation
+            await _repo.UpsertMany(dtos);
+
+            return dtos;
+        }
+
 
         /// <summary>
         /// The DeleteAsync
@@ -94,6 +132,7 @@ namespace WAF_API_Application.Services
                 throw;
             }
         }
+        
 
         /// <summary>
         /// The GetByIdAsync

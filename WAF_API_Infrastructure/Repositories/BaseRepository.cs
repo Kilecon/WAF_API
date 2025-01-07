@@ -1,15 +1,17 @@
-﻿namespace WAF_API_Infrastructure.Repositories
+﻿using MongoDB.Driver;
+using WAF_API_Application.Services;
+using WAF_API_Domain.Models;
+using WAF_API_Exceptions.InfrastructureExceptions;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Threading.Tasks;
+using MongoDB.Bson;
+
+namespace WAF_API_Infrastructure.Repositories
 {
-    using MongoDB.Driver;
-    using WAF_API_Application.Services;
-    using WAF_API_Domain.Models;
-    using WAF_API_Exceptions.InfrastructureExceptions;
-    using System;
-    using System.Collections.Generic;
-    using System.Data;
-    using System.Linq;
-    using System.Threading.Tasks;
-    using MongoDB.Bson;
+
 
     /// <summary>
     /// Defines the <see cref="BaseRepository{TDto}" />
@@ -212,19 +214,33 @@
         }
         
         /// <summary>
-        /// Performs an upsert operation for multiple items at once.
+        /// Performs an upsert operation for multiple items at once, using aggregation to filter or process data.
         /// </summary>
         /// <param name="items">The list of items to upsert<see cref="IEnumerable{TDto}"/></param>
-        /// <returns>The <see cref="Task"/></returns>
-        public async Task UpsertMany(IEnumerable<TDto> items)
+        /// <returns>The <see cref="Task{IEnumerable{TDto}}"/></returns>
+        public async Task<IEnumerable<TDto>> UpsertMany(IEnumerable<TDto> items)
         {
             if (items == null || !items.Any())
             {
                 throw new ArgumentException("The items collection must not be null or empty.", nameof(items));
             }
 
-            var operations = new List<WriteModel<StoredDto<TDto>>>();
+            // Step 1: Aggregate to find existing items matching the IDs of the input items
+            var itemIds = items.Select(item => item.Id).ToList();
+            var pipeline = new[]
+            {
+                new BsonDocument("$match", new BsonDocument
+                {
+                    { "TypeName", typeof(TDto).Name },
+                    { "Id", new BsonDocument("$in", new BsonArray(itemIds)) }
+                })
+            };
 
+            var existingItems = await _collection.Aggregate<StoredDto<TDto>>(pipeline).ToListAsync();
+            var existingItemIds = existingItems.Select(e => e.Id).ToHashSet();
+
+            // Step 2: Create upsert operations
+            var operations = new List<WriteModel<StoredDto<TDto>>>();
             foreach (var item in items)
             {
                 var storedItem = UpdateStoredDto(item);
@@ -244,10 +260,16 @@
                 operations.Add(upsertOperation);
             }
 
+            // Step 3: Perform bulk upsert
             if (operations.Any())
             {
                 await _collection.BulkWriteAsync(operations, new BulkWriteOptions { IsOrdered = false });
             }
+
+            // Step 4: Return updated items
+            var updatedItems = await _collection.Aggregate<StoredDto<TDto>>(pipeline).ToListAsync();
+            return updatedItems.Select(ToDto);
         }
+
     }
 }

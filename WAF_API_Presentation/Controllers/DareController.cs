@@ -121,6 +121,34 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="note">The note to be added</param>
         /// <returns>The created "DareDto" Documents</returns>
+        [HttpPost("many_dare")]
+        [ProducesResponseType(201)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(420)]
+        public async Task<ActionResult> CreateNotes([FromBody] IEnumerable<CreateDareCmd> note)
+        {
+            try
+            {
+                var result = await _noteService.UpsertMany(note);
+                             
+                return StatusCode(201, result);
+            }
+            catch (Exception ex) when (ex is InvalidIdException || ex is InvalidCommandException)
+
+            {
+                return StatusCode(400, ex.Message);
+            }
+            catch (Exception)
+            {
+                return StatusCode(420, "Enhance Your Calm !");
+            }
+        }
+        
+        /// <summary>
+        /// Creates a new "DareDto" Documents
+        /// </summary>
+        /// <param name="note">The note to be added</param>
+        /// <returns>The created "DareDto" Documents</returns>
         [HttpPost]
         [ProducesResponseType(201)]
         [ProducesResponseType(400)]

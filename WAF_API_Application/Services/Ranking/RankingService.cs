@@ -175,6 +175,11 @@ namespace WAF_API_Application.Services.Ranking
             throw new NotImplementedException();
         }
 
+        public Task<IEnumerable<RankingDto>> UpsertMany(IEnumerable<CreateRankingCmd> cmd)
+        {
+            throw new NotImplementedException();
+        }
+
         public Task UpdateAsync(UpdateRankingCmd note)
         {
             throw new NotImplementedException();

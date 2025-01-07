@@ -64,12 +64,12 @@
         /// <param name="count">The id<see cref="int"/></param>
         /// <returns>The <see cref="Task"/></returns>
         Task<IEnumerable<TDto>> GetSeveralItems(int count);
-        
+
         /// <summary>
         /// Performs an upsert operation for multiple items at once.
         /// </summary>
         /// <param name="items">The items to upsert<see cref="IEnumerable{TDto}"/></param>
         /// <returns>The <see cref="Task"/></returns>
-        Task UpsertMany(IEnumerable<TDto> items);
+        Task<IEnumerable<TDto>>UpsertMany(IEnumerable<TDto> items);
     }
 }
