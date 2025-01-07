@@ -99,6 +99,72 @@ namespace WAF_API_Application.Services.Ranking
                 throw;
             }
         }
+        
+        public async Task<IEnumerable<RankingDto?>> GetDareItemsAsync()
+        {
+            try
+            {
+                return await _repo.GetDareItems();
+
+            }
+            catch (NotInDbException)
+            {
+                throw;
+            }
+        }
+        
+        public async Task<IEnumerable<RankingDto?>> GetParanoiaItemsAsync()
+        {
+            try
+            {
+                return await _repo.GetParanoiaItems();
+
+            }
+            catch (NotInDbException)
+            {
+                throw;
+            }
+        }
+        
+        public async Task<IEnumerable<RankingDto?>> GetNeverHaveIEverItemsAsync()
+        {
+            try
+            {
+                return await _repo.GetNeverHaveIEverItems();
+
+            }
+            catch (NotInDbException)
+            {
+                throw;
+            }
+        }
+        
+        public async Task<IEnumerable<RankingDto?>> GetTruthItemsAsync()
+        {
+            try
+            {
+                return await _repo.GetTruthItems();
+
+            }
+            catch (NotInDbException)
+            {
+                throw;
+            }
+        }
+        
+        public async Task<IEnumerable<RankingDto?>> GetWouldYouRatherItemsAsync()
+        {
+            try
+            {
+                return await _repo.GetWouldYouRatherItems();
+
+            }
+            catch (NotInDbException)
+            {
+                throw;
+            }
+        }
+        
         public Task<IEnumerable<RankingDto>> GetAllAsync()
         {
             throw new NotImplementedException();

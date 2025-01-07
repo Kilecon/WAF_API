@@ -76,7 +76,8 @@ namespace WAF_API_Infrastructure.Repositories
         /// <returns>The <see cref="Task{IEnumerable{RankingDto}}"/></returns>
         public async Task<IEnumerable<RankingDto>> GetDareItems()
         {
-            var filter = Builders<RankingDto>.Filter.Eq("TypeName", typeof(DareDto).Name);
+            Console.WriteLine(typeof(DareDto).Name);
+            var filter = Builders<RankingDto>.Filter.Eq("QuestionTypeName", typeof(DareDto).Name);
             var documents = await _collection.Find(filter).ToListAsync();
 
             return documents;
@@ -84,7 +85,7 @@ namespace WAF_API_Infrastructure.Repositories
 
         public async Task<IEnumerable<RankingDto>> GetParanoiaItems()
         {
-            var filter = Builders<RankingDto>.Filter.Eq("TypeName", typeof(ParanoiaDto).Name);
+            var filter = Builders<RankingDto>.Filter.Eq("QuestionTypeName", typeof(ParanoiaDto).Name);
             var documents = await _collection.Find(filter).ToListAsync();
 
             return documents;
@@ -92,7 +93,7 @@ namespace WAF_API_Infrastructure.Repositories
 
         public async Task<IEnumerable<RankingDto>> GetNeverHaveIEverItems()
         {
-            var filter = Builders<RankingDto>.Filter.Eq("TypeName", typeof(NeverHaveIEverDto).Name);
+            var filter = Builders<RankingDto>.Filter.Eq("QuestionTypeName", typeof(NeverHaveIEverDto).Name);
             var documents = await _collection.Find(filter).ToListAsync();
 
             return documents;
@@ -100,7 +101,7 @@ namespace WAF_API_Infrastructure.Repositories
 
         public async Task<IEnumerable<RankingDto>> GetTruthItems()
         {
-            var filter = Builders<RankingDto>.Filter.Eq("TypeName", typeof(TruthDto).Name);
+            var filter = Builders<RankingDto>.Filter.Eq("QuestionTypeName", typeof(TruthDto).Name);
             var documents = await _collection.Find(filter).ToListAsync();
 
             return documents;
@@ -108,7 +109,7 @@ namespace WAF_API_Infrastructure.Repositories
 
         public async Task<IEnumerable<RankingDto>> GetWouldYouRatherItems()
         {
-            var filter = Builders<RankingDto>.Filter.Eq("TypeName", typeof(WouldYouRatherDto).Name);
+            var filter = Builders<RankingDto>.Filter.Eq("QuestionTypeName", typeof(WouldYouRatherDto).Name);
             var documents = await _collection.Find(filter).ToListAsync();
 
             return documents;

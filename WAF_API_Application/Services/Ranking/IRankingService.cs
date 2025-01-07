@@ -13,5 +13,10 @@ namespace WAF_API_Application.Services.Ranking
     {
         Task UpdateAsync(UpdateRankingCmd note);
         Task<IEnumerable<RankingDto>> GetByQuestionIdAsync(string id);
+        Task<IEnumerable<RankingDto>> GetDareItemsAsync();
+        Task<IEnumerable<RankingDto>> GetParanoiaItemsAsync();
+        Task<IEnumerable<RankingDto>> GetNeverHaveIEverItemsAsync();
+        Task<IEnumerable<RankingDto>> GetTruthItemsAsync();
+        Task<IEnumerable<RankingDto>> GetWouldYouRatherItemsAsync();
     }
 }

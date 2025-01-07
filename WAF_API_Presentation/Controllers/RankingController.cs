@@ -212,5 +212,160 @@ namespace WAF_API_Presentation.Controllers
                 return StatusCode(420, "Enhance Your Calm !");
             }
         }
+        
+        [HttpGet("dare")]
+        [ProducesResponseType(typeof(RankingDto), 200)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
+        [ProducesResponseType(418)]
+        [ProducesResponseType(420)]
+        public async Task<ActionResult<IEnumerable<RankingDto>>> GetDareItems()
+        {
+            try
+            {
+                var Note = await _noteService.GetDareItemsAsync();
+                return StatusCode(200, Note);
+            }
+            catch (InvalidIdException ex)
+            {
+                return StatusCode(400, ex.Message);
+            }
+            catch (NotInDbException ex)
+            {
+                return StatusCode(404, ex.Message);
+            }
+            catch (StoreInDbException ex)
+            {
+                return StatusCode(418, ex.Message);
+            }
+            catch (Exception)
+            {
+                return StatusCode(420, "Enhance Your Calm !");
+            }
+        }
+        
+        [HttpGet("paranoia")]
+        [ProducesResponseType(typeof(RankingDto), 200)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
+        [ProducesResponseType(418)]
+        [ProducesResponseType(420)]
+        public async Task<ActionResult<IEnumerable<RankingDto>>> GetParanoiaItems()
+        {
+            try
+            {
+                var Note = await _noteService.GetParanoiaItemsAsync();
+                return StatusCode(200, Note);
+            }
+            catch (InvalidIdException ex)
+            {
+                return StatusCode(400, ex.Message);
+            }
+            catch (NotInDbException ex)
+            {
+                return StatusCode(404, ex.Message);
+            }
+            catch (StoreInDbException ex)
+            {
+                return StatusCode(418, ex.Message);
+            }
+            catch (Exception)
+            {
+                return StatusCode(420, "Enhance Your Calm !");
+            }
+        }
+        
+        [HttpGet("never_have_i_ever")]
+        [ProducesResponseType(typeof(RankingDto), 200)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
+        [ProducesResponseType(418)]
+        [ProducesResponseType(420)]
+        public async Task<ActionResult<IEnumerable<RankingDto>>> GetNeverHaveIEverItems()
+        {
+            try
+            {
+                var Note = await _noteService.GetNeverHaveIEverItemsAsync();
+                return StatusCode(200, Note);
+            }
+            catch (InvalidIdException ex)
+            {
+                return StatusCode(400, ex.Message);
+            }
+            catch (NotInDbException ex)
+            {
+                return StatusCode(404, ex.Message);
+            }
+            catch (StoreInDbException ex)
+            {
+                return StatusCode(418, ex.Message);
+            }
+            catch (Exception)
+            {
+                return StatusCode(420, "Enhance Your Calm !");
+            }
+        }
+        
+        [HttpGet("truth")]
+        [ProducesResponseType(typeof(RankingDto), 200)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
+        [ProducesResponseType(418)]
+        [ProducesResponseType(420)]
+        public async Task<ActionResult<IEnumerable<RankingDto>>> GetTruthItems()
+        {
+            try
+            {
+                var Note = await _noteService.GetTruthItemsAsync();
+                return StatusCode(200, Note);
+            }
+            catch (InvalidIdException ex)
+            {
+                return StatusCode(400, ex.Message);
+            }
+            catch (NotInDbException ex)
+            {
+                return StatusCode(404, ex.Message);
+            }
+            catch (StoreInDbException ex)
+            {
+                return StatusCode(418, ex.Message);
+            }
+            catch (Exception)
+            {
+                return StatusCode(420, "Enhance Your Calm !");
+            }
+        }
+        
+        [HttpGet("would_you_rather")]
+        [ProducesResponseType(typeof(RankingDto), 200)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
+        [ProducesResponseType(418)]
+        [ProducesResponseType(420)]
+        public async Task<ActionResult<IEnumerable<RankingDto>>> GetWouldYouRatherItems()
+        {
+            try
+            {
+                var Note = await _noteService.GetWouldYouRatherItemsAsync();
+                return StatusCode(200, Note);
+            }
+            catch (InvalidIdException ex)
+            {
+                return StatusCode(400, ex.Message);
+            }
+            catch (NotInDbException ex)
+            {
+                return StatusCode(404, ex.Message);
+            }
+            catch (StoreInDbException ex)
+            {
+                return StatusCode(418, ex.Message);
+            }
+            catch (Exception)
+            {
+                return StatusCode(420, "Enhance Your Calm !");
+            }
+        }
     }
 }
