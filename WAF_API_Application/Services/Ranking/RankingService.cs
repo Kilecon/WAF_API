@@ -170,6 +170,11 @@ namespace WAF_API_Application.Services.Ranking
             throw new NotImplementedException();
         }
 
+        public Task<IEnumerable<RankingDto>> GetSeveralAsync(int count)
+        {
+            throw new NotImplementedException();
+        }
+
         public Task UpdateAsync(UpdateRankingCmd note)
         {
             throw new NotImplementedException();

@@ -1,4 +1,6 @@
-﻿namespace WAF_API_Application.Services
+﻿using Microsoft.VisualBasic.CompilerServices;
+
+namespace WAF_API_Application.Services
 {
     using WAF_API_Domain.Commands;
     using WAF_API_Domain.Models;
@@ -73,6 +75,24 @@
         public async Task<IEnumerable<TDto>> GetAllAsync()
         {
             return await _repo.GetItems();
+        }
+        
+        /// <summary>
+        /// The GetSeveralAsync
+        /// </summary>
+        /// <param name="count">The id<see cref="int"/></param>
+        /// <returns>The <see cref="Task{IEnumerable{TDto}}"/></returns>
+        public async Task<IEnumerable<TDto>> GetSeveralAsync(int count)
+        {
+            try
+            {
+                return await _repo.GetSeveralItems(count);
+
+            }
+            catch (NotInDbException)
+            {
+                throw;
+            }
         }
 
         /// <summary>

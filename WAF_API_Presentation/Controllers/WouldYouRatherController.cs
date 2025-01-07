@@ -80,6 +80,42 @@ namespace WAF_API_Presentation.Controllers
         }
 
         /// <summary>
+        /// Retrieves a "WouldYouRatherDto>" Document by its ID
+        /// </summary>
+        /// <param name="count">The number of the "WouldYouRatherDto>" Document we want to get</param>
+        /// <returns>The "WouldYouRatherDto>" Document</returns>
+        [HttpGet("limit/{count}")]
+        [ProducesResponseType(typeof(WouldYouRatherDto), 200)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
+        [ProducesResponseType(418)]
+        [ProducesResponseType(420)]
+        public async Task<ActionResult<WouldYouRatherDto>> GetSeveralNotes(int count)
+        {
+            try
+            {
+                var Note = await _noteService.GetSeveralAsync(count);
+                return StatusCode(200, Note);
+            }
+            catch (InvalidIdException ex)
+            {
+                return StatusCode(400, ex.Message);
+            }
+            catch (NotInDbException ex)
+            {
+                return StatusCode(404, ex.Message);
+            }
+            catch (StoreInDbException ex)
+            {
+                return StatusCode(418, ex.Message);
+            }
+            catch (Exception)
+            {
+                return StatusCode(420, "Enhance Your Calm !");
+            }
+        }
+        
+        /// <summary>
         /// Creates a new "DareDto" Documents
         /// </summary>
         /// <param name="note">The note to be added</param>

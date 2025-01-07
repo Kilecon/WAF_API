@@ -80,6 +80,42 @@ namespace WAF_API_Presentation.Controllers
                 return StatusCode(420, "Enhance Your Calm !");
             }
         }
+        
+        /// <summary>
+        /// Retrieves a "TruthDto" Document by its ID
+        /// </summary>
+        /// <param name="count">The number of the "TruthDto" Document we want to get</param>
+        /// <returns>The "TruthDto" Document</returns>
+        [HttpGet("limit/{count}")]
+        [ProducesResponseType(typeof(TruthDto), 200)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
+        [ProducesResponseType(418)]
+        [ProducesResponseType(420)]
+        public async Task<ActionResult<TruthDto>> GetSeveralNotes(int count)
+        {
+            try
+            {
+                var Note = await _noteService.GetSeveralAsync(count);
+                return StatusCode(200, Note);
+            }
+            catch (InvalidIdException ex)
+            {
+                return StatusCode(400, ex.Message);
+            }
+            catch (NotInDbException ex)
+            {
+                return StatusCode(404, ex.Message);
+            }
+            catch (StoreInDbException ex)
+            {
+                return StatusCode(418, ex.Message);
+            }
+            catch (Exception)
+            {
+                return StatusCode(420, "Enhance Your Calm !");
+            }
+        }
 
         /// <summary>
         /// Creates a new "TruthDto" Documents

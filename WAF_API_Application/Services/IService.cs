@@ -46,5 +46,11 @@
         /// </summary>
         /// <returns>The <see cref="Task{IEnumerable{TDto}}"/></returns>
         Task<IEnumerable<TDto>> GetAllAsync();
+        
+        /// <summary>
+        /// The GetSeveralAsync
+        /// </summary>
+        /// <returns>The <see cref="Task{IEnumerable{TDto}}"/></returns>
+        Task<IEnumerable<TDto>> GetSeveralAsync(int count);
     }
 }
