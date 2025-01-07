@@ -17,10 +17,12 @@ using WAF_API_Application.Services.DareService;
 using WAF_API_Application.Services.NeverHaveIEverService;
 using WAF_API_Application.Services.ParanoiaService;
 using WAF_API_Application.Services.TruthService;
+using WAF_API_Application.Services.WouldYouRatherService;
 using WAF_API_Domain.Dare.Factory;
 using WAF_API_Domain.NeverHaveIEver.Factory;
 using WAF_API_Domain.Paranoia.Factory;
 using WAF_API_Domain.Truth.Factory;
+using WAF_API_Domain.WouldYouRather.Factory;
 
 namespace WAF_API_Presentation
 
@@ -66,6 +68,9 @@ namespace WAF_API_Presentation
             builder.Services.AddScoped<IParanoiaFactory, ParanoiaFactory>();
             builder.Services.AddScoped<IParanoiaService, ParanoiaService>();
             builder.Services.AddScoped<IParanoiaRepository, ParanoiaRepository>();
+            builder.Services.AddScoped<IWouldYouRatherFactory, WouldYouRatherFactory>();
+            builder.Services.AddScoped<IWouldYouRatherService, WouldYouRatherService>();
+            builder.Services.AddScoped<IWouldYouRatherRepository, WouldYouRatherRepository>();
 
             // Register controllers for API
             builder.Services.AddControllers().ConfigureApiBehaviorOptions(x => { x.SuppressMapClientErrors = true; });
