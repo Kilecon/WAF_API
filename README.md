@@ -10,6 +10,8 @@ TODO :
 
 - Logique de notation [Passage des floats des dtos en string]
 
+- Coté factory revoir les valueOjbect
+
 - Tokens
 
 - Modifier la gestion d'erreurs (routes modifiés)
