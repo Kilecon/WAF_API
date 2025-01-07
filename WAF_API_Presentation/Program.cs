@@ -23,32 +23,15 @@ using WAF_API_Domain.NeverHaveIEver.Factory;
 using WAF_API_Domain.Paranoia.Factory;
 using WAF_API_Domain.Truth.Factory;
 using WAF_API_Domain.WouldYouRather.Factory;
+using WAF_API_Application.Services.Ranking;
+using WAF_API_Domain.Ranking.Models;
+using WAF_API_Domain.Ranking.Factory;
+using WAF_API_Domain.Truth.Dtos;
+using WAF_API_Domain.Paranoia.Dtos;
+using WAF_API_Domain.WouldYouRather.Dtos;
+using WAF_API_Domain.NeverHaveIEver.Dtos;
 
 namespace WAF_API_Presentation
-{
-    using Microsoft.AspNetCore.Builder;
-    using Microsoft.Extensions.Configuration;
-    using Microsoft.Extensions.DependencyInjection;
-    using Microsoft.Extensions.Options;
-    using Microsoft.OpenApi.Models;
-    using MongoDB.Bson;
-    using MongoDB.Bson.Serialization;
-    using MongoDB.Bson.Serialization.Serializers;
-    using MongoDB.Driver;
-    using WAF_API_Application.Services;
-    using WAF_API_Infrastructure.DbSettings;
-    using WAF_API_Infrastructure.Repositories;
-    using System;
-    using System.IO;
-    using WAF_API_Domain.Dare.Dtos;
-    using WAF_API_Application.Services.DareService;
-    using WAF_API_Domain.Dare.Factory;
-    using WAF_API_Application.Services.Ranking;
-    using WAF_API_Domain.Ranking.Models;
-    using WAF_API_Domain.Ranking.Factory;
-    using MongoDB.Bson.Serialization.IdGenerators;
-
-    namespace WAF_API_Presentation
 
     {
         /// <summary>
@@ -79,20 +62,27 @@ namespace WAF_API_Presentation
 
                 // Register repositories and services (scoped for request lifetime)
                 builder.Services.AddScoped<IBaseRepository<DareDto>, DareRepository>();
-                builder.Services.AddScoped<IBaseRepository<DareDto>, DareRepository>();
                 builder.Services.AddScoped<IDareRepository, DareRepository>();
                 builder.Services.AddScoped<IDareService, DareService>();
                 builder.Services.AddScoped<IDareFactory, DareFactory>();
+
+                builder.Services.AddScoped<IBaseRepository<DareDto>, DareRepository>();
                 builder.Services.AddScoped<INeverHaveIEverRepository, NeverHaveIEverRepository>();
                 builder.Services.AddScoped<INeverHaveIEverService, NeverHaveIEverService>();
                 builder.Services.AddScoped<INeverHaveIEverFactory, NeverHaveIEverFactory>();
-                builder.Services.AddScoped<ITruthFactory, TruthFactory>();
+
+            builder.Services.AddScoped<IBaseRepository<TruthDto>, TruthRepository>();
+            builder.Services.AddScoped<ITruthFactory, TruthFactory>();
                 builder.Services.AddScoped<ITruthService, TruthService>();
                 builder.Services.AddScoped<ITruthRepository, TruthRepository>();
-                builder.Services.AddScoped<IParanoiaFactory, ParanoiaFactory>();
+
+            builder.Services.AddScoped<IBaseRepository<ParanoiaDto>, ParanoiaRepository>();
+            builder.Services.AddScoped<IParanoiaFactory, ParanoiaFactory>();
                 builder.Services.AddScoped<IParanoiaService, ParanoiaService>();
                 builder.Services.AddScoped<IParanoiaRepository, ParanoiaRepository>();
-                builder.Services.AddScoped<IWouldYouRatherFactory, WouldYouRatherFactory>();
+
+            builder.Services.AddScoped<IBaseRepository<WouldYouRatherDto>, WouldYouRatherRepository>();
+            builder.Services.AddScoped<IWouldYouRatherFactory, WouldYouRatherFactory>();
                 builder.Services.AddScoped<IWouldYouRatherService, WouldYouRatherService>();
                 builder.Services.AddScoped<IWouldYouRatherRepository, WouldYouRatherRepository>();
 
@@ -101,9 +91,15 @@ namespace WAF_API_Presentation
                 builder.Services.AddScoped<IRankingRepository<RankingDto>, RankingRepository>();
                 builder.Services.AddScoped<IRankingService, RankingService>();
 
+            builder.Services.AddScoped<IBaseRepository<NeverHaveIEverDto>, NeverHaveIEverRepository>();
+            builder.Services.AddScoped<INeverHaveIEverFactory, NeverHaveIEverFactory>();
+            builder.Services.AddScoped<INeverHaveIEverService, NeverHaveIEverService>();
+            builder.Services.AddScoped<INeverHaveIEverRepository, NeverHaveIEverRepository>();
 
-                // Register controllers for API
-                builder.Services.AddControllers()
+
+
+            // Register controllers for API
+            builder.Services.AddControllers()
                     .ConfigureApiBehaviorOptions(x => { x.SuppressMapClientErrors = true; });
 
                 // Add Swagger documentation support
@@ -140,4 +136,3 @@ namespace WAF_API_Presentation
             }
         }
     }
-}

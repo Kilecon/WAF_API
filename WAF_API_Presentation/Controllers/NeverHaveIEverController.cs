@@ -17,7 +17,7 @@ namespace WAF_API_Presentation.Controllers
     /// </summary>
     [Route("api/[controller]")]
     [ApiController]
-    public class NeverHaveIEvenController(INeverHaveIEverService noteService) : ControllerBase
+    public class NeverHaveIEverController(INeverHaveIEverService noteService) : ControllerBase
     {
         /// <summary>
         /// Defines the _noteService
