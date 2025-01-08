@@ -15,6 +15,6 @@ namespace WAF_API_Domain.WouldYouRather.Dtos
         public string? ProposalAFr { get; set; }
         public string? ProposalBEn { get; set; }
         public string? ProposalBFr { get; set; }
-        public float? Rating { get; set; }
+        public string? Rating { get; set; }
     }
 }

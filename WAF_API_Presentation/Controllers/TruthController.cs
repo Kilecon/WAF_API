@@ -16,7 +16,7 @@ namespace WAF_API_Presentation.Controllers
     /// <summary>
     /// Controller for managing "TruthDto" Documents
     /// </summary>
-    [Route("api/[controller]")]
+    [Route("API/[controller]")]
     [ApiController]
     public class TruthController(ITruthService noteService) : ControllerBase
     {
@@ -29,7 +29,7 @@ namespace WAF_API_Presentation.Controllers
         /// Retrieves all "TruthDto" Documents
         /// </summary>
         /// <returns>A list of "TruthDto" Documents</returns>
-        [HttpGet]
+        [HttpGet("GetAll")]
         [ProducesResponseType(typeof(IEnumerable<TruthDto>), 200)]
         [ProducesResponseType(420)]
         public async Task<ActionResult<IEnumerable<TruthDto>>> GetNotes()
@@ -50,7 +50,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="id">The ID of the "TruthDto" Document</param>
         /// <returns>The "TruthDto" Document with the specified ID</returns>
-        [HttpGet("{id}")]
+        [HttpGet("GetById{id}")]
         [ProducesResponseType(typeof(TruthDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -86,7 +86,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="count">The number of the "TruthDto" Document we want to get</param>
         /// <returns>The "TruthDto" Document</returns>
-        [HttpGet("limit/{count}")]
+        [HttpGet("Get{count}")]
         [ProducesResponseType(typeof(TruthDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -122,7 +122,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="note">The note to be added</param>
         /// <returns>The created "TruthDto" Documents</returns>
-        [HttpPost]
+        [HttpPost("Post")]
         [ProducesResponseType(201)]
         [ProducesResponseType(400)]
         [ProducesResponseType(420)]
@@ -149,7 +149,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="note">The note to be added</param>
         /// <returns>The created "CreateTruthDto" Documents</returns>
-        [HttpPost("many_truth")]
+        [HttpPost("UpsertMany")]
         [ProducesResponseType(201)]
         [ProducesResponseType(400)]
         [ProducesResponseType(420)]
@@ -177,7 +177,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="note">The note<see cref="UpdateTruthCmd"/></param>
         /// <returns>No content if the update is successful</returns>
-        [HttpPut]
+        [HttpPut("Update{id}")]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -215,7 +215,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="id">The ID of the "TruthDto" Document to delete</param>
         /// <returns>No content if the deletion is successful</returns>
-        [HttpDelete("{id}")]
+        [HttpDelete("Delete{id}")]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]

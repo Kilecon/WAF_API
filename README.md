@@ -2,13 +2,7 @@
 
 TODO :
 
-- Modifier Controller et service Ranking pour ajouter toutes les routes
-
-- Modifier Controller et service Dare (modifier BaseRepo et les services) pour ajouter pour le get (nombre voulu) [puis implem aux autres types de questions]
-
-- Ajouter  un UpsertMany() pour toutes les questions => pour pouvoir pousser une liste de json
-
-- Logique de notation [Passage des floats des dtos en string]
+- LOGS
 
 - Coté factory revoir les valueOjbect
 

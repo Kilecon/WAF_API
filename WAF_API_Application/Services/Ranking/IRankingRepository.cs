@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using WAF_API_Domain.Models;
 using WAF_API_Domain.Ranking.Models;
 
 namespace WAF_API_Application.Services.Ranking
@@ -19,5 +20,6 @@ namespace WAF_API_Application.Services.Ranking
         Task<RankingDto> GetItemById(string id);
         Task<RankingDto> AddAsync(RankingDto item);
         Task DeleteByIdAsync(string id);
+        Task WatchForChanges();
     }
 }

@@ -14,7 +14,7 @@ namespace WAF_API_Presentation.Controllers
     /// <summary>
     /// Controller for managing "WouldYouRatherDto" Documents
     /// </summary>
-    [Route("api/[controller]")]
+    [Route("API/[controller]")]
     [ApiController]
     public class WouldYouRatherController(IWouldYouRatherService noteService) : ControllerBase
     {
@@ -27,7 +27,7 @@ namespace WAF_API_Presentation.Controllers
         /// Retrieves all "WouldYouRatherDto" Documents
         /// </summary>
         /// <returns>A list of "WouldYouRatherDto" Documents</returns>
-        [HttpGet]
+        [HttpGet("GetAll")]
         [ProducesResponseType(typeof(IEnumerable<WouldYouRatherDto>), 200)]
         [ProducesResponseType(420)]
         public async Task<ActionResult<IEnumerable<WouldYouRatherDto>>> GetNotes()
@@ -48,7 +48,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="id">The ID of the "WouldYouRatherDto" Document</param>
         /// <returns>The "WouldYouRatherDto" Document with the specified ID</returns>
-        [HttpGet("{id}")]
+        [HttpGet("GetById{id}")]
         [ProducesResponseType(typeof(WouldYouRatherDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -84,7 +84,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="count">The number of the "WouldYouRatherDto>" Document we want to get</param>
         /// <returns>The "WouldYouRatherDto>" Document</returns>
-        [HttpGet("limit/{count}")]
+        [HttpGet("Get{count}")]
         [ProducesResponseType(typeof(WouldYouRatherDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -120,7 +120,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="note">The note to be added</param>
         /// <returns>The created "DareDto" Documents</returns>
-        [HttpPost]
+        [HttpPost("Post")]
         [ProducesResponseType(201)]
         [ProducesResponseType(400)]
         [ProducesResponseType(420)]
@@ -141,13 +141,13 @@ namespace WAF_API_Presentation.Controllers
                 return StatusCode(420, "Enhance Your Calm !");
             }
         }
-        
-         /// <summary>
+
+        /// <summary>
         /// Creates a new "CreateTruthDto" Documents
         /// </summary>
         /// <param name="note">The note to be added</param>
         /// <returns>The created "CreateTruthDto" Documents</returns>
-        [HttpPost("many_would_you_rather")]
+        [HttpPost("UpsertMany")]
         [ProducesResponseType(201)]
         [ProducesResponseType(400)]
         [ProducesResponseType(420)]
@@ -175,7 +175,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="note">The note<see cref="UpdateWouldYouRatherCmd"/></param>
         /// <returns>No content if the update is successful</returns>
-        [HttpPut]
+        [HttpPut("Update{id}")]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -213,7 +213,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="id">The ID of the "WouldYouRatherDto" Document to delete</param>
         /// <returns>No content if the deletion is successful</returns>
-        [HttpDelete("{id}")]
+        [HttpDelete("DeleteById{id}")]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]

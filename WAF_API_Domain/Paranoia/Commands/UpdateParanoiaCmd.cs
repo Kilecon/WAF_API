@@ -11,6 +11,6 @@ namespace WAF_API_Domain.Paranoia.Commands
     {
         public string? QuestionEn { get; set; }
         public string? QuestionFr { get; set; }
-        public float? Rating { get; set; }
+        public string? Rating { get; set; }
     }
 }

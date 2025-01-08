@@ -8,12 +8,12 @@ namespace WAF_API_Domain.ValueObject
 {
     public class Notation
     {
-        public float? Value { get; private set; }
+        public string? Value { get; private set; }
         public Notation()
         {
             Value = null;
         }
-        public Notation(float? value)
+        public Notation(string? value)
         {
             // Sécuriser l'input
             Value = value;

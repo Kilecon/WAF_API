@@ -15,7 +15,7 @@ namespace WAF_API_Presentation.Controllers
     /// <summary>
     /// Controller for managing "NeverHaveIEverDto" Documents
     /// </summary>
-    [Route("api/[controller]")]
+    [Route("API/[controller]")]
     [ApiController]
     public class NeverHaveIEverController(INeverHaveIEverService noteService) : ControllerBase
     {
@@ -28,7 +28,7 @@ namespace WAF_API_Presentation.Controllers
         /// Retrieves all "NeverHaveIEverDto" Documents
         /// </summary>
         /// <returns>A list of "NeverHaveIEverDto" Documents</returns>
-        [HttpGet]
+        [HttpGet("GetAll")]
         [ProducesResponseType(typeof(IEnumerable<NeverHaveIEverDto>), 200)]
         [ProducesResponseType(420)]
         public async Task<ActionResult<IEnumerable<NeverHaveIEverDto>>> GetNotes()
@@ -49,7 +49,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="id">The ID of the "NeverHaveIEverDto" Document</param>
         /// <returns>The "NeverHaveIEverDto" Document with the specified ID</returns>
-        [HttpGet("{id}")]
+        [HttpGet("GetById{id}")]
         [ProducesResponseType(typeof(NeverHaveIEverDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -85,7 +85,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="count">The number of the "NeverHaveIEverDto" Document we want to get</param>
         /// <returns>The "DareDto" Document</returns>
-        [HttpGet("limit/{count}")]
+        [HttpGet("Get{count}")]
         [ProducesResponseType(typeof(NeverHaveIEverDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -121,7 +121,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="note">The note to be added</param>
         /// <returns>The created "NeverHaveIEverDto" Documents</returns>
-        [HttpPost]
+        [HttpPost("Post")]
         [ProducesResponseType(201)]
         [ProducesResponseType(400)]
         [ProducesResponseType(420)]
@@ -148,7 +148,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="note">The note to be added</param>
         /// <returns>The created "reateNeverHaveIEverDto" Documents</returns>
-        [HttpPost("many_never_have_i_ever")]
+        [HttpPost("PostManyNeverHaveIEever")]
         [ProducesResponseType(201)]
         [ProducesResponseType(400)]
         [ProducesResponseType(420)]
@@ -176,7 +176,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="note">The note<see cref="UpdateNeverHaveIEverCmd"/></param>
         /// <returns>No content if the update is successful</returns>
-        [HttpPut]
+        [HttpPut("Update{id}")]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -214,7 +214,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="id">The ID of the "NeverHaveIEverDto" Document to delete</param>
         /// <returns>No content if the deletion is successful</returns>
-        [HttpDelete("{id}")]
+        [HttpDelete("Delete{id}")]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]

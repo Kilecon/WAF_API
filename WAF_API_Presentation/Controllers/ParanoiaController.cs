@@ -14,7 +14,7 @@ namespace WAF_API_Presentation.Controllers
     /// <summary>
     /// Controller for managing "ParanoiaDto" Documents
     /// </summary>
-    [Route("api/[controller]")]
+    [Route("API/[controller]")]
     [ApiController]
     public class ParanoiaController(IParanoiaService noteService) : ControllerBase
     {
@@ -27,7 +27,7 @@ namespace WAF_API_Presentation.Controllers
         /// Retrieves all "ParanoiaDto" Documents
         /// </summary>
         /// <returns>A list of "ParanoiaDto" Documents</returns>
-        [HttpGet]
+        [HttpGet("GetAll")]
         [ProducesResponseType(typeof(IEnumerable<ParanoiaDto>), 200)]
         [ProducesResponseType(420)]
         public async Task<ActionResult<IEnumerable<ParanoiaDto>>> GetNotes()
@@ -48,7 +48,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="id">The ID of the "ParanoiaDto" Document</param>
         /// <returns>The "ParanoiaDto" Document with the specified ID</returns>
-        [HttpGet("{id}")]
+        [HttpGet("GetById{id}")]
         [ProducesResponseType(typeof(ParanoiaDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -84,7 +84,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="count">The number of the "ParanoiaDto" Document we want to get</param>
         /// <returns>The "ParanoiaDto" Document</returns>
-        [HttpGet("limit/{count}")]
+        [HttpGet("Get{count}")]
         [ProducesResponseType(typeof(ParanoiaDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -120,7 +120,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="note">The note to be added</param>
         /// <returns>The created "ParanoiaDto" Documents</returns>
-        [HttpPost]
+        [HttpPost("Post")]
         [ProducesResponseType(201)]
         [ProducesResponseType(400)]
         [ProducesResponseType(420)]
@@ -147,7 +147,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="note">The note to be added</param>
         /// <returns>The created "CreateParanoiaDto" Documents</returns>
-        [HttpPost("many_paranoia")]
+        [HttpPost("PostManyParanoia")]
         [ProducesResponseType(201)]
         [ProducesResponseType(400)]
         [ProducesResponseType(420)]
@@ -175,7 +175,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="note">The note<see cref="UpdateParanoiaCmd"/></param>
         /// <returns>No content if the update is successful</returns>
-        [HttpPut]
+        [HttpPut("Update{id}")]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -213,7 +213,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="id">The ID of the "ParanoiaDto" Document to delete</param>
         /// <returns>No content if the deletion is successful</returns>
-        [HttpDelete("{id}")]
+        [HttpDelete("Delete{id}")]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]

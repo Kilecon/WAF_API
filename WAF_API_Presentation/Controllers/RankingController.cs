@@ -13,7 +13,7 @@ using WAF_API_Exceptions.InfrastructureExceptions;
 
 namespace WAF_API_Presentation.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("API/[controller]")]
     [ApiController]
     public class RankingController(IRankingService noteService) : ControllerBase
     {
@@ -26,7 +26,7 @@ namespace WAF_API_Presentation.Controllers
         /// Retrieves all "RankingDto" Documents
         /// </summary>
         /// <returns>A list of "RankingDto" Documents</returns>
-        [HttpGet]
+        [HttpGet("GetAll")]
         [ProducesResponseType(typeof(IEnumerable<RankingDto>), 200)]
         [ProducesResponseType(420)]
         public async Task<ActionResult<IEnumerable<RankingDto>>> GetNotes()
@@ -47,7 +47,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="id">The ID of the "RankingDto" Document</param>
         /// <returns>The "RankingDto" Document with the specified ID</returns>
-        [HttpGet("{id}")]
+        [HttpGet("GetById{id}")]
         [ProducesResponseType(typeof(RankingDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -83,28 +83,26 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="note">The note to be added</param>
         /// <returns>The created "RankingDto" Documents</returns>
-        [HttpPost]
+        [HttpPost("Post")]
         [ProducesResponseType(201)]
         [ProducesResponseType(400)]
         [ProducesResponseType(420)]
         public async Task<ActionResult> CreateNote([FromQuery] CreateRankingCmd note)
         {
-            var result = await _noteService.CreateAsync(note);
-            return StatusCode(201, result);
-            //try
-            //{
-            //    var result = await _noteService.CreateAsync(note);
-            //    return StatusCode(201, result);
-            //}
-            //catch (Exception ex) when (ex is InvalidIdException || ex is InvalidCommandException)
+            try
+            {
+                var result = await _noteService.CreateAsync(note);
+                return StatusCode(201, result);
+            }
+            catch (Exception ex) when (ex is InvalidIdException || ex is InvalidCommandException)
 
-            //{
-            //    return StatusCode(400, ex.Message);
-            //}
-            //catch (Exception)
-            //{
-            //    return StatusCode(420, "Enhance Your Calm !");
-            //}
+            {
+                return StatusCode(400, ex.Message);
+            }
+            catch (Exception)
+            {
+                return StatusCode(420, "Enhance Your Calm !");
+            }
         }
 
         ///// <summary>
@@ -150,7 +148,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="id">The ID of the "RankingDto" Document to delete</param>
         /// <returns>No content if the deletion is successful</returns>
-        [HttpDelete("{id}")]
+        [HttpDelete("Delete{id}")]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -182,17 +180,17 @@ namespace WAF_API_Presentation.Controllers
             }
         }
 
-        [HttpGet("{questionId}")]
+        [HttpGet("GetByQuestionId{questionId}")]
         [ProducesResponseType(typeof(RankingDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(418)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<IEnumerable<RankingDto>>> GetByQuestionId(string id)
+        public async Task<ActionResult<IEnumerable<RankingDto>>> GetByQuestionId(string questionId)
         {
             try
             {
-                var Note = await _noteService.GetByQuestionIdAsync(id);
+                var Note = await _noteService.GetByQuestionIdAsync(questionId);
                 return StatusCode(200, Note);
             }
             catch (InvalidIdException ex)
@@ -213,7 +211,7 @@ namespace WAF_API_Presentation.Controllers
             }
         }
         
-        [HttpGet("dare")]
+        [HttpGet("GetAllDares")]
         [ProducesResponseType(typeof(RankingDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -244,7 +242,7 @@ namespace WAF_API_Presentation.Controllers
             }
         }
         
-        [HttpGet("paranoia")]
+        [HttpGet("GetAllParanoias")]
         [ProducesResponseType(typeof(RankingDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -275,7 +273,7 @@ namespace WAF_API_Presentation.Controllers
             }
         }
         
-        [HttpGet("never_have_i_ever")]
+        [HttpGet("GetAllNeverHaveIEver")]
         [ProducesResponseType(typeof(RankingDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -306,7 +304,7 @@ namespace WAF_API_Presentation.Controllers
             }
         }
         
-        [HttpGet("truth")]
+        [HttpGet("GetAllTruth")]
         [ProducesResponseType(typeof(RankingDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -337,7 +335,7 @@ namespace WAF_API_Presentation.Controllers
             }
         }
         
-        [HttpGet("would_you_rather")]
+        [HttpGet("GetAllWouldYouRather")]
         [ProducesResponseType(typeof(RankingDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]

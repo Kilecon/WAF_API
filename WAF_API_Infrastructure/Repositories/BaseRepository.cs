@@ -271,5 +271,18 @@ namespace WAF_API_Infrastructure.Repositories
             return updatedItems.Select(ToDto);
         }
 
+        public async Task UpdateRatingAsync(string questionId, double rating, int totalReviews)
+        {
+            // Format the value as a string in the "rating//totalReviews" format
+            string formattedRating = $"{rating:F2}//{totalReviews}";
+
+            // Build the filter to find the document with the corresponding _id
+            var filter = Builders<StoredDto<TDto>>.Filter.Eq("_id", questionId);
+
+            // Build the update with the formatted string for the Payload.Rating field
+            var update = Builders<StoredDto<TDto>>.Update.Set("Payload.Rating", formattedRating);
+
+                var result = await _collection.UpdateOneAsync(filter, update);
+        }
     }
 }

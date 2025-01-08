@@ -71,5 +71,6 @@
         /// <param name="items">The items to upsert<see cref="IEnumerable{TDto}"/></param>
         /// <returns>The <see cref="Task"/></returns>
         Task<IEnumerable<TDto>>UpsertMany(IEnumerable<TDto> items);
+        Task UpdateRatingAsync(string questionId, double rating, int totalReviews);
     }
 }
