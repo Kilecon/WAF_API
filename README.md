@@ -12,7 +12,9 @@ TODO :
 
 - Refaire les Tests Unitaires
 
+il reste à mettre des logs, rajouter des gestions d'erreurs, modifier les factories pour avoir moins d'erreurs de mise en forme, mettre des tokens sur certaines routes et d'autres secu sur les routes, AJOUTER UNE COLLECTION POUR LES SUGGESTIONS DES JOUEURS, et des tests unitaires
 
+suggestions : TypeName, Question, Lang, id, timestamp (GetAll getById DeleteById)
 ## 📌 Table of Contents :
    
 I. [Badges](#🎯-badges)
