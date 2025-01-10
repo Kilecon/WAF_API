@@ -1,4 +1,6 @@
-﻿namespace WAF_API_Application.Services
+﻿using WAF_API_Domain.Difficulty.Commands;
+
+namespace WAF_API_Application.Services
 {
     using WAF_API_Domain.Commands;
     using WAF_API_Domain.Models;
@@ -45,10 +47,11 @@
         /// </summary>
         /// <returns>The <see cref="Task{IEnumerable{TDto}}"/></returns>
         Task<IEnumerable<TDto>> GetSeveralAsync(int count);
-        
+
         /// <summary>
         /// Performs an upsert operation for multiple items at once.
         /// </summary>
+        /// <param name="cmd"></param>
         /// <param name="items">The items to upsert<see cref="IEnumerable{TDto}"/></param>
         /// <returns>The <see cref="Task"/></returns>
         Task<IEnumerable<TDto>>UpsertMany(IEnumerable<TCmd> cmd);

@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WAF_API_Domain.Difficulty.Commands;
 
 namespace WAF_API_Application.Services
 {
@@ -49,11 +50,12 @@ namespace WAF_API_Application.Services
             var dto = await CreateSpecificAsync(cmd, id);
             return await _repo.AddAsync(dto);
         }
-        
+
 
         /// <summary>
         /// The CreateListAsync
         /// </summary>
+        /// <param name="cmds"></param>
         /// <param name="cmd">The cmd<see cref="TCmd"/></param>
         /// <returns>The <see cref="Task{IEnumerable<TDto>}"/></returns>
         public async Task<IEnumerable<TDto>> UpsertMany(IEnumerable<TCmd> cmds)
@@ -132,7 +134,12 @@ namespace WAF_API_Application.Services
                 throw;
             }
         }
-        
+
+        public Task<IEnumerable<TDto>> UpsertMany(IEnumerable<CreateDifficultyCmd> cmd)
+        {
+            throw new NotImplementedException();
+        }
+
 
         /// <summary>
         /// The GetByIdAsync

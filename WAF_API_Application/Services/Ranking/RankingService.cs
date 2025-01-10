@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using WAF_API_Domain.Difficulty.Commands;
 using WAF_API_Domain.Ranking.Commands;
 using WAF_API_Domain.Ranking.Factory;
 using WAF_API_Domain.Ranking.Models;
@@ -176,6 +177,11 @@ namespace WAF_API_Application.Services.Ranking
         }
 
         public Task<IEnumerable<RankingDto>> UpsertMany(IEnumerable<CreateRankingCmd> cmd)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<RankingDto>> UpsertMany(IEnumerable<CreateDifficultyCmd> cmd)
         {
             throw new NotImplementedException();
         }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WAF_API_Domain.Commands;
 using WAF_API_Domain.Suggestion.Commands;
 using WAF_API_Domain.Suggestion.Factory;
 using WAF_API_Domain.Suggestion.Dtos;
@@ -26,13 +27,7 @@ namespace WAF_API_Application.Services.SuggestionService
 
             return Task.FromResult(dare.ToDto());
         }
-
-        protected Task<SuggestionDto> UpdateSpecificAsync(UpdateSuggestionCmd cmd)
-        {
-            var dare = _factory.UpdateIntance(cmd);
-
-            return Task.FromResult(dare.ToDto());
-        }
+        
 
         public async Task<SuggestionDto?> CreateAsync(CreateSuggestionCmd cmd)
         {
@@ -44,6 +39,11 @@ namespace WAF_API_Application.Services.SuggestionService
             }
             var dto = await CreateSpecificAsync(cmd, id);
             return await _repo.AddAsync(dto);
+        }
+
+        Task<WAF_API_Domain.Paranoia.Dtos.SuggestionDto?> CreateAsync(CreateSuggestionCmd cmd)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task DeleteAsync(string id)
@@ -58,6 +58,26 @@ namespace WAF_API_Application.Services.SuggestionService
             {
                 throw;
             }
+        }
+
+        Task<SuggestionDto?> GetByIdAsync(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<SuggestionDto>> GetAllAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<SuggestionDto>> GetSeveralAsync(int count)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<SuggestionDto>> UpsertMany(IEnumerable<CreateSuggestionCmd> cmd)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<SuggestionDto?> GetByIdAsync(string id)

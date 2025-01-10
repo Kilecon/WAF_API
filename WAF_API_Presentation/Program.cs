@@ -18,12 +18,16 @@ using WAF_API_Application.Services.NeverHaveIEverService;
 using WAF_API_Application.Services.ParanoiaService;
 using WAF_API_Application.Services.TruthService;
 using WAF_API_Application.Services.WouldYouRatherService;
+using WAF_API_Application.Services.DifficultyService;
+
 using WAF_API_Domain.Dare.Factory;
 using WAF_API_Domain.NeverHaveIEver.Factory;
 using WAF_API_Domain.Paranoia.Factory;
 using WAF_API_Domain.Truth.Factory;
 using WAF_API_Domain.WouldYouRather.Factory;
 using WAF_API_Application.Services.Ranking;
+using WAF_API_Domain.Difficulty.Dtos;
+using WAF_API_Domain.Difficulty.Factory;
 using WAF_API_Domain.Ranking.Models;
 using WAF_API_Domain.Ranking.Factory;
 using WAF_API_Domain.Truth.Dtos;
@@ -82,6 +86,11 @@ namespace WAF_API_Presentation
             builder.Services.AddScoped<IRankingRepository<RankingDto>, RankingRepository>();
             builder.Services.AddScoped<IRankingService, RankingService>();
 
+            builder.Services.AddScoped<IBaseRepository<DifficultyDto>, DifficultyRepository>();
+            builder.Services.AddScoped<IDifficultyFactory, DifficultyFactory>();
+            builder.Services.AddScoped<IDifficultyRepository, DifficultyRepository>();
+            builder.Services.AddScoped<IDifficultyFactory, DifficultyFactory>();
+            
             builder.Services.AddControllers().ConfigureApiBehaviorOptions(x => { x.SuppressMapClientErrors = true; });
 
             builder.Services.AddEndpointsApiExplorer();

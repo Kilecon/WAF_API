@@ -15,22 +15,25 @@ namespace WAF_API_Domain.Dare.Entities
         public QuestionEn QuestionEn { get; private set; }
         public QuestionFr QuestionFr { get; private set; }
         public Notation Rating { get; private set; }
-        public DareAr(Id id, QuestionEn questionEn, QuestionFr questionFr) 
+        public DifficultyName DifficultyName { get; private set; }
+        public DareAr(Id id, QuestionEn questionEn, QuestionFr questionFr, DifficultyName difficulty) 
         {
             Id = id;
             QuestionFr = questionFr;
             QuestionEn = questionEn;
             LastUpdateUnixTimestamp = new LastUpdateUnixTimestamp();
             Rating = new Notation();
+            DifficultyName = difficulty;
         }
 
-        public DareAr(Id id, QuestionEn questionEn, QuestionFr questionFr, Notation rating)
+        public DareAr(Id id, QuestionEn questionEn, QuestionFr questionFr, Notation rating, DifficultyName difficulty)
         {
             Id = id;
             QuestionFr = questionFr;
             QuestionEn = questionEn;
             LastUpdateUnixTimestamp = new LastUpdateUnixTimestamp();
             Rating = rating;
+            DifficultyName = difficulty;
         }
 
         public DareDto ToDto()
@@ -41,6 +44,7 @@ namespace WAF_API_Domain.Dare.Entities
                 QuestionEn = QuestionEn.Value,
                 QuestionFr = QuestionFr.Value,
                 Rating = Rating.Value,
+                DifficultyName = DifficultyName.Value,
                 LastUpdateUnixTimestamp = LastUpdateUnixTimestamp.Value
             };
         }
