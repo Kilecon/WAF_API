@@ -5,12 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using WAF_API_Domain.Models;
 
-namespace WAF_API_Domain.Paranoia.Dtos
+namespace WAF_API_Domain.Suggestion.Dtos
 {
     public class SuggestionDto : Dto
     {
-        public string? QuestionEn { get; set; }
-        public string? QuestionFr { get; set; }
-        public string? Rating { get; set; }
+        public string? QuestionLang { get; set; }
+        public string? QuestionSuggested { get; set; }
+        public string? Comment {  get; set; }
     }
 }

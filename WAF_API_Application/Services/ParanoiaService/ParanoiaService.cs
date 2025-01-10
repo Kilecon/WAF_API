@@ -9,22 +9,22 @@ using WAF_API_Domain.Paranoia.Factory;
 
 namespace WAF_API_Application.Services.ParanoiaService
 {
-    public class ParanoiaService : BaseService<ParanoiaDto, CreateParanoiaCmd, UpdateParanoiaCmd>, IParanoiaService
+    public class ParanoiaService : BaseService<SuggestionDto, CreateParanoiaCmd, UpdateParanoiaCmd>, IParanoiaService
     {
         private IParanoiaFactory _factory;
-        public ParanoiaService(IParanoiaFactory factory, IBaseRepository<ParanoiaDto> repo) : base(repo)
+        public ParanoiaService(IParanoiaFactory factory, IBaseRepository<SuggestionDto> repo) : base(repo)
         {
             _factory = factory;
         }
 
-        protected override Task<ParanoiaDto> CreateSpecificAsync(CreateParanoiaCmd cmd, string id)
+        protected override Task<SuggestionDto> CreateSpecificAsync(CreateParanoiaCmd cmd, string id)
         {
             var dare = _factory.CreateIntance(cmd, id);
 
             return Task.FromResult(dare.ToDto());
         }
 
-        protected override Task<ParanoiaDto> UpdateSpecificAsync(UpdateParanoiaCmd cmd)
+        protected override Task<SuggestionDto> UpdateSpecificAsync(UpdateParanoiaCmd cmd)
         {
             var dare = _factory.UpdateIntance(cmd);
 

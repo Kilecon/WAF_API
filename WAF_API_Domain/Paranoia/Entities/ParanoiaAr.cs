@@ -33,9 +33,9 @@ namespace WAF_API_Domain.Paranoia.Entities
             Rating = rating;
         }
 
-        public ParanoiaDto ToDto()
+        public SuggestionDto ToDto()
         {
-            return new ParanoiaDto()
+            return new SuggestionDto()
             {
                 Id = Id.Value,
                 QuestionEn = QuestionEn.Value,

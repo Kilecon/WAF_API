@@ -28,9 +28,9 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <returns>A list of "ParanoiaDto" Documents</returns>
         [HttpGet("GetAll")]
-        [ProducesResponseType(typeof(IEnumerable<ParanoiaDto>), 200)]
+        [ProducesResponseType(typeof(IEnumerable<SuggestionDto>), 200)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<IEnumerable<ParanoiaDto>>> GetNotes()
+        public async Task<ActionResult<IEnumerable<SuggestionDto>>> GetNotes()
         {
             try
             {
@@ -49,12 +49,12 @@ namespace WAF_API_Presentation.Controllers
         /// <param name="id">The ID of the "ParanoiaDto" Document</param>
         /// <returns>The "ParanoiaDto" Document with the specified ID</returns>
         [HttpGet("GetById{id}")]
-        [ProducesResponseType(typeof(ParanoiaDto), 200)]
+        [ProducesResponseType(typeof(SuggestionDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(418)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<ParanoiaDto>> GetNoteById(string id)
+        public async Task<ActionResult<SuggestionDto>> GetNoteById(string id)
         {
             try
             {
@@ -85,12 +85,12 @@ namespace WAF_API_Presentation.Controllers
         /// <param name="count">The number of the "ParanoiaDto" Document we want to get</param>
         /// <returns>The "ParanoiaDto" Document</returns>
         [HttpGet("Get{count}")]
-        [ProducesResponseType(typeof(ParanoiaDto), 200)]
+        [ProducesResponseType(typeof(SuggestionDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(418)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<ParanoiaDto>> GetSeveralNotes(int count)
+        public async Task<ActionResult<SuggestionDto>> GetSeveralNotes(int count)
         {
             try
             {

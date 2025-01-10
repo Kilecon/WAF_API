@@ -35,13 +35,6 @@
         Task<TDto?> GetByIdAsync(string id);
 
         /// <summary>
-        /// The FindIdAsync
-        /// </summary>
-        /// <param name="id">The id<see cref="string"/></param>
-        /// <returns>The <see cref="Task{TDto}"/></returns>
-        Task<TDto?> FindIdAsync(string id);
-
-        /// <summary>
         /// The GetAllAsync
         /// </summary>
         /// <returns>The <see cref="Task{IEnumerable{TDto}}"/></returns>

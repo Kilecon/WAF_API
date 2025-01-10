@@ -8,7 +8,7 @@ using WAF_API_Domain.Paranoia.Dtos;
 
 namespace WAF_API_Application.Services.ParanoiaService
 {
-    public interface IParanoiaRepository : IBaseRepository<ParanoiaDto>
+    public interface IParanoiaRepository : IBaseRepository<SuggestionDto>
     {
     }
 }

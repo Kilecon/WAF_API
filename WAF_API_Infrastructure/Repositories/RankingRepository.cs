@@ -102,7 +102,7 @@ namespace WAF_API_Infrastructure.Repositories
 
         public async Task<IEnumerable<RankingDto>> GetParanoiaItems()
         {
-            var filter = Builders<RankingDto>.Filter.Eq("QuestionTypeName", typeof(ParanoiaDto).Name);
+            var filter = Builders<RankingDto>.Filter.Eq("QuestionTypeName", typeof(SuggestionDto).Name);
             var documents = await _collection.Find(filter).ToListAsync();
 
             return documents;

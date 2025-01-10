@@ -62,7 +62,7 @@ namespace WAF_API_Presentation
             builder.Services.AddScoped<ITruthService, TruthService>();
             builder.Services.AddScoped<ITruthRepository, TruthRepository>();
 
-            builder.Services.AddScoped<IBaseRepository<ParanoiaDto>, ParanoiaRepository>();
+            builder.Services.AddScoped<IBaseRepository<SuggestionDto>, ParanoiaRepository>();
             builder.Services.AddScoped<IParanoiaFactory, ParanoiaFactory>();
             builder.Services.AddScoped<IParanoiaService, ParanoiaService>();
             builder.Services.AddScoped<IParanoiaRepository, ParanoiaRepository>();

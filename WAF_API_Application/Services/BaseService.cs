@@ -41,7 +41,7 @@ namespace WAF_API_Application.Services
         public async Task<TDto?> CreateAsync(TCmd cmd)
         {
             var id = Guid.NewGuid().ToString();
-            var idTest = await FindIdAsync(id);
+            var idTest = await GetByIdAsync(id);
             if (idTest != null)
             {
                 await CreateAsync(cmd);
@@ -68,7 +68,7 @@ namespace WAF_API_Application.Services
             foreach (var cmd in cmds)
             {
                 var id = Guid.NewGuid().ToString();
-                var idTest = await FindIdAsync(id);
+                var idTest = await GetByIdAsync(id);
 
                 if (idTest == null)
                 {
@@ -149,24 +149,6 @@ namespace WAF_API_Application.Services
             catch (NotInDbException)
             {
                 throw;
-            }
-        }
-
-        /// <summary>
-        /// The FindIdAsync
-        /// </summary>
-        /// <param name="id">The id<see cref="string"/></param>
-        /// <returns>The <see cref="Task{TDto}"/></returns>
-        public async Task<TDto?> FindIdAsync(string id)
-        {
-            try
-            {
-                return await _repo.GetItemById(id);
-
-            }
-            catch (NotInDbException)
-            {
-                return null;
             }
         }
 
