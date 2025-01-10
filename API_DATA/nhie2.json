@@ -1,0 +1,814 @@
+[
+    {
+        "QuestionEn": "Never have I ever kissed someone I wasn't attracted to",
+        "QuestionFr": "Je n'ai jamais embrassé quelqu'un qui ne m'attirait pas"
+    },
+    {
+        "QuestionEn": "Never have I ever lied about my age",
+        "QuestionFr": "Je n'ai jamais menti sur mon âge"
+    },
+    {
+        "QuestionEn": "Never have I ever cheated on a partner",
+        "QuestionFr": "Je n'ai jamais trompé un partenaire"
+    },
+    {
+        "QuestionEn": "Never have I ever eaten food off the floor",
+        "QuestionFr": "Je n'ai jamais mangé de la nourriture par terre"
+    },
+    {
+        "QuestionEn": "Never have I ever stayed up all night",
+        "QuestionFr": "Je n'ai jamais passé la nuit blanche"
+    },
+    {
+        "QuestionEn": "Never have I ever sent a text to the wrong person",
+        "QuestionFr": "Je n'ai jamais envoyé un message à la mauvaise personne"
+    },
+    {
+        "QuestionEn": "Never have I ever kissed more than one person in one day",
+        "QuestionFr": "Je n'ai jamais embrassé plus d'une personne en une journée"
+    },
+    {
+        "QuestionEn": "Never have I ever broken something and blamed it on someone else",
+        "QuestionFr": "Je n'ai jamais cassé quelque chose et accusé quelqu'un d'autre"
+    },
+    {
+        "QuestionEn": "Never have I ever flirted with someone just to make someone jealous",
+        "QuestionFr": "Je n'ai jamais flirté avec quelqu'un juste pour rendre quelqu'un jaloux"
+    },
+    {
+        "QuestionEn": "Never have I ever traveled to a foreign country alone",
+        "QuestionFr": "Je n'ai jamais voyagé dans un pays étranger seul"
+    },
+    {
+        "QuestionEn": "Never have I ever lied to my parents about where I was",
+        "QuestionFr": "Je n'ai jamais menti à mes parents sur l'endroit où j'étais"
+    },
+    {
+        "QuestionEn": "Never have I ever been caught doing something embarrassing",
+        "QuestionFr": "Je n'ai jamais été pris en train de faire quelque chose de gênant"
+    },
+    {
+        "QuestionEn": "Never have I ever had a crush on someone who didn’t like me back",
+        "QuestionFr": "Je n'ai jamais eu de crush sur quelqu'un qui ne m'aimait pas en retour"
+    },
+    {
+        "QuestionEn": "Never have I ever been on a blind date",
+        "QuestionFr": "Je n'ai jamais été en rendez-vous galant à l'aveugle"
+    },
+    {
+        "QuestionEn": "Never have I ever gotten a tattoo",
+        "QuestionFr": "Je n'ai jamais eu de tatouage"
+    },
+    {
+        "QuestionEn": "Never have I ever gone skinny dipping",
+        "QuestionFr": "Je n'ai jamais fait de baignade nue"
+    },
+    {
+        "QuestionEn": "Never have I ever stolen something from a store",
+        "QuestionFr": "Je n'ai jamais volé quelque chose dans un magasin"
+    },
+    {
+        "QuestionEn": "Never have I ever been in a physical fight",
+        "QuestionFr": "Je n'ai jamais été dans une bagarre physique"
+    },
+    {
+        "QuestionEn": "Never have I ever cried in public",
+        "QuestionFr": "Je n'ai jamais pleuré en public"
+    },
+    {
+        "QuestionEn": "Never have I ever had a one night stand",
+        "QuestionFr": "Je n'ai jamais eu une aventure d'un soir"
+    },
+    {
+        "QuestionEn": "Never have I ever been in handcuffs",
+        "QuestionFr": "Je n'ai jamais été menotté"
+    },
+    {
+        "QuestionEn": "Never have I ever sung karaoke",
+        "QuestionFr": "Je n'ai jamais chanté au karaoké"
+    },
+    {
+        "QuestionEn": "Never have I ever met a celebrity",
+        "QuestionFr": "Je n'ai jamais rencontré une célébrité"
+    },
+    {
+        "QuestionEn": "Never have I ever been on a roller coaster",
+        "QuestionFr": "Je n'ai jamais fait de montagnes russes"
+    },
+    {
+        "QuestionEn": "Never have I ever been in love",
+        "QuestionFr": "Je n'ai jamais été amoureux"
+    },
+    {
+        "QuestionEn": "Never have I ever cheated on a test",
+        "QuestionFr": "Je n'ai jamais triché à un examen"
+    },
+    {
+        "QuestionEn": "Never have I ever broken up with someone over text",
+        "QuestionFr": "Je n'ai jamais rompu avec quelqu'un par message"
+    },
+    {
+        "QuestionEn": "Never have I ever made a prank call",
+        "QuestionFr": "Je n'ai jamais fait de canular téléphonique"
+    },
+    {
+        "QuestionEn": "Never have I ever skipped class",
+        "QuestionFr": "Je n'ai jamais séché un cours"
+    },
+    {
+        "QuestionEn": "Never have I ever kissed someone of the same gender",
+        "QuestionFr": "Je n'ai jamais embrassé quelqu'un du même sexe"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a party I didn’t want to be at",
+        "QuestionFr": "Je n'ai jamais été à une fête où je ne voulais pas être"
+    },
+    {
+        "QuestionEn": "Never have I ever had a crush on a teacher",
+        "QuestionFr": "Je n'ai jamais eu de crush sur un professeur"
+    },
+    {
+        "QuestionEn": "Never have I ever sent a nude photo",
+        "QuestionFr": "Je n'ai jamais envoyé de photo nue"
+    },
+    {
+        "QuestionEn": "Never have I ever fallen asleep in class",
+        "QuestionFr": "Je n'ai jamais dormi en cours"
+    },
+    {
+        "QuestionEn": "Never have I ever skipped a meal to save money",
+        "QuestionFr": "Je n'ai jamais sauté un repas pour économiser de l'argent"
+    },
+    {
+        "QuestionEn": "Never have I ever been on a road trip with friends",
+        "QuestionFr": "Je n'ai jamais été en road trip avec des amis"
+    },
+    {
+        "QuestionEn": "Never have I ever gone on a date with someone I wasn’t interested in",
+        "QuestionFr": "Je n'ai jamais été en rendez-vous avec quelqu'un qui ne m'intéressait pas"
+    },
+    {
+        "QuestionEn": "Never have I ever received a love letter",
+        "QuestionFr": "Je n'ai jamais reçu de lettre d'amour"
+    },
+    {
+        "QuestionEn": "Never have I ever snooped through someone else’s phone",
+        "QuestionFr": "Je n'ai jamais fouillé dans le téléphone de quelqu'un d'autre"
+    },
+    {
+        "QuestionEn": "Never have I ever used a fake ID",
+        "QuestionFr": "Je n'ai jamais utilisé une fausse carte d'identité"
+    },
+    {
+        "QuestionEn": "Never have I ever gone to a wedding for the free food",
+        "QuestionFr": "Je n'ai jamais allé à un mariage pour la nourriture gratuite"
+    },
+    {
+        "QuestionEn": "Never have I ever gotten a piercing",
+        "QuestionFr": "Je n'ai jamais eu de piercing"
+    },
+    {
+        "QuestionEn": "Never have I ever gone on a blind date",
+        "QuestionFr": "Je n'ai jamais été à un rendez-vous à l'aveugle"
+    },
+    {
+        "QuestionEn": "Never have I ever kissed someone under mistletoe",
+        "QuestionFr": "Je n'ai jamais embrassé quelqu'un sous le gui"
+    },
+    {
+        "QuestionEn": "Never have I ever lied to avoid a social gathering",
+        "QuestionFr": "Je n'ai jamais menti pour éviter un événement social"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a strip club",
+        "QuestionFr": "Je n'ai jamais été dans un club de strip-tease"
+    },
+    {
+        "QuestionEn": "Never have I ever sent a text to the wrong person by accident",
+        "QuestionFr": "Je n'ai jamais envoyé un message à la mauvaise personne par accident"
+    },
+    {
+        "QuestionEn": "Never have I ever been on a cruise",
+        "QuestionFr": "Je n'ai jamais été en croisière"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a theme park",
+        "QuestionFr": "Je n'ai jamais été dans un parc à thème"
+    },
+    {
+        "QuestionEn": "Never have I ever kissed someone in the rain",
+        "QuestionFr": "Je n'ai jamais embrassé quelqu'un sous la pluie"
+    },
+    {
+        "QuestionEn": "Never have I ever lied about my relationship status",
+        "QuestionFr": "Je n'ai jamais menti sur mon statut relationnel"
+    },
+    {
+        "QuestionEn": "Never have I ever eaten an entire pizza by myself",
+        "QuestionFr": "Je n'ai jamais mangé une pizza entière tout seul"
+    },
+    {
+        "QuestionEn": "Never have I ever been in handcuffs for fun",
+        "QuestionFr": "Je n'ai jamais été menotté pour le fun"
+    },
+    {
+        "QuestionEn": "Never have I ever cheated in a game",
+        "QuestionFr": "Je n'ai jamais triché à un jeu"
+    },
+    {
+        "QuestionEn": "Never have I ever forgotten someone’s birthday",
+        "QuestionFr": "Je n'ai jamais oublié l'anniversaire de quelqu'un"
+    },
+    {
+        "QuestionEn": "Never have I ever gotten a speeding ticket",
+        "QuestionFr": "Je n'ai jamais eu une amende pour excès de vitesse"
+    },
+    {
+        "QuestionEn": "Never have I ever done something I regretted the next day",
+        "QuestionFr": "Je n'ai jamais fait quelque chose que j'ai regretté le lendemain"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a music festival",
+        "QuestionFr": "Je n'ai jamais été à un festival de musique"
+    },
+    {
+        "QuestionEn": "Never have I ever posted a photo I later regretted",
+        "QuestionFr": "Je n'ai jamais posté une photo que j'ai regrettée après"
+    },
+    {
+        "QuestionEn": "Never have I ever gone to a party without an invitation",
+        "QuestionFr": "Je n'ai jamais été à une fête sans invitation"
+    },
+    {
+        "QuestionEn": "Never have I ever lost a bet",
+        "QuestionFr": "Je n'ai jamais perdu un pari"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a haunted house",
+        "QuestionFr": "Je n'ai jamais été dans une maison hantée"
+    },
+    {
+        "QuestionEn": "Never have I ever lied about being sick to get out of something",
+        "QuestionFr": "Je n'ai jamais menti sur ma maladie pour éviter quelque chose"
+    },
+    {
+        "QuestionEn": "Never have I ever had a crush on a teacher",
+        "QuestionFr": "Je n'ai jamais eu de crush sur un professeur"
+    },
+    {
+        "QuestionEn": "Never have I ever gotten a piercing in a place that wasn't my ears",
+        "QuestionFr": "Je n'ai jamais eu un piercing dans un endroit qui n'était pas mes oreilles"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a strip club",
+        "QuestionFr": "Je n'ai jamais été dans un club de strip-tease"
+    },
+    {
+        "QuestionEn": "Never have I ever tried a weird food combination",
+        "QuestionFr": "Je n'ai jamais essayé une combinaison de nourriture étrange"
+    },
+    {
+        "QuestionEn": "Never have I ever had a tattoo",
+        "QuestionFr": "Je n'ai jamais eu de tatouage"
+    },
+    {
+        "QuestionEn": "Never have I ever sneaked into a movie theater",
+        "QuestionFr": "Je n'ai jamais pénétré dans un cinéma en cachette"
+    },
+    {
+        "QuestionEn": "Never have I ever skipped school",
+        "QuestionFr": "Je n'ai jamais séché l'école"
+    },
+    {
+        "QuestionEn": "Never have I ever sung in front of a large crowd",
+        "QuestionFr": "Je n'ai jamais chanté devant une grande foule"
+    },
+    {
+        "QuestionEn": "Never have I ever traveled abroad alone",
+        "QuestionFr": "Je n'ai jamais voyagé à l'étranger seul"
+    },
+    {
+        "QuestionEn": "Never have I ever spent more than $100 on food in one day",
+        "QuestionFr": "Je n'ai jamais dépensé plus de 100 $ en nourriture en une journée"
+    },
+    {
+        "QuestionEn": "Never have I ever gotten into trouble with the law",
+        "QuestionFr": "Je n'ai jamais eu de problèmes avec la loi"
+    },
+    {
+        "QuestionEn": "Never have I ever met a celebrity",
+        "QuestionFr": "Je n'ai jamais rencontré une célébrité"
+    },
+    {
+        "QuestionEn": "Never have I ever gotten a massage",
+        "QuestionFr": "Je n'ai jamais eu de massage"
+    },
+    {
+        "QuestionEn": "Never have I ever done a DIY project",
+        "QuestionFr": "Je n'ai jamais fait de projet DIY"
+    },
+    {
+        "QuestionEn": "Never have I ever been on a reality TV show",
+        "QuestionFr": "Je n'ai jamais participé à une émission de télé-réalité"
+    },
+    {
+        "QuestionEn": "Never have I ever ridden a horse",
+        "QuestionFr": "Je n'ai jamais monté un cheval"
+    },
+    {
+        "QuestionEn": "Never have I ever had a friend with benefits",
+        "QuestionFr": "Je n'ai jamais eu de 'ami avec des avantages'"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a concert of my favorite band",
+        "QuestionFr": "Je n'ai jamais été à un concert de mon groupe préféré"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a wedding alone",
+        "QuestionFr": "Je n'ai jamais été à un mariage seul"
+    },
+    {
+        "QuestionEn": "Never have I ever ghosted someone",
+        "QuestionFr": "Je n'ai jamais ignoré quelqu'un sans explication"
+    },
+    {
+        "QuestionEn": "Never have I ever been on a blind date",
+        "QuestionFr": "Je n'ai jamais été à un rendez-vous à l'aveugle"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a zoo",
+        "QuestionFr": "Je n'ai jamais été au zoo"
+    },
+    {
+        "QuestionEn": "Never have I ever been in a long-distance relationship",
+        "QuestionFr": "Je n'ai jamais été dans une relation à distance"
+    },
+    {
+        "QuestionEn": "Never have I ever made a prank call",
+        "QuestionFr": "Je n'ai jamais fait de canular téléphonique"
+    },
+    {
+        "QuestionEn": "Never have I ever watched a whole season of a show in one day",
+        "QuestionFr": "Je n'ai jamais regardé toute une saison d'une série en une journée"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a nightclub",
+        "QuestionFr": "Je n'ai jamais été dans une boîte de nuit"
+    },
+    {
+        "QuestionEn": "Never have I ever said something I regretted immediately",
+        "QuestionFr": "Je n'ai jamais dit quelque chose que j'ai regretté immédiatement"
+    },
+    {
+        "QuestionEn": "Never have I ever broken up with someone over text",
+        "QuestionFr": "Je n'ai jamais rompu avec quelqu'un par message"
+    },
+    {
+        "QuestionEn": "Never have I ever lost a phone",
+        "QuestionFr": "Je n'ai jamais perdu de téléphone"
+    },
+    {
+        "QuestionEn": "Never have I ever been on a road trip",
+        "QuestionFr": "Je n'ai jamais été en road trip"
+    },
+    {
+        "QuestionEn": "Never have I ever laughed so hard I cried",
+        "QuestionFr": "Je n'ai jamais ri tellement fort que j'ai pleuré"
+    },
+    {
+        "QuestionEn": "Never have I ever been on an airplane",
+        "QuestionFr": "Je n'ai jamais pris l'avion"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a spa",
+        "QuestionFr": "Je n'ai jamais été dans un spa"
+    },
+    {
+        "QuestionEn": "Never have I ever lied to my best friend",
+        "QuestionFr": "Je n'ai jamais menti à mon meilleur ami"
+    },
+    {
+        "QuestionEn": "Never have I ever gotten a tattoo",
+        "QuestionFr": "Je n'ai jamais eu de tatouage"
+    },
+    {
+        "QuestionEn": "Never have I ever eaten something I was allergic to",
+        "QuestionFr": "Je n'ai jamais mangé quelque chose auquel j'étais allergique"
+    },
+    {
+        "QuestionEn": "Never have I ever made a YouTube video",
+        "QuestionFr": "Je n'ai jamais fait de vidéo YouTube"
+    },
+    {
+        "QuestionEn": "Never have I ever gone skydiving",
+        "QuestionFr": "Je n'ai jamais fait du saut en parachute"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a concert alone",
+        "QuestionFr": "Je n'ai jamais été à un concert seul"
+    },
+    {
+        "QuestionEn": "Never have I ever used a dating app",
+        "QuestionFr": "Je n'ai jamais utilisé une application de rencontre"
+    },
+    {
+        "QuestionEn": "Never have I ever tried an exotic food",
+        "QuestionFr": "Je n'ai jamais essayé de nourriture exotique"
+    },
+    {
+        "QuestionEn": "Never have I ever been in a relationship with someone from another country",
+        "QuestionFr": "Je n'ai jamais été en couple avec quelqu'un d'un autre pays"
+    },
+    {
+        "QuestionEn": "Never have I ever gone on a road trip with friends",
+        "QuestionFr": "Je n'ai jamais fait un road trip avec des amis"
+    },
+    {
+        "QuestionEn": "Never have I ever had a one-night stand",
+        "QuestionFr": "Je n'ai jamais eu une aventure d'un soir"
+    },
+    {
+        "QuestionEn": "Never have I ever had a crush on someone who didn't know",
+        "QuestionFr": "Je n'ai jamais eu de crush sur quelqu'un qui ne savait pas"
+    },
+    {
+        "QuestionEn": "Never have I ever stayed awake for 24 hours straight",
+        "QuestionFr": "Je n'ai jamais veillé pendant 24 heures d'affilée"
+    },
+    {
+        "QuestionEn": "Never have I ever gone bungee jumping",
+        "QuestionFr": "Je n'ai jamais fait du saut à l'élastique"
+    },
+    {
+        "QuestionEn": "Never have I ever broken a bone",
+        "QuestionFr": "Je n'ai jamais cassé un os"
+    },
+    {
+        "QuestionEn": "Never have I ever kissed someone of the same sex",
+        "QuestionFr": "Je n'ai jamais embrassé quelqu'un du même sexe"
+    },
+    {
+        "QuestionEn": "Never have I ever stolen something from a store",
+        "QuestionFr": "Je n'ai jamais volé quelque chose dans un magasin"
+    },
+    {
+        "QuestionEn": "Never have I ever forgotten my best friend's birthday",
+        "QuestionFr": "Je n'ai jamais oublié l'anniversaire de mon meilleur ami"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a festival",
+        "QuestionFr": "Je n'ai jamais été à un festival"
+    },
+    {
+        "QuestionEn": "Never have I ever been on TV",
+        "QuestionFr": "Je n'ai jamais été à la télé"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a wedding I didn't want to attend",
+        "QuestionFr": "Je n'ai jamais été à un mariage que je ne voulais pas fréquenter"
+    },
+    {
+        "QuestionEn": "Never have I ever flirted with someone I didn't like",
+        "QuestionFr": "Je n'ai jamais flirté avec quelqu'un que je n'aimais pas"
+    },
+    {
+        "QuestionEn": "Never have I ever driven a car",
+        "QuestionFr": "Je n'ai jamais conduit de voiture"
+    },
+    {
+        "QuestionEn": "Never have I ever watched a movie more than 5 times",
+        "QuestionFr": "Je n'ai jamais regardé un film plus de 5 fois"
+    },
+    {
+        "QuestionEn": "Never have I ever taken a selfie with a celebrity",
+        "QuestionFr": "Je n'ai jamais pris de selfie avec une célébrité"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a karaoke bar",
+        "QuestionFr": "Je n'ai jamais été dans un bar de karaoké"
+    },
+    {
+        "QuestionEn": "Never have I ever gotten a piercing",
+        "QuestionFr": "Je n'ai jamais eu un piercing"
+    },
+    {
+        "QuestionEn": "Never have I ever gone surfing",
+        "QuestionFr": "Je n'ai jamais fait du surf"
+    },
+    {
+        "QuestionEn": "Never have I ever gone to a comedy show",
+        "QuestionFr": "Je n'ai jamais été à un spectacle de comédie"
+    },
+    {
+        "QuestionEn": "Never have I ever skipped a class for no reason",
+        "QuestionFr": "Je n'ai jamais séché un cours sans raison"
+    },
+    {
+        "QuestionEn": "Never have I ever had a pet hamster",
+        "QuestionFr": "Je n'ai jamais eu de hamster comme animal de compagnie"
+    },
+    {
+        "QuestionEn": "Never have I ever broken up with someone through text",
+        "QuestionFr": "Je n'ai jamais rompu avec quelqu'un par texto"
+    },
+    {
+        "QuestionEn": "Never have I ever been stuck in an elevator",
+        "QuestionFr": "Je n'ai jamais été coincé dans un ascenseur"
+    },
+    {
+        "QuestionEn": "Never have I ever sent a nude photo to someone",
+        "QuestionFr": "Je n'ai jamais envoyé de photo nue à quelqu'un"
+    },
+    {
+        "QuestionEn": "Never have I ever done a prank call",
+        "QuestionFr": "Je n'ai jamais fait un appel en canular"
+    },
+    {
+        "QuestionEn": "Never have I ever been on a blind date",
+        "QuestionFr": "Je n'ai jamais été à un rendez-vous à l'aveugle"
+    },
+    {
+        "QuestionEn": "Never have I ever had a crush on someone who was already taken",
+        "QuestionFr": "Je n'ai jamais eu de crush sur quelqu'un qui était déjà en couple"
+    },
+    {
+        "QuestionEn": "Never have I ever lied about my age",
+        "QuestionFr": "Je n'ai jamais menti sur mon âge"
+    },
+    {
+        "QuestionEn": "Never have I ever gotten lost in a new city",
+        "QuestionFr": "Je n'ai jamais été perdu dans une nouvelle ville"
+    },
+    {
+        "QuestionEn": "Never have I ever met someone famous by accident",
+        "QuestionFr": "Je n'ai jamais rencontré une célébrité par accident"
+    },
+    {
+        "QuestionEn": "Never have I ever had a surprise party thrown for me",
+        "QuestionFr": "Je n'ai jamais eu de fête surprise organisée pour moi"
+    },
+    {
+        "QuestionEn": "Never have I ever had a crush on someone at work",
+        "QuestionFr": "Je n'ai jamais eu de crush sur quelqu'un au travail"
+    },
+    {
+        "QuestionEn": "Never have I ever won a contest",
+        "QuestionFr": "Je n'ai jamais gagné un concours"
+    },
+    {
+        "QuestionEn": "Never have I ever run a marathon",
+        "QuestionFr": "Je n'ai jamais couru un marathon"
+    },
+    {
+        "QuestionEn": "Never have I ever watched a reality show",
+        "QuestionFr": "Je n'ai jamais regardé une émission de télé-réalité"
+    },
+    {
+        "QuestionEn": "Never have I ever been on a roller coaster",
+        "QuestionFr": "Je n'ai jamais fait de montagnes russes"
+    },
+    {
+        "QuestionEn": "Never have I ever done a cartwheel",
+        "QuestionFr": "Je n'ai jamais fait une roue"
+    },
+    {
+        "QuestionEn": "Never have I ever slept outside under the stars",
+        "QuestionFr": "Je n'ai jamais dormi dehors sous les étoiles"
+    },
+    {
+        "QuestionEn": "Never have I ever done something illegal",
+        "QuestionFr": "Je n'ai jamais fait quelque chose d'illégal"
+    },
+    {
+        "QuestionEn": "Never have I ever taken part in a protest",
+        "QuestionFr": "Je n'ai jamais participé à une manifestation"
+    },
+    {
+        "QuestionEn": "Never have I ever broken something expensive",
+        "QuestionFr": "Je n'ai jamais cassé quelque chose de cher"
+    },
+    {
+        "QuestionEn": "Never have I ever been on a helicopter ride",
+        "QuestionFr": "Je n'ai jamais fait un tour en hélicoptère"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a foreign country",
+        "QuestionFr": "Je n'ai jamais été dans un pays étranger"
+    },
+    {
+        "QuestionEn": "Never have I ever had a secret admirer",
+        "QuestionFr": "Je n'ai jamais eu de fan secret"
+    },
+    {
+        "QuestionEn": "Never have I ever stolen money from my parents",
+        "QuestionFr": "Je n'ai jamais volé de l'argent à mes parents"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a fancy restaurant",
+        "QuestionFr": "Je n'ai jamais été dans un restaurant chic"
+    },
+    {
+        "QuestionEn": "Never have I ever got a speeding ticket",
+        "QuestionFr": "Je n'ai jamais reçu une amende pour excès de vitesse"
+    },
+    {
+        "QuestionEn": "Never have I ever skipped work for no reason",
+        "QuestionFr": "Je n'ai jamais séché le travail sans raison"
+    },
+    {
+        "QuestionEn": "Never have I ever been on a date with someone I met online",
+        "QuestionFr": "Je n'ai jamais eu de rendez-vous avec quelqu'un que j'ai rencontré en ligne"
+    },
+    {
+        "QuestionEn": "Never have I ever played a prank on someone",
+        "QuestionFr": "Je n'ai jamais fait de blague à quelqu'un"
+    },
+    {
+        "QuestionEn": "Never have I ever been on a cruise",
+        "QuestionFr": "Je n'ai jamais été en croisière"
+    },
+    {
+        "QuestionEn": "Never have I ever tried to skip a class or meeting",
+        "QuestionFr": "Je n'ai jamais essayé de sécher un cours ou une réunion"
+    },
+    {
+        "QuestionEn": "Never have I ever been caught cheating on a test",
+        "QuestionFr": "Je n'ai jamais été pris en train de tricher à un examen"
+    },
+    {
+        "QuestionEn": "Never have I ever played a sport competitively",
+        "QuestionFr": "Je n'ai jamais joué à un sport de manière compétitive"
+    },
+    {
+        "QuestionEn": "Never have I ever bought something expensive without consulting anyone",
+        "QuestionFr": "Je n'ai jamais acheté quelque chose de cher sans consulter personne"
+    },
+    {
+        "QuestionEn": "Never have I ever stayed awake all night binge-watching a TV series",
+        "QuestionFr": "Je n'ai jamais veillé toute la nuit à regarder une série"
+    },
+    {
+        "QuestionEn": "Never have I ever been in a fight",
+        "QuestionFr": "Je n'ai jamais été dans une bagarre"
+    },
+    {
+        "QuestionEn": "Never have I ever been to an amusement park",
+        "QuestionFr": "Je n'ai jamais été dans un parc d'attractions"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a zoo",
+        "QuestionFr": "Je n'ai jamais été au zoo"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a spa",
+        "QuestionFr": "Je n'ai jamais été dans un spa"
+    },
+    {
+        "QuestionEn": "Never have I ever thrown up in public",
+        "QuestionFr": "Je n'ai jamais vomi en public"
+    },
+    {
+        "QuestionEn": "Never have I ever been on a reality TV show",
+        "QuestionFr": "Je n'ai jamais été dans une émission de télé-réalité"
+    },
+    {
+        "QuestionEn": "Never have I ever been so scared that I couldn't move",
+        "QuestionFr": "Je n'ai jamais été si effrayé que je ne pouvais pas bouger"
+    },
+    {
+        "QuestionEn": "Never have I ever gotten a speeding ticket",
+        "QuestionFr": "Je n'ai jamais reçu une amende pour excès de vitesse"
+    },
+    {
+        "QuestionEn": "Never have I ever eaten food that was past its expiration date",
+        "QuestionFr": "Je n'ai jamais mangé de nourriture après sa date d'expiration"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a haunted house",
+        "QuestionFr": "Je n'ai jamais été dans une maison hantée"
+    },
+    {
+        "QuestionEn": "Never have I ever met someone I didn't like immediately",
+        "QuestionFr": "Je n'ai jamais rencontré quelqu'un que je n'ai pas aimé immédiatement"
+    },
+    {
+        "QuestionEn": "Never have I ever been arrested",
+        "QuestionFr": "Je n'ai jamais été arrêté"
+    },
+    {
+        "QuestionEn": "Never have I ever sung karaoke in front of a large crowd",
+        "QuestionFr": "Je n'ai jamais chanté au karaoké devant une grande foule"
+    },
+    {
+        "QuestionEn": "Never have I ever lied about my location to someone",
+        "QuestionFr": "Je n'ai jamais menti sur ma localisation à quelqu'un"
+    },
+    {
+        "QuestionEn": "Never have I ever gone on a road trip without a map",
+        "QuestionFr": "Je n'ai jamais fait un road trip sans carte"
+    },
+    {
+        "QuestionEn": "Never have I ever accidentally sent a message to the wrong person",
+        "QuestionFr": "Je n'ai jamais envoyé un message à la mauvaise personne par accident"
+    },
+    {
+        "QuestionEn": "Never have I ever done something I regretted immediately",
+        "QuestionFr": "Je n'ai jamais fait quelque chose que j'ai regretté immédiatement"
+    },
+    {
+        "QuestionEn": "Never have I ever used someone else's toothbrush",
+        "QuestionFr": "Je n'ai jamais utilisé la brosse à dents de quelqu'un d'autre"
+    },
+    {
+        "QuestionEn": "Never have I ever been on an airplane",
+        "QuestionFr": "Je n'ai jamais été dans un avion"
+    },
+    {
+        "QuestionEn": "Never have I ever slept in a tent",
+        "QuestionFr": "Je n'ai jamais dormi dans une tente"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a wedding",
+        "QuestionFr": "Je n'ai jamais été à un mariage"
+    },
+    {
+        "QuestionEn": "Never have I ever been on a train",
+        "QuestionFr": "Je n'ai jamais été dans un train"
+    },
+    {
+        "QuestionEn": "Never have I ever watched a movie that made me cry",
+        "QuestionFr": "Je n'ai jamais regardé un film qui m'a fait pleurer"
+    },
+    {
+        "QuestionEn": "Never have I ever been in love",
+        "QuestionFr": "Je n'ai jamais été amoureux"
+    },
+    {
+        "QuestionEn": "Never have I ever lied about my relationship status",
+        "QuestionFr": "Je n'ai jamais menti sur mon statut relationnel"
+    },
+    {
+        "QuestionEn": "Never have I ever sent a text to the wrong person",
+        "QuestionFr": "Je n'ai jamais envoyé un texto à la mauvaise personne"
+    },
+    {
+        "QuestionEn": "Never have I ever been on a blind date",
+        "QuestionFr": "Je n'ai jamais été à un rendez-vous à l'aveugle"
+    },
+    {
+        "QuestionEn": "Never have I ever told a secret I wasn't supposed to",
+        "QuestionFr": "Je n'ai jamais révélé un secret que je n'étais pas censé dire"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a beach",
+        "QuestionFr": "Je n'ai jamais été à la plage"
+    },
+    {
+        "QuestionEn": "Never have I ever jumped into a pool with my clothes on",
+        "QuestionFr": "Je n'ai jamais sauté dans une piscine avec mes vêtements"
+    },
+    {
+        "QuestionEn": "Never have I ever eaten something with my hands in a fancy restaurant",
+        "QuestionFr": "Je n'ai jamais mangé quelque chose avec mes mains dans un restaurant chic"
+    },
+    {
+        "QuestionEn": "Never have I ever had a crush on a friend's ex",
+        "QuestionFr": "Je n'ai jamais eu de crush sur l'ex d'un ami"
+    },
+    {
+        "QuestionEn": "Never have I ever gone camping in the wilderness",
+        "QuestionFr": "Je n'ai jamais fait du camping dans la nature"
+    },
+    {
+        "QuestionEn": "Never have I ever won a game of Monopoly",
+        "QuestionFr": "Je n'ai jamais gagné à un jeu de Monopoly"
+    },
+    {
+        "QuestionEn": "Never have I ever danced in public",
+        "QuestionFr": "Je n'ai jamais dansé en public"
+    },
+    {
+        "QuestionEn": "Never have I ever slept in a hammock",
+        "QuestionFr": "Je n'ai jamais dormi dans un hamac"
+    },
+    {
+        "QuestionEn": "Never have I ever cooked a meal from scratch",
+        "QuestionFr": "Je n'ai jamais cuisiné un repas de A à Z"
+    },
+    {
+        "QuestionEn": "Never have I ever worn something embarrassing in public",
+        "QuestionFr": "Je n'ai jamais porté quelque chose de gênant en public"
+    },
+    {
+        "QuestionEn": "Never have I ever been to a haunted place",
+        "QuestionFr": "Je n'ai jamais été dans un endroit hanté"
+    },
+    {
+        "QuestionEn": "Never have I ever stolen something from a friend",
+        "QuestionFr": "Je n'ai jamais volé quelque chose à un ami"
+    },
+    {
+        "QuestionEn": "Never have I ever stayed in a luxury hotel",
+        "QuestionFr": "Je n'ai jamais séjourné dans un hôtel de luxe"
+    }
+]

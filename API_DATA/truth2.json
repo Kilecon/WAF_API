@@ -1,0 +1,762 @@
+[
+    {
+        "QuestionEn": "Have you ever lied to get out of a situation?",
+        "QuestionFr": "Avez-vous déjà menti pour sortir d'une situation ?"
+    },
+    {
+        "QuestionEn": "What is the biggest lie you’ve ever told?",
+        "QuestionFr": "Quel est le plus gros mensonge que vous ayez jamais dit ?"
+    },
+    {
+        "QuestionEn": "Have you ever had a crush on someone in this room?",
+        "QuestionFr": "Avez-vous déjà eu un crush sur quelqu'un dans cette pièce ?"
+    },
+    {
+        "QuestionEn": "What is something you’ve done that you regret?",
+        "QuestionFr": "Qu'est-ce que vous avez fait que vous regrettez ?"
+    },
+    {
+        "QuestionEn": "What is the most embarrassing thing you’ve done for attention?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante que vous ayez faite pour attirer l'attention ?"
+    },
+    {
+        "QuestionEn": "Have you ever cheated on a test?",
+        "QuestionFr": "Avez-vous déjà triché à un examen ?"
+    },
+    {
+        "QuestionEn": "What’s something you’ve never told anyone?",
+        "QuestionFr": "Qu'est-ce que vous n'avez jamais dit à personne ?"
+    },
+    {
+        "QuestionEn": "What is one thing you wish you could change about yourself?",
+        "QuestionFr": "Quelle est une chose que vous souhaiteriez pouvoir changer chez vous ?"
+    },
+    {
+        "QuestionEn": "Have you ever had a secret relationship?",
+        "QuestionFr": "Avez-vous déjà eu une relation secrète ?"
+    },
+    {
+        "QuestionEn": "What is the most embarrassing thing you've ever done?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante que vous ayez jamais faite ?"
+    },
+    {
+        "QuestionEn": "Have you ever lied to get out of trouble?",
+        "QuestionFr": "Avez-vous déjà menti pour sortir d'une situation difficile ?"
+    },
+    {
+        "QuestionEn": "What’s the worst date you’ve ever been on?",
+        "QuestionFr": "Quel est le pire rendez-vous auquel vous êtes allé ?"
+    },
+    {
+        "QuestionEn": "What’s your biggest fear?",
+        "QuestionFr": "Quelle est votre plus grande peur ?"
+    },
+    {
+        "QuestionEn": "Have you ever stolen something?",
+        "QuestionFr": "Avez-vous déjà volé quelque chose ?"
+    },
+    {
+        "QuestionEn": "What’s the last lie you told?",
+        "QuestionFr": "Quel est le dernier mensonge que vous avez dit ?"
+    },
+    {
+        "QuestionEn": "Have you ever had a crush on someone who didn’t know?",
+        "QuestionFr": "Avez-vous déjà eu un crush sur quelqu'un qui ne le savait pas ?"
+    },
+    {
+        "QuestionEn": "What’s the most rebellious thing you’ve ever done?",
+        "QuestionFr": "Quelle est la chose la plus rebelle que vous ayez jamais faite ?"
+    },
+    {
+        "QuestionEn": "What’s something you’re ashamed of?",
+        "QuestionFr": "Qu'est-ce dont vous avez honte ?"
+    },
+    {
+        "QuestionEn": "What is your biggest pet peeve?",
+        "QuestionFr": "Quelle est votre plus grande source d'irritation ?"
+    },
+    {
+        "QuestionEn": "Have you ever been in love?",
+        "QuestionFr": "Avez-vous déjà été amoureux ?"
+    },
+    {
+        "QuestionEn": "Have you ever had a secret crush?",
+        "QuestionFr": "Avez-vous déjà eu un crush secret ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing thing in your search history?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante dans votre historique de recherche ?"
+    },
+    {
+        "QuestionEn": "Have you ever gossiped about someone in this room?",
+        "QuestionFr": "Avez-vous déjà colporté des potins sur quelqu'un dans cette pièce ?"
+    },
+    {
+        "QuestionEn": "What’s the worst thing you've done to someone?",
+        "QuestionFr": "Quelle est la pire chose que vous ayez faite à quelqu'un ?"
+    },
+    {
+        "QuestionEn": "What’s a secret talent you have?",
+        "QuestionFr": "Quel est un talent caché que vous avez ?"
+    },
+    {
+        "QuestionEn": "What’s the biggest mistake you’ve ever made in a relationship?",
+        "QuestionFr": "Quelle est la plus grosse erreur que vous ayez jamais faite dans une relation ?"
+    },
+    {
+        "QuestionEn": "What’s one thing you would never do for money?",
+        "QuestionFr": "Quelle est une chose que vous ne feriez jamais pour de l'argent ?"
+    },
+    {
+        "QuestionEn": "Have you ever had an embarrassing crush on a teacher?",
+        "QuestionFr": "Avez-vous déjà eu un crush embarrassant sur un professeur ?"
+    },
+    {
+        "QuestionEn": "What’s your biggest regret?",
+        "QuestionFr": "Quel est votre plus grand regret ?"
+    },
+    {
+        "QuestionEn": "What’s something you wish you could forget?",
+        "QuestionFr": "Qu'est-ce que vous aimeriez pouvoir oublier ?"
+    },
+    {
+        "QuestionEn": "Have you ever been caught doing something you shouldn’t?",
+        "QuestionFr": "Avez-vous déjà été pris en train de faire quelque chose que vous ne devriez pas ?"
+    },
+    {
+        "QuestionEn": "What’s the weirdest thing you’ve ever eaten?",
+        "QuestionFr": "Quelle est la chose la plus étrange que vous ayez jamais mangée ?"
+    },
+    {
+        "QuestionEn": "What’s the last thing you searched for on your phone?",
+        "QuestionFr": "Quelle est la dernière chose que vous avez recherchée sur votre téléphone ?"
+    },
+    {
+        "QuestionEn": "What’s the biggest lie you’ve ever told someone?",
+        "QuestionFr": "Quel est le plus gros mensonge que vous ayez jamais dit à quelqu'un ?"
+    },
+    {
+        "QuestionEn": "Have you ever pretended to like something you didn’t?",
+        "QuestionFr": "Avez-vous déjà fait semblant d'aimer quelque chose que vous n'aimiez pas ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing thing you’ve said in public?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante que vous ayez dite en public ?"
+    },
+    {
+        "QuestionEn": "What’s something you’ve done that no one knows about?",
+        "QuestionFr": "Qu'est-ce que vous avez fait que personne ne sait ?"
+    },
+    {
+        "QuestionEn": "What’s your biggest insecurity?",
+        "QuestionFr": "Quelle est votre plus grande insécurité ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing thing you’ve ever posted on social media?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante que vous ayez postée sur les réseaux sociaux ?"
+    },
+    {
+        "QuestionEn": "Have you ever lied about your age?",
+        "QuestionFr": "Avez-vous déjà menti sur votre âge ?"
+    },
+    {
+        "QuestionEn": "What’s the most ridiculous thing you’ve ever argued about?",
+        "QuestionFr": "Quelle est la chose la plus ridicule sur laquelle vous ayez jamais argumenté ?"
+    },
+    {
+        "QuestionEn": "What’s something you’ve done that’s made you feel really guilty?",
+        "QuestionFr": "Qu'est-ce que vous avez fait qui vous a fait vous sentir vraiment coupable ?"
+    },
+    {
+        "QuestionEn": "What’s something you’ve never told your parents?",
+        "QuestionFr": "Qu'est-ce que vous n'avez jamais dit à vos parents ?"
+    },
+    {
+        "QuestionEn": "Have you ever had a secret that you couldn’t tell anyone?",
+        "QuestionFr": "Avez-vous déjà eu un secret que vous n'avez pu dire à personne ?"
+    },
+    {
+        "QuestionEn": "What’s something you’ve done that you would never want anyone to know?",
+        "QuestionFr": "Qu'est-ce que vous avez fait que vous ne voudriez jamais que quelqu'un sache ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing thing you’ve done while drunk?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante que vous ayez faite en étant ivre ?"
+    },
+    {
+        "QuestionEn": "Have you ever made a prank call?",
+        "QuestionFr": "Avez-vous déjà fait un appel en farce ?"
+    },
+    {
+        "QuestionEn": "Have you ever been attracted to someone in a relationship?",
+        "QuestionFr": "Avez-vous déjà été attiré par quelqu'un qui était en couple ?"
+    },
+    {
+        "QuestionEn": "What’s the dumbest thing you’ve done because of love?",
+        "QuestionFr": "Quelle est la chose la plus bête que vous ayez faite à cause de l'amour ?"
+    },
+    {
+        "QuestionEn": "What’s something you’ve done that you would do again in a heartbeat?",
+        "QuestionFr": "Qu'est-ce que vous avez fait que vous feriez à nouveau en un clin d'œil ?"
+    },
+    {
+        "QuestionEn": "What’s the biggest thing you’ve learned from a breakup?",
+        "QuestionFr": "Quelle est la plus grande chose que vous ayez apprise d'une rupture ?"
+    },
+    {
+        "QuestionEn": "Have you ever had a crush on someone who was already taken?",
+        "QuestionFr": "Avez-vous déjà eu un crush sur quelqu'un qui était déjà en couple ?"
+    },
+    {
+        "QuestionEn": "What’s the worst thing you’ve ever done to someone you love?",
+        "QuestionFr": "Quelle est la pire chose que vous ayez faite à quelqu'un que vous aimez ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing thing you’ve ever done in front of a crush?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante que vous ayez faite devant un crush ?"
+    },
+    {
+        "QuestionEn": "Have you ever cheated on someone?",
+        "QuestionFr": "Avez-vous déjà trompé quelqu'un ?"
+    },
+    {
+        "QuestionEn": "What’s the worst piece of advice you’ve ever received?",
+        "QuestionFr": "Quel est le pire conseil que vous ayez jamais reçu ?"
+    },
+    {
+        "QuestionEn": "What’s your biggest fear in a relationship?",
+        "QuestionFr": "Quelle est votre plus grande peur dans une relation ?"
+    },
+    {
+        "QuestionEn": "What’s the most awkward thing that has happened to you on a date?",
+        "QuestionFr": "Quelle est la chose la plus gênante qui vous soit arrivée lors d'un rendez-vous ?"
+    },
+    {
+        "QuestionEn": "What’s the most ridiculous thing you've done for attention?",
+        "QuestionFr": "Quelle est la chose la plus ridicule que vous ayez faite pour attirer l'attention ?"
+    },
+    {
+        "QuestionEn": "What’s the most awkward situation you've been in?",
+        "QuestionFr": "Quelle est la situation la plus gênante dans laquelle vous vous êtes retrouvé ?"
+    },
+    {
+        "QuestionEn": "Have you ever lied to your best friend?",
+        "QuestionFr": "Avez-vous déjà menti à votre meilleur ami ?"
+    },
+    {
+        "QuestionEn": "Have you ever had a one-night stand?",
+        "QuestionFr": "Avez-vous déjà eu une aventure d'une nuit ?"
+    },
+    {
+        "QuestionEn": "What’s something you’ve done in the past that you would never do again?",
+        "QuestionFr": "Qu'est-ce que vous avez fait dans le passé que vous ne feriez plus jamais ?"
+    },
+    {
+        "QuestionEn": "Have you ever been attracted to someone of the same sex?",
+        "QuestionFr": "Avez-vous déjà été attiré par une personne du même sexe ?"
+    },
+    {
+        "QuestionEn": "What’s the worst haircut you’ve ever had?",
+        "QuestionFr": "Quelle est la pire coupe de cheveux que vous ayez jamais eue ?"
+    },
+    {
+        "QuestionEn": "What’s the craziest thing you’ve ever done on a dare?",
+        "QuestionFr": "Quelle est la chose la plus folle que vous ayez faite lors d'un pari ?"
+    },
+    {
+        "QuestionEn": "Have you ever sent a sext?",
+        "QuestionFr": "Avez-vous déjà envoyé un message sexy ?"
+    },
+    {
+        "QuestionEn": "What’s the worst thing you've done while drunk?",
+        "QuestionFr": "Quelle est la pire chose que vous ayez faite en étant ivre ?"
+    },
+    {
+        "QuestionEn": "What’s a bad habit you have?",
+        "QuestionFr": "Quelle est une mauvaise habitude que vous avez ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing thing you’ve done for a crush?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante que vous ayez faite pour un crush ?"
+    },
+    {
+        "QuestionEn": "What’s a secret you've kept from your parents?",
+        "QuestionFr": "Quel est un secret que vous avez gardé de vos parents ?"
+    },
+    {
+        "QuestionEn": "Have you ever had a secret relationship?",
+        "QuestionFr": "Avez-vous déjà eu une relation secrète ?"
+    },
+    {
+        "QuestionEn": "What’s the worst thing you've done to someone you care about?",
+        "QuestionFr": "Quelle est la pire chose que vous ayez faite à quelqu'un qui vous tient à cœur ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing thing you’ve posted on social media?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante que vous ayez postée sur les réseaux sociaux ?"
+    },
+    {
+        "QuestionEn": "Have you ever been caught doing something you shouldn't?",
+        "QuestionFr": "Avez-vous déjà été pris en train de faire quelque chose que vous ne devriez pas ?"
+    },
+    {
+        "QuestionEn": "What’s the biggest lie you’ve ever told?",
+        "QuestionFr": "Quel est le plus gros mensonge que vous ayez jamais dit ?"
+    },
+    {
+        "QuestionEn": "Have you ever kissed someone you didn’t like?",
+        "QuestionFr": "Avez-vous déjà embrassé quelqu'un que vous n'aimiez pas ?"
+    },
+    {
+        "QuestionEn": "What’s the craziest thing you’ve done for love?",
+        "QuestionFr": "Quelle est la chose la plus folle que vous ayez faite par amour ?"
+    },
+    {
+        "QuestionEn": "Have you ever had a crush on someone who was already in a relationship?",
+        "QuestionFr": "Avez-vous déjà eu un crush sur quelqu'un qui était déjà en couple ?"
+    },
+    {
+        "QuestionEn": "What’s the weirdest dream you've ever had?",
+        "QuestionFr": "Quel est le rêve le plus étrange que vous ayez jamais eu ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing thing you've ever said to your crush?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante que vous ayez dite à votre crush ?"
+    },
+    {
+        "QuestionEn": "Have you ever lied about being sick to avoid something?",
+        "QuestionFr": "Avez-vous déjà menti en disant que vous étiez malade pour éviter quelque chose ?"
+    },
+    {
+        "QuestionEn": "What’s your biggest fear in a relationship?",
+        "QuestionFr": "Quelle est votre plus grande peur dans une relation ?"
+    },
+    {
+        "QuestionEn": "What’s the worst thing you’ve ever said in an argument?",
+        "QuestionFr": "Quelle est la pire chose que vous ayez dite lors d'une dispute ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing thing that’s happened to you in public?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante qui vous soit arrivée en public ?"
+    },
+    {
+        "QuestionEn": "Have you ever been rejected by someone you liked?",
+        "QuestionFr": "Avez-vous déjà été rejeté par quelqu'un que vous aimiez ?"
+    },
+    {
+        "QuestionEn": "What’s something you’ve never told your best friend?",
+        "QuestionFr": "Qu'est-ce que vous n'avez jamais dit à votre meilleur ami ?"
+    },
+    {
+        "QuestionEn": "What’s the most awkward thing you’ve done in front of someone?",
+        "QuestionFr": "Quelle est la chose la plus gênante que vous ayez faite devant quelqu'un ?"
+    },
+    {
+        "QuestionEn": "What’s your biggest insecurity?",
+        "QuestionFr": "Quelle est votre plus grande insécurité ?"
+    },
+    {
+        "QuestionEn": "What’s the worst first date you’ve ever had?",
+        "QuestionFr": "Quel est le pire premier rendez-vous que vous ayez jamais eu ?"
+    },
+    {
+        "QuestionEn": "Have you ever had a crush on someone who didn’t know you existed?",
+        "QuestionFr": "Avez-vous déjà eu un crush sur quelqu'un qui ne savait pas que vous existiez ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing thing you’ve done for a dare?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante que vous ayez faite lors d'un défi ?"
+    },
+    {
+        "QuestionEn": "Have you ever cheated on a test?",
+        "QuestionFr": "Avez-vous déjà triché à un examen ?"
+    },
+    {
+        "QuestionEn": "What’s your worst habit?",
+        "QuestionFr": "Quelle est votre pire habitude ?"
+    },
+    {
+        "QuestionEn": "What’s something you would never do for money?",
+        "QuestionFr": "Qu'est-ce que vous ne feriez jamais pour de l'argent ?"
+    },
+    {
+        "QuestionEn": "What’s the worst piece of advice you’ve ever followed?",
+        "QuestionFr": "Quel est le pire conseil que vous ayez jamais suivi ?"
+    },
+    {
+        "QuestionEn": "What’s something you’ve done that you’re really proud of?",
+        "QuestionFr": "Qu'est-ce que vous avez fait dont vous êtes vraiment fier ?"
+    },
+    {
+        "QuestionEn": "What’s the biggest secret you’ve kept from your parents?",
+        "QuestionFr": "Quel est le plus grand secret que vous ayez gardé de vos parents ?"
+    },
+    {
+        "QuestionEn": "What’s the worst gift you've ever received?",
+        "QuestionFr": "Quel est le pire cadeau que vous ayez jamais reçu ?"
+    },
+    {
+        "QuestionEn": "Have you ever said something you regretted immediately after?",
+        "QuestionFr": "Avez-vous déjà dit quelque chose que vous avez regretté immédiatement après ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing thing you’ve done for someone else?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante que vous ayez faite pour quelqu'un d'autre ?"
+    },
+    {
+        "QuestionEn": "What’s your worst memory from school?",
+        "QuestionFr": "Quel est votre pire souvenir d'école ?"
+    },
+    {
+        "QuestionEn": "Have you ever pretended to be someone else?",
+        "QuestionFr": "Avez-vous déjà fait semblant d'être quelqu'un d'autre ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing thing you’ve done while on a video call?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante que vous ayez faite lors d'un appel vidéo ?"
+    },
+    {
+        "QuestionEn": "Have you ever had a secret crush on someone in this room?",
+        "QuestionFr": "Avez-vous déjà eu un crush secret sur quelqu'un dans cette pièce ?"
+    },
+    {
+        "QuestionEn": "What’s something you’ve never told your parents?",
+        "QuestionFr": "Qu'est-ce que vous n'avez jamais dit à vos parents ?"
+    },
+    {
+        "QuestionEn": "Have you ever flirted with someone just to make someone jealous?",
+        "QuestionFr": "Avez-vous déjà flirté avec quelqu'un juste pour rendre quelqu'un jaloux ?"
+    },
+    {
+        "QuestionEn": "What’s the most awkward thing you’ve done to impress someone?",
+        "QuestionFr": "Quelle est la chose la plus gênante que vous ayez faite pour impressionner quelqu'un ?"
+    },
+    {
+        "QuestionEn": "What’s the biggest lie you’ve told to avoid trouble?",
+        "QuestionFr": "Quel est le plus gros mensonge que vous avez dit pour éviter les ennuis ?"
+    },
+    {
+        "QuestionEn": "What’s something you secretly love but would never admit?",
+        "QuestionFr": "Qu'est-ce que vous aimez secrètement mais que vous n'admettriez jamais ?"
+    },
+    {
+        "QuestionEn": "What’s a rumor you’ve heard about yourself?",
+        "QuestionFr": "Quelle est une rumeur que vous avez entendue à propos de vous-même ?"
+    },
+    {
+        "QuestionEn": "What’s the strangest thing you’ve ever Googled?",
+        "QuestionFr": "Quelle est la chose la plus étrange que vous ayez jamais recherchée sur Google ?"
+    },
+    {
+        "QuestionEn": "Have you ever lied about your age?",
+        "QuestionFr": "Avez-vous déjà menti sur votre âge ?"
+    },
+    {
+        "QuestionEn": "What’s something that always makes you laugh?",
+        "QuestionFr": "Qu'est-ce qui vous fait toujours rire ?"
+    },
+    {
+        "QuestionEn": "Have you ever had a crush on a teacher?",
+        "QuestionFr": "Avez-vous déjà eu un crush sur un professeur ?"
+    },
+    {
+        "QuestionEn": "What’s the worst decision you’ve made in the past year?",
+        "QuestionFr": "Quelle est la pire décision que vous ayez prise l'année dernière ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing thing that’s happened to you on a date?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante qui vous soit arrivée lors d'un rendez-vous ?"
+    },
+    {
+        "QuestionEn": "Have you ever broken someone’s heart?",
+        "QuestionFr": "Avez-vous déjà brisé le cœur de quelqu'un ?"
+    },
+    {
+        "QuestionEn": "What’s something you’ve always wanted to try but never have?",
+        "QuestionFr": "Qu'est-ce que vous avez toujours voulu essayer mais que vous n'avez jamais fait ?"
+    },
+    {
+        "QuestionEn": "What’s the most rebellious thing you did as a child?",
+        "QuestionFr": "Quelle est la chose la plus rebelle que vous ayez faite quand vous étiez enfant ?"
+    },
+    {
+        "QuestionEn": "What’s the biggest regret you have in life?",
+        "QuestionFr": "Quel est le plus grand regret que vous ayez dans la vie ?"
+    },
+    {
+        "QuestionEn": "What’s your biggest pet peeve?",
+        "QuestionFr": "Quelle est votre plus grande agacement ?"
+    },
+    {
+        "QuestionEn": "Have you ever been caught doing something embarrassing?",
+        "QuestionFr": "Avez-vous déjà été pris en train de faire quelque chose de gênant ?"
+    },
+    {
+        "QuestionEn": "What’s something you would do if you knew no one would judge you?",
+        "QuestionFr": "Qu'est-ce que vous feriez si vous saviez que personne ne vous jugerait ?"
+    },
+    {
+        "QuestionEn": "What’s the most disgusting habit you have?",
+        "QuestionFr": "Quelle est la habitude la plus dégoûtante que vous ayez ?"
+    },
+    {
+        "QuestionEn": "What’s a secret you've never told anyone?",
+        "QuestionFr": "Quel est un secret que vous n'avez jamais dit à personne ?"
+    },
+    {
+        "QuestionEn": "What’s the most awkward thing that’s happened at work?",
+        "QuestionFr": "Quelle est la chose la plus gênante qui soit arrivée au travail ?"
+    },
+    {
+        "QuestionEn": "Have you ever pretended to like something just to fit in?",
+        "QuestionFr": "Avez-vous déjà fait semblant d'aimer quelque chose juste pour vous intégrer ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing thing you’ve done on social media?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante que vous ayez faite sur les réseaux sociaux ?"
+    },
+    {
+        "QuestionEn": "What’s something you used to believe but don't anymore?",
+        "QuestionFr": "Qu'est-ce que vous croyiez autrefois mais que vous ne croyez plus maintenant ?"
+    },
+    {
+        "QuestionEn": "Have you ever ghosted someone?",
+        "QuestionFr": "Avez-vous déjà ghosté quelqu'un ?"
+    },
+    {
+        "QuestionEn": "What’s something you’re really self-conscious about?",
+        "QuestionFr": "Qu'est-ce qui vous rend vraiment conscient de vous-même ?"
+    },
+    {
+        "QuestionEn": "What’s something you’ve done that you wish you could undo?",
+        "QuestionFr": "Qu'est-ce que vous avez fait que vous souhaiteriez pouvoir annuler ?"
+    },
+    {
+        "QuestionEn": "What’s something you’ve been hiding from your friends?",
+        "QuestionFr": "Qu'est-ce que vous avez caché à vos amis ?"
+    },
+    {
+        "QuestionEn": "What’s your biggest fear?",
+        "QuestionFr": "Quelle est votre plus grande peur ?"
+    },
+    {
+        "QuestionEn": "What’s the most ridiculous thing you’ve ever done for a dare?",
+        "QuestionFr": "Quelle est la chose la plus ridicule que vous ayez faite pour un défi ?"
+    },
+    {
+        "QuestionEn": "What’s a bad habit that you can't seem to break?",
+        "QuestionFr": "Quelle est une mauvaise habitude que vous n'arrivez pas à arrêter ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing thing you’ve done at a party?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante que vous ayez faite à une fête ?"
+    },
+    {
+        "QuestionEn": "What’s the most childish thing you still do?",
+        "QuestionFr": "Quelle est la chose la plus enfantine que vous fassiez encore ?"
+    },
+    {
+        "QuestionEn": "What’s the longest you've gone without showering?",
+        "QuestionFr": "Quelle est la plus longue période sans avoir pris de douche ?"
+    },
+    {
+        "QuestionEn": "Have you ever made out in public?",
+        "QuestionFr": "Avez-vous déjà embrassé quelqu'un en public ?"
+    },
+    {
+        "QuestionEn": "What’s something you've always wanted to do but never have?",
+        "QuestionFr": "Qu'est-ce que vous avez toujours voulu faire mais que vous n'avez jamais fait ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing thing you've done in front of a crush?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante que vous ayez faite devant un crush ?"
+    },
+    {
+        "QuestionEn": "What’s the most inappropriate thing you've ever said?",
+        "QuestionFr": "Quelle est la chose la plus inappropriée que vous ayez jamais dite ?"
+    },
+    {
+        "QuestionEn": "What’s your worst habit that you can't quit?",
+        "QuestionFr": "Quelle est votre pire habitude que vous n'arrivez pas à arrêter ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing text you've ever sent?",
+        "QuestionFr": "Quel est le message le plus embarrassant que vous ayez envoyé ?"
+    },
+    {
+        "QuestionEn": "What’s the dumbest thing you’ve ever done to impress someone?",
+        "QuestionFr": "Quelle est la chose la plus stupide que vous ayez faite pour impressionner quelqu'un ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing thing you’ve ever done in front of your family?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante que vous ayez faite devant votre famille ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing thing you’ve done while drunk?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante que vous ayez faite sous l’effet de l’alcool ?"
+    },
+    {
+        "QuestionEn": "Have you ever had a crush on someone you shouldn't have?",
+        "QuestionFr": "Avez-vous déjà eu un crush sur quelqu'un que vous ne devriez pas avoir ?"
+    },
+    {
+        "QuestionEn": "What’s the most expensive thing you've ever bought for yourself?",
+        "QuestionFr": "Quelle est la chose la plus chère que vous ayez jamais achetée pour vous-même ?"
+    },
+    {
+        "QuestionEn": "What’s a habit you wish you could break?",
+        "QuestionFr": "Quelle est une habitude que vous souhaiteriez pouvoir arrêter ?"
+    },
+    {
+        "QuestionEn": "What’s the worst gift you’ve ever received?",
+        "QuestionFr": "Quel est le pire cadeau que vous ayez jamais reçu ?"
+    },
+    {
+        "QuestionEn": "What’s the last thing you searched for on your phone?",
+        "QuestionFr": "Quelle est la dernière chose que vous avez recherchée sur votre téléphone ?"
+    },
+    {
+        "QuestionEn": "Have you ever cheated on a partner?",
+        "QuestionFr": "Avez-vous déjà trompé un partenaire ?"
+    },
+    {
+        "QuestionEn": "What’s something you’re embarrassed to admit you enjoy?",
+        "QuestionFr": "Qu'est-ce que vous êtes gêné de dire que vous aimez ?"
+    },
+    {
+        "QuestionEn": "What’s the weirdest dream you've ever had?",
+        "QuestionFr": "Quel est le rêve le plus étrange que vous ayez jamais eu ?"
+    },
+    {
+        "QuestionEn": "What’s the most trouble you’ve ever gotten into?",
+        "QuestionFr": "Quelle est la pire galère dans laquelle vous vous êtes retrouvé ?"
+    },
+    {
+        "QuestionEn": "What’s something you’ve done to impress someone?",
+        "QuestionFr": "Qu'est-ce que vous avez fait pour impressionner quelqu'un ?"
+    },
+    {
+        "QuestionEn": "What’s the most awkward conversation you've ever had?",
+        "QuestionFr": "Quelle est la conversation la plus gênante que vous ayez jamais eue ?"
+    },
+    {
+        "QuestionEn": "Have you ever stolen anything?",
+        "QuestionFr": "Avez-vous déjà volé quelque chose ?"
+    },
+    {
+        "QuestionEn": "What’s the weirdest food you’ve ever eaten?",
+        "QuestionFr": "Quel est le plat le plus étrange que vous ayez jamais mangé ?"
+    },
+    {
+        "QuestionEn": "What’s the longest time you've gone without talking to someone?",
+        "QuestionFr": "Quel est le plus long temps que vous ayez passé sans parler à quelqu'un ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing thing you’ve said to a crush?",
+        "QuestionFr": "Quelle est la chose la plus embarrassante que vous ayez dite à un crush ?"
+    },
+    {
+        "QuestionEn": "What’s the biggest secret you've ever kept from your family?",
+        "QuestionFr": "Quel est le plus grand secret que vous ayez gardé pour vous vis-à-vis de votre famille ?"
+    },
+    {
+        "QuestionEn": "Have you ever sent a text to the wrong person?",
+        "QuestionFr": "Avez-vous déjà envoyé un message à la mauvaise personne ?"
+    },
+    {
+        "QuestionEn": "What’s something you’ve done that you regret?",
+        "QuestionFr": "Qu'est-ce que vous avez fait et que vous regrettez ?"
+    },
+    {
+        "QuestionEn": "What’s the most awkward thing you've done to try to impress someone?",
+        "QuestionFr": "Quelle est la chose la plus gênante que vous ayez faite pour essayer d'impressionner quelqu'un ?"
+    },
+    {
+        "QuestionEn": "What’s something you’ve been secretly working on that no one knows about?",
+        "QuestionFr": "Qu'est-ce que vous avez secrètement travaillé sur sans que personne ne le sache ?"
+    },
+    {
+        "QuestionEn": "Have you ever spread a rumor about someone?",
+        "QuestionFr": "Avez-vous déjà répandu une rumeur à propos de quelqu'un ?"
+    },
+    {
+        "QuestionEn": "What’s the biggest mistake you've ever made in a relationship?",
+        "QuestionFr": "Quelle est la plus grande erreur que vous ayez jamais commise dans une relation ?"
+    },
+    {
+        "QuestionEn": "What’s the worst thing you’ve ever done to a friend?",
+        "QuestionFr": "Quelle est la pire chose que vous ayez faite à un ami ?"
+    },
+    {
+        "QuestionEn": "What’s a skill you wish you had but don’t?",
+        "QuestionFr": "Quelle est une compétence que vous aimeriez avoir mais que vous n'avez pas ?"
+    },
+    {
+        "QuestionEn": "What’s the most embarrassing photo on your phone?",
+        "QuestionFr": "Quelle est la photo la plus embarrassante sur votre téléphone ?"
+    },
+    {
+        "QuestionEn": "What’s the most awkward thing you’ve done in public?",
+        "QuestionFr": "Quelle est la chose la plus gênante que vous ayez faite en public ?"
+    },
+    {
+        "QuestionEn": "Have you ever gotten into a fight with a friend?",
+        "QuestionFr": "Avez-vous déjà eu une dispute avec un ami ?"
+    },
+    {
+        "QuestionEn": "What’s something you’re too proud to admit?",
+        "QuestionFr": "Qu'est-ce que vous êtes trop fier d'admettre ?"
+    },
+    {
+        "QuestionEn": "What’s the longest time you’ve gone without showering?",
+        "QuestionFr": "Quel est le plus long temps sans avoir pris de douche ?"
+    },
+    {
+        "QuestionEn": "What’s the worst thing you've ever said to someone?",
+        "QuestionFr": "Quelle est la pire chose que vous ayez dite à quelqu'un ?"
+    },
+    {
+        "QuestionEn": "What’s something you’ve done just to get attention?",
+        "QuestionFr": "Qu'est-ce que vous avez fait juste pour attirer l'attention ?"
+    },
+    {
+        "QuestionEn": "What’s the most childish thing you still do?",
+        "QuestionFr": "Quelle est la chose la plus enfantine que vous fassiez encore ?"
+    },
+    {
+        "QuestionEn": "Have you ever blamed someone else for something you did?",
+        "QuestionFr": "Avez-vous déjà blâmé quelqu'un d'autre pour quelque chose que vous avez fait ?"
+    },
+    {
+        "QuestionEn": "What’s something you've done that would make your parents disappointed?",
+        "QuestionFr": "Qu'est-ce que vous avez fait qui décevrait vos parents ?"
+    },
+    {
+        "QuestionEn": "What’s something that you find impossible to live without?",
+        "QuestionFr": "Qu'est-ce que vous trouvez impossible à vivre sans ?"
+    },
+    {
+        "QuestionEn": "Have you ever been in love with two people at once?",
+        "QuestionFr": "Avez-vous déjà été amoureux de deux personnes en même temps ?"
+    },
+    {
+        "QuestionEn": "What’s something you've done that you're proud of?",
+        "QuestionFr": "Qu'est-ce que vous avez fait dont vous êtes fier ?"
+    },
+    {
+        "QuestionEn": "What’s the most recent lie you’ve told?",
+        "QuestionFr": "Quel est le dernier mensonge que vous ayez dit ?"
+    },
+    {
+        "QuestionEn": "What’s the dumbest thing you’ve done while under pressure?",
+        "QuestionFr": "Quelle est la chose la plus stupide que vous ayez faite sous pression ?"
+    },
+    {
+        "QuestionEn": "What’s the worst decision you made in the past 6 months?",
+        "QuestionFr": "Quelle est la pire décision que vous ayez prise ces 6 derniers mois ?"
+    },
+    {
+        "QuestionEn": "What’s the most unusual thing you’ve ever done for a dare?",
+        "QuestionFr": "Quelle est la chose la plus inhabituelle que vous ayez faite pour un défi ?"
+    }
+]

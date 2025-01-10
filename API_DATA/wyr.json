@@ -1,406 +1,1762 @@
 [
   {
-    "QuestionEn": "Would you rather wear the same thing every day or never wear the same clothes twice ?",
-    "QuestionFr": "Préférez-vous porter la même chose tous les jours ou ne jamais porter les mêmes vêtements deux fois ?"
+    "QuestionEn": "Would you rather wear the same thing every day OR never wear the same clothes twice ?",
+    "QuestionFr": "Préférez-vous porter la même chose tous les jours OU ne jamais porter les mêmes vêtements deux fois ?",
+    "ProposalAEn": "Wear the same thing every day",
+    "ProposalAFr": "Porter la même chose tous les jours",
+    "ProposalBEn": "Never wear the same clothes twice",
+    "ProposalBFr": "Ne jamais porter les mêmes vêtements deux fois"
   },
   {
-    "QuestionEn": "Would you rather be a professional Taser testee or be a professional beanbag gun testee ?",
-    "QuestionFr": "Préférez-vous être un testeur professionnel du Taser ou un testeur professionnel du pistolet à billes ?"
+    "QuestionEn": "Would you rather be a professional Taser testee OR be a professional beanbag gun testee ?",
+    "QuestionFr": "Préférez-vous être un testeur professionnel du Taser OU un testeur professionnel du pistolet à billes ?",
+    "ProposalAEn": "Professional Taser testee",
+    "ProposalAFr": "Testeur professionnel du Taser",
+    "ProposalBEn": "Professional beanbag gun testee",
+    "ProposalBFr": "Testeur professionnel du pistolet à billes"
   },
   {
-    "QuestionEn": "Would you rather have 20 million YouTube subscribers or produce a blockbuster action movie ?",
-    "QuestionFr": "Préférez-vous avoir 20 millions d'abonnés YouTube ou produire un film d'action à succès ?"
+    "QuestionEn": "Would you rather have 20 million YouTube subscribers OR produce a blockbuster action movie ?",
+    "QuestionFr": "Préférez-vous avoir 20 millions d'abonnés YouTube OU produire un film d'action à succès ?",
+    "ProposalAEn": "Have 20 million YouTube subscribers",
+    "ProposalAFr": "Avoir 20 millions d'abonnés YouTube",
+    "ProposalBEn": "Produce a blockbuster action movie",
+    "ProposalBFr": "Produire un film d'action à succès"
   },
   {
-    "QuestionEn": "Would you rather tell your most embarassing secret to the 10 people it would matter to most or eat 5000 liquorice jelly beans as fast as you can ?",
-    "QuestionFr": "Préférez-vous dire votre secret le plus embarrassant aux 10 personnes qui comptent le plus ou manger 5000 bonbons à la réglisse aussi vite que vous le pouvez ?"
+    "QuestionEn": "Would you rather tell your most embarassing secret to the 10 people it would matter to most OR eat 5000 liquorice jelly beans as fast as you can ?",
+    "QuestionFr": "Préférez-vous dire votre secret le plus embarrassant aux 10 personnes qui comptent le plus OU manger 5000 bonbons à la réglisse aussi vite que vous le pouvez ?",
+    "ProposalAEn": "Tell your most embarassing secret to the 10 people it would matter to most",
+    "ProposalAFr": "Dire votre secret le plus embarrassant aux 10 personnes qui comptent le plus",
+    "ProposalBEn": "Eat 5000 liquorice jelly beans as fast as you can",
+    "ProposalBFr": "Manger 5000 bonbons à la réglisse aussi vite que vous le pouvez"
   },
   {
-    "QuestionEn": "Would you rather Save the Library of Alexandria from burning or know what happened to Atlantis ?",
-    "QuestionFr": "Préférez-vous sauver la bibliothèque d'Alexandrie de l'incendie ou savoir ce qui est arrivé à Atlantis ?"
+    "QuestionEn": "Would you rather have a rewind button in your life OR have a pause button in your life ?",
+    "QuestionFr": "Préférez-vous avoir un bouton de rembobinage dans votre vie OU avoir un bouton de pause dans votre vie ?",
+    "ProposalAEn": "A rewind button in your life",
+    "ProposalAFr": "Un bouton de rembobinage dans votre vie",
+    "ProposalBEn": "A pause button in your life",
+    "ProposalBFr": "Un bouton de pause dans votre vie"
   },
   {
-    "QuestionEn": "Would you rather have hair covering your entire body or be completely bald ?",
-    "QuestionFr": "Préférez-vous avoir des cheveux couvrant tout votre corps ou être complètement chauve ?"
+    "QuestionEn": "Would you rather have hair covering your entire body OR be completely bald ?",
+    "QuestionFr": "Préférez-vous avoir des cheveux couvrant tout votre corps OU être complètement chauve ?",
+    "ProposalAEn": "Have hair covering your entire body",
+    "ProposalAFr": "Avoir des cheveux couvrant tout votre corps",
+    "ProposalBEn": "Be completely bald",
+    "ProposalBFr": "Être complètement chauve"
   },
   {
-    "QuestionEn": "Would you rather have to wear a full body, red leotard on your wedding day or have your spouse-to-be wear it ?",
-    "QuestionFr": "Préférez-vous porter un justaucorps rouge intégral le jour de votre mariage ou le faire porter par votre future épouse ?"
+    "QuestionEn": "Would you rather have to wear a full body, red leotard on your wedding day OR have your spouse-to-be wear it ?",
+    "QuestionFr": "Préférez-vous porter un justaucorps rouge intégral le jour de votre mariage OU le faire porter par votre future épouse ?",
+    "ProposalAEn": "Wear a full body, red leotard on your wedding day",
+    "ProposalAFr": "Porter un justaucorps rouge intégral le jour de votre mariage",
+    "ProposalBEn": "Have your spouse-to-be wear it",
+    "ProposalBFr": "Le faire porter par votre future épouse"
   },
   {
-    "QuestionEn": "Would you rather have been to Hogwarts or trained under Obi-Wan Kenobi ?",
-    "QuestionFr": "Auriez-vous préféré aller à Poudlard ou vous entraîner avec Obi-Wan Kenobi ?"
+    "QuestionEn": "Would you rather have been to Hogwarts OR trained under Obi-Wan Kenobi ?",
+    "QuestionFr": "Auriez-vous préféré aller à Poudlard OU vous entraîner avec Obi-Wan Kenobi ?",
+    "ProposalAEn": "Have been to Hogwarts",
+    "ProposalAFr": "Être allé à Poudlard",
+    "ProposalBEn": "Trained under Obi-Wan Kenobi",
+    "ProposalBFr": "S'entraîner avec Obi-Wan Kenobi"
   },
   {
-    "QuestionEn": "Would you rather live in the time of the Ancient Romans/Greeks or live in the Dark Ages ?",
-    "QuestionFr": "Préférez-vous vivre à l'époque des anciens Romains/Grecs ou vivre à l'âge des ténèbres ?"
+    "QuestionEn": "Would you rather live in the time of the Ancient Romans/Greeks OR live in the Dark Ages ?",
+    "QuestionFr": "Préférez-vous vivre à l'époque des anciens Romains/Grecs OU vivre à l'âge des ténèbres ?",
+    "ProposalAEn": "Live in the time of the Ancient Romans/Greeks",
+    "ProposalAFr": "Vivre à l'époque des anciens Romains/Grecs",
+    "ProposalBEn": "Live in the Dark Ages",
+    "ProposalBFr": "Vivre à l'âge des ténèbres"
   },
   {
-    "QuestionEn": "Would you rather only speak in questions or only speak in movie quotes ?",
-    "QuestionFr": "Préférez-vous parler uniquement en questions ou ne parler qu'en citations de films ?"
+    "QuestionEn": "Would you rather only speak in questions OR only speak in movie quotes ?",
+    "QuestionFr": "Préférez-vous parler uniquement en questions OU ne parler qu'en citations de films ?",
+    "ProposalAEn": "Only speak in questions",
+    "ProposalAFr": "Ne parler qu'en questions",
+    "ProposalBEn": "Only speak in movie quotes"
   },
   {
-    "QuestionEn": "Would you rather be rich or be famous ?",
-    "QuestionFr": "Préférez-vous être riche ou être célèbre ?"
+    "QuestionEn": "Would you rather be rich OR be famous ?",
+    "QuestionFr": "Préférez-vous être riche OU être célèbre ?",
+    "ProposalAEn": "Be rich",
+    "ProposalAFr": "Être riche",
+    "ProposalBEn": "Be famous",
+    "ProposalBFr": "Être célèbre"
   },
   {
-    "QuestionEn": "Would you rather listen to country music or k-pop ?",
-    "QuestionFr": "Vous préférez écouter de la country ou de la k-pop ?"
+    "QuestionEn": "Would you rather listen to country music OR k-pop ?",
+    "QuestionFr": "Vous préférez écouter de la country OU de la k-pop ?",
+    "ProposalAEn": "Listen to country music",
+    "ProposalAFr": "Écouter de la country",
+    "ProposalBEn": "Listen to k-pop",
+    "ProposalBFr": "Écouter de la k-pop"
   },
   {
-    "QuestionEn": "Would you rather have a personal chef or have a personal masseuse ?",
-    "QuestionFr": "Préférez-vous avoir un chef personnel ou avoir une masseuse personnelle ?"
+    "QuestionEn": "Would you rather have a personal chef OR have a personal masseuse ?",
+    "QuestionFr": "Préférez-vous avoir un chef personnel OU avoir une masseuse personnelle ?",
+    "ProposalAEn": "Have a personal chef",
+    "ProposalAFr": "Avoir un chef personnel",
+    "ProposalBEn": "Have a personal masseuse",
+    "ProposalBFr": "Avoir une masseuse personnelle"
   },
   {
-    "QuestionEn": "Would you rather kill 100 people or be hunted by 100 people ?",
-    "QuestionFr": "Préférez-vous tuer 100 personnes ou être chassé par 100 personnes ?"
+    "QuestionEn": "Would you rather kill 100 people OR be hunted by 100 people ?",
+    "QuestionFr": "Préférez-vous tuer 100 personnes OU être chassé par 100 personnes ?",
+    "ProposalAEn": "Kill 100 people",
+    "ProposalAFr": "Tuer 100 personnes",
+    "ProposalBEn": "Be hunted by 100 people",
+    "ProposalBFr": "Être chassé par 100 personnes"
   },
   {
-    "QuestionEn": "Would you rather be invincible or be invisible ?",
-    "QuestionFr": "Préférez-vous être invincible ou invisible ?"
+    "QuestionEn": "Would you rather be invincible OR be invisible ?",
+    "QuestionFr": "Préférez-vous être invincible OU invisible ?",
+    "ProposalAEn": "Be invincible",
+    "ProposalAFr": "Être invincible",
+    "ProposalBEn": "Be invisible",
+    "ProposalBFr": "Être invisible"
   },
   {
     "QuestionEn": "Would you rather live alone in the wilderness OR live in a city as a homeless person.",
-    "QuestionFr": "Préférez-vous vivre seul dans le désert OU vivre dans une ville en tant que personne sans abri."
+    "QuestionFr": "Préférez-vous vivre seul dans le désert OU vivre dans une ville en tant que personne sans abri.",
+    "ProposalAEn": "Live alone in the wilderness",
+    "ProposalAFr": "Vivre seul dans le désert",
+    "ProposalBEn": "Live in a city as a homeless person",
+    "ProposalBFr": "Vivre dans une ville en tant que personne sans abri"
   },
   {
-    "QuestionEn": "In a fantasy world, would you rather be a fairy who cannot fly or be a 10 foot tall dwarf ?",
-    "QuestionFr": "Dans un monde fantastique, préféreriez-vous être une fée qui ne sait pas voler ou être un nain de 3 mètres de haut ?"
+    "QuestionEn": "In a fantasy world, would you rather be a fairy who cannot fly OR be a 10 foot tall dwarf ?",
+    "QuestionFr": "Dans un monde fantastique, préféreriez-vous être une fée qui ne sait pas voler OU être un nain de 3 mètres de haut ?",
+    "ProposalAEn": "Be a fairy who cannot fly",
+    "ProposalAFr": "Être une fée qui ne peut pas voler",
+    "ProposalBEn": "Be a 10 foot tall dwarf",
+    "ProposalBFr": "Être un nain de 3 mètres de haut"
   },
   {
-    "QuestionEn": "Would you rather not be able to stop being serious or not be able to stop joking ?",
-    "QuestionFr": "Préférez-vous ne pas pouvoir arrêter d'être sérieux ou ne pas pouvoir arrêter de plaisanter ?"
+    "QuestionEn": "Would you rather not be able to stop being serious OR not be able to stop joking ?",
+    "QuestionFr": "Préférez-vous ne pas pouvoir arrêter d'être sérieux OU ne pas pouvoir arrêter de plaisanter ?",
+    "ProposalAEn": "Not be able to stop being serious",
+    "ProposalAFr": "Ne pas pouvoir arrêter d'être sérieux",
+    "ProposalBEn": "Not be able to stop joking",
+    "ProposalBFr": "Ne pas pouvoir arrêter de plaisanter"
   },
   {
-    "QuestionEn": "Would you rather live forever (or until the end of the Universe) or die right now with no afterlife ?",
-    "QuestionFr": "Préférez-vous vivre éternellement (ou jusqu'à la fin de l'univers) ou mourir maintenant sans vie après la mort ?"
+    "QuestionEn": "Would you rather live forever OR die right now with no afterlife ?",
+    "QuestionFr": "Préférez-vous vivre éternellement OU mourir maintenant sans vie après la mort ?",
+    "ProposalAEn": "Live forever",
+    "ProposalAFr": "Vivre éternellement",
+    "ProposalBEn": "Die right now with no afterlife",
+    "ProposalBFr": "Mourir maintenant sans vie après la mort"
   },
   {
     "QuestionEn": "Would you rather live in the Star Trek universe OR live in the Star Wars universe ?",
-    "QuestionFr": "Préférez-vous vivre dans l'univers Star Trek OU vivre dans l'univers Star Wars ?"
+    "QuestionFr": "Préférez-vous vivre dans l'univers Star Trek OU vivre dans l'univers Star Wars ?",
+    "ProposalAEn": "Live in the Star Trek universe",
+    "ProposalAFr": "Vivre dans l'univers Star Trek",
+    "ProposalBEn": "Live in the Star Wars universe",
+    "ProposalBFr": "Vivre dans l'univers Star Wars"
   },
   {
-    "QuestionEn": "Would you rather have a Flying Car or have 1Tbps Internet Conection ?",
-    "QuestionFr": "Préférez-vous avoir une voiture volante ou avoir une connexion Internet 1Tbps ?"
+    "QuestionEn": "Would you rather have a Flying Car OR have 1Tbps Internet Conection ?",
+    "QuestionFr": "Préférez-vous avoir une voiture volante OU avoir une connexion Internet 1Tbps ?",
+    "ProposalAEn": "Have a Flying Car",
+    "ProposalAFr": "Avoir une voiture volante",
+    "ProposalBEn": "Have 1Tbps Internet Conection",
+    "ProposalBFr": "Avoir une connexion Internet 1Tbps"
   },
   {
-    "QuestionEn": "Would you rather be known forever for something terrible or never be recognized something wonderful ?",
-    "QuestionFr": "Préférez-vous être connu pour toujours pour quelque chose de terrible ou ne jamais être reconnu pour quelque chose de merveilleux ?"
+    "QuestionEn": "Would you rather be known forever for something terrible OR never be recognized something wonderful ?",
+    "QuestionFr": "Préférez-vous être connu pour toujours pour quelque chose de terrible OU ne jamais être reconnu pour quelque chose de merveilleux ?",
+    "ProposalAEn": "Be known forever for something terrible",
+    "ProposalAFr": "Être connu pour toujours pour quelque chose de terrible",
+    "ProposalBEn": "Never be recognized something wonderful",
+    "ProposalBFr": "Ne jamais être reconnu pour quelque chose de merveilleux"
   },
   {
-    "QuestionEn": "If you were in a horror movie, would you rather be thrown into a snake pit or a spider pit ?",
-    "QuestionFr": "Si vous étiez dans un film d'horreur, préféreriez-vous être jeté dans une fosse aux serpents ou dans une fosse aux araignées ?"
+    "QuestionEn": "If you were in a horror movie, would you rather be thrown into a snake pit OR a spider pit ?",
+    "QuestionFr": "Si vous étiez dans un film d'horreur, préféreriez-vous être jeté dans une fosse aux serpents OU dans une fosse aux araignées ?",
+    "ProposalAEn": "Into a snake pit",
+    "ProposalAFr": "Dans une fosse aux serpents",
+    "ProposalBEn": "Into a spider pit",
+    "ProposalBFr": "Dans une fosse aux araignées"
   },
   {
-    "QuestionEn": "Would you rather sleep in a tanning bed or small suitcase for a month ?",
-    "QuestionFr": "Vous préférez dormir dans un lit de bronzage ou une petite valise pendant un mois ?"
+    "QuestionEn": "Would you rather sleep in a tanning bed OR small suitcase for a month ?",
+    "QuestionFr": "Vous préférez dormir dans un lit de bronzage OU une petite valise pendant un mois ?",
+    "ProposalAEn": "Sleep in a tanning bed",
+    "ProposalAFr": "Dormir dans un lit de bronzage",
+    "ProposalBEn": "Sleep in a small suitcase for a month",
+    "ProposalBFr": "Dormir dans une petite valise pendant un mois"
   },
   {
     "QuestionEn": "Would you rather have to move to a new city once a month OR never be able to move ?",
-    "QuestionFr": "Préférez-vous déménager dans une nouvelle ville une fois par mois OU ne jamais pouvoir déménager ?"
+    "QuestionFr": "Préférez-vous déménager dans une nouvelle ville une fois par mois OU ne jamais pouvoir déménager ?",
+    "ProposalAEn": "Move to a new city once a month",
+    "ProposalAFr": "Déménager dans une nouvelle ville une fois par mois",
+    "ProposalBEn": "Never be able to move",
+    "ProposalBFr": "Ne jamais pouvoir déménager"
   },
   {
-    "QuestionEn": "Would you rather sleep in a room a little too warm or sleep in a room a little too cold ?",
-    "QuestionFr": "Préférez-vous dormir dans une chambre un peu trop chaude ou dormir dans une chambre un peu trop froide ?"
+    "QuestionEn": "Would you rather sleep in a room a little too warm OR sleep in a room a little too cold ?",
+    "QuestionFr": "Préférez-vous dormir dans une chambre un peu trop chaude OU dormir dans une chambre un peu trop froide ?",
+    "ProposalAEn": "Sleep in a room a little too warm",
+    "ProposalAFr": "Dormir dans une chambre un peu trop chaude",
+    "ProposalBEn": "Sleep in a room a little too cold",
+    "ProposalBFr": "Dormir dans une chambre un peu trop froide"
   },
   {
     "QuestionEn": "Would you rather be able to take back anything you say OR hear every conversation around you ?",
-    "QuestionFr": "Préférez-vous pouvoir retirer tout ce que vous dites OU entendre toutes les conversations autour de vous ?"
+    "QuestionFr": "Préférez-vous pouvoir retirer tout ce que vous dites OU entendre toutes les conversations autour de vous ?",
+    "ProposalAEn": "Take back anything you say",
+    "ProposalAFr": "Retirer tout ce que vous dites",
+    "ProposalBEn": "Hear every conversation around you",
+    "ProposalBFr": "Entendre toutes les conversations autour de vous"
   },
   {
-    "QuestionEn": "Would you rather stick your cut up hand into a bowl of vinegar or eat 3 worms alive ?",
-    "QuestionFr": "Préférez-vous mettre votre main coupée dans un bol de vinaigre ou manger 3 vers vivants ?"
+    "QuestionEn": "Would you rather stick your cut up hand into a bowl of vinegar OR eat 3 worms alive ?",
+    "QuestionFr": "Préférez-vous mettre votre main coupée dans un bol de vinaigre OU manger 3 vers vivants ?",
+    "ProposalAEn": "Stick your cut up hand into a bowl of vinegar",
+    "ProposalAFr": "Mettre votre main coupée dans un bol de vinaigre",
+    "ProposalBEn": "Eat 3 worms alive",
+    "ProposalBFr": "Manger 3 vers vivants"
   },
   {
-    "QuestionEn": "Would you rather eat bacon or potatoes for the rest of your life ?",
-    "QuestionFr": "Préférez-vous manger du bacon ou des pommes de terre pour le reste de votre vie ?"
+    "QuestionEn": "Would you rather eat bacon OR potatoes for the rest of your life ?",
+    "QuestionFr": "Préférez-vous manger du bacon OU des pommes de terre pour le reste de votre vie ?",
+    "ProposalAEn": "Eat bacon",
+    "ProposalAFr": "Manger du bacon",
+    "ProposalBEn": "Eat potatoes",
+    "ProposalBFr": "Manger des pommes de terre"
   },
   {
-    "QuestionEn": "Would you rather live in a mansion in Beverly Hills or live in a penthouse in Manhattan ?",
-    "QuestionFr": "Préférez-vous vivre dans un manoir à Beverly Hills ou vivre dans un penthouse à Manhattan ?"
+    "QuestionEn": "Would you rather live in a mansion in Beverly Hills OR live in a penthouse in Manhattan ?",
+    "QuestionFr": "Préférez-vous vivre dans un manoir à Beverly Hills OU vivre dans un penthouse à Manhattan ?",
+    "ProposalAEn": "Live in a mansion in Beverly Hills",
+    "ProposalAFr": "Vivre dans un manoir à Beverly Hills",
+    "ProposalBEn": "Live in a penthouse in Manhattan",
+    "ProposalBFr": "Vivre dans un penthouse à Manhattan"
   },
   {
-    "QuestionEn": "Would you rather have your current pet live as long as you do or bring a past pet back to life ?",
-    "QuestionFr": "Préférez-vous que votre animal de compagnie actuel vive aussi longtemps que vous ou ramenez un ancien animal de compagnie à la vie ?"
+    "QuestionEn": "Would you rather have your current pet live as long as you do OR bring a past pet back to life ?",
+    "QuestionFr": "Préférez-vous que votre animal de compagnie actuel vive aussi longtemps que vous OU ramenez un ancien animal de compagnie à la vie ?",
+    "ProposalAEn": "Have your current pet live as long as you do",
+    "ProposalAFr": "Que votre animal de compagnie actuel vive aussi longtemps que vous",
+    "ProposalBEn": "Bring a past pet back to life",
+    "ProposalBFr": "Ramenez un ancien animal de compagnie à la vie"
   },
   {
-    "QuestionEn": "Would you rather discover something great and spread it or discover something evil and prevent it ?",
-    "QuestionFr": "Préférez-vous découvrir quelque chose de bien et le répandre ou découvrir quelque chose de mal et l'empêcher ?"
+    "QuestionEn": "Would you rather discover something great and spread it OR discover something evil and prevent it ?",
+    "QuestionFr": "Préférez-vous découvrir quelque chose de bien et le répandre OU découvrir quelque chose de mal et l'empêcher ?",
+    "ProposalAEn": "Discover something great and spread it",
+    "ProposalAFr": "Découvrir quelque chose de bien et le répandre",
+    "ProposalBEn": "Discover something evil and prevent it",
+    "ProposalBFr": "Découvrir quelque chose de mal et l'empêcher"
   },
   {
-    "QuestionEn": "Would you rather be 4 feet tall or be 8 feet tall ?",
-    "QuestionFr": "Préférez-vous mesurer 1,3 mètres ou mesurer 2,40 mètres ?"
+    "QuestionEn": "Would you rather be 4 feet tall OR be 8 feet tall ?",
+    "QuestionFr": "Préférez-vous mesurer 1,3 mètres OU mesurer 2,40 mètres ?",
+    "ProposalAEn": "Be 4 feet tall",
+    "ProposalAFr": "Mesurer 1,3 mètres",
+    "ProposalBEn": "Be 8 feet tall",
+    "ProposalBFr": "Mesurer 2,40 mètres"
   },
   {
-    "QuestionEn": "If you were stranded on a deserted island would you try to escape or stay there and wish to be found ?",
-    "QuestionFr": "Si vous étiez bloqué sur une île déserte, essaieriez-vous de vous échapper ou d'y rester ?"
+    "QuestionEn": "If you were stranded on a deserted island would you try to escape OR stay there and wish to be found ?",
+    "QuestionFr": "Si vous étiez bloqué sur une île déserte, essaieriez-vous de vous échapper OU d'y rester ?",
+    "ProposalAEn": "Try to escape",
+    "ProposalAFr": "Essayer de s'échapper",
+    "ProposalBEn": "Stay there and wish to be found",
+    "ProposalBFr": "Rester et espérer être trouvé"
   },
   {
-    "QuestionEn": "Would you rather have to learn how to walk again or have to learn about every date in history and why they were important ?",
-    "QuestionFr": "Préféreriez-vous réapprendre à marcher ou apprendre chaque date de l'histoire et pourquoi elles étaient importantes ?"
+    "QuestionEn": "Would you rather have to learn how to walk again OR have to learn about every date in history and why they were important ?",
+    "QuestionFr": "Préféreriez-vous réapprendre à marcher OU apprendre chaque date de l'histoire et pourquoi elles étaient importantes ?",
+    "ProposalAEn": "Learn how to walk again",
+    "ProposalAFr": "Réapprendre à marcher",
+    "ProposalBEn": "Learn about every date in history and why they were important",
+    "ProposalBFr": "Apprendre chaque date de l'histoire et pourquoi elles étaient importantes"
   },
   {
-    "QuestionEn": "Would you rather launch an atomic bomb or be bombed with an atomic bomb ?",
-    "QuestionFr": "Préférez-vous lancer une bombe atomique ou être bombardé avec une bombe atomique ?"
+    "QuestionEn": "Would you rather launch an atomic bomb OR be bombed with an atomic bomb ?",
+    "QuestionFr": "Préférez-vous lancer une bombe atomique OU être bombardé avec une bombe atomique ?",
+    "ProposalAEn": "Launch an atomic",
+    "ProposalAFr": "Lancer une bombe atomique",
+    "ProposalBEn": "Be bombed with an atomic bomb",
+    "ProposalBFr": "Être bombardé avec une bombe atomique"
   },
   {
-    "QuestionEn": "Would you rather be covered in feathers or be covered in fur ?",
-    "QuestionFr": "Préférez-vous être couvert de plumes ou être couvert de fourrure ?"
+    "QuestionEn": "Would you rather be covered in feathers OR be covered in fur ?",
+    "QuestionFr": "Préférez-vous être couvert de plumes OU être couvert de fourrure ?",
+    "ProposalAEn": "Be covered in feathers",
+    "ProposalAFr": "Être couvert de plumes",
+    "ProposalBEn": "Be covered in fur",
+    "ProposalBFr": "Être couvert de fourrure"
   },
   {
-    "QuestionEn": "Would you rather be a student the rest of your life or be a teacher the rest of your life ?",
-    "QuestionFr": "Préférez-vous être étudiant le reste de votre vie ou être enseignant le reste de votre vie ?"
+    "QuestionEn": "Would you rather be a student the rest of your life OR be a teacher the rest of your life ?",
+    "QuestionFr": "Préférez-vous être étudiant le reste de votre vie OU être enseignant le reste de votre vie ?",
+    "ProposalAEn": "Be a student the rest of your life",
+    "ProposalAFr": "Être étudiant le reste de votre vie",
+    "ProposalBEn": "Be a teacher the rest of your life",
+    "ProposalBFr": "Être enseignant le reste de votre vie"
   },
   {
-    "QuestionEn": "Would you rather wear high heels or wear a dress ?",
-    "QuestionFr": "Préférez-vous porter des talons hauts ou porter une robe ?"
+    "QuestionEn": "Would you rather wear high heels OR wear a dress ?",
+    "QuestionFr": "Préférez-vous porter des talons hauts OU porter une robe ?",
+    "ProposalAEn": "Wear high heels",
+    "ProposalAFr": "Porter des talons hauts",
+    "ProposalBEn": "Wear a dress",
+    "ProposalBFr": "Porter une robe"
   },
   {
-    "QuestionEn": "Would you rather always be sweating or always appear shivering cold ?",
-    "QuestionFr": "Préférez-vous toujours transpirer ou avoir toujours l'air de frissonner de froid ?"
+    "QuestionEn": "Would you rather always be sweating OR always appear shivering cold ?",
+    "QuestionFr": "Préférez-vous toujours transpirer OU avoir toujours l'air de frissonner de froid ?",
+    "ProposalAEn": "Always be sweating",
+    "ProposalAFr": "Transpirer toujours",
+    "ProposalBEn": "Always appear shivering cold",
+    "ProposalBFr": "Avoir toujours l'air de frissonner de froid"
   },
   {
-    "QuestionEn": "Would you rather have a rise and fall from fame or remain completely unknown your entire life ?",
-    "QuestionFr": "Préférez-vous avoir une ascension et une chute de la célébrité ou rester complètement inconnu toute votre vie ?"
+    "QuestionEn": "Would you rather have a rise and fall from fame OR remain completely unknown your entire life ?",
+    "QuestionFr": "Préférez-vous avoir une ascension et une chute de la célébrité OU rester complètement inconnu toute votre vie ?",
+    "ProposalAEn": "Have a rise and fall from fame",
+    "ProposalAFr": "Avoir une ascension et une chute de la célébrité",
+    "ProposalBEn": "Remain completely unknown your entire life",
+    "ProposalBFr": "Rester complètement inconnu toute votre vie"
   },
   {
-    "QuestionEn": "Would you rather be considered a liar or a cheater ?",
-    "QuestionFr": "Préférez-vous être considéré comme un menteur ou un tricheur ?"
+    "QuestionEn": "Would you rather be considered a liar OR a cheater ?",
+    "QuestionFr": "Préférez-vous être considéré comme un menteur OU un tricheur ?",
+    "ProposalAEn": "Be considered a liar",
+    "ProposalAFr": "Être considéré comme un menteur",
+    "ProposalBEn": "Be considered a cheater",
+    "ProposalBFr": "Être considéré comme un tricheur"
   },
   {
-    "QuestionEn": "Would you rather have to eat tree bark for one meal a day or have to pour cold milk over everything you eat ?",
-    "QuestionFr": "Préférez-vous manger de l'écorce d'arbre pour un repas par jour ou verser du lait froid sur tout ce que vous mangez ?"
+    "QuestionEn": "Would you rather have to eat tree bark for one meal a day OR have to pour cold milk over everything you eat ?",
+    "QuestionFr": "Préférez-vous manger de l'écorce d'arbre pour un repas par jour OU verser du lait froid sur tout ce que vous mangez ?",
+    "ProposalAEn": "Eat tree bark for one meal a day",
+    "ProposalAFr": "Manger de l'écorce d'arbre pour un repas par jour",
+    "ProposalBEn": "Pour cold milk over everything you eat",
+    "ProposalBFr": "Verser du lait froid sur tout ce que vous mangez"
   },
   {
-    "QuestionEn": "Would you rather only eat fruit or only eat vegetables ?",
-    "QuestionFr": "Préférez-vous ne manger que des fruits ou ne manger que des légumes ?"
+    "QuestionEn": "Would you rather only eat fruit OR only eat vegetables ?",
+    "QuestionFr": "Préférez-vous ne manger que des fruits OU ne manger que des légumes ?",
+    "ProposalAEn": "Only eat fruit",
+    "ProposalAFr": "Ne manger que des fruits",
+    "ProposalBEn": "Only eat vegetables",
+    "ProposalBFr": "Ne manger que des légumes"
   },
   {
-    "QuestionEn": "Would you rather die by explosion or implosion ?",
-    "QuestionFr": "Préférez-vous mourir par explosion ou implosion ?"
+    "QuestionEn": "Would you rather die by explosion OR implosion ?",
+    "QuestionFr": "Préférez-vous mourir par explosion OU implosion ?",
+    "ProposalAEn": "Die by explosion",
+    "ProposalAFr": "Mourir par explosion",
+    "ProposalBEn": "Die by implosion",
+    "ProposalBFr": "Mourir par implosion"
   },
   {
-    "QuestionEn": "Would you rather have a stylist do your hair/makeup each day or have a fashionista pick you a new outfit each day ?",
-    "QuestionFr": "Préférez-vous qu'un styliste vous coiffe/maquille chaque jour ou qu'une fashionista vous choisisse une nouvelle tenue chaque jour ?"
+    "QuestionEn": "Would you rather have a stylist do your hair/makeup each day OR have a fashionista pick you a new outfit each day ?",
+    "QuestionFr": "Préférez-vous qu'un styliste vous coiffe/maquille chaque jour OU qu'une fashionista vous choisisse une nouvelle tenue chaque jour ?",
+    "ProposalAEn": "Have a stylist do your hair/makeup each day",
+    "ProposalAFr": "Qu'un styliste vous coiffe/maquille chaque jour",
+    "ProposalBEn": "Have a fashionista pick you a new outfit each day",
+    "ProposalBFr": "Qu'une fashionista vous choisisse une nouvelle tenue chaque jour"
   },
   {
-    "QuestionEn": "Would you rather live an extra 50 years or be guaranteed entrance to Heaven ?",
-    "QuestionFr": "Préférez-vous vivre 50 ans de plus ou avoir la garantie d'entrer au paradis ?"
+    "QuestionEn": "Would you rather live an extra 50 years OR be guaranteed entrance to Heaven ?",
+    "QuestionFr": "Préférez-vous vivre 50 ans de plus OU avoir la garantie d'entrer au paradis ?",
+    "ProposalAEn": "Live an extra 50 years",
+    "ProposalAFr": "Vivre 50 ans de plus",
+    "ProposalBEn": "Be guaranteed entrance to Heaven",
+    "ProposalBFr": "Avoir la garantie d'entrer au paradis"
   },
   {
-    "QuestionEn": "Would you rather know when you die, or how you die ?",
-    "QuestionFr": "Préférez-vous savoir quand vous mourez ou comment vous mourez ?"
+    "QuestionEn": "Would you rather know when you die, OR how you die ?",
+    "QuestionFr": "Préférez-vous savoir quand vous mourez OU comment vous mourez ?",
+    "ProposalAEn": "Know when you die",
+    "ProposalAFr": "Savoir quand vous mourez",
+    "ProposalBEn": "Know how you die",
+    "ProposalBFr": "Savoir comment vous mourez"
   },
   {
-    "QuestionEn": "If there is no risk of injury, would you rather hug a Panda or a Polar Bear ?",
-    "QuestionFr": "S'il n'y a aucun risque de blessure, préférez-vous serrer dans vos bras un panda ou un ours polaire ?"
+    "QuestionEn": "If there is no risk of injury, would you rather hug a Panda OR a Polar Bear ?",
+    "QuestionFr": "S'il n'y a aucun risque de blessure, préférez-vous serrer dans vos bras un panda OU un ours polaire ?",
+    "ProposalAEn": "Hug a Panda",
+    "ProposalAFr": "Serrer dans vos bras un panda",
+    "ProposalBEn": "Hug a Polar Bear",
+    "ProposalBFr": "Serrer dans vos bras un ours polaire"
   },
   {
-    "QuestionEn": "Would you rather eat fast food burgers every night or eat Chinese Take-out every night ?",
-    "QuestionFr": "Préférez-vous manger des hamburgers de restauration rapide tous les soirs ou manger des plats chinois à emporter tous les soirs ?"
+    "QuestionEn": "Would you rather eat fast food burgers every night OR eat Chinese Take-out every night ?",
+    "QuestionFr": "Préférez-vous manger des hamburgers de restauration rapide tous les soirs OU manger des plats chinois à emporter tous les soirs ?",
+    "ProposalAEn": "Eat fast food burgers every night",
+    "ProposalAFr": "Manger des hamburgers de restauration rapide tous les soirs",
+    "ProposalBEn": "Eat Chinese Take-out every night",
+    "ProposalBFr": "Manger des plats chinois à emporter tous les soirs"
   },
   {
-    "QuestionEn": "Would you rather be deaf and have no legs or be blind and have no arms ?",
-    "QuestionFr": "Préférez-vous être sourd et sans jambes ou être aveugle et sans bras ?"
+    "QuestionEn": "Would you rather be deaf and have no legs OR be blind and have no arms ?",
+    "QuestionFr": "Préférez-vous être sourd et sans jambes OU être aveugle et sans bras ?",
+    "ProposalAEn": "Be deaf and have no legs",
+    "ProposalAFr": "Être sourd et sans jambes",
+    "ProposalBEn": "Be blind and have no arms",
+    "ProposalBFr": "Être aveugle et sans bras"
   },
   {
-    "QuestionEn": "Would you rather swim in a pool of poop or get your head stuck in an elephant's rear end ?",
-    "QuestionFr": "Préférez-vous nager dans une mare de merde ou vous coincer la tête dans le derrière d'un éléphant ?"
+    "QuestionEn": "Would you rather swim in a pool of poop OR get your head stuck in an elephant's rear end ?",
+    "QuestionFr": "Préférez-vous nager dans une mare de merde OU vous coincer la tête dans le derrière d'un éléphant ?",
+    "ProposalAEn": "Swim in a pool of poop",
+    "ProposalAFr": "Nager dans une mare de merde",
+    "ProposalBEn": "Get your head stuck in an elephant's rear end",
+    "ProposalBFr": "Vous coincer la tête dans le derrière d'un éléphant"
   },
   {
     "QuestionEn": "Would you rather pay for sex OR be paid for sex ?",
-    "QuestionFr": "Préférez-vous payer pour du sexe OU être payé pour du sexe ?"
-  },
-  {
-    "QuestionEn": "Would you rather be able to orgasm but never have sex, or be able to have sex but never orgasm ?",
-    "QuestionFr": "Préférez-vous pouvoir avoir des orgasmes mais jamais de relations sexuelles, ou l'inverse ?"
+    "QuestionFr": "Préférez-vous payer pour du sexe OU être payé pour du sexe ?",
+    "ProposalAEn": "Pay for sex",
+    "ProposalAFr": "Payer pour du sexe",
+    "ProposalBEn": "Be paid for sex",
+    "ProposalBFr": "Être payé pour du sexe"
   },
   {
     "QuestionEn": "Would you rather have sex with the youngest person here OR the oldest person here ?",
-    "QuestionFr": "Préférez-vous avoir des relations sexuelles avec la personne la plus jeune ici OU la personne la plus âgée ici ?"
+    "QuestionFr": "Préférez-vous avoir des relations sexuelles avec la personne la plus jeune ici OU la personne la plus âgée ici ?",
+    "ProposalAEn": "Have sex with the youngest person here",
+    "ProposalAFr": "Avoir des relations sexuelles avec la personne la plus jeune ici",
+    "ProposalBEn": "Have sex with the oldest person here",
+    "ProposalBFr": "Avoir des relations sexuelles avec la personne la plus âgée ici"
   },
   {
-    "QuestionEn": "Would you rather get high or get drunk ?",
-    "QuestionFr": "Préférez-vous vous défoncer ou vous saouler ?"
-  },
-  {
-    "QuestionEn": "Would you rather begin every sentence with \"I'mma let you finish\" or end every sentence with \"...in bed\"",
-    "QuestionFr": "Préférez-vous commencer chaque phrase par \"Je vais vous laisser finir\" ou terminer chaque phrase par \"... au lit\""
+    "QuestionEn": "Would you rather get high OR get drunk ?",
+    "QuestionFr": "Préférez-vous vous défoncer OU vous saouler ?",
+    "ProposalAEn": "Get high",
+    "ProposalAFr": "Vous défoncer",
+    "ProposalBEn": "Get drunk",
+    "ProposalBFr": "Vous saouler"
   },
   {
     "QuestionEn": "Would you rather not be able to see during sex OR not be able to hear during sex ?",
-    "QuestionFr": "Préférez-vous ne pas voir pendant les rapports sexuels OU ne pas pouvoir entendre pendant les rapports sexuels ?"
+    "QuestionFr": "Préférez-vous ne pas voir pendant les rapports sexuels OU ne pas pouvoir entendre pendant les rapports sexuels ?",
+    "ProposalAEn": "Not be able to see during sex",
+    "ProposalAFr": "Ne pas voir pendant le sexe",
+    "ProposalBEn": "Not be able to hear during sex",
+    "ProposalBFr": "Ne pas pouvoir entendre pendant le sexe"
   },
   {
     "QuestionEn": "Would you rather have sex on the first date OR have to wait 6 months to have sex ?",
-    "QuestionFr": "Préférez-vous avoir des relations sexuelles au premier rendez-vous OU devoir attendre 6 mois pour avoir des relations sexuelles ?"
+    "QuestionFr": "Préférez-vous avoir des relations sexuelles au premier rendez-vous OU devoir attendre 6 mois pour avoir des relations sexuelles ?",
+    "ProposalAEn": "Have sex on the first date",
+    "ProposalAFr": "Avoir des relations sexuelles au premier rendez-vous",
+    "ProposalBEn": "Have to wait 6 months",
+    "ProposalBFr": "Devoir attendre 6 mois"
   },
   {
-    "QuestionEn": "Would you rather cuddle post-sex or jump in the shower ?",
-    "QuestionFr": "Préférez-vous faire des câlins après le sexe ou aller sous la douche ?"
+    "QuestionEn": "Would you rather cuddle post-sex OR jump in the shower ?",
+    "QuestionFr": "Préférez-vous faire des câlins après le sexe OU aller sous la douche ?",
+    "ProposalAEn": "Cuddle post after sex",
+    "ProposalAFr": "Faire des câlins après le sexe",
+    "ProposalBEn": "Jump in the shower",
+    "ProposalBFr": "Aller sous la douche"
   },
   {
     "QuestionEn": "Would you rather read erotica OR watch porn ?",
-    "QuestionFr": "Préférez-vous lire de l'érotisme OU regarder du porno ?"
+    "QuestionFr": "Préférez-vous lire de l'érotisme OU regarder du porno ?",
+    "ProposalAEn": "Read erotica",
+    "ProposalAFr": "Lire de l'érotisme",
+    "ProposalBEn": "Watch porn",
+    "ProposalBFr": "Regarder du porno"
   },
   {
-    "QuestionEn": "Would you rather have seventeen testicles or have one testicle the size of a coconut ?",
-    "QuestionFr": "Préférez-vous avoir dix-sept testicules ou un testicule de la taille d'une noix de coco ?"
+    "QuestionEn": "Would you rather have seventeen testicles OR have one testicle the size of a coconut ?",
+    "QuestionFr": "Préférez-vous avoir dix-sept testicules OU un testicule de la taille d'une noix de coco ?",
+    "ProposalAEn": "Have seventeen testicles",
+    "ProposalAFr": "Avoir dix-sept testicules",
+    "ProposalBEn": "Have one testicle the size of a coconut",
+    "ProposalBFr": "Avoir un testicule de la taille d'une noix de coco"
   },
   {
-    "QuestionEn": "Would you rather be lightly spanked in bed or have a feather run softly over your whole body ?",
-    "QuestionFr": "Préférez-vous être légèrement fessé au lit ou avoir une plume courir doucement sur tout votre corps ?"
+    "QuestionEn": "Would you rather be lightly spanked in bed OR have a feather run softly over your whole body ?",
+    "QuestionFr": "Préférez-vous être légèrement fessé au lit OU avoir une plume courir doucement sur tout votre corps ?",
+    "ProposalAEn": "Be lightly spanked in bed",
+    "ProposalAFr": "Être légèrement fessé au lit",
+    "ProposalBEn": "Have a feather run softly over your whole body",
+    "ProposalBFr": "Avoir une plume courir doucement sur tout votre corps"
   },
   {
     "QuestionEn": "Would you rather have sex with the 'popular person' and have everyone know about it OR not be able to tell anyone ?",
-    "QuestionFr": "Préférez-vous avoir des relations sexuelles avec \"la personne populaire\" et que tout le monde le sache OU ne pouvoir le dire à personne ?"
-  },
-  {
-    "QuestionEn": "Would you rather never understand the concept of time or never understand the concept of sex ?",
-    "QuestionFr": "Préférez-vous ne jamais comprendre le concept de temps ou ne jamais comprendre le concept de sexe ?"
+    "QuestionFr": "Préférez-vous avoir des relations sexuelles avec 'la personne populaire' et que tout le monde le sache OU ne pouvoir le dire à personne ?",
+    "ProposalAEn": "Have sex with the 'popular person' and have everyone know about it",
+    "ProposalAFr": "Avoir des relations sexuelles avec 'la personne populaire' et que tout le monde le sache",
+    "ProposalBEn": "Not be able to tell anyone",
+    "ProposalBFr": "Ne pouvoir le dire à personne"
+    
   },
   {
     "QuestionEn": "Would you rather only have sex doggystyle OR missionary ?",
-    "QuestionFr": "Préférez-vous seulement avoir des relations sexuelles en levrette OU en missionnaire ?"
-  },
-  {
-    "QuestionEn": "Would you rather have sex with a cousin OR with a friend's sibling ?",
-    "QuestionFr": "Préférez-vous avoir des relations sexuelles avec un cousin OU avec le frère d'un ami ?"
+    "QuestionFr": "Préférez-vous seulement avoir des relations sexuelles en levrette OU en missionnaire ?",
+    "ProposalAEn": "Sex doggystyle",
+    "ProposalAFr":"Levrette",
+    "ProposalBEn": "Missionary",
+    "ProposalBFr": "Misionnaire"
   },
   {
     "QuestionEn": "Would you rather only have phone sex OR never have any sex ?",
-    "QuestionFr": "Préférez-vous seulement avoir des relations sexuelles par téléphone OU ne jamais avoir de relations sexuelles ?"
+    "QuestionFr": "Préférez-vous seulement avoir des relations sexuelles par téléphone OU ne jamais avoir de relations sexuelles ?",
+    "ProposalAEn": "Only have phone sex",
+    "ProposalAFr": "Seulement par téléphone",
+    "ProposalBEn": "Never have any sex",
+    "ProposalBFr": "Jamais avoir de relation"
   },
   {
-    "QuestionEn": "Would you rather be stoned to death or be grounded ?",
-    "QuestionFr": "Préférez-vous être lapidé à mort ou puni ?"
-  },
-  {
-    "QuestionEn": "Would you rather have to keep up dirty talk constantly during sex OR not be able to talk at all ?",
-    "QuestionFr": "Préférez-vous avoir à parler constamment pendant les rapports sexuels OU ne pas pouvoir parler du tout ?"
-  },
-  {
-    "QuestionEn": "Would you rather receive a dirty e-mail or voice mail ?",
-    "QuestionFr": "Vous préférez recevoir un e-mail ou un message vocal vulgaire ?"
+    "QuestionEn": "Would you rather receive a dirty e-mail OR voice mail ?",
+    "QuestionFr": "Vous préférez recevoir un e-mail OU un message vocal vulgaire ?",
+    "ProposalAEn": "A dirty e-mail",
+    "ProposalAFr": "Voice mail",
+    "ProposalBEn": "A dirty voice mail",
+    "ProposalBFr": "Un e-mail vulgaire"
   },
   {
     "QuestionEn": "Would you rather have sex with your most hated ex OR have to be homeless for a week ?",
-    "QuestionFr": "Préférez-vous avoir des relations sexuelles avec votre ex le plus détesté OU devoir être sans abri pendant une semaine ?"
+    "QuestionFr": "Préférez-vous avoir des relations sexuelles avec votre ex le plus détesté OU devoir être sans abri pendant une semaine ?",
+    "ProposalAEn": "Have sex with your most hated ex",
+    "ProposalAFr": "Avoir des relations sexuelles avec votre ex le plus détesté",
+    "ProposalBEn": "Be homeless for a week",
+    "ProposalBFr": "Être sans abri pendant une semaine"
   },
   {
     "QuestionEn": "Would you rather be a good kisser OR be good in bed ?",
-    "QuestionFr": "Préférez-vous être un bon embrasseur OU être bon au lit ?"
+    "QuestionFr": "Préférez-vous être un bon embrasseur OU être bon au lit ?",
+    "ProposalAEn": "Be a good kisser",
+    "ProposalAFr": "Un bon embrasseur",
+    "ProposalBEn": "Be good in bed",
+    "ProposalBFr": "Être bon au lit"
   },
   {
     "QuestionEn": "Would you rather lose your sex organs forever OR lose half your teeth forever ?",
-    "QuestionFr": "Préférez-vous perdre vos organes sexuels pour toujours OU perdre la moitié de vos dents pour toujours ?"
+    "QuestionFr": "Préférez-vous perdre vos organes sexuels pour toujours OU perdre la moitié de vos dents pour toujours ?",
+    "ProposalAEn": "Lose your sex organs forever",
+    "ProposalAFr": "Perdre vos organes génitaux pour toujours",  
+    "ProposalBEn": "Lose half your teeth forever",
+    "ProposalBFr": "Perdre la moitié de vos dents pour toujours"
   },
   {
     "QuestionEn": "Would you rather give up kissing OR give up sex ?",
-    "QuestionFr": "Préférez-vous renoncer aux baisers OU renoncer au sexe ?"
+    "QuestionFr": "Préférez-vous renoncer aux baisers OU renoncer au sexe ?",
+    "ProposalAEn": "Give up kissing",
+    "ProposalAFr": "Renoncer aux baisers",
+    "ProposalBEn": "Give up sex",
+    "ProposalBFr": "Renoncer au sexe"
   },
   {
     "QuestionEn": "Would you rather have sex while drunk OR have sex while hungover ?",
-    "QuestionFr": "Préférez-vous avoir des relations sexuelles en état d'ébriété OU avoir des relations sexuelles avec la gueule de bois ?"
+    "QuestionFr": "Préférez-vous avoir des relations sexuelles en état d'ébriété OU avoir des relations sexuelles avec la gueule de bois ?",
+    "ProposalAEn": "Have sex while drunk",
+    "ProposalAFr": "Avoir des relations sexuelles en état d'ébriété",
+    "ProposalBEn": "Have sex while hungover",
+    "ProposalBFr": "Avoir des relations sexuelles avec la gueule de bois"
   },
   {
     "QuestionEn": "Would you rather be an escort OR a pornstar ?",
-    "QuestionFr": "Tu préfères être une escorte OU une pornstar ?"
+    "QuestionFr": "Tu préfères être une escorte OU une pornstar ?",
+    "ProposalAEn": "Be an escort",
+    "ProposalAFr": "Être une escorte",
+    "ProposalBEn": "Be a pornstar",
+    "ProposalBFr": "Être une Pornstar"
   },
   {
-    "QuestionEn": "Would you rather feel like you've been kicked in the testicles for 12 hours per day or never produce healthy kids ?",
-    "QuestionFr": "Préférez-vous avoir l'impression d'avoir reçu des coups de pied dans les testicules pendant 12 heures par jour ou de ne jamais avoir d'enfants en bonne santé ?"
+    "QuestionEn": "Would you rather feel like you've been kicked in the testicles for 12 hours per day OR never produce healthy kids ?",
+    "QuestionFr": "Préférez-vous avoir l'impression d'avoir reçu des coups de pied dans les testicules pendant 12 heures par jour OU de ne jamais avoir d'enfants en bonne santé ?",
+    "ProposalAEn": "Feel like you've been kicked in the testicles for 12 hours per day",
+    "ProposalAFr": "Avoir l'impression d'avoir reçu des coups de pied dans les testicules pendant 12 heures par jour",
+    "ProposalBEn": "Never produce healthy kids",
+    "ProposalBFr": "Ne jamais avoir d'enfants en bonne santé"
   },
   {
-    "QuestionEn": "Would you rather have no sex organ or two sex organs ?",
-    "QuestionFr": "Préférez-vous n'avoir aucun organe sexuel ou deux organes sexuels ?"
+    "QuestionEn": "Would you rather have no sex organ OR two sex organs ?",
+    "QuestionFr": "Préférez-vous n'avoir aucun organe sexuel OU deux organes sexuels ?",
+    "ProposalAEn": "Have no sex organ",
+    "ProposalAFr": "N'avoir aucun organe sexuel",
+    "ProposalBEn": "Have two sex organs",
+    "ProposalBFr": "Avoir deux organes sexuels"
   },
   {
     "QuestionEn": "Would you rather be a sex slave for a month OR not have sex ?",
-    "QuestionFr": "Préférez-vous être un esclave sexuel pendant un mois OU ne pas avoir de relations sexuelles ?"
+    "QuestionFr": "Préférez-vous être un esclave sexuel pendant un mois OU ne pas avoir de relations sexuelles ?",
+    "ProposalAEn": "Be a sex slave for a month",
+    "ProposalAFr": "Être un esclave sexuel pendant un mois",
+    "ProposalBEn": "Not have sex",
+    "ProposalBFr": "Ne pas avoir de relations sexuelles"
   },
   {
-    "QuestionEn": "Would you rather be a nudist or be a nevernude ?",
-    "QuestionFr": "Préférez-vous être un nudiste ou être un Nevernude ?"
+    "QuestionEn": "Would you rather be a nudist OR be a nevernude ?",
+    "QuestionFr": "Préférez-vous être un nudiste OU être un Nevernude ?",
+    "ProposalAEn": "Be a nudist",
+    "ProposalAFr": "Être un nudiste",
+    "ProposalBEn": "Be a nevernude",
+    "ProposalBFr": "Être un Nevernude"
   },
   {
-    "QuestionEn": "Would you rather make out OR have sex ?",
-    "QuestionFr": "Vous préférez faire l'amour OU avoir des relations sexuelles ?"
-  },
-  {
-    "QuestionEn": "Would you rather admit your guilty pleasures to friends and family or never partake in them again ?",
-    "QuestionFr": "Préférez-vous avouer vos plaisirs coupables à vos amis et à votre famille ou ne plus jamais y participer ?"
+    "QuestionEn": "Would you rather admit your guilty pleasures to friends and family OR never partake in them again ?",
+    "QuestionFr": "Préférez-vous avouer vos plaisirs coupables à vos amis et à votre famille OU ne plus jamais y participer ?",
+    "ProposalAEn": "Admit your guilty pleasures to friends and family",
+    "ProposalAFr": "Avouer vos plaisirs coupables à vos amis et à votre famille",
+    "ProposalBEn": "Never partake in them again",
+    "ProposalBFr": "Ne plus jamais y participer"
   },
   {
     "QuestionEn": "Would you rather have 1 minute of amazing sex OR 10 minutes of average sex ?",
-    "QuestionFr": "Préférez-vous avoir 1 minute de sexe incroyable OU 10 minutes de sexe moyen ?"
+    "QuestionFr": "Préférez-vous avoir 1 minute de sexe incroyable OU 10 minutes de sexe moyen ?",
+    "ProposalAEn": "Have 1 minute of amazing sex",
+    "ProposalAFr": "Avoir 1 minute de sexe incroyable",
+    "ProposalBEn": "Have 10 minutes of average",
+    "ProposalBFr": "Avoir 10 minutes de sexe moyen"
   },
   {
     "QuestionEn": "Would you rather have your parents walk in on you making love OR you on them ?",
-    "QuestionFr": "Préférez-vous que vos parents vous surprennent en train de faire l'amour OU que vous les surpreniez ?"
+    "QuestionFr": "Préférez-vous que vos parents vous surprennent en train de faire l'amour OU que vous les surpreniez ?",
+    "ProposalAEn": "Have your parents walk in on you making love",
+    "ProposalAFr": "Vos parents vous surprennent en train de faire l'amour",
+    "ProposalBEn": "You on them",
+    "ProposalBFr": "Vous les surpreniez"
   },
   {
     "QuestionEn": "Would you rather cuddle OR make out ?",
-    "QuestionFr": "Tu préfères faire des câlins OU s'embrasser ?"
+    "QuestionFr": "Tu préfères faire des câlins OU s'embrasser ?",
+    "ProposalAEn": "Cuddle",
+    "ProposalAFr": "Câlins",
+    "ProposalBEn": "Make out",
+    "ProposalBFr": "S'embrasser"
   },
   {
     "QuestionEn": "Would you rather have a loud OR silent person in bed ?",
-    "QuestionFr": "Préférez-vous avoir une personne bruyante OU silencieuse au lit ?"
+    "QuestionFr": "Préférez-vous avoir une personne bruyante OU silencieuse au lit ?",
+    "ProposalAEn": "Loud person in bed",
+    "ProposalAFr": "Personne bruyante au lit",
+    "ProposalBEn": "Silent person in bed",
+    "ProposalBFr": "Personne silencieuse au lit"
   },
   {
-    "QuestionEn": "Would you rather have sex with your first ex OR with your last one ?",
-    "QuestionFr": "Vous préférez avoir des relations sexuelles avec votre premier ex OU avec votre dernier ?"
+    "QuestionEn": "Would you rather be a stripper OR a pornstar ?",
+    "QuestionFr": "Tu préfères être une strip-teaseuse OU une star du porno ?",
+    "ProposalAEn": "Stripper",
+    "ProposalAFr": "Stripteaseuse",
+    "ProposalBEn": "Pornstar",
+    "ProposalBFr": "Pornstar"
   },
   {
-    "QuestionEn": "Would you rather be a stripper or a pornstar ?",
-    "QuestionFr": "Tu préfères être une strip-teaseuse ou une star du porno ?"
+    "QuestionEn": "Would you rather give un headbutt OR receive one ?",
+    "QuestionFr": "Préférez-vous donner un coup de tête OU recevoir un coup de tête ?",
+    "ProposalAEn": "Give un headbutt",
+    "ProposalAFr": "Donner un coup de tête",
+    "ProposalBEn": "Receive one",
+    "ProposalBFr": "Recevoir un coup de tête"
   },
   {
-    "QuestionEn": "Would you rather give OR receive head ?",
-    "QuestionFr": "Préférez-vous donner OU recevoir de la tête ?"
-  },
-  {
-    "QuestionEn": "Would you rather catch your best male friend sleeping with your mom or catch your best male friend sleeping with your sister ?",
-    "QuestionFr": "Préférez-vous surprendre votre meilleur ami masculin en train de coucher avec votre mère ou surprendre votre meilleur ami masculin en train de coucher avec votre sœur ?"
-  },
-  {
-    "QuestionEn": "Would you rather have to give a graphic naked picture of yourself to anyone who asked for it or give up sex ?",
-    "QuestionFr": "Préférez-vous donner une image graphique nue de vous-même à quiconque le demande ou abandonner le sexe ?"
-  },
-  {
-    "QuestionEn": "Would you rather have a one night stand or have a friend with benefits ?",
-    "QuestionFr": "Préférez-vous avoir une aventure d'un soir ou avoir un ami avec des avantages ?"
+    "QuestionEn": "Would you rather have a one night stand OR have a friend with benefits ?",
+    "QuestionFr": "Préférez-vous avoir une aventure d'un soir OU avoir un ami avec des avantages ?",
+    "ProposalAEn": "One night stand",
+    "ProposalAFr": "Aventure d'un soir",
+    "ProposalBEn": "Friend with benefits",
+    "ProposalBFr": "Ami avec des avantages"
   },
   {
     "QuestionEn": "Would you rather only have sex in the shower OR only have sex on the floor ?",
-    "QuestionFr": "Préférez-vous seulement avoir des relations sexuelles sous la douche OU uniquement des relations sexuelles sur le sol ?"
+    "QuestionFr": "Préférez-vous seulement avoir des relations sexuelles sous la douche OU uniquement des relations sexuelles sur le sol ?",
+    "ProposalAEn": "Only in the shower",
+    "ProposalAFr": "Sous la douche",
+    "ProposalBEn": "Only on the floor",
+    "ProposalBFr": "Sur le sol"
   },
   {
     "QuestionEn": "Would you rather watch someone have sex OR be watched having sex ?",
-    "QuestionFr": "Préférez-vous regarder quelqu'un avoir des relations sexuelles OU être observé en train d'avoir des relations sexuelles ?"
+    "QuestionFr": "Préférez-vous regarder quelqu'un avoir des relations sexuelles OU être observé en train d'avoir des relations sexuelles ?",
+    "ProposalAEn": "Watch someone have sex",
+    "ProposalAFr": "Regarder quelqu'un avoir des relations sexuelles",
+    "ProposalBEn": "Be watched having sex",
+    "ProposalBFr": "Être observé en train d'avoir des relations sexuelles"
   },
   {
-    "QuestionEn": "Would you rather give or receive pleasure ?",
-    "QuestionFr": "Vous préférez donner ou recevoir du plaisir ?"
+    "QuestionEn": "Would you rather give OR receive pleasure ?",
+    "QuestionFr": "Vous préférez donner OU recevoir du plaisir ?",
+    "ProposalAEn": "Give",
+    "ProposalAFr": "Donner",
+    "ProposalBEn": "Receive",
+    "ProposalBFr": "Recevoir"
   },
   {
     "QuestionEn": "Would you rather have a threesome with two of your sex OR two of the other sex ?",
-    "QuestionFr": "Préférez-vous un trio avec deux de votre sexe OU deux de l'autre sexe ?"
+    "QuestionFr": "Préférez-vous un trio avec deux de votre sexe OU deux de l'autre sexe ?",
+    "ProposalAEn": "Two of yours",
+    "ProposalAFr": "Deux de votre sexe",
+    "ProposalBEn": "Two of the other",
+    "ProposalBFr": "Deux de l'autre sexe"
   },
   {
     "QuestionEn": "Would you rather be cheated on with your best friend OR worst enemy ?",
-    "QuestionFr": "Préférez-vous être trompé avec votre meilleur ami OU votre pire ennemi ?"
+    "QuestionFr": "Préférez-vous être trompé avec votre meilleur ami OU votre pire ennemi ?",
+    "ProposalAEn": "Best friend",
+    "ProposalAFr": "Meilleur ami",
+    "ProposalBEn": "Worst enemy",
+    "ProposalBFr": "Pire ennemi"
   },
   {
     "QuestionEn": "Would you rather have vaginal sex OR anal sex ?",
-    "QuestionFr": "Préférez-vous avoir des relations sexuelles vaginales OU anales ?"
+    "QuestionFr": "Préférez-vous avoir des relations sexuelles vaginales OU anales ?",
+    "ProposalAEn": "Vaginal",
+    "ProposalAFr": "Vaginal",
+    "ProposalBEn": "Anal",
+    "ProposalBFr": "Anal"
   },
   {
-    "QuestionEn": "Would you rather only have threesomes and never masturbate OR only masturbate and never have sex ?",
-    "QuestionFr": "Préférez-vous n'avoir que des trios et ne jamais vous masturber OU seulement vous masturber et ne jamais avoir de relations sexuelles ?"
+    "QuestionEn": "Would you rather lose your genitalia OR your dominant hand ?",
+    "QuestionFr": "Préférez-vous perdre vos organes génitaux OU votre main dominante ?",
+    "ProposalAEn": "Lose your genitalia",
+    "ProposalAFr": "Perdre vos organes génitaux",
+    "ProposalBEn": "Lose your dominant hand",
+    "ProposalBFr": "Perdre votre main dominante"
   },
   {
-    "QuestionEn": "Would you rather lose your genitalia or your dominant hand ?",
-    "QuestionFr": "Préférez-vous perdre vos organes génitaux ou votre main dominante ?"
+    "QuestionEn": "Would you rather have the ability to fly OR become invisible?",
+    "QuestionFr": "Préférez-vous avoir la capacité de voler OU devenir invisible ?",
+    "ProposalAEn": "Fly",
+    "ProposalAFr": "Voler",
+    "ProposalBEn": "Become invisible",
+    "ProposalBFr": "Devenir invisible"
+  },
+  {
+    "QuestionEn": "Would you rather never age physically OR never age mentally?",
+    "QuestionFr": "Préférez-vous ne jamais vieillir physiquement OU ne jamais vieillir mentalement ?",
+    "ProposalAEn": "Never age physically",
+    "ProposalAFr": "Ne jamais vieillir physiquement",
+    "ProposalBEn": "Never age mentally",
+    "ProposalBFr": "Ne jamais vieillir mentalement"
+  },
+  {
+    "QuestionEn": "Would you rather lose the ability to speak OR the ability to hear?",
+    "QuestionFr": "Préférez-vous perdre la capacité de parler OU la capacité d'entendre ?",
+    "ProposalAEn": "Lose the ability to speak",
+    "ProposalAFr": "Perdre la capacité de parler",
+    "ProposalBEn": "Lose the ability to hear",
+    "ProposalBFr": "Perdre la capacité d'entendre"
+  },
+  {
+    "QuestionEn": "Would you rather live in the past OR in the future?",
+    "QuestionFr": "Préférez-vous vivre dans le passé OU dans le futur ?",
+    "ProposalAEn": "In the past",
+    "ProposalAFr": "Dans le passé",
+    "ProposalBEn": "In the future",
+    "ProposalBFr": "Dans le futur"
+  },
+  {
+    "QuestionEn": "Would you rather be always 10 minutes late OR always 20 minutes early?",
+    "QuestionFr": "Préférez-vous être toujours 10 minutes en retard OU toujours 20 minutes en avance ?",
+    "ProposalAEn": "Always 10 minutes late",
+    "ProposalAFr": "Toujours 10 minutes en retard",
+    "ProposalBEn": "Always 20 minutes early",
+    "ProposalBFr": "Toujours 20 minutes en avance"
+  },
+  {
+    "QuestionEn": "Would you rather have unlimited money OR unlimited time?",
+    "QuestionFr": "Préférez-vous avoir de l'argent illimité OU du temps illimité ?",
+    "ProposalAEn": "Unlimited money",
+    "ProposalAFr": "Argent illimité",
+    "ProposalBEn": "Unlimited time",
+    "ProposalBFr": "Temps illimité"
+  },
+  {
+    "QuestionEn": "Would you rather be able to talk to animals OR speak all human languages?",
+    "QuestionFr": "Préférez-vous pouvoir parler aux animaux OU parler toutes les langues humaines ?",
+    "ProposalAEn": "Talk to animals",
+    "ProposalAFr": "Parler aux animaux",
+    "ProposalBEn": "Speak all human languages",
+    "ProposalBFr": "Parler toutes les langues humaines"
+  },
+  {
+    "QuestionEn": "Would you rather have no internet for a year OR no phone for a year?",
+    "QuestionFr": "Préférez-vous ne pas avoir d'internet pendant un an OU ne pas avoir de téléphone pendant un an ?",
+    "ProposalAEn": "No internet for a year",
+    "ProposalAFr": "Pas d'internet pendant un an",
+    "ProposalBEn": "No phone for a year",
+    "ProposalBFr": "Pas de téléphone pendant un an"
+  },
+  {
+    "QuestionEn": "Would you rather live in a world without music OR a world without movies?",
+    "QuestionFr": "Préférez-vous vivre dans un monde sans musique OU dans un monde sans films ?",
+    "ProposalAEn": "Without music",
+    "ProposalAFr": "Sans musique",
+    "ProposalBEn": "Without movies",
+    "ProposalBFr": "Sans films"
+  },
+  {
+    "QuestionEn": "Would you rather always know the truth OR always believe a lie?",
+    "QuestionFr": "Préférez-vous toujours connaître la vérité OU toujours croire un mensonge ?",
+    "ProposalAEn": "Always know the truth",
+    "ProposalAFr": "Toujours connaître la vérité",
+    "ProposalBEn": "Always believe a lie",
+    "ProposalBFr": "Toujours croire un mensonge"
+  },
+  {
+    "QuestionEn": "Would you rather have the power to read minds OR the power to control time?",
+    "QuestionFr": "Préférez-vous avoir le pouvoir de lire dans les pensées OU le pouvoir de contrôler le temps ?",
+    "ProposalAEn": "Read minds",
+    "ProposalAFr": "Lire dans les pensées",
+    "ProposalBEn": "Control time",
+    "ProposalBFr": "Contrôler le temps"
+  },
+  {
+    "QuestionEn": "Would you rather never eat your favorite food again OR eat only your favorite food forever?",
+    "QuestionFr": "Préférez-vous ne jamais manger votre plat préféré à nouveau OU manger uniquement votre plat préféré pour toujours ?",
+    "ProposalAEn": "Never eat favorite food",
+    "ProposalAFr": "Ne jamais manger son plat préféré",
+    "ProposalBEn": "Eat only favorite food",
+    "ProposalBFr": "Manger uniquement son plat préféré"
+  },
+  {
+    "QuestionEn": "Would you rather explore space OR explore the deep sea?",
+    "QuestionFr": "Préférez-vous explorer l'espace OU explorer les profondeurs de l'océan ?",
+    "ProposalAEn": "Explore space",
+    "ProposalAFr": "Explorer l'espace",
+    "ProposalBEn": "Explore the deep sea",
+    "ProposalBFr": "Explorer les profondeurs de l'océan"
+  },
+  {
+    "QuestionEn": "Would you rather lose all your memories from the past OR never be able to make new memories?",
+    "QuestionFr": "Préférez-vous perdre tous vos souvenirs du passé OU ne jamais pouvoir créer de nouveaux souvenirs ?",
+    "ProposalAEn": "Lose all past memories",
+    "ProposalAFr": "Perdre tous les souvenirs du passé",
+    "ProposalBEn": "Never make new memories",
+    "ProposalBFr": "Ne jamais créer de nouveaux souvenirs"
+  },
+  {
+    "QuestionEn": "Would you rather live without social media OR live without TV shows and movies?",
+    "QuestionFr": "Préférez-vous vivre sans les réseaux sociaux OU vivre sans séries et films ?",
+    "ProposalAEn": "Without social media",
+    "ProposalAFr": "Sans réseaux sociaux",
+    "ProposalBEn": "Without TV shows and movies",
+    "ProposalBFr": "Sans séries et films"
+  },
+  {
+    "QuestionEn": "Would you rather always have to tell the truth OR always have to lie?",
+    "QuestionFr": "Préférez-vous devoir toujours dire la vérité OU toujours mentir ?",
+    "ProposalAEn": "Always tell the truth",
+    "ProposalAFr": "Toujours dire la vérité",
+    "ProposalBEn": "Always lie",
+    "ProposalBFr": "Toujours mentir"
+  },
+  {
+    "QuestionEn": "Would you rather have no taste buds OR no sense of smell?",
+    "QuestionFr": "Préférez-vous ne pas avoir de papilles gustatives OU ne pas avoir d'odorat ?",
+    "ProposalAEn": "No taste buds",
+    "ProposalAFr": "Pas de papilles gustatives",
+    "ProposalBEn": "No sense of smell",
+    "ProposalBFr": "Pas d'odorat"
+  },
+  {
+    "QuestionEn": "Would you rather spend a year in jail OR lose a year of your life?",
+    "QuestionFr": "Préférez-vous passer un an en prison OU perdre un an de votre vie ?",
+    "ProposalAEn": "Spend a year in jail",
+    "ProposalAFr": "Passer un an en prison",
+    "ProposalBEn": "Lose a year of life",
+    "ProposalBFr": "Perdre un an de vie"
+  },
+  {
+    "QuestionEn": "Would you rather be rich and unhappy OR poor and happy?",
+    "QuestionFr": "Préférez-vous être riche et malheureux OU pauvre et heureux ?",
+    "ProposalAEn": "Rich and unhappy",
+    "ProposalAFr": "Riche et malheureux",
+    "ProposalBEn": "Poor and happy",
+    "ProposalBFr": "Pauvre et heureux"
+  },
+  {
+    "QuestionEn": "Would you rather live in a big city with a small apartment OR in a rural area with a big house?",
+    "QuestionFr": "Préférez-vous vivre dans une grande ville avec un petit appartement OU dans une zone rurale avec une grande maison ?",
+    "ProposalAEn": "Big city, small apartment",
+    "ProposalAFr": "Grande ville, petit appartement",
+    "ProposalBEn": "Rural area, big house",
+    "ProposalBFr": "Zone rurale, grande maison"
+  },
+  {
+    "QuestionEn": "Would you rather always be too hot OR always be too cold?",
+    "QuestionFr": "Préférez-vous avoir toujours trop chaud OU toujours trop froid ?",
+    "ProposalAEn": "Too hot",
+    "ProposalAFr": "Trop chaud",
+    "ProposalBEn": "Too cold",
+    "ProposalBFr": "Trop froid"
+  },
+  {
+    "QuestionEn": "Would you rather be able to travel anywhere for free OR eat at any restaurant for free?",
+    "QuestionFr": "Préférez-vous pouvoir voyager partout gratuitement OU manger dans n'importe quel restaurant gratuitement ?",
+    "ProposalAEn": "Travel anywhere for free",
+    "ProposalAFr": "Voyager partout gratuitement",
+    "ProposalBEn": "Eat at any restaurant for free",
+    "ProposalBFr": "Manger dans n'importe quel restaurant gratuitement"
+  },
+  {
+    "QuestionEn": "Would you rather forget your own birthday OR everyone else's birthday?",
+    "QuestionFr": "Préférez-vous oublier votre propre anniversaire OU l'anniversaire de tout le monde ?",
+    "ProposalAEn": "Forget my own birthday",
+    "ProposalAFr": "Oublier mon propre anniversaire",
+    "ProposalBEn": "Forget everyone else's birthday",
+    "ProposalBFr": "Oublier l'anniversaire des autres"
+  },
+  {
+    "QuestionEn": "Would you rather only be able to whisper OR only be able to shout?",
+    "QuestionFr": "Préférez-vous ne pouvoir que chuchoter OU ne pouvoir que crier ?",
+    "ProposalAEn": "Only whisper",
+    "ProposalAFr": "Chuchoter seulement",
+    "ProposalBEn": "Only shout",
+    "ProposalBFr": "Crier seulement"
+  },
+  {
+    "QuestionEn": "Would you rather have a pause button for your life OR a rewind button?",
+    "QuestionFr": "Préférez-vous avoir un bouton pause pour votre vie OU un bouton rembobiner ?",
+    "ProposalAEn": "Pause button",
+    "ProposalAFr": "Bouton pause",
+    "ProposalBEn": "Rewind button",
+    "ProposalBFr": "Bouton rembobiner"
+  },
+  {
+    "QuestionEn": "Would you rather have the ability to never be tired OR the ability to never be hungry?",
+    "QuestionFr": "Préférez-vous avoir la capacité de ne jamais être fatigué OU de ne jamais avoir faim ?",
+    "ProposalAEn": "Never be tired",
+    "ProposalAFr": "Ne jamais être fatigué",
+    "ProposalBEn": "Never be hungry",
+    "ProposalBFr": "Ne jamais avoir faim"
+  },
+  {
+    "QuestionEn": "Would you rather live on a deserted island OR in a crowded city with no privacy?",
+    "QuestionFr": "Préférez-vous vivre sur une île déserte OU dans une ville bondée sans aucune intimité ?",
+    "ProposalAEn": "Deserted island",
+    "ProposalAFr": "Île déserte",
+    "ProposalBEn": "Crowded city",
+    "ProposalBFr": "Ville bondée"
+  },
+  {
+    "QuestionEn": "Would you rather win the lottery but lose all your friends OR stay poor with all your friends?",
+    "QuestionFr": "Préférez-vous gagner à la loterie mais perdre tous vos amis OU rester pauvre avec tous vos amis ?",
+    "ProposalAEn": "Win the lottery, lose friends",
+    "ProposalAFr": "Gagner à la loterie, perdre les amis",
+    "ProposalBEn": "Stay poor, keep friends",
+    "ProposalBFr": "Rester pauvre, garder les amis"
+  },
+  {
+    "QuestionEn": "Would you rather always have bad breath OR always have sweaty hands?",
+    "QuestionFr": "Préférez-vous avoir toujours mauvaise haleine OU avoir toujours les mains moites ?",
+    "ProposalAEn": "Bad breath",
+    "ProposalAFr": "Mauvaise haleine",
+    "ProposalBEn": "Sweaty hands",
+    "ProposalBFr": "Mains moites"
+  },
+  {
+    "QuestionEn": "Would you rather have the ability to change the past OR know the future?",
+    "QuestionFr": "Préférez-vous avoir la capacité de changer le passé OU de connaître l'avenir ?",
+    "ProposalAEn": "Change the past",
+    "ProposalAFr": "Changer le passé",
+    "ProposalBEn": "Know the future",
+    "ProposalBFr": "Connaître l'avenir"
+  },
+  {
+    "QuestionEn": "Would you rather never need to sleep OR never need to eat?",
+    "QuestionFr": "Préférez-vous ne jamais avoir besoin de dormir OU ne jamais avoir besoin de manger ?",
+    "ProposalAEn": "Never need to sleep",
+    "ProposalAFr": "Ne jamais dormir",
+    "ProposalBEn": "Never need to eat",
+    "ProposalBFr": "Ne jamais manger"
+  },
+  {
+    "QuestionEn": "Would you rather always have a full battery on your phone OR unlimited Wi-Fi everywhere?",
+    "QuestionFr": "Préférez-vous avoir toujours une batterie pleine sur votre téléphone OU un Wi-Fi illimité partout ?",
+    "ProposalAEn": "Full battery",
+    "ProposalAFr": "Batterie pleine",
+    "ProposalBEn": "Unlimited Wi-Fi",
+    "ProposalBFr": "Wi-Fi illimité"
+  },
+  {
+    "QuestionEn": "Would you rather only be able to listen to one song forever OR never listen to music again?",
+    "QuestionFr": "Préférez-vous écouter une seule chanson pour toujours OU ne plus jamais écouter de musique ?",
+    "ProposalAEn": "One song forever",
+    "ProposalAFr": "Une chanson pour toujours",
+    "ProposalBEn": "No music again",
+    "ProposalBFr": "Plus de musique"
+  },
+  {
+    "QuestionEn": "Would you rather forget how to read OR forget how to write?",
+    "QuestionFr": "Préférez-vous oublier comment lire OU oublier comment écrire ?",
+    "ProposalAEn": "Forget how to read",
+    "ProposalAFr": "Oublier comment lire",
+    "ProposalBEn": "Forget how to write",
+    "ProposalBFr": "Oublier comment écrire"
+  },
+  {
+    "QuestionEn": "Would you rather live without your favorite drink OR live without your favorite food?",
+    "QuestionFr": "Préférez-vous vivre sans votre boisson préférée OU sans votre plat préféré ?",
+    "ProposalAEn": "Without favorite drink",
+    "ProposalAFr": "Sans boisson préférée",
+    "ProposalBEn": "Without favorite food",
+    "ProposalBFr": "Sans plat préféré"
+  },
+  {
+    "QuestionEn": "Would you rather travel 100 years into the past OR 100 years into the future?",
+    "QuestionFr": "Préférez-vous voyager 100 ans dans le passé OU 100 ans dans le futur ?",
+    "ProposalAEn": "100 years into the past",
+    "ProposalAFr": "100 ans dans le passé",
+    "ProposalBEn": "100 years into the future",
+    "ProposalBFr": "100 ans dans le futur"
+  },
+  {
+    "QuestionEn": "Would you rather live on the moon OR live under the sea?",
+    "QuestionFr": "Préférez-vous vivre sur la lune OU sous la mer ?",
+    "ProposalAEn": "Live on the moon",
+    "ProposalAFr": "Vivre sur la lune",
+    "ProposalBEn": "Live under the sea",
+    "ProposalBFr": "Vivre sous la mer"
+  },
+  {
+    "QuestionEn": "Would you rather never use a computer again OR never use a smartphone again?",
+    "QuestionFr": "Préférez-vous ne plus jamais utiliser d'ordinateur OU ne plus jamais utiliser de smartphone ?",
+    "ProposalAEn": "No computer",
+    "ProposalAFr": "Pas d'ordinateur",
+    "ProposalBEn": "No smartphone",
+    "ProposalBFr": "Pas de smartphone"
+  },
+  {
+    "QuestionEn": "Would you rather have the ability to teleport OR have super strength?",
+    "QuestionFr": "Préférez-vous avoir la capacité de vous téléporter OU avoir une super force ?",
+    "ProposalAEn": "Teleport",
+    "ProposalAFr": "Se téléporter",
+    "ProposalBEn": "Super strength",
+    "ProposalBFr": "Super force"
+  },
+  {
+    "QuestionEn": "Would you rather live in a world without books OR a world without movies?",
+    "QuestionFr": "Préférez-vous vivre dans un monde sans livres OU dans un monde sans films ?",
+    "ProposalAEn": "Without books",
+    "ProposalAFr": "Sans livres",
+    "ProposalBEn": "Without movies",
+    "ProposalBFr": "Sans films"
+  },
+  {
+    "QuestionEn": "Would you rather always feel itchy OR always feel sticky?",
+    "QuestionFr": "Préférez-vous vous sentir toujours irrité OU toujours collant ?",
+    "ProposalAEn": "Always feel itchy",
+    "ProposalAFr": "Toujours irrité",
+    "ProposalBEn": "Always feel sticky",
+    "ProposalBFr": "Toujours collant"
+  },
+  {
+    "QuestionEn": "Would you rather be the funniest person in the room OR the smartest person in the room?",
+    "QuestionFr": "Préférez-vous être la personne la plus drôle de la pièce OU la personne la plus intelligente ?",
+    "ProposalAEn": "Funniest",
+    "ProposalAFr": "La plus drôle",
+    "ProposalBEn": "Smartest",
+    "ProposalBFr": "La plus intelligente"
+  },
+  {
+    "QuestionEn": "Would you rather live one life that lasts 1000 years OR live 10 lives that last 100 years each?",
+    "QuestionFr": "Préférez-vous vivre une vie qui dure 1000 ans OU vivre 10 vies qui durent chacune 100 ans ?",
+    "ProposalAEn": "One life for 1000 years",
+    "ProposalAFr": "Une vie de 1000 ans",
+    "ProposalBEn": "10 lives of 100 years",
+    "ProposalBFr": "10 vies de 100 ans"
+  },
+  {
+    "QuestionEn": "Would you rather always have to wear wet socks OR always have to wear heavy winter clothes in summer?",
+    "QuestionFr": "Préférez-vous porter des chaussettes mouillées en permanence OU porter des vêtements d'hiver en été ?",
+    "ProposalAEn": "Wet socks",
+    "ProposalAFr": "Chaussettes mouillées",
+    "ProposalBEn": "Winter clothes in summer",
+    "ProposalBFr": "Vêtements d'hiver en été"
+  },
+  {
+    "QuestionEn": "Would you rather have unlimited pizza for life OR unlimited pasta?",
+    "QuestionFr": "Préférez-vous avoir des pizzas illimitées pour la vie OU des pâtes illimitées ?",
+    "ProposalAEn": "Unlimited pizza",
+    "ProposalAFr": "Pizzas illimitées",
+    "ProposalBEn": "Unlimited pasta",
+    "ProposalBFr": "Pâtes illimitées"
+  },
+  {
+    "QuestionEn": "Would you rather be able to stop time for 10 seconds OR predict the future for 10 minutes?",
+    "QuestionFr": "Préférez-vous arrêter le temps pendant 10 secondes OU prédire l'avenir pendant 10 minutes ?",
+    "ProposalAEn": "Stop time",
+    "ProposalAFr": "Arrêter le temps",
+    "ProposalBEn": "Predict the future",
+    "ProposalBFr": "Prédire l'avenir"
+  },
+  {
+    "QuestionEn": "Would you rather live without chocolate OR live without cheese?",
+    "QuestionFr": "Préférez-vous vivre sans chocolat OU vivre sans fromage ?",
+    "ProposalAEn": "Without chocolate",
+    "ProposalAFr": "Sans chocolat",
+    "ProposalBEn": "Without cheese",
+    "ProposalBFr": "Sans fromage"
+  },
+  {
+    "QuestionEn": "Would you rather live in a world where it’s always daytime OR always nighttime?",
+    "QuestionFr": "Préférez-vous vivre dans un monde où il fait toujours jour OU toujours nuit ?",
+    "ProposalAEn": "Always daytime",
+    "ProposalAFr": "Toujours jour",
+    "ProposalBEn": "Always nighttime",
+    "ProposalBFr": "Toujours nuit"
+  },
+  {
+    "QuestionEn": "Would you rather have the ability to control fire OR the ability to control water?",
+    "QuestionFr": "Préférez-vous avoir le pouvoir de contrôler le feu OU l'eau ?",
+    "ProposalAEn": "Control fire",
+    "ProposalAFr": "Contrôler le feu",
+    "ProposalBEn": "Control water",
+    "ProposalBFr": "Contrôler l'eau"
+  },
+  {
+    "QuestionEn": "Would you rather live in a mansion in the middle of nowhere OR in a small apartment in a bustling city?",
+    "QuestionFr": "Préférez-vous vivre dans un manoir au milieu de nulle part OU dans un petit appartement dans une ville animée ?",
+    "ProposalAEn": "Mansion in nowhere",
+    "ProposalAFr": "Manoir isolé",
+    "ProposalBEn": "Small city apartment",
+    "ProposalBFr": "Petit appartement en ville"
+  },
+  {
+    "QuestionEn": "Would you rather be able to speak every language fluently OR be able to play every instrument perfectly?",
+    "QuestionFr": "Préférez-vous parler toutes les langues couramment OU jouer parfaitement de tous les instruments ?",
+    "ProposalAEn": "Speak every language",
+    "ProposalAFr": "Parler toutes les langues",
+    "ProposalBEn": "Play every instrument",
+    "ProposalBFr": "Jouer de tous les instruments"
+  },
+  {
+    "QuestionEn": "Would you rather always have to sing instead of speaking OR dance everywhere you go?",
+    "QuestionFr": "Préférez-vous devoir toujours chanter au lieu de parler OU danser partout où vous allez ?",
+    "ProposalAEn": "Sing instead of speaking",
+    "ProposalAFr": "Chanter au lieu de parler",
+    "ProposalBEn": "Dance everywhere",
+    "ProposalBFr": "Danser partout"
+  },
+  {
+    "QuestionEn": "Would you rather never celebrate your birthday again OR never celebrate holidays again?",
+    "QuestionFr": "Préférez-vous ne plus jamais célébrer votre anniversaire OU ne plus jamais célébrer les fêtes ?",
+    "ProposalAEn": "No birthday celebrations",
+    "ProposalAFr": "Pas d'anniversaire",
+    "ProposalBEn": "No holiday celebrations",
+    "ProposalBFr": "Pas de fêtes"
+  },
+  {
+    "QuestionEn": "Would you rather live in a house made of glass OR a house with no windows?",
+    "QuestionFr": "Préférez-vous vivre dans une maison en verre OU une maison sans fenêtres ?",
+    "ProposalAEn": "Glass house",
+    "ProposalAFr": "Maison en verre",
+    "ProposalBEn": "No windows house",
+    "ProposalBFr": "Maison sans fenêtres"
+  },
+  {
+    "QuestionEn": "Would you rather always be overdressed OR always be underdressed?",
+    "QuestionFr": "Préférez-vous être toujours trop habillé OU toujours pas assez habillé ?",
+    "ProposalAEn": "Always overdressed",
+    "ProposalAFr": "Toujours trop habillé",
+    "ProposalBEn": "Always underdressed",
+    "ProposalBFr": "Toujours pas assez habillé"
+  },
+  {
+    "QuestionEn": "Would you rather have a head the size of a watermelon OR the size of a tennis ball?",
+    "QuestionFr": "Préférez-vous avoir une tête de la taille d'une pastèque OU de la taille d'une balle de tennis ?",
+    "ProposalAEn": "Watermelon-sized head",
+    "ProposalAFr": "Tête de pastèque",
+    "ProposalBEn": "Tennis ball-sized head",
+    "ProposalBFr": "Tête de balle de tennis"
+  },
+  {
+    "QuestionEn": "Would you rather live in a world without coffee OR a world without tea?",
+    "QuestionFr": "Préférez-vous vivre dans un monde sans café OU dans un monde sans thé ?",
+    "ProposalAEn": "No coffee",
+    "ProposalAFr": "Sans café",
+    "ProposalBEn": "No tea",
+    "ProposalBFr": "Sans thé"
+  },
+  {
+    "QuestionEn": "Would you rather always know what people are thinking OR always know what will happen next?",
+    "QuestionFr": "Préférez-vous toujours savoir ce que les gens pensent OU toujours savoir ce qui va se passer ?",
+    "ProposalAEn": "Know people's thoughts",
+    "ProposalAFr": "Savoir ce que pensent les gens",
+    "ProposalBEn": "Know what happens next",
+    "ProposalBFr": "Savoir ce qui va se passer"
+  },
+  {
+    "QuestionEn": "Would you rather eat only sweet foods forever OR only salty foods forever?",
+    "QuestionFr": "Préférez-vous ne manger que des aliments sucrés pour toujours OU que des aliments salés ?",
+    "ProposalAEn": "Sweet foods",
+    "ProposalAFr": "Aliments sucrés",
+    "ProposalBEn": "Salty foods",
+    "ProposalBFr": "Aliments salés"
+  },
+  {
+    "QuestionEn": "Would you rather live with a loud roommate OR a very messy roommate?",
+    "QuestionFr": "Préférez-vous vivre avec un colocataire bruyant OU très désordonné ?",
+    "ProposalAEn": "Loud roommate",
+    "ProposalAFr": "Colocataire bruyant",
+    "ProposalBEn": "Messy roommate",
+    "ProposalBFr": "Colocataire désordonné"
+  },
+  {
+    "QuestionEn": "Would you rather lose the ability to see color OR the ability to hear music?",
+    "QuestionFr": "Préférez-vous perdre la capacité de voir les couleurs OU celle d'entendre de la musique ?",
+    "ProposalAEn": "Lose color vision",
+    "ProposalAFr": "Perdre la vision des couleurs",
+    "ProposalBEn": "Lose music hearing",
+    "ProposalBFr": "Perdre l'audition de la musique"
+  },
+  {
+    "QuestionEn": "Would you rather live in the mountains OR live by the beach?",
+    "QuestionFr": "Préférez-vous vivre à la montagne OU au bord de la mer ?",
+    "ProposalAEn": "Mountains",
+    "ProposalAFr": "À la montagne",
+    "ProposalBEn": "Beach",
+    "ProposalBFr": "Au bord de la mer"
+  },
+  {
+    "QuestionEn": "Would you rather always have to eat spicy food OR bland food?",
+    "QuestionFr": "Préférez-vous toujours manger des aliments épicés OU fades ?",
+    "ProposalAEn": "Spicy food",
+    "ProposalAFr": "Aliments épicés",
+    "ProposalBEn": "Bland food",
+    "ProposalBFr": "Aliments fades"
+  },
+  {
+    "QuestionEn": "Would you rather have a photographic memory OR be able to forget any memory you want?",
+    "QuestionFr": "Préférez-vous avoir une mémoire photographique OU pouvoir oublier n'importe quel souvenir que vous voulez ?",
+    "ProposalAEn": "Photographic memory",
+    "ProposalAFr": "Mémoire photographique",
+    "ProposalBEn": "Forget memories",
+    "ProposalBFr": "Oublier des souvenirs"
+  },
+  {
+    "QuestionEn": "Would you rather always have a cold OR always have a headache?",
+    "QuestionFr": "Préférez-vous avoir toujours un rhume OU toujours un mal de tête ?",
+    "ProposalAEn": "Always have a cold",
+    "ProposalAFr": "Toujours un rhume",
+    "ProposalBEn": "Always have a headache",
+    "ProposalBFr": "Toujours un mal de tête"
+  },
+  {
+    "QuestionEn": "Would you rather never be able to cry again OR never be able to laugh again?",
+    "QuestionFr": "Préférez-vous ne plus jamais pouvoir pleurer OU ne plus jamais pouvoir rire ?",
+    "ProposalAEn": "Never cry again",
+    "ProposalAFr": "Ne plus pleurer",
+    "ProposalBEn": "Never laugh again",
+    "ProposalBFr": "Ne plus rire"
+  },
+  {
+    "QuestionEn": "Would you rather have a job you love with low pay OR a job you hate with high pay?",
+    "QuestionFr": "Préférez-vous avoir un emploi que vous aimez avec un faible salaire OU un emploi que vous détestez avec un salaire élevé ?",
+    "ProposalAEn": "Job I love, low pay",
+    "ProposalAFr": "Emploi aimé, faible salaire",
+    "ProposalBEn": "Job I hate, high pay",
+    "ProposalBFr": "Emploi détesté, salaire élevé"
+  },
+  {
+    "QuestionEn": "Would you rather never use a fork again OR never use a knife again?",
+    "QuestionFr": "Préférez-vous ne plus jamais utiliser de fourchette OU de couteau ?",
+    "ProposalAEn": "No fork",
+    "ProposalAFr": "Pas de fourchette",
+    "ProposalBEn": "No knife",
+    "ProposalBFr": "Pas de couteau"
+  },
+  {
+    "QuestionEn": "Would you rather always feel hungry OR always feel thirsty?",
+    "QuestionFr": "Préférez-vous toujours vous sentir affamé OU toujours avoir soif ?",
+    "ProposalAEn": "Always hungry",
+    "ProposalAFr": "Toujours faim",
+    "ProposalBEn": "Always thirsty",
+    "ProposalBFr": "Toujours soif"
+  },
+  {
+    "QuestionEn": "Would you rather have unlimited money but no time OR unlimited time but no money?",
+    "QuestionFr": "Préférez-vous avoir de l'argent illimité mais pas de temps OU du temps illimité mais pas d'argent ?",
+    "ProposalAEn": "Unlimited money, no time",
+    "ProposalAFr": "Argent illimité, pas de temps",
+    "ProposalBEn": "Unlimited time, no money",
+    "ProposalBFr": "Temps illimité, pas d'argent"
+  },
+  {
+    "QuestionEn": "Would you rather live in a world without the internet OR a world without electricity?",
+    "QuestionFr": "Préférez-vous vivre dans un monde sans internet OU dans un monde sans électricité ?",
+    "ProposalAEn": "No internet",
+    "ProposalAFr": "Sans internet",
+    "ProposalBEn": "No electricity",
+    "ProposalBFr": "Sans électricité"
+  },
+  {
+    "QuestionEn": "Would you rather have a pet dragon OR a pet unicorn?",
+    "QuestionFr": "Préférez-vous avoir un dragon de compagnie OU une licorne de compagnie ?",
+    "ProposalAEn": "Pet dragon",
+    "ProposalAFr": "Dragon de compagnie",
+    "ProposalBEn": "Pet unicorn",
+    "ProposalBFr": "Licorne de compagnie"
+  },
+  {
+    "QuestionEn": "Would you rather never get tired OR never get bored?",
+    "QuestionFr": "Préférez-vous ne jamais être fatigué OU ne jamais vous ennuyer ?",
+    "ProposalAEn": "Never tired",
+    "ProposalAFr": "Jamais fatigué",
+    "ProposalBEn": "Never bored",
+    "ProposalBFr": "Jamais ennuyé"
+  },
+  {
+    "QuestionEn": "Would you rather have a rewind button for your life OR a pause button?",
+    "QuestionFr": "Préférez-vous avoir un bouton pour rembobiner votre vie OU pour la mettre en pause ?",
+    "ProposalAEn": "Rewind button",
+    "ProposalAFr": "Bouton rembobiner",
+    "ProposalBEn": "Pause button",
+    "ProposalBFr": "Bouton pause"
+  },
+  {
+    "QuestionEn": "Would you rather always speak in rhymes OR always sing your words?",
+    "QuestionFr": "Préférez-vous toujours parler en rimes OU toujours chanter vos paroles ?",
+    "ProposalAEn": "Speak in rhymes",
+    "ProposalAFr": "Parler en rimes",
+    "ProposalBEn": "Sing words",
+    "ProposalBFr": "Chanter les paroles"
+  },
+  {
+    "QuestionEn": "Would you rather be able to fly like a bird OR swim like a dolphin?",
+    "QuestionFr": "Préférez-vous pouvoir voler comme un oiseau OU nager comme un dauphin ?",
+    "ProposalAEn": "Fly like a bird",
+    "ProposalAFr": "Voler comme un oiseau",
+    "ProposalBEn": "Swim like a dolphin",
+    "ProposalBFr": "Nager comme un dauphin"
+  },
+  {
+    "QuestionEn": "Would you rather be stuck in a broken elevator OR stranded on a deserted island?",
+    "QuestionFr": "Préférez-vous être coincé dans un ascenseur en panne OU bloqué sur une île déserte ?",
+    "ProposalAEn": "Broken elevator",
+    "ProposalAFr": "Ascenseur en panne",
+    "ProposalBEn": "Deserted island",
+    "ProposalBFr": "Île déserte"
+  },
+  {
+    "QuestionEn": "Would you rather always know when someone is lying OR always get away with lying?",
+    "QuestionFr": "Préférez-vous toujours savoir quand quelqu'un ment OU toujours vous en sortir en mentant ?",
+    "ProposalAEn": "Know when lying",
+    "ProposalAFr": "Savoir quand on ment",
+    "ProposalBEn": "Get away with lying",
+    "ProposalBFr": "S'en sortir en mentant"
+  },
+  {
+    "QuestionEn": "Would you rather have an extra arm OR an extra leg?",
+    "QuestionFr": "Préférez-vous avoir un bras supplémentaire OU une jambe supplémentaire ?",
+    "ProposalAEn": "Extra arm",
+    "ProposalAFr": "Bras supplémentaire",
+    "ProposalBEn": "Extra leg",
+    "ProposalBFr": "Jambe supplémentaire"
+  },
+  {
+    "QuestionEn": "Would you rather have a magical wardrobe that can teleport you anywhere OR a fridge that always has your favorite food?",
+    "QuestionFr": "Préférez-vous une armoire magique qui peut vous téléporter partout OU un frigo qui contient toujours vos plats préférés ?",
+    "ProposalAEn": "Magical wardrobe",
+    "ProposalAFr": "Armoire magique",
+    "ProposalBEn": "Favorite food fridge",
+    "ProposalBFr": "Frigo préféré"
+  },
+  {
+    "QuestionEn": "Would you rather be famous for something embarrassing OR never be famous at all?",
+    "QuestionFr": "Préférez-vous être célèbre pour quelque chose d'embarrassant OU ne jamais être célèbre ?",
+    "ProposalAEn": "Famous for embarrassing",
+    "ProposalAFr": "Célèbre pour embarrassant",
+    "ProposalBEn": "Never famous",
+    "ProposalBFr": "Jamais célèbre"
+  },
+  {
+    "QuestionEn": "Would you rather eat only vegetables forever OR only meat forever?",
+    "QuestionFr": "Préférez-vous ne manger que des légumes pour toujours OU que de la viande ?",
+    "ProposalAEn": "Only vegetables",
+    "ProposalAFr": "Que des légumes",
+    "ProposalBEn": "Only meat",
+    "ProposalBFr": "Que de la viande"
+  },
+  {
+    "QuestionEn": "Would you rather live in a world where animals can talk OR where humans can fly?",
+    "QuestionFr": "Préférez-vous vivre dans un monde où les animaux peuvent parler OU où les humains peuvent voler ?",
+    "ProposalAEn": "Animals talk",
+    "ProposalAFr": "Animaux qui parlent",
+    "ProposalBEn": "Humans fly",
+    "ProposalBFr": "Humains qui volent"
+  },
+  {
+    "QuestionEn": "Would you rather never be able to sit again OR never be able to stand again?",
+    "QuestionFr": "Préférez-vous ne plus jamais pouvoir vous asseoir OU ne plus jamais pouvoir vous tenir debout ?",
+    "ProposalAEn": "Never sit",
+    "ProposalAFr": "Ne jamais s'asseoir",
+    "ProposalBEn": "Never stand",
+    "ProposalBFr": "Ne jamais se tenir debout"
+  },
+  {
+    "QuestionEn": "Would you rather have a rewind button for one day each week OR fast-forward through boring moments?",
+    "QuestionFr": "Préférez-vous avoir un bouton rembobiner pour un jour par semaine OU passer les moments ennuyeux ?",
+    "ProposalAEn": "Rewind one day",
+    "ProposalAFr": "Rembobiner un jour",
+    "ProposalBEn": "Fast-forward boring",
+    "ProposalBFr": "Passer l'ennui"
+  },
+  {
+    "QuestionEn": "Would you rather have a voice like a robot OR a voice like a cartoon character?",
+    "QuestionFr": "Préférez-vous avoir une voix de robot OU une voix de personnage de dessin animé ?",
+    "ProposalAEn": "Robot voice",
+    "ProposalAFr": "Voix de robot",
+    "ProposalBEn": "Cartoon voice",
+    "ProposalBFr": "Voix de dessin animé"
+  },
+  {
+    "QuestionEn": "Would you rather always have slow internet OR never have air conditioning?",
+    "QuestionFr": "Préférez-vous toujours avoir une connexion internet lente OU ne jamais avoir de climatisation ?",
+    "ProposalAEn": "Slow internet",
+    "ProposalAFr": "Internet lent",
+    "ProposalBEn": "No air conditioning",
+    "ProposalBFr": "Pas de climatisation"
+  },
+  {
+    "QuestionEn": "Would you rather have to shout everything you say OR whisper everything you say?",
+    "QuestionFr": "Préférez-vous devoir crier tout ce que vous dites OU murmurer tout ce que vous dites ?",
+    "ProposalAEn": "Shout everything",
+    "ProposalAFr": "Crier tout",
+    "ProposalBEn": "Whisper everything",
+    "ProposalBFr": "Murmurer tout"
+  },
+  {
+    "QuestionEn": "Would you rather have to live in a haunted house OR a house with no privacy?",
+    "QuestionFr": "Préférez-vous vivre dans une maison hantée OU dans une maison sans intimité ?",
+    "ProposalAEn": "Haunted house",
+    "ProposalAFr": "Maison hantée",
+    "ProposalBEn": "No privacy",
+    "ProposalBFr": "Pas d'intimité"
+  },
+  {
+    "QuestionEn": "Would you rather have a pet you can communicate with OR a robot that does everything for you?",
+    "QuestionFr": "Préférez-vous avoir un animal avec lequel vous pouvez communiquer OU un robot qui fait tout pour vous ?",
+    "ProposalAEn": "Communicate with pet",
+    "ProposalAFr": "Communiquer avec l'animal",
+    "ProposalBEn": "Robot for everything",
+    "ProposalBFr": "Robot qui fait tout"
+  },
+  {
+    "QuestionEn": "Would you rather never age physically OR never age mentally?",
+    "QuestionFr": "Préférez-vous ne jamais vieillir physiquement OU ne jamais vieillir mentalement ?",
+    "ProposalAEn": "Never age physically",
+    "ProposalAFr": "Ne jamais vieillir physiquement",
+    "ProposalBEn": "Never age mentally",
+    "ProposalBFr": "Ne jamais vieillir mentalement"
+  },
+  {
+    "QuestionEn": "Would you rather always wake up 30 minutes late OR always wake up 30 minutes early?",
+    "QuestionFr": "Préférez-vous vous réveiller toujours 30 minutes en retard OU toujours 30 minutes en avance ?",
+    "ProposalAEn": "30 minutes late",
+    "ProposalAFr": "30 minutes en retard",
+    "ProposalBEn": "30 minutes early",
+    "ProposalBFr": "30 minutes en avance"
+  },
+  {
+    "QuestionEn": "Would you rather always have to eat your least favorite food OR never be able to eat your favorite food again?",
+    "QuestionFr": "Préférez-vous devoir toujours manger votre plat que vous détestez OU ne plus jamais pouvoir manger votre plat préféré ?",
+    "ProposalAEn": "Eat least favorite food",
+    "ProposalAFr": "Manger le plat détesté",
+    "ProposalBEn": "Never eat favorite food",
+    "ProposalBFr": "Ne plus manger le plat préféré"
+  },
+  {
+    "QuestionEn": "Would you rather live without social media OR live without TV and movies?",
+    "QuestionFr": "Préférez-vous vivre sans réseaux sociaux OU sans télévision et films ?",
+    "ProposalAEn": "No social media",
+    "ProposalAFr": "Sans réseaux sociaux",
+    "ProposalBEn": "No TV and movies",
+    "ProposalBFr": "Sans télévision et films"
+  },
+  {
+    "QuestionEn": "Would you rather always be too hot OR always be too cold?",
+    "QuestionFr": "Préférez-vous toujours avoir trop chaud OU toujours avoir trop froid ?",
+    "ProposalAEn": "Always too hot",
+    "ProposalAFr": "Toujours trop chaud",
+    "ProposalBEn": "Always too cold",
+    "ProposalBFr": "Toujours trop froid"
+  },
+  {
+    "QuestionEn": "Would you rather never be able to speak again OR never be able to stop talking?",
+    "QuestionFr": "Préférez-vous ne plus jamais pouvoir parler OU ne plus jamais pouvoir vous arrêter de parler ?",
+    "ProposalAEn": "Never speak again",
+    "ProposalAFr": "Ne plus parler",
+    "ProposalBEn": "Never stop talking",
+    "ProposalBFr": "Ne plus s'arrêter de parler"
+  },
+  {
+    "QuestionEn": "Would you rather have a time machine OR a teleportation device?",
+    "QuestionFr": "Préférez-vous avoir une machine à voyager dans le temps OU un dispositif de téléportation ?",
+    "ProposalAEn": "Time machine",
+    "ProposalAFr": "Machine à voyager dans le temps",
+    "ProposalBEn": "Teleportation device",
+    "ProposalBFr": "Dispositif de téléportation"
+  },
+  {
+    "QuestionEn": "Would you rather live in a tiny house in the city OR a mansion in the countryside?",
+    "QuestionFr": "Préférez-vous vivre dans une petite maison en ville OU dans un manoir à la campagne ?",
+    "ProposalAEn": "Tiny house in the city",
+    "ProposalAFr": "Petite maison en ville",
+    "ProposalBEn": "Mansion in the countryside",
+    "ProposalBFr": "Manoir à la campagne"
+  },
+  {
+    "QuestionEn": "Would you rather only eat desserts OR never eat desserts again?",
+    "QuestionFr": "Préférez-vous ne manger que des desserts OU ne plus jamais manger de desserts ?",
+    "ProposalAEn": "Only eat desserts",
+    "ProposalAFr": "Manger que des desserts",
+    "ProposalBEn": "Never eat desserts",
+    "ProposalBFr": "Ne plus manger de desserts"
+  },
+  {
+    "QuestionEn": "Would you rather always feel like you are being watched OR never feel noticed by anyone?",
+    "QuestionFr": "Préférez-vous toujours avoir l'impression d'être observé OU ne jamais avoir l'impression d'être remarqué par quelqu'un ?",
+    "ProposalAEn": "Always being watched",
+    "ProposalAFr": "Toujours observé",
+    "ProposalBEn": "Never noticed",
+    "ProposalBFr": "Jamais remarqué"
+  },
+  {
+    "QuestionEn": "Would you rather have perfect hair every day OR perfect skin?",
+    "QuestionFr": "Préférez-vous avoir des cheveux parfaits chaque jour OU une peau parfaite ?",
+    "ProposalAEn": "Perfect hair",
+    "ProposalAFr": "Cheveux parfaits",
+    "ProposalBEn": "Perfect skin",
+    "ProposalBFr": "Peau parfaite"
+  },
+  {
+    "QuestionEn": "Would you rather lose the ability to read OR the ability to write?",
+    "QuestionFr": "Préférez-vous perdre la capacité de lire OU la capacité d'écrire ?",
+    "ProposalAEn": "Lose reading ability",
+    "ProposalAFr": "Perdre la capacité de lire",
+    "ProposalBEn": "Lose writing ability",
+    "ProposalBFr": "Perdre la capacité d'écrire"
+  },
+  {
+    "QuestionEn": "Would you rather be famous for discovering something important OR inventing something fun?",
+    "QuestionFr": "Préférez-vous être célèbre pour avoir découvert quelque chose d'important OU pour avoir inventé quelque chose de ludique ?",
+    "ProposalAEn": "Discover something important",
+    "ProposalAFr": "Découvrir quelque chose d'important",
+    "ProposalBEn": "Invent something fun",
+    "ProposalBFr": "Inventer quelque chose de ludique"
+  },
+  {
+    "QuestionEn": "Would you rather have a personal chef OR a personal driver?",
+    "QuestionFr": "Préférez-vous avoir un chef personnel OU un chauffeur personnel ?",
+    "ProposalAEn": "Personal chef",
+    "ProposalAFr": "Chef personnel",
+    "ProposalBEn": "Personal driver",
+    "ProposalBFr": "Chauffeur personnel"
+  },
+  {
+    "QuestionEn": "Would you rather spend one year on a deserted island OR ten years in a big city with no friends?",
+    "QuestionFr": "Préférez-vous passer un an sur une île déserte OU dix ans dans une grande ville sans amis ?",
+    "ProposalAEn": "Deserted island",
+    "ProposalAFr": "Île déserte",
+    "ProposalBEn": "City with no friends",
+    "ProposalBFr": "Ville sans amis"
+  },
+  {
+    "QuestionEn": "Would you rather have a photographic memory OR be a genius in math?",
+    "QuestionFr": "Préférez-vous avoir une mémoire photographique OU être un génie en mathématiques ?",
+    "ProposalAEn": "Photographic memory",
+    "ProposalAFr": "Mémoire photographique",
+    "ProposalBEn": "Genius in math",
+    "ProposalBFr": "Génie en maths"
+  },
+  {
+    "QuestionEn": "Would you rather live 100 years in the future OR 100 years in the past?",
+    "QuestionFr": "Préférez-vous vivre 100 ans dans le futur OU 100 ans dans le passé ?",
+    "ProposalAEn": "100 years in the future",
+    "ProposalAFr": "100 ans dans le futur",
+    "ProposalBEn": "100 years in the past",
+    "ProposalBFr": "100 ans dans le passé"
+  },
+  {
+    "QuestionEn": "Would you rather have unlimited energy OR unlimited creativity?",
+    "QuestionFr": "Préférez-vous avoir une énergie illimitée OU une créativité illimitée ?",
+    "ProposalAEn": "Unlimited energy",
+    "ProposalAFr": "Énergie illimitée",
+    "ProposalBEn": "Unlimited creativity",
+    "ProposalBFr": "Créativité illimitée"
+  },
+  {
+    "QuestionEn": "Would you rather be able to control the weather OR talk to animals?",
+    "QuestionFr": "Préférez-vous pouvoir contrôler la météo OU parler aux animaux ?",
+    "ProposalAEn": "Control the weather",
+    "ProposalAFr": "Contrôler la météo",
+    "ProposalBEn": "Talk to animals",
+    "ProposalBFr": "Parler aux animaux"
+  },
+  {
+    "QuestionEn": "Would you rather always feel itchy OR always feel sticky?",
+    "QuestionFr": "Préférez-vous toujours avoir des démangeaisons OU toujours vous sentir collant ?",
+    "ProposalAEn": "Always itchy",
+    "ProposalAFr": "Toujours des démangeaisons",
+    "ProposalBEn": "Always sticky",
+    "ProposalBFr": "Toujours collant"
+  },
+  {
+    "QuestionEn": "Would you rather always have to laugh at sad moments OR cry at happy moments?",
+    "QuestionFr": "Préférez-vous toujours devoir rire lors de moments tristes OU pleurer lors de moments heureux ?",
+    "ProposalAEn": "Laugh at sad moments",
+    "ProposalAFr": "Rire lors de moments tristes",
+    "ProposalBEn": "Cry at happy moments",
+    "ProposalBFr": "Pleurer lors de moments heureux"
+  },
+  {
+    "QuestionEn": "Would you rather live in a house made entirely of glass OR a house without windows?",
+    "QuestionFr": "Préférez-vous vivre dans une maison entièrement en verre OU dans une maison sans fenêtres ?",
+    "ProposalAEn": "Glass house",
+    "ProposalAFr": "Maison en verre",
+    "ProposalBEn": "No windows",
+    "ProposalBFr": "Sans fenêtres"
+  },
+  {
+    "QuestionEn": "Would you rather always lose your keys OR always lose your phone?",
+    "QuestionFr": "Préférez-vous toujours perdre vos clés OU toujours perdre votre téléphone ?",
+    "ProposalAEn": "Lose your keys",
+    "ProposalAFr": "Perdre vos clés",
+    "ProposalBEn": "Lose your phone",
+    "ProposalBFr": "Perdre votre téléphone"
+  },
+  {
+    "QuestionEn": "Would you rather live in a world without music OR a world without art?",
+    "QuestionFr": "Préférez-vous vivre dans un monde sans musique OU dans un monde sans art ?",
+    "ProposalAEn": "No music",
+    "ProposalAFr": "Sans musique",
+    "ProposalBEn": "No art",
+    "ProposalBFr": "Sans art"
+  },
+  {
+    "QuestionEn": "Would you rather never be able to use a GPS again OR never be able to take a flight again?",
+    "QuestionFr": "Préférez-vous ne plus jamais pouvoir utiliser un GPS OU ne plus jamais pouvoir prendre l'avion ?",
+    "ProposalAEn": "No GPS",
+    "ProposalAFr": "Sans GPS",
+    "ProposalBEn": "No flights",
+    "ProposalBFr": "Sans vols"
+  },
+  {
+    "QuestionEn": "Would you rather have the power to read minds OR the power to control minds?",
+    "QuestionFr": "Préférez-vous avoir le pouvoir de lire dans les pensées OU le pouvoir de contrôler les esprits ?",
+    "ProposalAEn": "Read minds",
+    "ProposalAFr": "Lire dans les pensées",
+    "ProposalBEn": "Control minds",
+    "ProposalBFr": "Contrôler les esprits"
+  },
+  {
+    "QuestionEn": "Would you rather have to sing every word you speak OR dance every step you take?",
+    "QuestionFr": "Préférez-vous devoir chanter chaque mot que vous dites OU danser chaque pas que vous faites ?",
+    "ProposalAEn": "Sing every word",
+    "ProposalAFr": "Chanter chaque mot",
+    "ProposalBEn": "Dance every step",
+    "ProposalBFr": "Danser chaque pas"
+  },
+  {
+    "QuestionEn": "Would you rather always have a pebble in your shoe OR always have an itch you can’t scratch?",
+    "QuestionFr": "Préférez-vous toujours avoir un caillou dans votre chaussure OU toujours avoir une démangeaison impossible à gratter ?",
+    "ProposalAEn": "Pebble in shoe",
+    "ProposalAFr": "Caillou dans la chaussure",
+    "ProposalBEn": "Itch you can't scratch",
+    "ProposalBFr": "Démangeaison impossible à gratter"
+  },
+  {
+    "QuestionEn": "Would you rather always be 10 minutes late OR always be 20 minutes early?",
+    "QuestionFr": "Préférez-vous être toujours en retard de 10 minutes OU toujours en avance de 20 minutes ?",
+    "ProposalAEn": "10 minutes late",
+    "ProposalAFr": "10 minutes en retard",
+    "ProposalBEn": "20 minutes early",
+    "ProposalBFr": "20 minutes en avance"
+  },
+  {
+    "QuestionEn": "Would you rather have to wear wet socks forever OR wear itchy clothes forever?",
+    "QuestionFr": "Préférez-vous devoir porter des chaussettes mouillées pour toujours OU porter des vêtements qui grattent pour toujours ?",
+    "ProposalAEn": "Wet socks",
+    "ProposalAFr": "Chaussettes mouillées",
+    "ProposalBEn": "Itchy clothes",
+    "ProposalBFr": "Vêtements qui grattent"
+  },
+  {
+    "QuestionEn": "Would you rather have unlimited free travel OR unlimited free food at restaurants?",
+    "QuestionFr": "Préférez-vous voyager gratuitement de façon illimitée OU manger gratuitement dans les restaurants de façon illimitée ?",
+    "ProposalAEn": "Free travel",
+    "ProposalAFr": "Voyager gratuitement",
+    "ProposalBEn": "Free food",
+    "ProposalBFr": "Manger gratuitement"
+  },
+  {
+    "QuestionEn": "Would you rather lose all your memories from childhood OR lose all your recent memories?",
+    "QuestionFr": "Préférez-vous perdre tous vos souvenirs d'enfance OU tous vos souvenirs récents ?",
+    "ProposalAEn": "Lose childhood memories",
+    "ProposalAFr": "Perdre souvenirs d'enfance",
+    "ProposalBEn": "Lose recent memories",
+    "ProposalBFr": "Perdre souvenirs récents"
+  },
+  {
+    "QuestionEn": "Would you rather be able to breathe underwater OR walk on water?",
+    "QuestionFr": "Préférez-vous pouvoir respirer sous l'eau OU marcher sur l'eau ?",
+    "ProposalAEn": "Breathe underwater",
+    "ProposalAFr": "Respirer sous l'eau",
+    "ProposalBEn": "Walk on water",
+    "ProposalBFr": "Marcher sur l'eau"
+  },
+  {
+    "QuestionEn": "Would you rather always speak your mind OR never speak at all?",
+    "QuestionFr": "Préférez-vous toujours dire ce que vous pensez OU ne jamais parler ?",
+    "ProposalAEn": "Always speak your mind",
+    "ProposalAFr": "Toujours dire ce que vous pensez",
+    "ProposalBEn": "Never speak",
+    "ProposalBFr": "Ne jamais parler"
+  },
+  {
+    "QuestionEn": "Would you rather be able to live 1,000 years OR live 10 lives of 100 years each?",
+    "QuestionFr": "Préférez-vous vivre 1 000 ans OU vivre 10 vies de 100 ans chacune ?",
+    "ProposalAEn": "Live 1,000 years",
+    "ProposalAFr": "Vivre 1 000 ans",
+    "ProposalBEn": "Live 10 lives",
+    "ProposalBFr": "Vivre 10 vies"
+  },
+  {
+    "QuestionEn": "Would you rather never feel pain OR never feel fear?",
+    "QuestionFr": "Préférez-vous ne jamais ressentir la douleur OU ne jamais ressentir la peur ?",
+    "ProposalAEn": "Never feel pain",
+    "ProposalAFr": "Ne jamais ressentir la douleur",
+    "ProposalBEn": "Never feel fear",
+    "ProposalBFr": "Ne jamais ressentir la peur"
+  },
+  {
+    "QuestionEn": "Would you rather always win at board games OR always win at video games?",
+    "QuestionFr": "Préférez-vous toujours gagner aux jeux de société OU toujours gagner aux jeux vidéo ?",
+    "ProposalAEn": "Win board games",
+    "ProposalAFr": "Gagner aux jeux de société",
+    "ProposalBEn": "Win video games",
+    "ProposalBFr": "Gagner aux jeux vidéo"
+  },
+  {
+    "QuestionEn": "Would you rather have to shout everything OR whisper everything?",
+    "QuestionFr": "Préférez-vous devoir tout crier OU tout murmurer ?",
+    "ProposalAEn": "Shout everything",
+    "ProposalAFr": "Tout crier",
+    "ProposalBEn": "Whisper everything",
+    "ProposalBFr": "Tout murmurer"
+  },
+  {
+    "QuestionEn": "Would you rather explore outer space OR the deep ocean?",
+    "QuestionFr": "Préférez-vous explorer l'espace OU les profondeurs de l'océan ?",
+    "ProposalAEn": "Explore outer space",
+    "ProposalAFr": "Explorer l'espace",
+    "ProposalBEn": "Explore the deep ocean",
+    "ProposalBFr": "Explorer l'océan"
+  },
+  {
+    "QuestionEn": "Would you rather always have to eat with your hands OR never be able to eat warm food again?",
+    "QuestionFr": "Préférez-vous devoir toujours manger avec vos mains OU ne plus jamais pouvoir manger de nourriture chaude ?",
+    "ProposalAEn": "Eat with hands",
+    "ProposalAFr": "Manger avec les mains",
+    "ProposalBEn": "No warm food",
+    "ProposalBFr": "Pas de nourriture chaude"
   }
 ]
