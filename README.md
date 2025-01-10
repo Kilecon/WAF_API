@@ -2,17 +2,23 @@
 
 TODO :
 
+- Notation par catégories
+
+- Allègement des controlleurs => gestion généralisée des codes retours
+
+- Suggestions de questions (nouvelle collection)
+
 - LOGS
 
 - Coté factory revoir les valueOjbect
 
-- Tokens
+- Tokens, différents niveaux
 
 - Modifier la gestion d'erreurs (routes modifiés)
 
-- Refaire les Tests Unitaires
+- Catégorisation des questions
 
-il reste à mettre des logs, rajouter des gestions d'erreurs, modifier les factories pour avoir moins d'erreurs de mise en forme, mettre des tokens sur certaines routes et d'autres secu sur les routes, AJOUTER UNE COLLECTION POUR LES SUGGESTIONS DES JOUEURS, et des tests unitaires
+- Refaire les Tests Unitaires
 
 suggestions : TypeName, Question, Lang, id, timestamp (GetAll getById DeleteById)
 ## 📌 Table of Contents :
