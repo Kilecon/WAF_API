@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WAF_API_Domain.Paranoia.Dtos;
+using WAF_API_Domain.Suggestion.Dtos;
 using WAF_API_Domain.ValueObject;
 
 namespace WAF_API_Domain.Paranoia.Entities
@@ -33,9 +34,9 @@ namespace WAF_API_Domain.Paranoia.Entities
             Rating = rating;
         }
 
-        public SuggestionDto ToDto()
+        public ParanoiaDto ToDto()
         {
-            return new SuggestionDto()
+            return new ParanoiaDto()
             {
                 Id = Id.Value,
                 QuestionEn = QuestionEn.Value,

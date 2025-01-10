@@ -18,7 +18,6 @@ using WAF_API_Application.Services.NeverHaveIEverService;
 using WAF_API_Application.Services.ParanoiaService;
 using WAF_API_Application.Services.TruthService;
 using WAF_API_Application.Services.WouldYouRatherService;
-using WAF_API_Application.Services.DifficultyService;
 
 using WAF_API_Domain.Dare.Factory;
 using WAF_API_Domain.NeverHaveIEver.Factory;
@@ -34,6 +33,7 @@ using WAF_API_Domain.Truth.Dtos;
 using WAF_API_Domain.Paranoia.Dtos;
 using WAF_API_Domain.WouldYouRather.Dtos;
 using WAF_API_Domain.NeverHaveIEver.Dtos;
+using WAF_API_Application.Services.DifficultyService;
 
 namespace WAF_API_Presentation
 {
@@ -66,7 +66,7 @@ namespace WAF_API_Presentation
             builder.Services.AddScoped<ITruthService, TruthService>();
             builder.Services.AddScoped<ITruthRepository, TruthRepository>();
 
-            builder.Services.AddScoped<IBaseRepository<SuggestionDto>, ParanoiaRepository>();
+            builder.Services.AddScoped<IBaseRepository<ParanoiaDto>, ParanoiaRepository>();
             builder.Services.AddScoped<IParanoiaFactory, ParanoiaFactory>();
             builder.Services.AddScoped<IParanoiaService, ParanoiaService>();
             builder.Services.AddScoped<IParanoiaRepository, ParanoiaRepository>();

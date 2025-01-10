@@ -41,11 +41,6 @@ namespace WAF_API_Application.Services.SuggestionService
             return await _repo.AddAsync(dto);
         }
 
-        Task<WAF_API_Domain.Paranoia.Dtos.SuggestionDto?> CreateAsync(CreateSuggestionCmd cmd)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task DeleteAsync(string id)
         {
             try
@@ -58,26 +53,6 @@ namespace WAF_API_Application.Services.SuggestionService
             {
                 throw;
             }
-        }
-
-        Task<SuggestionDto?> GetByIdAsync(string id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IEnumerable<SuggestionDto>> GetAllAsync()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IEnumerable<SuggestionDto>> GetSeveralAsync(int count)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IEnumerable<SuggestionDto>> UpsertMany(IEnumerable<CreateSuggestionCmd> cmd)
-        {
-            throw new NotImplementedException();
         }
 
         public async Task<SuggestionDto?> GetByIdAsync(string id)

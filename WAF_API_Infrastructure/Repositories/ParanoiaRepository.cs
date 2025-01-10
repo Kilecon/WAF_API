@@ -7,7 +7,7 @@ namespace WAF_API_Infrastructure.Repositories
     /// <summary>
     /// Defines the <see cref="ParanoiaRepository" />
     /// </summary>
-    public class ParanoiaRepository(IMongoDatabase database) : BaseRepository<SuggestionDto>(database), IParanoiaRepository
+    public class ParanoiaRepository(IMongoDatabase database) : BaseRepository<ParanoiaDto>(database), IParanoiaRepository
     {
     }
 }
