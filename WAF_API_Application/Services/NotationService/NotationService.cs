@@ -4,40 +4,41 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using WAF_API_Application.Services.NotationService;
 using WAF_API_Domain.Difficulty.Commands;
-using WAF_API_Domain.Ranking.Commands;
-using WAF_API_Domain.Ranking.Factory;
-using WAF_API_Domain.Ranking.Models;
+using WAF_API_Domain.Notation.Commands;
+using WAF_API_Domain.Notation.Factory;
+using WAF_API_Domain.Notation.Dtos;
 using WAF_API_Exceptions.ApplicationExceptions;
 using WAF_API_Exceptions.InfrastructureExceptions;
 
-namespace WAF_API_Application.Services.Ranking
+namespace WAF_API_Application.Services.NotationService
 {
-    public class RankingService : IRankingService
+    public class NotationService : INotationService
     {
-        private IRankingFactory _factory;
-        private readonly IRankingRepository<RankingDto> _repo;
-        public RankingService(IRankingFactory factory, IRankingRepository<RankingDto> repo)
+        private INotationFactory _factory;
+        private readonly INotationRepository<NotationDto> _repo;
+        public NotationService(INotationFactory factory, INotationRepository<NotationDto> repo)
         {
             _factory = factory;
             _repo = repo;
         }
 
-        protected Task<RankingDto> CreateSpecificAsync(CreateRankingCmd cmd, string id)
+        protected Task<NotationDto> CreateSpecificAsync(CreateNotationCmd cmd, string id)
         {
             var dare = _factory.CreateIntance(cmd, id);
 
             return Task.FromResult(dare.ToDto());
         }
 
-        protected Task<RankingDto> UpdateSpecificAsync(UpdateRankingCmd cmd)
+        protected Task<NotationDto> UpdateSpecificAsync(UpdateNotationCmd cmd)
         {
             var dare = _factory.UpdateIntance(cmd);
 
             return Task.FromResult(dare.ToDto());
         }
 
-        public async Task<RankingDto?> CreateAsync(CreateRankingCmd cmd)
+        public async Task<NotationDto?> CreateAsync(CreateNotationCmd cmd)
         {
             var id = Guid.NewGuid().ToString();
             var idTest = await FindIdAsync(id);
@@ -63,7 +64,7 @@ namespace WAF_API_Application.Services.Ranking
             }
         }
 
-        public async Task<RankingDto?> GetByIdAsync(string id)
+        public async Task<NotationDto?> GetByIdAsync(string id)
         {
             try
             {
@@ -75,7 +76,7 @@ namespace WAF_API_Application.Services.Ranking
                 throw;
             }
         }
-        public async Task<RankingDto?> FindIdAsync(string id)
+        public async Task<NotationDto?> FindIdAsync(string id)
         {
             try
             {
@@ -88,7 +89,7 @@ namespace WAF_API_Application.Services.Ranking
             }
         }
 
-        public async Task<IEnumerable<RankingDto?>> GetByQuestionIdAsync(string id)
+        public async Task<IEnumerable<NotationDto?>> GetByQuestionIdAsync(string id)
         {
             try
             {
@@ -101,7 +102,7 @@ namespace WAF_API_Application.Services.Ranking
             }
         }
         
-        public async Task<IEnumerable<RankingDto?>> GetDareItemsAsync()
+        public async Task<IEnumerable<NotationDto?>> GetDareItemsAsync()
         {
             try
             {
@@ -114,7 +115,7 @@ namespace WAF_API_Application.Services.Ranking
             }
         }
         
-        public async Task<IEnumerable<RankingDto?>> GetParanoiaItemsAsync()
+        public async Task<IEnumerable<NotationDto?>> GetParanoiaItemsAsync()
         {
             try
             {
@@ -127,7 +128,7 @@ namespace WAF_API_Application.Services.Ranking
             }
         }
         
-        public async Task<IEnumerable<RankingDto?>> GetNeverHaveIEverItemsAsync()
+        public async Task<IEnumerable<NotationDto?>> GetNeverHaveIEverItemsAsync()
         {
             try
             {
@@ -140,7 +141,7 @@ namespace WAF_API_Application.Services.Ranking
             }
         }
         
-        public async Task<IEnumerable<RankingDto?>> GetTruthItemsAsync()
+        public async Task<IEnumerable<NotationDto?>> GetTruthItemsAsync()
         {
             try
             {
@@ -153,7 +154,7 @@ namespace WAF_API_Application.Services.Ranking
             }
         }
         
-        public async Task<IEnumerable<RankingDto?>> GetWouldYouRatherItemsAsync()
+        public async Task<IEnumerable<NotationDto?>> GetWouldYouRatherItemsAsync()
         {
             try
             {
@@ -166,27 +167,27 @@ namespace WAF_API_Application.Services.Ranking
             }
         }
         
-        public Task<IEnumerable<RankingDto>> GetAllAsync()
+        public Task<IEnumerable<NotationDto>> GetAllAsync()
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<RankingDto>> GetSeveralAsync(int count)
+        public Task<IEnumerable<NotationDto>> GetSeveralAsync(int count)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<RankingDto>> UpsertMany(IEnumerable<CreateRankingCmd> cmd)
+        public Task<IEnumerable<NotationDto>> UpsertMany(IEnumerable<CreateNotationCmd> cmd)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<RankingDto>> UpsertMany(IEnumerable<CreateDifficultyCmd> cmd)
+        public Task<IEnumerable<NotationDto>> UpsertMany(IEnumerable<CreateDifficultyCmd> cmd)
         {
             throw new NotImplementedException();
         }
 
-        public Task UpdateAsync(UpdateRankingCmd note)
+        public Task UpdateAsync(UpdateNotationCmd note)
         {
             throw new NotImplementedException();
         }

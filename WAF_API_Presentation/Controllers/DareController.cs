@@ -49,7 +49,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="id">The ID of the "DareDto" Document</param>
         /// <returns>The "DareDto" Document with the specified ID</returns>
-        [HttpGet("GetById{id}")]
+        [HttpGet("GetById/{id}")]
         [ProducesResponseType(typeof(DareDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -85,7 +85,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="count">The number of the "DareDto" Document we want to get</param>
         /// <returns>The "DareDto" Document</returns>
-        [HttpGet("Get{count}")]
+        [HttpGet("Get/{count}")]
         [ProducesResponseType(typeof(DareDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -121,7 +121,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="note">The note to be added</param>
         /// <returns>The created "DareDto" Documents</returns>
-        [HttpPost("UpsertMany")]
+        [HttpPost("PostManyDare")]
         [ProducesResponseType(201)]
         [ProducesResponseType(400)]
         [ProducesResponseType(420)]
@@ -165,8 +165,9 @@ namespace WAF_API_Presentation.Controllers
             {
                 return StatusCode(400, ex.Message);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 return StatusCode(420, "Enhance Your Calm !");
             }
         }

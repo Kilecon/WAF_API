@@ -17,7 +17,7 @@ namespace WAF_API_Domain.Dare.Factory
         {
             try
             {
-                return new DifficultyAr(new Id(id), new DifficultyName(cmd.DifficultyName));
+                return new DifficultyAr(new Id(id), new ValueObject.DifficultyName(cmd.DifficultyName));
 
             }
             catch (Exception)
@@ -32,13 +32,13 @@ namespace WAF_API_Domain.Dare.Factory
             {
                 return new DifficultyAr(
                     new Id(cmd.Id), 
-                    new DifficultyName(cmd.DifficultyName), 
-                    new Notation(cmd.DifficultyNotation), 
-                    new Notation(cmd.DareNotation), 
-                    new Notation(cmd.TruthNotation), 
-                    new Notation(cmd.NeverHaveIEverNotation),
-                    new Notation(cmd.ParanoiaNotation),
-                    new Notation(cmd.WouldYouRatherNotation));
+                    new ValueObject.DifficultyName(cmd.DifficultyName), 
+                    new Mark(cmd.DifficultyNotation), 
+                    new Mark(cmd.DareNotation), 
+                    new Mark(cmd.TruthNotation), 
+                    new Mark(cmd.NeverHaveIEverNotation),
+                    new Mark(cmd.ParanoiaNotation),
+                    new Mark(cmd.WouldYouRatherNotation));
             }
             catch (InvalidIdException)
             {

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 using WAF_API_Domain.WouldYouRather.Dtos;
@@ -18,8 +19,9 @@ namespace WAF_API_Domain.WouldYouRather.Entities
         public ProposalAFr ProposalAFr { get; private set; }
         public ProposalBEn ProposalBEn { get; private set; }
         public ProposalBFr ProposalBFr { get; private set; }
-        public Notation Rating { get; private set; }
-        public WouldYouRatherAr(Id id, QuestionEn questionEn, QuestionFr questionFr, ProposalAEn proposalAEn, ProposalAFr proposalAFr, ProposalBEn proposalBEn, ProposalBFr proposalBFr)
+        public Mark Notation { get; private set; }
+        public DifficultyName DifficultyName { get; private set; }
+        public WouldYouRatherAr(Id id, QuestionEn questionEn, QuestionFr questionFr, ProposalAEn proposalAEn, ProposalAFr proposalAFr, ProposalBEn proposalBEn, ProposalBFr proposalBFr, DifficultyName difficultyName)
         {
             Id = id;
             QuestionFr = questionFr;
@@ -29,10 +31,11 @@ namespace WAF_API_Domain.WouldYouRather.Entities
             ProposalBFr = proposalBFr;
             ProposalBEn = proposalBEn;
             LastUpdateUnixTimestamp = new LastUpdateUnixTimestamp();
-            Rating = new Notation();
+            Notation = new Mark();
+            DifficultyName = difficultyName;
         }
 
-        public WouldYouRatherAr(Id id, QuestionEn questionEn, QuestionFr questionFr, ProposalAEn proposalAEn, ProposalAFr proposalAFr, ProposalBEn proposalBEn, ProposalBFr proposalBFr, Notation rating)
+        public WouldYouRatherAr(Id id, QuestionEn questionEn, QuestionFr questionFr, ProposalAEn proposalAEn, ProposalAFr proposalAFr, ProposalBEn proposalBEn, ProposalBFr proposalBFr, Mark mark, DifficultyName difficultyName)
         {
             Id = id;
             QuestionFr = questionFr;
@@ -42,7 +45,8 @@ namespace WAF_API_Domain.WouldYouRather.Entities
             ProposalBFr = proposalBFr;
             ProposalBEn = proposalBEn;
             LastUpdateUnixTimestamp = new LastUpdateUnixTimestamp();
-            Rating = rating;
+            Notation = mark;
+            DifficultyName = difficultyName;
         }
 
         public WouldYouRatherDto ToDto()
@@ -56,7 +60,8 @@ namespace WAF_API_Domain.WouldYouRather.Entities
                 ProposalAEn = ProposalAEn.Value,
                 ProposalBFr = ProposalBFr.Value,
                 ProposalBEn = ProposalBEn.Value,
-                Rating = Rating.Value,
+                Notation = Notation.Value,
+                DifficultyName = DifficultyName.Value,
                 LastUpdateUnixTimestamp = LastUpdateUnixTimestamp.Value
             };
         }

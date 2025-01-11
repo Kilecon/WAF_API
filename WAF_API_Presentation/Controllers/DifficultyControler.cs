@@ -121,7 +121,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="note">The note to be added</param>
         /// <returns>The created "DifficultyDto" Documents</returns>
-        [HttpPost("UpsertMany")]
+        [HttpPost("PostManyDifficulty")]
         [ProducesResponseType(201)]
         [ProducesResponseType(400)]
         [ProducesResponseType(420)]

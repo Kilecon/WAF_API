@@ -10,6 +10,7 @@ namespace WAF_API_Domain.Suggestion.Dtos
     public class SuggestionDto : Dto
     {
         public string? QuestionLang { get; set; }
+
         public string? QuestionSuggested { get; set; }
         public string? Comment {  get; set; }
     }

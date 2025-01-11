@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WAF_API_Domain.Ranking.ValueObject
+namespace WAF_API_Domain.Notation.ValueObject
 {
     public class QuestionTypeName
     {

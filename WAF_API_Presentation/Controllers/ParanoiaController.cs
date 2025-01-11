@@ -28,9 +28,10 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <returns>A list of "ParanoiaDto" Documents</returns>
         [HttpGet("GetAll")]
-        [ProducesResponseType(typeof(IEnumerable<SuggestionDto>), 200)]
+        [ProducesResponseType(typeof(IEnumerable<ParanoiaDto>), 200)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<IEnumerable<SuggestionDto>>> GetNotes()
+        public async Task<ActionResult<IEnumerable<ParanoiaDto
+        >>> GetNotes()
         {
             try
             {
@@ -48,13 +49,13 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="id">The ID of the "ParanoiaDto" Document</param>
         /// <returns>The "ParanoiaDto" Document with the specified ID</returns>
-        [HttpGet("GetById{id}")]
-        [ProducesResponseType(typeof(SuggestionDto), 200)]
+        [HttpGet("GetById/{id}")]
+        [ProducesResponseType(typeof(ParanoiaDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(418)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<SuggestionDto>> GetNoteById(string id)
+        public async Task<ActionResult<ParanoiaDto>> GetNoteById(string id)
         {
             try
             {
@@ -84,13 +85,13 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="count">The number of the "ParanoiaDto" Document we want to get</param>
         /// <returns>The "ParanoiaDto" Document</returns>
-        [HttpGet("Get{count}")]
-        [ProducesResponseType(typeof(SuggestionDto), 200)]
+        [HttpGet("Get/{count}")]
+        [ProducesResponseType(typeof(ParanoiaDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(418)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<SuggestionDto>> GetSeveralNotes(int count)
+        public async Task<ActionResult<ParanoiaDto>> GetSeveralNotes(int count)
         {
             try
             {

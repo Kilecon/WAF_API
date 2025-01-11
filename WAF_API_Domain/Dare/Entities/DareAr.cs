@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WAF_API_Domain.Dare.Dtos;
+﻿using WAF_API_Domain.Dare.Dtos;
 using WAF_API_Domain.ValueObject;
 
 namespace WAF_API_Domain.Dare.Entities
@@ -14,26 +9,27 @@ namespace WAF_API_Domain.Dare.Entities
         public LastUpdateUnixTimestamp LastUpdateUnixTimestamp { get; private set; }
         public QuestionEn QuestionEn { get; private set; }
         public QuestionFr QuestionFr { get; private set; }
-        public Notation Rating { get; private set; }
+        public Mark Notation { get; private set; }
         public DifficultyName DifficultyName { get; private set; }
-        public DareAr(Id id, QuestionEn questionEn, QuestionFr questionFr, DifficultyName difficulty) 
+
+        public DareAr(Id id, QuestionEn questionEn, QuestionFr questionFr, DifficultyName difficultyName)
         {
             Id = id;
             QuestionFr = questionFr;
             QuestionEn = questionEn;
             LastUpdateUnixTimestamp = new LastUpdateUnixTimestamp();
-            Rating = new Notation();
-            DifficultyName = difficulty;
+            Notation = new Mark();
+            DifficultyName = difficultyName;
         }
 
-        public DareAr(Id id, QuestionEn questionEn, QuestionFr questionFr, Notation rating, DifficultyName difficulty)
+        public DareAr(Id id, QuestionEn questionEn, QuestionFr questionFr, Mark mark, DifficultyName difficultyName)
         {
             Id = id;
             QuestionFr = questionFr;
             QuestionEn = questionEn;
             LastUpdateUnixTimestamp = new LastUpdateUnixTimestamp();
-            Rating = rating;
-            DifficultyName = difficulty;
+            Notation = mark;
+            DifficultyName = difficultyName;
         }
 
         public DareDto ToDto()
@@ -43,7 +39,7 @@ namespace WAF_API_Domain.Dare.Entities
                 Id = Id.Value,
                 QuestionEn = QuestionEn.Value,
                 QuestionFr = QuestionFr.Value,
-                Rating = Rating.Value,
+                Notation = Notation.Value,
                 DifficultyName = DifficultyName.Value,
                 LastUpdateUnixTimestamp = LastUpdateUnixTimestamp.Value
             };

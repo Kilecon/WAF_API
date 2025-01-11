@@ -3,21 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WAF_API_Domain.Dare.Dtos;
-using WAF_API_Domain.Ranking.Models;
-using WAF_API_Domain.Ranking.ValueObject;
+using WAF_API_Domain.Notation.Dtos;
+using WAF_API_Domain.Notation.ValueObject;
 using WAF_API_Domain.ValueObject;
 
-namespace WAF_API_Domain.Ranking.Entities
+namespace WAF_API_Domain.Notation.Entities
 {
-    public class RankingAr
+    public class NotationAr
     {
         public Id Id { get; private set; }
         public LastUpdateUnixTimestamp LastUpdateUnixTimestamp { get; private set; }
         public Id QuestionId { get; private set; }
         public QuestionTypeName QuestionTypeName { get; private set; }
         public IsLiked IsLiked { get; private set; }
-        public RankingAr(Id id, Id questionId, QuestionTypeName questionTypeName, IsLiked isLiked)
+        public NotationAr(Id id, Id questionId, QuestionTypeName questionTypeName, IsLiked isLiked)
         {
             Id = id;
             QuestionId = questionId;
@@ -26,9 +25,9 @@ namespace WAF_API_Domain.Ranking.Entities
             LastUpdateUnixTimestamp = new LastUpdateUnixTimestamp();
         }
 
-        public RankingDto ToDto()
+        public NotationDto ToDto()
         {
-            return new RankingDto
+            return new NotationDto
             {
                 Id = Id.Value,
                 QuestionId = QuestionId.Value,

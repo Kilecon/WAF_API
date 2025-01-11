@@ -11,5 +11,7 @@ namespace WAF_API_Domain.NeverHaveIEver.Commands
     {
         public string? QuestionEn { get; set; }
         public string? QuestionFr { get; set; }
+        public string? DifficultyName { get; set; }
+
     }
 }

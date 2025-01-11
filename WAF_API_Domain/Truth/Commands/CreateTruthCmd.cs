@@ -11,5 +11,8 @@ namespace WAF_API_Domain.Truth.Commands
     {
         public string? QuestionEn { get; set; }
         public string? QuestionFr { get; set; }
+        
+        public string? DifficultyName { get; set; }
+
     }
 }

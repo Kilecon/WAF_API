@@ -43,6 +43,7 @@ namespace WAF_API_Application.Services
         {
             var id = Guid.NewGuid().ToString();
             var idTest = await GetByIdAsync(id);
+            Console.WriteLine(idTest);
             if (idTest != null)
             {
                 await CreateAsync(cmd);

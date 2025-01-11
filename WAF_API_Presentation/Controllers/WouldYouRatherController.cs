@@ -147,7 +147,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="note">The note to be added</param>
         /// <returns>The created "CreateTruthDto" Documents</returns>
-        [HttpPost("UpsertMany")]
+        [HttpPost("PostManyWouldYouRather")]
         [ProducesResponseType(201)]
         [ProducesResponseType(400)]
         [ProducesResponseType(420)]

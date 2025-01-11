@@ -16,7 +16,7 @@ namespace WAF_API_Domain.Paranoia.Factory
         {
             try
             {
-                return new ParanoiaAr(new Id(id), new QuestionEn(cmd.QuestionEn), new QuestionFr(cmd.QuestionFr));
+                return new ParanoiaAr(new Id(id), new QuestionEn(cmd.QuestionEn), new QuestionFr(cmd.QuestionFr), new DifficultyName(cmd.DifficultyName));
 
             }
             catch (Exception)
@@ -29,7 +29,7 @@ namespace WAF_API_Domain.Paranoia.Factory
         {
             try
             {
-                return new ParanoiaAr(new Id(cmd.Id), new QuestionEn(cmd.QuestionEn), new QuestionFr(cmd.QuestionFr), new Notation(cmd.Rating));
+                return new ParanoiaAr(new Id(cmd.Id), new QuestionEn(cmd.QuestionEn), new QuestionFr(cmd.QuestionFr), new Mark(cmd.Notation), new DifficultyName(cmd.DifficultyName));
 
             }
             catch (InvalidIdException)

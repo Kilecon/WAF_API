@@ -4,13 +4,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WAF_API_Application.Services;
 using WAF_API_Application.Services.SuggestionService;
+using WAF_API_Domain.Models;
 using WAF_API_Domain.Suggestion.Dtos;
 using WAF_API_Exceptions.InfrastructureExceptions;
 
 namespace WAF_API_Infrastructure.Repositories
 {
-    public class SuggestionRepository : ISuggestionRepository<SuggestionDto>
+    public class SuggestionRepository : ISuggestionRepository<SuggestionDto>, IBaseRepository<SuggestionDto>
     {
         private readonly IMongoCollection<SuggestionDto> _collection;
 
@@ -26,6 +28,11 @@ namespace WAF_API_Infrastructure.Repositories
             return result;
         }
 
+        public Task UpdateAsync(SuggestionDto item)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task DeleteByIdAsync(string id)
         {
             var filter = Builders<SuggestionDto>.Filter.And(
@@ -38,6 +45,21 @@ namespace WAF_API_Infrastructure.Repositories
                 throw new NotInDbException($"Cannot Delete \"{typeof(SuggestionDto).Name}\" " +
                     $"Document with \"{id}\" Id, Document not found.");
             }
+        }
+
+        public Task<IEnumerable<SuggestionDto>> GetSeveralItems(int count)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<SuggestionDto>> UpsertMany(IEnumerable<SuggestionDto> items)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdateRatingAsync(string questionId, double rating, int totalReviews)
+        {
+            throw new NotImplementedException();
         }
 
         /// <summary>
@@ -57,6 +79,16 @@ namespace WAF_API_Infrastructure.Repositories
                 throw new NotInDbException($"\"{typeof(SuggestionDto).Name}\" Document with \"{id}\" Id not found.");
             }
             return result;
+        }
+
+        public StoredDto<SuggestionDto> ToStoredDto(SuggestionDto item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public SuggestionDto ToDto(StoredDto<SuggestionDto> storedItem)
+        {
+            throw new NotImplementedException();
         }
 
         /// <summary>

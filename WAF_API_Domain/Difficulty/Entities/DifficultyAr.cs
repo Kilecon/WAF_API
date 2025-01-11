@@ -14,28 +14,28 @@ namespace WAF_API_Domain.Difficulty.Entities
         public Id Id { get; private set; }
         public LastUpdateUnixTimestamp LastUpdateUnixTimestamp { get; private set; }
         
-        public DifficultyName DifficultyName { get; set; }
-        public Notation DifficultyNotation { get; set; }
-        public Notation DareNotation { get; set; }
-        public Notation TruthNotation { get; set; }
-        public Notation NeverHaveIEverNotation { get; set; }
-        public Notation ParanoiaNotation { get; set; }
-        public Notation WouldYouRatherNotation { get; set; }
+        public ValueObject.DifficultyName DifficultyName { get; set; }
+        public Mark DifficultyNotation { get; set; }
+        public Mark DareNotation { get; set; }
+        public Mark TruthNotation { get; set; }
+        public Mark NeverHaveIEverNotation { get; set; }
+        public Mark ParanoiaNotation { get; set; }
+        public Mark WouldYouRatherNotation { get; set; }
         
-        public DifficultyAr(Id id, DifficultyName difficultyName) 
+        public DifficultyAr(Id id, ValueObject.DifficultyName difficultyName) 
         {
             Id = id;
             DifficultyName = difficultyName;
-            DifficultyNotation = new Notation();
-            DareNotation = new Notation();
-            TruthNotation = new Notation();
-            NeverHaveIEverNotation = new Notation();
-            ParanoiaNotation = new Notation();
-            WouldYouRatherNotation = new Notation();
+            DifficultyNotation = new Mark();
+            DareNotation = new Mark();
+            TruthNotation = new Mark();
+            NeverHaveIEverNotation = new Mark();
+            ParanoiaNotation = new Mark();
+            WouldYouRatherNotation = new Mark();
             LastUpdateUnixTimestamp = new LastUpdateUnixTimestamp();
         }
 
-        public DifficultyAr(Id id, DifficultyName difficultyName, Notation difficultyNotation, Notation dareNotation, Notation truthNotation, Notation neverHaveIEver, Notation paranoiaNotation, Notation wouldYouRatherNotation ) 
+        public DifficultyAr(Id id, ValueObject.DifficultyName difficultyName, Mark difficultyNotation, Mark dareNotation, Mark truthNotation, Mark neverHaveIEver, Mark paranoiaNotation, Mark wouldYouRatherNotation ) 
         {
             Id = id;
             DifficultyName = difficultyName;

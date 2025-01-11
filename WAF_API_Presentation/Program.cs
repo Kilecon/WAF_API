@@ -24,16 +24,19 @@ using WAF_API_Domain.NeverHaveIEver.Factory;
 using WAF_API_Domain.Paranoia.Factory;
 using WAF_API_Domain.Truth.Factory;
 using WAF_API_Domain.WouldYouRather.Factory;
-using WAF_API_Application.Services.Ranking;
 using WAF_API_Domain.Difficulty.Dtos;
 using WAF_API_Domain.Difficulty.Factory;
-using WAF_API_Domain.Ranking.Models;
-using WAF_API_Domain.Ranking.Factory;
 using WAF_API_Domain.Truth.Dtos;
 using WAF_API_Domain.Paranoia.Dtos;
 using WAF_API_Domain.WouldYouRather.Dtos;
 using WAF_API_Domain.NeverHaveIEver.Dtos;
 using WAF_API_Application.Services.DifficultyService;
+using WAF_API_Application.Services.NotationService;
+using WAF_API_Application.Services.SuggestionService;
+using WAF_API_Domain.Notation.Dtos;
+using WAF_API_Domain.Notation.Factory;
+using WAF_API_Domain.Suggestion.Dtos;
+using WAF_API_Domain.Suggestion.Factory;
 
 namespace WAF_API_Presentation
 {
@@ -81,15 +84,20 @@ namespace WAF_API_Presentation
             builder.Services.AddScoped<INeverHaveIEverService, NeverHaveIEverService>();
             builder.Services.AddScoped<INeverHaveIEverRepository, NeverHaveIEverRepository>();
 
-            builder.Services.AddScoped<IRankingRepository<RankingDto>, RankingRepository>();
-            builder.Services.AddScoped<IRankingFactory, RankingFactory>();
-            builder.Services.AddScoped<IRankingRepository<RankingDto>, RankingRepository>();
-            builder.Services.AddScoped<IRankingService, RankingService>();
+            builder.Services.AddScoped<INotationRepository<NotationDto>, NotationRepository>();
+            builder.Services.AddScoped<INotationFactory, NotationFactory>();
+            builder.Services.AddScoped<INotationRepository<NotationDto>, NotationRepository>();
+            builder.Services.AddScoped<INotationService, NotationService>();
 
             builder.Services.AddScoped<IBaseRepository<DifficultyDto>, DifficultyRepository>();
             builder.Services.AddScoped<IDifficultyFactory, DifficultyFactory>();
             builder.Services.AddScoped<IDifficultyRepository, DifficultyRepository>();
             builder.Services.AddScoped<IDifficultyFactory, DifficultyFactory>();
+            
+            builder.Services.AddScoped<IBaseRepository<SuggestionDto>, SuggestionRepository>();
+            builder.Services.AddScoped<ISuggestionFactory, SuggestionFactory>();
+            builder.Services.AddScoped<ISuggestionRepository<SuggestionDto>, SuggestionRepository>();
+            builder.Services.AddScoped<ISuggestionService, SuggestionService>();
             
             builder.Services.AddControllers().ConfigureApiBehaviorOptions(x => { x.SuppressMapClientErrors = true; });
 
@@ -120,7 +128,7 @@ namespace WAF_API_Presentation
             app.MapControllers();
 
             // Ensure `WatchForChanges` is executed properly after building the app
-            var rankingRepository = app.Services.GetRequiredService<IRankingRepository<RankingDto>>();
+            var rankingRepository = app.Services.GetRequiredService<INotationRepository<NotationDto>>();
             rankingRepository.WatchForChanges();
 
             app.Run();

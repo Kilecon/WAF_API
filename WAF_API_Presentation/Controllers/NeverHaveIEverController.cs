@@ -49,7 +49,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="id">The ID of the "NeverHaveIEverDto" Document</param>
         /// <returns>The "NeverHaveIEverDto" Document with the specified ID</returns>
-        [HttpGet("GetById{id}")]
+        [HttpGet("GetById/{id}")]
         [ProducesResponseType(typeof(NeverHaveIEverDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -85,7 +85,7 @@ namespace WAF_API_Presentation.Controllers
         /// </summary>
         /// <param name="count">The number of the "NeverHaveIEverDto" Document we want to get</param>
         /// <returns>The "DareDto" Document</returns>
-        [HttpGet("Get{count}")]
+        [HttpGet("Get/{count}")]
         [ProducesResponseType(typeof(NeverHaveIEverDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -137,8 +137,9 @@ namespace WAF_API_Presentation.Controllers
             {
                 return StatusCode(400, ex.Message);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 return StatusCode(420, "Enhance Your Calm !");
             }
         }

@@ -11,7 +11,7 @@ namespace WAF_API_Domain.Dare.Commands
     {
         public string? QuestionEn { get; set; }
         public string? QuestionFr { get; set; }
-        public string? Rating { get; set; }
-        public string? Difficulty { get; set; }    
+        public string? Notation { get; set; }
+        public string? DifficultyName { get; set; }    
     }
 }

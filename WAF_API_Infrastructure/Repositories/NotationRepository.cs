@@ -9,37 +9,36 @@ using System.Threading.Tasks;
 using WAF_API_Application.Services;
 using WAF_API_Application.Services.DareService;
 using WAF_API_Application.Services.NeverHaveIEverService;
+using WAF_API_Application.Services.NotationService;
 using WAF_API_Application.Services.ParanoiaService;
-using WAF_API_Application.Services.Ranking;
 using WAF_API_Application.Services.TruthService;
 using WAF_API_Application.Services.WouldYouRatherService;
 using WAF_API_Domain.Dare.Dtos;
-using WAF_API_Domain.Models;
 using WAF_API_Domain.NeverHaveIEver.Dtos;
 using WAF_API_Domain.Paranoia.Dtos;
-using WAF_API_Domain.Ranking.Models;
+using WAF_API_Domain.Notation.Dtos;
 using WAF_API_Domain.Truth.Dtos;
 using WAF_API_Domain.WouldYouRather.Dtos;
 using WAF_API_Exceptions.InfrastructureExceptions;
 
 namespace WAF_API_Infrastructure.Repositories
 {
-    public class RankingRepository : IRankingRepository<RankingDto>
+    public class NotationRepository : INotationRepository<NotationDto>
     {
         /// <summary>
         /// Defines the _collection
         /// </summary>
-        private readonly IMongoCollection<RankingDto> _collection;
+        private readonly IMongoCollection<NotationDto> _collection;
         private readonly IDareRepository _dareRepository;
         private readonly IParanoiaRepository _paranoiaRepository;
         private readonly INeverHaveIEverRepository _neverHaveIEverRepository;
         private readonly ITruthRepository _truthRepository;
         private readonly IWouldYouRatherRepository _wouldYouRatherRepository;
 
-        public RankingRepository(IMongoDatabase database, IDareRepository dareRepo, IParanoiaRepository paranoiaRepo,
+        public NotationRepository(IMongoDatabase database, IDareRepository dareRepo, IParanoiaRepository paranoiaRepo,
             INeverHaveIEverRepository neverHaveIEverRepo, ITruthRepository truthRepo, IWouldYouRatherRepository wouldYouRatherRepo)
         {
-            _collection = database.GetCollection<RankingDto>("Notations");
+            _collection = database.GetCollection<NotationDto>("Notations");
             _dareRepository = dareRepo;
             _paranoiaRepository = paranoiaRepo;
             _neverHaveIEverRepository = neverHaveIEverRepo;
@@ -47,7 +46,7 @@ namespace WAF_API_Infrastructure.Repositories
             _wouldYouRatherRepository = wouldYouRatherRepo;
         }
 
-        public async Task<RankingDto> AddAsync(RankingDto item)
+        public async Task<NotationDto> AddAsync(NotationDto item)
         {
             await _collection.InsertOneAsync(item);
             var result = await GetItemById(item.Id);
@@ -56,14 +55,14 @@ namespace WAF_API_Infrastructure.Repositories
 
         public async Task DeleteByIdAsync(string id)
         {
-            var filter = Builders<RankingDto>.Filter.And(
-                Builders<RankingDto>.Filter.Eq("Id", id));
+            var filter = Builders<NotationDto>.Filter.And(
+                Builders<NotationDto>.Filter.Eq("Id", id));
 
             var result = await _collection.DeleteOneAsync(filter);
 
             if (result.DeletedCount == 0)
             {
-                throw new NotInDbException($"Cannot Delete \"{typeof(RankingDto).Name}\" " +
+                throw new NotInDbException($"Cannot Delete \"{typeof(NotationDto).Name}\" " +
                     $"Document with \"{id}\" Id, Document not found.");
             }
         }
@@ -73,16 +72,16 @@ namespace WAF_API_Infrastructure.Repositories
         /// </summary>
         /// <param name="id">The id<see cref="string"/></param>
         /// <returns>The <see cref="Task{TDto}"/></returns>
-        public async Task<RankingDto> GetItemById(string id)
+        public async Task<NotationDto> GetItemById(string id)
         {
-            var filter = Builders<RankingDto>.Filter.And(
-                Builders<RankingDto>.Filter.Eq("Id", id));
+            var filter = Builders<NotationDto>.Filter.And(
+                Builders<NotationDto>.Filter.Eq("Id", id));
 
             var result = await _collection.Find(filter).FirstOrDefaultAsync();
 
             if (result == null)
             {
-                throw new NotInDbException($"\"{typeof(RankingDto).Name}\" Document with \"{id}\" Id not found.");
+                throw new NotInDbException($"\"{typeof(NotationDto).Name}\" Document with \"{id}\" Id not found.");
             }
             return result;
         }
@@ -90,51 +89,51 @@ namespace WAF_API_Infrastructure.Repositories
         /// <summary>
         /// The GetItems
         /// </summary>
-        /// <returns>The <see cref="Task{IEnumerable{RankingDto}}"/></returns>
-        public async Task<IEnumerable<RankingDto>> GetDareItems()
+        /// <returns>The <see cref="Task{IEnumerable{NotationDto}}"/></returns>
+        public async Task<IEnumerable<NotationDto>> GetDareItems()
         {
             Console.WriteLine(typeof(DareDto).Name);
-            var filter = Builders<RankingDto>.Filter.Eq("QuestionTypeName", typeof(DareDto).Name);
+            var filter = Builders<NotationDto>.Filter.Eq("QuestionTypeName", typeof(DareDto).Name);
             var documents = await _collection.Find(filter).ToListAsync();
 
             return documents;
         }
 
-        public async Task<IEnumerable<RankingDto>> GetParanoiaItems()
+        public async Task<IEnumerable<NotationDto>> GetParanoiaItems()
         {
-            var filter = Builders<RankingDto>.Filter.Eq("QuestionTypeName", typeof(SuggestionDto).Name);
+            var filter = Builders<NotationDto>.Filter.Eq("QuestionTypeName", typeof(ParanoiaDto).Name);
             var documents = await _collection.Find(filter).ToListAsync();
 
             return documents;
         }
 
-        public async Task<IEnumerable<RankingDto>> GetNeverHaveIEverItems()
+        public async Task<IEnumerable<NotationDto>> GetNeverHaveIEverItems()
         {
-            var filter = Builders<RankingDto>.Filter.Eq("QuestionTypeName", typeof(NeverHaveIEverDto).Name);
+            var filter = Builders<NotationDto>.Filter.Eq("QuestionTypeName", typeof(NeverHaveIEverDto).Name);
             var documents = await _collection.Find(filter).ToListAsync();
 
             return documents;
         }
 
-        public async Task<IEnumerable<RankingDto>> GetTruthItems()
+        public async Task<IEnumerable<NotationDto>> GetTruthItems()
         {
-            var filter = Builders<RankingDto>.Filter.Eq("QuestionTypeName", typeof(TruthDto).Name);
+            var filter = Builders<NotationDto>.Filter.Eq("QuestionTypeName", typeof(TruthDto).Name);
             var documents = await _collection.Find(filter).ToListAsync();
 
             return documents;
         }
 
-        public async Task<IEnumerable<RankingDto>> GetWouldYouRatherItems()
+        public async Task<IEnumerable<NotationDto>> GetWouldYouRatherItems()
         {
-            var filter = Builders<RankingDto>.Filter.Eq("QuestionTypeName", typeof(WouldYouRatherDto).Name);
+            var filter = Builders<NotationDto>.Filter.Eq("QuestionTypeName", typeof(WouldYouRatherDto).Name);
             var documents = await _collection.Find(filter).ToListAsync();
 
             return documents;
         }
 
-        public async Task<IEnumerable<RankingDto>> GetByQuestionId(string id)
+        public async Task<IEnumerable<NotationDto>> GetByQuestionId(string id)
         {
-            var filter = Builders<RankingDto>.Filter.Eq("QuestionId", id);
+            var filter = Builders<NotationDto>.Filter.Eq("QuestionId", id);
             var documents = await _collection.Find(filter).ToListAsync();
 
             return documents;
@@ -142,11 +141,11 @@ namespace WAF_API_Infrastructure.Repositories
 
         public async Task<(int totalCount, int likedCount)> GetRatingDataAsync(string questionId)
         {
-            var filter = Builders<RankingDto>.Filter.Eq("questionId", questionId);
+            var filter = Builders<NotationDto>.Filter.Eq("questionId", questionId);
 
             var totalCount = (int)await _collection.CountDocumentsAsync(filter);
             var likedCount = (int)await _collection.CountDocumentsAsync(
-                Builders<RankingDto>.Filter.And(filter, Builders<RankingDto>.Filter.Eq("isLiked", true))
+                Builders<NotationDto>.Filter.And(filter, Builders<NotationDto>.Filter.Eq("isLiked", true))
             );
 
             return (totalCount, likedCount);
@@ -159,7 +158,7 @@ namespace WAF_API_Infrastructure.Repositories
 
             while (true)
             {
-                    var filter = Builders<RankingDto>.Filter.Gt("LastUpdateUnixTimestamp", lastCheckedTimestamp);
+                    var filter = Builders<NotationDto>.Filter.Gt("LastUpdateUnixTimestamp", lastCheckedTimestamp);
 
                     var latestDocuments = await _collection.Find(filter)
                         .SortByDescending(doc => doc.LastUpdateUnixTimestamp)
@@ -176,15 +175,15 @@ namespace WAF_API_Infrastructure.Repositories
                         {
                             string questionId = group.Key;
 
-                            // Get all RankingDto for the current questionId
-                            var rankings = await _collection.Find(Builders<RankingDto>.Filter.Eq("QuestionId", questionId)).ToListAsync();
+                            // Get all NotationDto for the current questionId
+                            var Notations = await _collection.Find(Builders<NotationDto>.Filter.Eq("QuestionId", questionId)).ToListAsync();
 
                             // Get the list of documents where isLiked is true for the current questionId
-                            var likedRankings = rankings.Where(r => r.IsLiked).ToList();
+                            var likedNotations = Notations.Where(r => r.IsLiked).ToList();
 
-                            // Estimate rating based on likedRankings
-                            double estimatedRating = likedRankings.Count / (double)rankings.Count * 100;
-                            int totalReviews = rankings.Count;
+                            // Estimate rating based on likedNotations
+                            double estimatedRating = likedNotations.Count / (double)Notations.Count * 100;
+                            int totalReviews = Notations.Count;
 
                             // Update all DTO repositories
                             await UpdateAllDtoRepositoriesAsync(questionId, estimatedRating, totalReviews);

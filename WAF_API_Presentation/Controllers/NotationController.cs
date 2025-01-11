@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WAF_API_Application.Services.Ranking;
-using WAF_API_Domain.Ranking.Commands;
-using WAF_API_Domain.Ranking.Models;
+using WAF_API_Application.Services.NotationService;
+using WAF_API_Domain.Notation.Commands;
+using WAF_API_Domain.Notation.Dtos;
 using WAF_API_Exceptions.ApplicationExceptions;
 using WAF_API_Exceptions.DomainExceptions;
 using WAF_API_Exceptions.InfrastructureExceptions;
@@ -15,21 +15,21 @@ namespace WAF_API_Presentation.Controllers
 {
     [Route("API/[controller]")]
     [ApiController]
-    public class RankingController(IRankingService noteService) : ControllerBase
+    public class NotationController(INotationService noteService) : ControllerBase
     {
         /// <summary>
         /// Defines the _noteService
         /// </summary>
-        private readonly IRankingService _noteService = noteService;
+        private readonly INotationService _noteService = noteService;
 
         /// <summary>
-        /// Retrieves all "RankingDto" Documents
+        /// Retrieves all "NotationDto" Documents
         /// </summary>
-        /// <returns>A list of "RankingDto" Documents</returns>
+        /// <returns>A list of "NotationDto" Documents</returns>
         [HttpGet("GetAll")]
-        [ProducesResponseType(typeof(IEnumerable<RankingDto>), 200)]
+        [ProducesResponseType(typeof(IEnumerable<NotationDto>), 200)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<IEnumerable<RankingDto>>> GetNotes()
+        public async Task<ActionResult<IEnumerable<NotationDto>>> GetNotes()
         {
             try
             {
@@ -43,17 +43,17 @@ namespace WAF_API_Presentation.Controllers
         }
 
         /// <summary>
-        /// Retrieves a "RankingDto" Document by its ID
+        /// Retrieves a "NotationDto" Document by its ID
         /// </summary>
-        /// <param name="id">The ID of the "RankingDto" Document</param>
-        /// <returns>The "RankingDto" Document with the specified ID</returns>
+        /// <param name="id">The ID of the "NotationDto" Document</param>
+        /// <returns>The "NotationDto" Document with the specified ID</returns>
         [HttpGet("GetById{id}")]
-        [ProducesResponseType(typeof(RankingDto), 200)]
+        [ProducesResponseType(typeof(NotationDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(418)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<RankingDto>> GetNoteById(string id)
+        public async Task<ActionResult<NotationDto>> GetNoteById(string id)
         {
             try
             {
@@ -79,15 +79,15 @@ namespace WAF_API_Presentation.Controllers
         }
 
         /// <summary>
-        /// Creates a new "RankingDto" Documents
+        /// Creates a new "NotationDto" Documents
         /// </summary>
         /// <param name="note">The note to be added</param>
-        /// <returns>The created "RankingDto" Documents</returns>
+        /// <returns>The created "NotationDto" Documents</returns>
         [HttpPost("Post")]
         [ProducesResponseType(201)]
         [ProducesResponseType(400)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult> CreateNote([FromQuery] CreateRankingCmd note)
+        public async Task<ActionResult> CreateNote([FromQuery] CreateNotationCmd note)
         {
             try
             {
@@ -106,9 +106,9 @@ namespace WAF_API_Presentation.Controllers
         }
 
         ///// <summary>
-        ///// Updates a "RankingDto" Document by its ID
+        ///// Updates a "NotationDto" Document by its ID
         ///// </summary>
-        ///// <param name="note">The note<see cref="UpdateRankingCmd"/></param>
+        ///// <param name="note">The note<see cref="UpdateNotationCmd"/></param>
         ///// <returns>No content if the update is successful</returns>
         //[HttpPut]
         //[ProducesResponseType(204)]
@@ -116,7 +116,7 @@ namespace WAF_API_Presentation.Controllers
         //[ProducesResponseType(404)]
         //[ProducesResponseType(418)]
         //[ProducesResponseType(420)]
-        //public async Task<ActionResult> UpdateNote([FromQuery] UpdateRankingCmd note)
+        //public async Task<ActionResult> UpdateNote([FromQuery] UpdateNotationCmd note)
         //{
         //    try
         //    {
@@ -144,9 +144,9 @@ namespace WAF_API_Presentation.Controllers
         //}
 
         /// <summary>
-        /// Deletes a "RankingDto" Document by its ID
+        /// Deletes a "NotationDto" Document by its ID
         /// </summary>
-        /// <param name="id">The ID of the "RankingDto" Document to delete</param>
+        /// <param name="id">The ID of the "NotationDto" Document to delete</param>
         /// <returns>No content if the deletion is successful</returns>
         [HttpDelete("Delete{id}")]
         [ProducesResponseType(204)]
@@ -181,12 +181,12 @@ namespace WAF_API_Presentation.Controllers
         }
 
         [HttpGet("GetByQuestionId{questionId}")]
-        [ProducesResponseType(typeof(RankingDto), 200)]
+        [ProducesResponseType(typeof(NotationDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(418)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<IEnumerable<RankingDto>>> GetByQuestionId(string questionId)
+        public async Task<ActionResult<IEnumerable<NotationDto>>> GetByQuestionId(string questionId)
         {
             try
             {
@@ -212,12 +212,12 @@ namespace WAF_API_Presentation.Controllers
         }
         
         [HttpGet("GetAllDares")]
-        [ProducesResponseType(typeof(RankingDto), 200)]
+        [ProducesResponseType(typeof(NotationDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(418)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<IEnumerable<RankingDto>>> GetDareItems()
+        public async Task<ActionResult<IEnumerable<NotationDto>>> GetDareItems()
         {
             try
             {
@@ -243,12 +243,12 @@ namespace WAF_API_Presentation.Controllers
         }
         
         [HttpGet("GetAllParanoias")]
-        [ProducesResponseType(typeof(RankingDto), 200)]
+        [ProducesResponseType(typeof(NotationDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(418)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<IEnumerable<RankingDto>>> GetParanoiaItems()
+        public async Task<ActionResult<IEnumerable<NotationDto>>> GetParanoiaItems()
         {
             try
             {
@@ -274,12 +274,12 @@ namespace WAF_API_Presentation.Controllers
         }
         
         [HttpGet("GetAllNeverHaveIEver")]
-        [ProducesResponseType(typeof(RankingDto), 200)]
+        [ProducesResponseType(typeof(NotationDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(418)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<IEnumerable<RankingDto>>> GetNeverHaveIEverItems()
+        public async Task<ActionResult<IEnumerable<NotationDto>>> GetNeverHaveIEverItems()
         {
             try
             {
@@ -305,12 +305,12 @@ namespace WAF_API_Presentation.Controllers
         }
         
         [HttpGet("GetAllTruth")]
-        [ProducesResponseType(typeof(RankingDto), 200)]
+        [ProducesResponseType(typeof(NotationDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(418)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<IEnumerable<RankingDto>>> GetTruthItems()
+        public async Task<ActionResult<IEnumerable<NotationDto>>> GetTruthItems()
         {
             try
             {
@@ -336,12 +336,12 @@ namespace WAF_API_Presentation.Controllers
         }
         
         [HttpGet("GetAllWouldYouRather")]
-        [ProducesResponseType(typeof(RankingDto), 200)]
+        [ProducesResponseType(typeof(NotationDto), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(418)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<IEnumerable<RankingDto>>> GetWouldYouRatherItems()
+        public async Task<ActionResult<IEnumerable<NotationDto>>> GetWouldYouRatherItems()
         {
             try
             {

@@ -10,6 +10,7 @@ namespace WAF_API_Domain.Suggestion.Commands
     public class CreateSuggestionCmd : Cmd
     {
         public string? QuestionLang { get; set; }
+
         public string? QuestionSuggested { get; set; }
         public string? Comment {  get; set; }
     }

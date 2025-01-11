@@ -14,23 +14,27 @@ namespace WAF_API_Domain.Truth.Entities
         public LastUpdateUnixTimestamp LastUpdateUnixTimestamp { get; private set; }
         public QuestionEn QuestionEn { get; private set; }
         public QuestionFr QuestionFr { get; private set; }
-        public Notation Rating { get; private set; }
-        public TruthAr(Id id, QuestionEn questionEn, QuestionFr questionFr) 
+        public Mark Notation { get; private set; }
+        
+        public DifficultyName DifficultyName { get; private set; }
+        public TruthAr(Id id, QuestionEn questionEn, QuestionFr questionFr, DifficultyName difficultyName) 
         {
             Id = id;
             QuestionFr = questionFr;
             QuestionEn = questionEn;
             LastUpdateUnixTimestamp = new LastUpdateUnixTimestamp();
-            Rating = new Notation();
+            Notation = new Mark();
+            DifficultyName = difficultyName;
         }
 
-        public TruthAr(Id id, QuestionEn questionEn, QuestionFr questionFr, Notation rating)
+        public TruthAr(Id id, QuestionEn questionEn, QuestionFr questionFr, Mark mark, DifficultyName difficultyName)
         {
             Id = id;
             QuestionFr = questionFr;
             QuestionEn = questionEn;
             LastUpdateUnixTimestamp = new LastUpdateUnixTimestamp();
-            Rating = rating;
+            Notation = mark;
+            DifficultyName = difficultyName;
         }
 
         public TruthDto ToDto()
@@ -40,7 +44,8 @@ namespace WAF_API_Domain.Truth.Entities
                 Id = Id.Value,
                 QuestionEn = QuestionEn.Value,
                 QuestionFr = QuestionFr.Value,
-                Rating = Rating.Value,
+                Notation = Notation.Value,
+                DifficultyName = DifficultyName.Value,
                 LastUpdateUnixTimestamp = LastUpdateUnixTimestamp.Value
             };
         }

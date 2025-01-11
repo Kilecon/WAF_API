@@ -15,23 +15,28 @@ namespace WAF_API_Domain.Paranoia.Entities
         public LastUpdateUnixTimestamp LastUpdateUnixTimestamp { get; private set; }
         public QuestionEn QuestionEn { get; private set; }
         public QuestionFr QuestionFr { get; private set; }
-        public Notation Rating { get; private set; }
-        public ParanoiaAr(Id id, QuestionEn questionEn, QuestionFr questionFr) 
+        public Mark Notation{ get; private set; }
+        
+        public DifficultyName DifficultyName { get; set; }
+
+        public ParanoiaAr(Id id, QuestionEn questionEn, QuestionFr questionFr, DifficultyName difficultyName) 
         {
             Id = id;
             QuestionFr = questionFr;
             QuestionEn = questionEn;
             LastUpdateUnixTimestamp = new LastUpdateUnixTimestamp();
-            Rating = new Notation();
+            Notation = new Mark();
+            DifficultyName = difficultyName;
         }
 
-        public ParanoiaAr(Id id, QuestionEn questionEn, QuestionFr questionFr, Notation rating)
+        public ParanoiaAr(Id id, QuestionEn questionEn, QuestionFr questionFr, Mark mark, DifficultyName difficultyName)
         {
             Id = id;
             QuestionFr = questionFr;
             QuestionEn = questionEn;
             LastUpdateUnixTimestamp = new LastUpdateUnixTimestamp();
-            Rating = rating;
+            Notation = mark;
+            DifficultyName = difficultyName;
         }
 
         public ParanoiaDto ToDto()
@@ -41,7 +46,8 @@ namespace WAF_API_Domain.Paranoia.Entities
                 Id = Id.Value,
                 QuestionEn = QuestionEn.Value,
                 QuestionFr = QuestionFr.Value,
-                Rating = Rating.Value,
+                Notation = Notation.Value,
+                DifficultyName = DifficultyName.Value,
                 LastUpdateUnixTimestamp = LastUpdateUnixTimestamp.Value
             };
         }

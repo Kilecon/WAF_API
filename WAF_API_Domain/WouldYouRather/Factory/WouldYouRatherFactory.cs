@@ -16,7 +16,7 @@ namespace WAF_API_Domain.WouldYouRather.Factory
         {
             try
             {
-                return new WouldYouRatherAr(new Id(id), new QuestionEn(cmd.QuestionEn), new QuestionFr(cmd.QuestionFr), new ProposalAEn(cmd.ProposalAEn), new ProposalAFr(cmd.ProposalAFr), new ProposalBEn(cmd.ProposalBEn), new ProposalBFr(cmd.ProposalBFr));
+                return new WouldYouRatherAr(new Id(id), new QuestionEn(cmd.QuestionEn), new QuestionFr(cmd.QuestionFr), new ProposalAEn(cmd.ProposalAEn), new ProposalAFr(cmd.ProposalAFr), new ProposalBEn(cmd.ProposalBEn), new ProposalBFr(cmd.ProposalBFr), new DifficultyName(cmd.DifficultyName));
 
             }
             catch (Exception)
@@ -29,7 +29,7 @@ namespace WAF_API_Domain.WouldYouRather.Factory
         {
             try
             {
-                return new WouldYouRatherAr(new Id(cmd.Id), new QuestionEn(cmd.QuestionEn), new QuestionFr(cmd.QuestionFr), new ProposalAEn(cmd.ProposalAEn), new ProposalAFr(cmd.ProposalAFr), new ProposalBEn(cmd.ProposalBEn), new ProposalBFr(cmd.ProposalBFr), new Notation(cmd.Rating));
+                return new WouldYouRatherAr(new Id(cmd.Id), new QuestionEn(cmd.QuestionEn), new QuestionFr(cmd.QuestionFr), new ProposalAEn(cmd.ProposalAEn), new ProposalAFr(cmd.ProposalAFr), new ProposalBEn(cmd.ProposalBEn), new ProposalBFr(cmd.ProposalBFr), new Mark(cmd.Notation), new DifficultyName(cmd.DifficultyName));
 
             }
             catch (InvalidIdException)

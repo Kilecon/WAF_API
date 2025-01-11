@@ -15,5 +15,7 @@ namespace WAF_API_Domain.WouldYouRather.Commands
         public string? ProposalAFr { get; set; }
         public string? ProposalBEn { get; set; }
         public string? ProposalBFr { get; set; }
+        public string? DifficultyName { get; set; }
+
     }
 }

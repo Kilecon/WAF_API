@@ -67,5 +67,20 @@ namespace WAF_API_Application.Services.SuggestionService
                 throw;
             }
         }
+        
+        public Task<IEnumerable<SuggestionDto>> GetAllAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<SuggestionDto>> GetSeveralAsync(int count)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<SuggestionDto>> UpsertMany(IEnumerable<CreateSuggestionCmd> cmd)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

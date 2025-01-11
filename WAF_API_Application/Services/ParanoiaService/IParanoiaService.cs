@@ -8,7 +8,7 @@ using WAF_API_Domain.Paranoia.Dtos;
 
 namespace WAF_API_Application.Services.ParanoiaService
 {
-    public interface IParanoiaService : IService<SuggestionDto, CreateParanoiaCmd, UpdateParanoiaCmd>
+    public interface IParanoiaService : IService<ParanoiaDto, CreateParanoiaCmd, UpdateParanoiaCmd>
     {
         Task UpdateAsync(UpdateParanoiaCmd note);
 

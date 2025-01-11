@@ -16,7 +16,7 @@ namespace WAF_API_Domain.NeverHaveIEver.Factory
         {
             try
             {
-                return new NeverHaveIEverAr(new Id(id), new QuestionEn(cmd.QuestionEn), new QuestionFr(cmd.QuestionFr));
+                return new NeverHaveIEverAr(new Id(id), new QuestionEn(cmd.QuestionEn), new QuestionFr(cmd.QuestionFr), new DifficultyName(cmd.DifficultyName));
 
             }
             catch (Exception)
@@ -29,7 +29,7 @@ namespace WAF_API_Domain.NeverHaveIEver.Factory
         {
             try
             {
-                return new NeverHaveIEverAr(new Id(cmd.Id), new QuestionEn(cmd.QuestionEn), new QuestionFr(cmd.QuestionFr), new Notation(cmd.Rating));
+                return new NeverHaveIEverAr(new Id(cmd.Id), new QuestionEn(cmd.QuestionEn), new QuestionFr(cmd.QuestionFr), new Mark(cmd.Notation), new DifficultyName(cmd.DifficultyName));
 
             }
             catch (InvalidIdException)

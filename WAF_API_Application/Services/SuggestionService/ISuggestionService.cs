@@ -11,5 +11,6 @@ namespace WAF_API_Application.Services.SuggestionService
 {
     public interface ISuggestionService : IService<SuggestionDto, CreateSuggestionCmd, IdCmd>
     {
+        
     }
 }

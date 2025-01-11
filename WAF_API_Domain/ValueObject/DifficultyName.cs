@@ -4,11 +4,10 @@ namespace WAF_API_Domain.ValueObject
     {
         public string Value { get; set; }
 
-        public DifficultyName(string Sentence)
+        public DifficultyName(string sentence)
         {
-            // formatter la string
-            Value = Sentence;
+            // Formatter la string
+            Value = sentence;
         }
     }
 }
-
