@@ -16,7 +16,7 @@ namespace WAF_API_Domain.Suggestion.Factory
             try
             {
                 return new SuggestionAr(new Id(id), 
-                    new QuestionLang(cmd.QuestionLang), 
+                    new QuestionLang(cmd.QuestionLang),
                     new QuestionSuggested(cmd.QuestionSuggested),
                     new Comment(cmd.Comment));
             }
