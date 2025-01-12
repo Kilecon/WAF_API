@@ -30,7 +30,7 @@ namespace WAF_API_Infrastructure.Repositories
         /// <param name="database">The database<see cref="IMongoDatabase"/></param>
         public BaseRepository(IMongoDatabase database)
         {
-            _collection = database.GetCollection<StoredDto<TDto>>("SharedDocuments");
+            _collection = database.GetCollection<StoredDto<TDto>>("WAF_GAMEPLAY");
         }
 
         /// <summary>

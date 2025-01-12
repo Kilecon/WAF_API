@@ -35,6 +35,14 @@ namespace WAF_API_Application.Services
         /// <param name="id">The id<see cref="string"/></param>
         /// <returns>The <see cref="Task{TDto}"/></returns>
         Task<TDto?> GetByIdAsync(string id);
+        
+        /// <summary>
+        /// The FindIdAsync
+        /// </summary>
+        /// <param name="id">The id<see cref="string"/></param>
+        /// <returns>The <see cref="Task{TDto}"/></returns>
+        Task<TDto?> FindIdAsync(string id);
+
 
         /// <summary>
         /// The GetAllAsync

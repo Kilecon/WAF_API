@@ -54,7 +54,7 @@ namespace WAF_API_Application.Services.NotationService
         {
             try
             {
-                var idTest = await GetByIdAsync(id);
+                var idTest = await FindIdAsync(id);
                 await _repo.DeleteByIdAsync(id);
 
             }

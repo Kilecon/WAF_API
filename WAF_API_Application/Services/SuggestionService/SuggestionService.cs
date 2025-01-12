@@ -32,7 +32,7 @@ namespace WAF_API_Application.Services.SuggestionService
         public async Task<SuggestionDto?> CreateAsync(CreateSuggestionCmd cmd)
         {
             var id = Guid.NewGuid().ToString();
-            var idTest = await GetByIdAsync(id);
+            var idTest = await FindIdAsync(id);
             if (idTest != null)
             {
                 await CreateAsync(cmd);
@@ -45,7 +45,7 @@ namespace WAF_API_Application.Services.SuggestionService
         {
             try
             {
-                var idTest = await GetByIdAsync(id);
+                var idTest = await FindIdAsync(id);
                 await _repo.DeleteByIdAsync(id);
 
             }
@@ -67,7 +67,18 @@ namespace WAF_API_Application.Services.SuggestionService
                 throw;
             }
         }
-        
+
+        public async Task<SuggestionDto?> FindIdAsync(string id)
+        {
+            try
+            {
+                return await _repo.GetItemById(id);
+            }
+            catch (NotInDbException)
+            {
+                return null;
+            }        }
+
         public Task<IEnumerable<SuggestionDto>> GetAllAsync()
         {
             throw new NotImplementedException();

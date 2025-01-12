@@ -38,7 +38,7 @@ namespace WAF_API_Infrastructure.Repositories
         public NotationRepository(IMongoDatabase database, IDareRepository dareRepo, IParanoiaRepository paranoiaRepo,
             INeverHaveIEverRepository neverHaveIEverRepo, ITruthRepository truthRepo, IWouldYouRatherRepository wouldYouRatherRepo)
         {
-            _collection = database.GetCollection<NotationDto>("Notations");
+            _collection = database.GetCollection<NotationDto>("WAF_PLAYERS_NOTATIONS");
             _dareRepository = dareRepo;
             _paranoiaRepository = paranoiaRepo;
             _neverHaveIEverRepository = neverHaveIEverRepo;

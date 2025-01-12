@@ -18,7 +18,7 @@ namespace WAF_API_Infrastructure.Repositories
 
         public SuggestionRepository(IMongoDatabase database)
         {
-            _collection = database.GetCollection<SuggestionDto>("Suggestions");
+            _collection = database.GetCollection<SuggestionDto>("WAF_PLAYERS_SUGGESTIONS");
         }
 
         public async Task<SuggestionDto> AddAsync(SuggestionDto item)
