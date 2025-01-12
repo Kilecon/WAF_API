@@ -19,16 +19,16 @@ namespace WAF_API_Application.Services.TruthService
 
         protected override Task<TruthDto> CreateSpecificAsync(CreateTruthCmd cmd, string id)
         {
-            var dare = _factory.CreateIntance(cmd, id);
+            var truth = _factory.CreateIntance(cmd, id);
 
-            return Task.FromResult(dare.ToDto());
+            return Task.FromResult(truth.ToDto());
         }
 
         protected override Task<TruthDto> UpdateSpecificAsync(UpdateTruthCmd cmd)
         {
-            var dare = _factory.UpdateIntance(cmd);
+            var truth = _factory.UpdateIntance(cmd);
 
-            return Task.FromResult(dare.ToDto());
+            return Task.FromResult(truth.ToDto());
         }
     }
 }

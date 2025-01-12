@@ -1,554 +1,667 @@
 [
     {
-        "QuestionEn": "Who would you trust with your life ?",
-        "QuestionFr": "À qui feriez-vous confiance avec votre vie ?"
+        "questionEn": "Who would you trust with your life ?",
+        "questionFr": "À qui feriez-vous confiance avec votre vie ?",
+        "difficultyName": "Soft"
+
     },
     {
-        "QuestionEn": "Who is the most likely to break the law?",
-        "QuestionFr": "Qui est le plus susceptible de briser la loi ?"
+        "questionEn": "Who is the most likely to break the law?",
+        "questionFr": "Qui est le plus susceptible de briser la loi ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's the most adventurous ?",
-        "QuestionFr": "Qui est le plus aventurier ?"
+        "questionEn": "Who's the most adventurous ?",
+        "questionFr": "Qui est le plus aventurier ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's always the first to leave a party ?",
-        "QuestionFr": "Qui est toujours le premier à quitter une fête ?"
+        "questionEn": "Who's always the first to leave a party ?",
+        "questionFr": "Qui est toujours le premier à quitter une fête ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who is the most fashionable ?",
-        "QuestionFr": "Qui est le plus stylé ?"
+        "questionEn": "Who is the most fashionable ?",
+        "questionFr": "Qui est le plus stylé ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's most likely to become famous ?",
-        "QuestionFr": "Qui est le plus susceptible de devenir célèbre ?"
+        "questionEn": "Who's most likely to become famous ?",
+        "questionFr": "Qui est le plus susceptible de devenir célèbre ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who would survive the longest in a zombie apocalypse ?",
-        "QuestionFr": "Qui survivrait le plus longtemps lors d'une apocalypse zombie ?"
+        "questionEn": "Who would survive the longest in a zombie apocalypse ?",
+        "questionFr": "Qui survivrait le plus longtemps lors d'une apocalypse zombie ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's the best cook ?",
-        "QuestionFr": "Qui est le meilleur cuisinier ?"
+        "questionEn": "Who's the best cook ?",
+        "questionFr": "Qui est le meilleur cuisinier ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who always knows how to cheer people up ?",
-        "QuestionFr": "Qui sait toujours comment remonter le moral des gens ?"
+        "questionEn": "Who always knows how to cheer people up ?",
+        "questionFr": "Qui sait toujours comment remonter le moral des gens ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who is the most likely to cry at a movie ?",
-        "QuestionFr": "Qui est le plus susceptible de pleurer devant un film ?"
+        "questionEn": "Who is the most likely to cry at a movie ?",
+        "questionFr": "Qui est le plus susceptible de pleurer devant un film ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's most likely to get arrested ?",
-        "QuestionFr": "Qui est le plus susceptible d'être arrêté ?"
+        "questionEn": "Who's most likely to get arrested ?",
+        "questionFr": "Qui est le plus susceptible d'être arrêté ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who would you most want to switch lives with for a day ?",
-        "QuestionFr": "Avec qui aimeriez-vous échanger de vie pendant une journée ?"
+        "questionEn": "Who would you most want to switch lives with for a day ?",
+        "questionFr": "Avec qui aimeriez-vous échanger de vie pendant une journée ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who would you trust to take care of your pets ?",
-        "QuestionFr": "À qui feriez-vous confiance pour prendre soin de vos animaux ?"
+        "questionEn": "Who would you trust to take care of your pets ?",
+        "questionFr": "À qui feriez-vous confiance pour prendre soin de vos animaux ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's always late to everything ?",
-        "QuestionFr": "Qui est toujours en retard à tout ?"
+        "questionEn": "Who's always late to everything ?",
+        "questionFr": "Qui est toujours en retard à tout ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who has the worst luck ?",
-        "QuestionFr": "Qui a la pire chance ?"
+        "questionEn": "Who has the worst luck ?",
+        "questionFr": "Qui a la pire chance ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who do you think would make a great politician ?",
-        "QuestionFr": "À qui pensez-vous qu'il ferait un excellent politicien ?"
+        "questionEn": "Who do you think would make a great politician ?",
+        "questionFr": "À qui pensez-vous qu'il ferait un excellent politicien ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who do you think would survive a desert island the longest ?",
-        "QuestionFr": "Qui survivrait le plus longtemps sur une île déserte ?"
+        "questionEn": "Who do you think would survive a desert island the longest ?",
+        "questionFr": "Qui survivrait le plus longtemps sur une île déserte ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who has the worst taste in music? ",
-        "QuestionFr": "Qui a le pire goût musical ?"
+        "questionEn": "Who has the worst taste in music? ",
+        "questionFr": "Qui a le pire goût musical ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's the most likely to become a millionaire ?",
-        "QuestionFr": "Qui est le plus susceptible de devenir millionnaire ?"
+        "questionEn": "Who's the most likely to become a millionaire ?",
+        "questionFr": "Qui est le plus susceptible de devenir millionnaire ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who is always the life of the party ?",
-        "QuestionFr": "Qui est toujours l'âme de la fête ?"
+        "questionEn": "Who is always the life of the party ?",
+        "questionFr": "Qui est toujours l'âme de la fête ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's the most forgetful? ",
-        "QuestionFr": "Qui est le plus oublieux ?"
+        "questionEn": "Who's the most forgetful? ",
+        "questionFr": "Qui est le plus tête en l'air ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who has the craziest ideas ?",
-        "QuestionFr": "Qui a les idées les plus folles ?"
+        "questionEn": "Who has the craziest ideas ?",
+        "questionFr": "Qui a les idées les plus folles ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who would be the best teacher ?",
-        "QuestionFr": "Qui serait le meilleur professeur ?"
+        "questionEn": "Who would be the best teacher ?",
+        "questionFr": "Qui serait le meilleur professeur ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's most likely to travel the world ?",
-        "QuestionFr": "Qui est le plus susceptible de voyager à travers le monde ?"
+        "questionEn": "Who's most likely to travel the world ?",
+        "questionFr": "Qui est le plus susceptible de voyager à travers le monde ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's the most organized ?",
-        "QuestionFr": "Qui est le plus organisé ?"
+        "questionEn": "Who's the most organized ?",
+        "questionFr": "Qui est le plus organisé ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who has the best sense of humor ?",
-        "QuestionFr": "Qui a le meilleur sens de l'humour ?"
+        "questionEn": "Who has the best sense of humor ?",
+        "questionFr": "Qui a le meilleur sens de l'humour ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who would you most like to work with ?",
-        "QuestionFr": "Avec qui aimeriez-vous le plus travailler ?"
+        "questionEn": "Who would you most like to work with ?",
+        "questionFr": "Avec qui aimeriez-vous le plus travailler ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's the most likely to forget a birthday ?",
-        "QuestionFr": "Qui est le plus susceptible d'oublier un anniversaire ?"
+        "questionEn": "Who's the most likely to forget a birthday ?",
+        "questionFr": "Qui est le plus susceptible d'oublier un anniversaire ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's the most honest ?",
-        "QuestionFr": "Qui est le plus honnête ?"
+        "questionEn": "Who's the most honest ?",
+        "questionFr": "Qui est le plus honnête ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's the best at keeping secrets ?",
-        "QuestionFr": "Qui est le meilleur pour garder des secrets ?"
+        "questionEn": "Who's the best at keeping secrets ?",
+        "questionFr": "Qui est le meilleur pour garder des secrets ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who has the most interesting job ?",
-        "QuestionFr": "Qui a le métier le plus intéressant ?"
+        "questionEn": "Who has the most interesting job ?",
+        "questionFr": "Qui a le métier le plus intéressant ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who would be the worst roommate ?",
-        "QuestionFr": "Qui serait le pire colocataire ?"
+        "questionEn": "Who would be the worst roommate ?",
+        "questionFr": "Qui serait le pire colocataire ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's most likely to get a tattoo ?",
-        "QuestionFr": "Qui est le plus susceptible de se faire un tatouage ?"
+        "questionEn": "Who's most likely to get a tattoo ?",
+        "questionFr": "Qui est le plus susceptible de se faire un tatouage ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's the most spontaneous ?",
-        "QuestionFr": "Qui est le plus spontané ?"
+        "questionEn": "Who's the most spontaneous ?",
+        "questionFr": "Qui est le plus spontané ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's most likely to be famous on social media ?",
-        "QuestionFr": "Qui est le plus susceptible de devenir célèbre sur les réseaux sociaux ?"
+        "questionEn": "Who's most likely to be famous on social media ?",
+        "questionFr": "Qui est le plus susceptible de devenir célèbre sur les réseaux sociaux ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who would you most want to go on a road trip with ?",
-        "QuestionFr": "Avec qui aimeriez-vous le plus partir en road trip ?"
+        "questionEn": "Who 's most likely to go on a road trip ?",
+        "questionFr": "Qui est le plus susceptible de partir en road trip ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's the most creative ?",
-        "QuestionFr": "Qui est le plus créatif ?"
+        "questionEn": "Who's the most creative ?",
+        "questionFr": "Qui est le plus créatif ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who is the best dancer ?",
-        "QuestionFr": "Qui est le meilleur danseur ?"
+        "questionEn": "Who is the best dancer ?",
+        "questionFr": "Qui est le meilleur danseur ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who would be the worst person to be stranded on an island with ?",
-        "QuestionFr": "Qui serait la pire personne avec qui être coincé sur une île ?"
+        "questionEn": "Who would be the worst person to be stranded on an island with ?",
+        "questionFr": "Qui serait la pire personne avec qui être coincé sur une île ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's the most athletic ?",
-        "QuestionFr": "Qui est le plus sportif ?"
+        "questionEn": "Who's the most athletic ?",
+        "questionFr": "Qui est le plus sportif ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's the most likely to move to another country ?",
-        "QuestionFr": "Qui est le plus susceptible de déménager dans un autre pays ?"
+        "questionEn": "Who's the most likely to move to another country ?",
+        "questionFr": "Qui est le plus susceptible de déménager dans un autre pays ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's the best at solving problems ?",
-        "QuestionFr": "Qui est le meilleur pour résoudre des problèmes ?"
+        "questionEn": "Who's the best at solving problems ?",
+        "questionFr": "Qui est le meilleur pour résoudre des problèmes ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's most likely to quit their job and travel the world ?",
-        "QuestionFr": "Qui est le plus susceptible de quitter son travail et de voyager à travers le monde ?"
+        "questionEn": "Who's most likely to quit their job and travel the world ?",
+        "questionFr": "Qui est le plus susceptible de quitter son travail et de voyager à travers le monde ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who has the best style ?",
-        "QuestionFr": "Qui a le meilleur style ?"
+        "questionEn": "Who has the best style ?",
+        "questionFr": "Qui a le meilleur style ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's the best at giving advice ?",
-        "QuestionFr": "Qui est le meilleur pour donner des conseils ?"
+        "questionEn": "Who's the best at giving advice ?",
+        "questionFr": "Qui est le meilleur pour donner des conseils ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's the most likely to get married first ?",
-        "QuestionFr": "Qui est le plus susceptible de se marier en premier ?"
+        "questionEn": "Who's the most likely to get married first ?",
+        "questionFr": "Qui est le plus susceptible de se marier en premier ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who would be the best chef ?",
-        "QuestionFr": "Qui serait le meilleur chef ?"
+        "questionEn": "Who would be the best chef ?",
+        "questionFr": "Qui serait le meilleur chef ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's most likely to start a business? ",
-        "QuestionFr": "Qui est le plus susceptible de créer une entreprise ?"
+        "questionEn": "Who's most likely to start a business? ",
+        "questionFr": "Qui est le plus susceptible de créer une entreprise ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's the best at keeping in touch with people ?",
-        "QuestionFr": "Qui est le meilleur pour rester en contact avec les gens ?"
+        "questionEn": "Who's the best at keeping in touch with people ?",
+        "questionFr": "Qui est le meilleur pour rester en contact avec les gens ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to break their phone ?",
-        "QuestionFr": "Qui est le plus susceptible de casser son téléphone ?"
+        "questionEn": "Who’s the most likely to break their phone ?",
+        "questionFr": "Qui est le plus susceptible de casser son téléphone ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's the most responsible ?",
-        "QuestionFr": "Qui est le plus responsable ?"
+        "questionEn": "Who's the most responsible ?",
+        "questionFr": "Qui est le plus responsable ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who's most likely to become a teacher ?",
-        "QuestionFr": "Qui est le plus susceptible de devenir professeur ?"
+        "questionEn": "Who's most likely to become a teacher ?",
+        "questionFr": "Qui est le plus susceptible de devenir professeur ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who is most likely to go skydiving ?",
-        "QuestionFr": "Qui est le plus susceptible de faire du saut en parachute ?"
+        "questionEn": "Who is most likely to go skydiving ?",
+        "questionFr": "Qui est le plus susceptible de faire du saut en parachute ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who would be the best to help you with a difficult task ?",
-        "QuestionFr": "Qui serait le meilleur pour vous aider avec une tâche difficile ?"
+        "questionEn": "Who would be the best to help you with a difficult task ?",
+        "questionFr": "Qui serait le meilleur pour vous aider avec une tâche difficile ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who is most likely to become a doctor ?",
-        "QuestionFr": "Qui est le plus susceptible de devenir médecin ?"
+        "questionEn": "Who is most likely to become a doctor ?",
+        "questionFr": "Qui est le plus susceptible de devenir médecin ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to never get a tattoo ?",
-        "QuestionFr": "Qui est le plus susceptible de ne jamais se faire tatouer ?"
+        "questionEn": "Who’s the most likely to never get a tattoo ?",
+        "questionFr": "Qui est le plus susceptible de ne jamais se faire tatouer ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who is most likely to be the life of the party ?",
-        "QuestionFr": "Qui est le plus susceptible d’être l’âme de la fête ?"
+        "questionEn": "Who is most likely to be the life of the party ?",
+        "questionFr": "Qui est le plus susceptible d’être l’âme de la fête ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who would be the best person to have on your team in a competition ?",
-        "QuestionFr": "Qui serait la meilleure personne à avoir dans votre équipe pour une compétition ?"
+        "questionEn": "Who would be the best person to have on your team in a competition ?",
+        "questionFr": "Qui serait la meilleure personne à avoir dans votre équipe pour une compétition ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to run for public office ?",
-        "QuestionFr": "Qui est le plus susceptible de se présenter à une fonction publique ?"
+        "questionEn": "Who’s the most likely to run for public office ?",
+        "questionFr": "Qui est le plus susceptible de se présenter à une fonction publique ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to get lost in a city ?",
-        "QuestionFr": "Qui est le plus susceptible de se perdre dans une ville ?"
+        "questionEn": "Who’s most likely to get lost in a city ?",
+        "questionFr": "Qui est le plus susceptible de se perdre dans une ville ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to cancel plans at the last minute ?",
-        "QuestionFr": "Qui est le plus susceptible d'annuler des plans à la dernière minute ?"
+        "questionEn": "Who’s the most likely to cancel plans at the last minute ?",
+        "questionFr": "Qui est le plus susceptible d'annuler des plans à la dernière minute ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who would be most likely to forget your birthday ?",
-        "QuestionFr": "Qui est le plus susceptible d’oublier votre anniversaire ?"
+        "questionEn": "Who would be most likely to forget un birthday ?",
+        "questionFr": "Qui est le plus susceptible d’oublier un anniversaire ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who is most likely to win a reality TV show ?",
-        "QuestionFr": "Qui est le plus susceptible de gagner une émission de télé-réalité ?"
+        "questionEn": "Who is most likely to win a reality TV show ?",
+        "questionFr": "Qui est le plus susceptible de gagner une émission de télé-réalité ?"
     },
     {
-        "QuestionEn": "Who’s most likely to go to a concert every weekend ?",
-        "QuestionFr": "Qui est le plus susceptible d’aller à un concert chaque week-end ?"
+        "questionEn": "Who’s most likely to go to a concert every weekend ?",
+        "questionFr": "Qui est le plus susceptible d’aller à un concert chaque week-end ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to forget someone’s name ?",
-        "QuestionFr": "Qui est le plus susceptible d’oublier le nom de quelqu’un ?"
+        "questionEn": "Who’s the most likely to forget someone’s name ?",
+        "questionFr": "Qui est le plus susceptible d’oublier le nom de quelqu’un ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to get a job as an influencer ?",
-        "QuestionFr": "Qui est le plus susceptible d'obtenir un emploi d'influenceur ?"
+        "questionEn": "Who’s most likely to fall asleep during a movie ?",
+        "questionFr": "Qui est le plus susceptible de s'endormir pendant un film ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to fall asleep during a movie ?",
-        "QuestionFr": "Qui est le plus susceptible de s'endormir pendant un film ?"
+        "questionEn": "Who’s most likely to go vegan ?",
+        "questionFr": "Qui est le plus susceptible de devenir vegan ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to go vegan ?",
-        "QuestionFr": "Qui est le plus susceptible de devenir végétalien ?"
+        "questionEn": "Who’s the most likely to organize a surprise party ?",
+        "questionFr": "Qui est le plus susceptible d’organiser une fête surprise ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to organize a surprise party ?",
-        "QuestionFr": "Qui est le plus susceptible d’organiser une fête surprise ?"
+        "questionEn": "Who’s the most likely to visit a new country every year ?",
+        "questionFr": "Qui est le plus susceptible de visiter un nouveau pays chaque année ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to visit a new country every year ?",
-        "QuestionFr": "Qui est le plus susceptible de visiter un nouveau pays chaque année ?"
+        "questionEn": "Who would be the best person to share a hotel room with ?",
+        "questionFr": "Qui serait la meilleure personne avec qui partager une chambre d’hôtel ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who would be the best person to share a hotel room with ?",
-        "QuestionFr": "Qui serait la meilleure personne avec qui partager une chambre d’hôtel ?"
+        "questionEn": "Who is most likely to be an overachiever ?",
+        "questionFr": "Qui est le plus susceptible d’être un surperformant ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who is most likely to be an overachiever ?",
-        "QuestionFr": "Qui est le plus susceptible d’être un surperformant ?"
+        "questionEn": "Who’s the most likely to adopt a pet this year ?",
+        "questionFr": "Qui est le plus susceptible d'adopter un animal cette année ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who would you want by your side during a crisis ?",
-        "QuestionFr": "Qui voudriez-vous avoir à vos côtés pendant une crise ?"
+        "questionEn": "Who is most likely to go to jail ?",
+        "questionFr": "Qui est le plus susceptible d’aller en prison ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to adopt a pet this year ?",
-        "QuestionFr": "Qui est le plus susceptible d'adopter un animal cette année ?"
+        "questionEn": "Who’s the most likely to become a scientist ?",
+        "questionFr": "Qui est le plus susceptible de devenir scientifique ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who is most likely to go to jail ?",
-        "QuestionFr": "Qui est le plus susceptible d’aller en prison ?"
+        "questionEn": "Who is most likely to be the first to get married ?",
+        "questionFr": "Qui est le plus susceptible d’être le premier à se marier ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to become a scientist ?",
-        "QuestionFr": "Qui est le plus susceptible de devenir scientifique ?"
+        "questionEn": "Who’s the most likely to be on a reality show ?",
+        "questionFr": "Qui est le plus susceptible d’être dans une émission de télé-réalité ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who is most likely to be the first to get married ?",
-        "QuestionFr": "Qui est le plus susceptible d’être le premier à se marier ?"
+        "questionEn": "Who would you trust to give you the best advice ?",
+        "questionFr": "À qui feriez-vous confiance pour vous donner le meilleur conseil ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to be on a reality show ?",
-        "QuestionFr": "Qui est le plus susceptible d’être dans une émission de télé-réalité ?"
+        "questionEn": "Who’s most likely to go to space ?",
+        "questionFr": "Qui est le plus susceptible d’aller dans l’espace ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who would you trust to give you the best advice ?",
-        "QuestionFr": "À qui feriez-vous confiance pour vous donner le meilleur conseil ?"
+        "questionEn": "Who’s the most likely to lose their wallet ?",
+        "questionFr": "Qui est le plus susceptible de perdre son portefeuille ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to go to space ?",
-        "QuestionFr": "Qui est le plus susceptible d’aller dans l’espace ?"
+        "questionEn": "Who’s the most likely to take a spontaneous trip ?",
+        "questionFr": "Qui est le plus susceptible de partir en voyage spontané ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to lose their wallet ?",
-        "QuestionFr": "Qui est le plus susceptible de perdre son portefeuille ?"
+        "questionEn": "Who would you trust to babysit your kids ?",
+        "questionFr": "À qui feriez-vous confiance pour garder vos enfants ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to take a spontaneous trip ?",
-        "QuestionFr": "Qui est le plus susceptible de partir en voyage spontané ?"
+        "questionEn": "Who’s most likely to get into a fight ?",
+        "questionFr": "Qui est le plus susceptible de se battre ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who would you trust to babysit your kids ?",
-        "QuestionFr": "À qui feriez-vous confiance pour garder vos enfants ?"
+        "questionEn": "Who’s most likely to try a new food ?",
+        "questionFr": "Qui est le plus susceptible d’essayer un nouveau plat ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to get into a fight ?",
-        "QuestionFr": "Qui est le plus susceptible de se battre ?"
+        "questionEn": "Who’s the most likely to start a podcast ?",
+        "questionFr": "Qui est le plus susceptible de lancer un podcast ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to try a new food ?",
-        "QuestionFr": "Qui est le plus susceptible d’essayer un nouveau plat ?"
+        "questionEn": "Who’s most likely to win the lottery ?",
+        "questionFr": "Qui est le plus susceptible de gagner à la loterie ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to start a podcast ?",
-        "QuestionFr": "Qui est le plus susceptible de lancer un podcast ?"
+        "questionEn": "Who’s most likely to get married in Las Vegas ?",
+        "questionFr": "Qui est le plus susceptible de se marier à Las Vegas ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to win the lottery ?",
-        "QuestionFr": "Qui est le plus susceptible de gagner à la loterie ?"
+        "questionEn": "Who’s most likely to get a piercing ?",
+        "questionFr": "Qui est le plus susceptible de se faire un piercing ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to get married in Las Vegas ?",
-        "QuestionFr": "Qui est le plus susceptible de se marier à Las Vegas ?"
+        "questionEn": "Who’s most likely to become a professional athlete ?",
+        "questionFr": "Qui est le plus susceptible de devenir un athlète professionnel ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to get a piercing ?",
-        "QuestionFr": "Qui est le plus susceptible de se faire un piercing ?"
+        "questionEn": "Who’s most likely to win a cooking competition ?",
+        "questionFr": "Qui est le plus susceptible de gagner un concours de cuisine ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to become a professional athlete ?",
-        "QuestionFr": "Qui est le plus susceptible de devenir un athlète professionnel ?"
+        "questionEn": "Who’s the most likely to stay up all night ?",
+        "questionFr": "Qui est le plus susceptible de rester éveillé toute la nuit ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to win a cooking competition ?",
-        "QuestionFr": "Qui est le plus susceptible de gagner un concours de cuisine ?"
+        "questionEn": "Who’s the most likely to spend all their money on shopping ?",
+        "questionFr": "Qui est le plus susceptible de dépenser tout son argent en shopping ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to stay up all night ?",
-        "QuestionFr": "Qui est le plus susceptible de rester éveillé toute la nuit ?"
+        "questionEn": "Who would be the most fun to go on vacation with ?",
+        "questionFr": "Qui serait le plus amusant à emmener en vacances ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to spend all their money on shopping ?",
-        "QuestionFr": "Qui est le plus susceptible de dépenser tout son argent en shopping ?"
+        "questionEn": "Who’s most likely to be an entrepreneur ?",
+        "questionFr": "Qui est le plus susceptible d’être entrepreneur ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who would be the most fun to go on vacation with ?",
-        "QuestionFr": "Qui serait le plus amusant à emmener en vacances ?"
+        "questionEn": "Who’s most likely to meet a celebrity ?",
+        "questionFr": "Qui est le plus susceptible de rencontrer une célébrité ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to be an entrepreneur ?",
-        "QuestionFr": "Qui est le plus susceptible d’être entrepreneur ?"
+        "questionEn": "Who’s the most likely to be on a reality dating show ?",
+        "questionFr": "Qui est le plus susceptible de participer à une émission de rencontres télé-réalité ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to meet a celebrity ?",
-        "QuestionFr": "Qui est le plus susceptible de rencontrer une célébrité ?"
+        "questionEn": "Who’s most likely to become a famous artist ?",
+        "questionFr": "Qui est le plus susceptible de devenir un artiste célèbre ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to be on a reality dating show ?",
-        "QuestionFr": "Qui est le plus susceptible de participer à une émission de rencontres télé-réalité ?"
+        "questionEn": "Who would be the first to survive a zombie apocalypse ?",
+        "questionFr": "Qui serait le premier à survivre à une apocalypse zombie ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to become a famous artist ?",
-        "QuestionFr": "Qui est le plus susceptible de devenir un artiste célèbre ?"
+        "questionEn": "Who’s most likely to get arrested for a prank ?",
+        "questionFr": "Qui est le plus susceptible d'être arrêté pour une blague ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who would be the first to survive a zombie apocalypse ?",
-        "QuestionFr": "Qui serait le premier à survivre à une apocalypse zombie ?"
+        "questionEn": "Who’s the most likely to become a millionaire ?",
+        "questionFr": "Qui est le plus susceptible de devenir millionnaire ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to get arrested for a prank ?",
-        "QuestionFr": "Qui est le plus susceptible d'être arrêté pour une blague ?"
+        "questionEn": "Who’s the most likely to learn a new language this year ?",
+        "questionFr": "Qui est le plus susceptible d’apprendre une nouvelle langue cette année ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to become a millionaire ?",
-        "QuestionFr": "Qui est le plus susceptible de devenir millionnaire ?"
+        "questionEn": "Who’s most likely to become a famous chef ?",
+        "questionFr": "Qui est le plus susceptible de devenir un chef célèbre ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to learn a new language this year ?",
-        "QuestionFr": "Qui est le plus susceptible d’apprendre une nouvelle langue cette année ?"
+        "questionEn": "Who’s most likely to go bungee jumping ?",
+        "questionFr": "Qui est le plus susceptible de faire du saut à l'élastique ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to forget an important anniversary ?",
-        "QuestionFr": "Qui est le plus susceptible d'oublier un anniversaire important ?"
+        "questionEn": "Who’s the most likely to end up on a reality show ?",
+        "questionFr": "Qui est le plus susceptible de finir dans une émission de télé-réalité ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to become a famous chef ?",
-        "QuestionFr": "Qui est le plus susceptible de devenir un chef célèbre ?"
+        "questionEn": "Who’s the most likely to break a world record ?",
+        "questionFr": "Qui est le plus susceptible de battre un record du monde ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to go bungee jumping ?",
-        "QuestionFr": "Qui est le plus susceptible de faire du saut à l'élastique ?"
+        "questionEn": "Who’s the most likely to go on a road trip alone ?",
+        "questionFr": "Qui est le plus susceptible de partir en road trip seul ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to end up on a reality show ?",
-        "QuestionFr": "Qui est le plus susceptible de finir dans une émission de télé-réalité ?"
+        "questionEn": "Who’s most likely to get a piercing or tattoo ?",
+        "questionFr": "Qui est le plus susceptible de se faire un piercing ou un tatouage ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to break a world record ?",
-        "QuestionFr": "Qui est le plus susceptible de battre un record du monde ?"
+        "questionEn": "Who’s most likely to start their own business ?",
+        "questionFr": "Qui est le plus susceptible de lancer sa propre entreprise ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to go on a road trip alone ?",
-        "QuestionFr": "Qui est le plus susceptible de partir en road trip seul ?"
+        "questionEn": "Who’s the most likely to become an author ?",
+        "questionFr": "Qui est le plus susceptible de devenir auteur ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to get a piercing or tattoo ?",
-        "QuestionFr": "Qui est le plus susceptible de se faire un piercing ou un tatouage ?"
+        "questionEn": "Who’s most likely to get into a serious relationship this year ?",
+        "questionFr": "Qui est le plus susceptible de se mettre dans une relation sérieuse cette année ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to start their own business ?",
-        "QuestionFr": "Qui est le plus susceptible de lancer sa propre entreprise ?"
+        "questionEn": "Who’s the most likely to get lost while traveling ?",
+        "questionFr": "Qui est le plus susceptible de se perdre en voyage ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to become an author ?",
-        "QuestionFr": "Qui est le plus susceptible de devenir auteur ?"
+        "questionEn": "Who’s the most likely to forget to pack something important for a trip ?",
+        "questionFr": "Qui est le plus susceptible d'oublier d'emporter quelque chose d'important pour un voyage ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to travel to space ?",
-        "QuestionFr": "Qui est le plus susceptible de voyager dans l’espace ?"
+        "questionEn": "Who’s the most likely to be late to an important event ?",
+        "questionFr": "Qui est le plus susceptible d'être en retard à un événement important ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to get into a serious relationship this year ?",
-        "QuestionFr": "Qui est le plus susceptible de se mettre dans une relation sérieuse cette année ?"
+        "questionEn": "Who’s most likely to break up with someone over text ?",
+        "questionFr": "Qui est le plus susceptible de rompre avec quelqu’un par texto ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to get lost while traveling ?",
-        "QuestionFr": "Qui est le plus susceptible de se perdre en voyage ?"
+        "questionEn": "Who’s most likely to steal food from someone else’s plate ?",
+        "questionFr": "Qui est le plus susceptible de voler de la nourriture dans l’assiette de quelqu’un d’autre ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to forget to pack something important for a trip ?",
-        "QuestionFr": "Qui est le plus susceptible d'oublier d'emporter quelque chose d'important pour un voyage ?"
+        "questionEn": "Who’s most likely to win a game of chess ?",
+        "questionFr": "Qui est le plus susceptible de gagner une partie d’échecs ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to be late to an important event ?",
-        "QuestionFr": "Qui est le plus susceptible d'être en retard à un événement important ?"
+        "questionEn": "Who’s most likely to make a big public speech ?",
+        "questionFr": "Qui est le plus susceptible de faire un grand discours public ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to break up with someone over text ?",
-        "QuestionFr": "Qui est le plus susceptible de rompre avec quelqu’un par texto ?"
+        "questionEn": "Who’s most likely to spend all their money on something useless ?",
+        "questionFr": "Qui est le plus susceptible de dépenser tout son argent dans quelque chose d’inutile ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to steal food from someone else’s plate ?",
-        "QuestionFr": "Qui est le plus susceptible de voler de la nourriture dans l’assiette de quelqu’un d’autre ?"
+        "questionEn": "Who’s the most likely to get a spontaneous tattoo ?",
+        "questionFr": "Qui est le plus susceptible de se faire un tatouage spontané ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to win a game of chess ?",
-        "QuestionFr": "Qui est le plus susceptible de gagner une partie d’échecs ?"
+        "questionEn": "Who’s most likely to be a perfectionist ?",
+        "questionFr": "Qui est le plus susceptible d’être perfectionniste ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to make a big public speech ?",
-        "QuestionFr": "Qui est le plus susceptible de faire un grand discours public ?"
+        "questionEn": "Who’s most likely to cry during a movie ?",
+        "questionFr": "Qui est le plus susceptible de pleurer pendant un film ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to spend all their money on something useless ?",
-        "QuestionFr": "Qui est le plus susceptible de dépenser tout son argent dans quelque chose d’inutile ?"
+        "questionEn": "Who’s the most likely to join a gym this year ?",
+        "questionFr": "Qui est le plus susceptible de rejoindre une salle de sport cette année ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to get a spontaneous tattoo ?",
-        "QuestionFr": "Qui est le plus susceptible de se faire un tatouage spontané ?"
+        "questionEn": "Who’s most likely to become a famous singer ?",
+        "questionFr": "Qui est le plus susceptible de devenir un chanteur célèbre ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to be a perfectionist ?",
-        "QuestionFr": "Qui est le plus susceptible d’être perfectionniste ?"
+        "questionEn": "Who’s most likely to be on the cover of a magazine ?",
+        "questionFr": "Qui est le plus susceptible d’être en couverture d’un magazine ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to win a cooking contest ?",
-        "QuestionFr": "Qui est le plus susceptible de gagner un concours de cuisine ?"
+        "questionEn": "Who’s most likely to be a professional gamer ?",
+        "questionFr": "Qui est le plus susceptible de devenir un joueur professionnel ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to cry during a movie ?",
-        "QuestionFr": "Qui est le plus susceptible de pleurer pendant un film ?"
+        "questionEn": "Who’s most likely to become an influencer ?",
+        "questionFr": "Qui est le plus susceptible de devenir un influenceur ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s the most likely to join a gym this year ?",
-        "QuestionFr": "Qui est le plus susceptible de rejoindre une salle de sport cette année ?"
+        "questionEn": "Who’s most likely to become famous for something they didn’t intend?",
+        "questionFr": "Qui est le plus susceptible de devenir célèbre pour quelque chose qu'il n'avait pas prévu ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to become a famous singer ?",
-        "QuestionFr": "Qui est le plus susceptible de devenir un chanteur célèbre ?"
+        "questionEn": "Who’s most likely to run a marathon ?",
+        "questionFr": "Qui est le plus susceptible de courir un marathon ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to be on the cover of a magazine ?",
-        "QuestionFr": "Qui est le plus susceptible d’être en couverture d’un magazine ?"
+        "questionEn": "Who’s most likely to get into a heated argument ?",
+        "questionFr": "Qui est le plus susceptible d’être impliqué dans une dispute intense ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to be a professional gamer ?",
-        "QuestionFr": "Qui est le plus susceptible de devenir un joueur professionnel ?"
+        "questionEn": "Who’s most likely to be the first to get engaged ?",
+        "questionFr": "Qui est le plus susceptible d’être le premier à se fiancer ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to become an influencer ?",
-        "QuestionFr": "Qui est le plus susceptible de devenir un influenceur ?"
+        "questionEn": "Who’s most likely to become a fashion icon ?",
+        "questionFr": "Qui est le plus susceptible de devenir une icône de mode ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to become famous for something they didn’t intend?",
-        "QuestionFr": "Qui est le plus susceptible de devenir célèbre pour quelque chose qu'il n'avait pas prévu ?"
+        "questionEn": "Who’s most likely to survive without their phone for a week ?",
+        "questionFr": "Qui est le plus susceptible de survivre sans son téléphone pendant une semaine ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to run a marathon ?",
-        "QuestionFr": "Qui est le plus susceptible de courir un marathon ?"
+        "questionEn": "Who’s most likely to have a secret identity ?",
+        "questionFr": "Qui est le plus susceptible d’avoir une identité secrète ?",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Who’s most likely to get into a heated argument ?",
-        "QuestionFr": "Qui est le plus susceptible d’être impliqué dans une dispute intense ?"
-    },
-    {
-        "QuestionEn": "Who’s most likely to be the first to get engaged ?",
-        "QuestionFr": "Qui est le plus susceptible d’être le premier à se fiancer ?"
-    },
-    {
-        "QuestionEn": "Who’s most likely to become a fashion icon ?",
-        "QuestionFr": "Qui est le plus susceptible de devenir une icône de mode ?"
-    },
-    {
-        "QuestionEn": "Who’s most likely to survive without their phone for a week ?",
-        "QuestionFr": "Qui est le plus susceptible de survivre sans son téléphone pendant une semaine ?"
-    },
-    {
-        "QuestionEn": "Who’s most likely to have a secret identity ?",
-        "QuestionFr": "Qui est le plus susceptible d’avoir une identité secrète ?"
-    },
-    {
-        "QuestionEn": "Who’s most likely to end up on a reality show about cooking ?",
-        "QuestionFr": "Qui est le plus susceptible de finir dans une émission de télé-réalité sur la cuisine ?"
+        "questionEn": "Who’s most likely to end up on a reality show about cooking ?",
+        "questionFr": "Qui est le plus susceptible de finir dans une émission de télé-réalité sur la cuisine ?",
+        "difficultyName": "Soft"
     }
 ]

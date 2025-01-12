@@ -1,190 +1,302 @@
 [
     {
-        "QuestionEn": "Make out with the person with their name last in alphabetical order",
-        "QuestionFr": "Faîtes une sortie avec la personne dont le nom est le dernier dans l'ordre alphabétique"
+        "questionEn": "Make out with the person with their name last in alphabetical order",
+        "questionFr": "Faîtes une sortie avec la personne dont le nom est le dernier dans l'ordre alphabétique",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Dance in front of everyone for 30 seconds",
-        "QuestionFr": "Dansez devant tout le monde pendant 30 secondes"
+        "questionEn": "Dance in front of everyone for 30 seconds",
+        "questionFr": "Dansez devant tout le monde pendant 30 secondes",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Sing your favorite song out loud",
-        "QuestionFr": "Chantez votre chanson préférée à haute voix"
+        "questionEn": "Sing your favorite song out loud",
+        "questionFr": "Chantez votre chanson préférée à haute voix",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Do 10 push-ups in a row",
-        "QuestionFr": "Faites 10 pompes d'affilée"
+        "questionEn": "Do 10 push-ups in a row",
+        "questionFr": "Faites 10 pompes d'affilée",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Do an impression of someone in the room",
-        "QuestionFr": "Faites une imitation de quelqu'un dans la pièce"
+        "questionEn": "Do an impression of someone in the room",
+        "questionFr": "Faites une imitation de quelqu'un dans la pièce",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Give someone a piggyback ride around the room",
-        "QuestionFr": "Donnez à quelqu'un un tour de dos dans la pièce"
+        "questionEn": "Give someone a piggyback ride around the room",
+        "questionFr": "Donnez à quelqu'un un tour de dos dans la pièce",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Eat a spoonful of hot sauce",
-        "QuestionFr": "Mangez une cuillère de sauce piquante"
+        "questionEn": "Eat a spoonful of hot sauce",
+        "questionFr": "Mangez une cuillère de sauce piquante",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Pretend to be a waiter and take someone's order",
-        "QuestionFr": "Faites semblant d'être un serveur et prenez la commande de quelqu'un"
+        "questionEn": "Pretend to be a waiter and take someone's order",
+        "questionFr": "Faites semblant d'être un serveur et prenez la commande de quelqu'un",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Call your crush and tell them you like them",
-        "QuestionFr": "Appelez votre crush et dites-lui que vous l'aimez"
+        "questionEn": "Call your crush and tell them you like them",
+        "questionFr": "Appelez votre crush et dites-lui que vous l'aimez",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Wear socks on your hands for the next 5 minutes",
-        "QuestionFr": "Mettez des chaussettes sur vos mains pendant les 5 prochaines minutes"
+        "questionEn": "Wear socks on your hands for the next 5 minutes",
+        "questionFr": "Mettez des chaussettes sur vos mains pendant les 5 prochaines minutes",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Do your best dance move in front of everyone",
-        "QuestionFr": "Faites votre meilleur mouvement de danse devant tout le monde"
+        "questionEn": "Do your best dance move in front of everyone",
+        "questionFr": "Faites votre meilleur mouvement de danse devant tout le monde",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Imitate an animal of your choice for 1 minute",
-        "QuestionFr": "Imitez un animal de votre choix pendant 1 minute"
+        "questionEn": "Imitate an animal of your choice for 1 minute",
+        "questionFr": "Imitez un animal de votre choix pendant 1 minute",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Act like a waiter and serve drinks to everyone",
-        "QuestionFr": "Faites le serveur et servez des boissons à tout le monde"
+        "questionEn": "Act like a waiter and serve drinks to everyone",
+        "questionFr": "Faites le serveur et servez des boissons à tout le monde",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Let someone else take your phone and text anyone they want",
-        "QuestionFr": "Laissez quelqu'un d'autre prendre votre téléphone et envoyer un message à la personne de son choix"
+        "questionEn": "Let someone else take your phone and text anyone they want",
+        "questionFr": "Laissez quelqu'un d'autre prendre votre téléphone et envoyer un message à la personne de son choix",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Try to touch your toes for 1 minute",
-        "QuestionFr": "Essayez de toucher vos orteils pendant 1 minute"
+        "questionEn": "Try to touch your toes for 1 minute",
+        "questionFr": "Essayez de toucher vos orteils pendant 1 minute",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Send a funny meme to your best friend",
-        "QuestionFr": "Envoyez un meme drôle à votre meilleur ami"
+        "questionEn": "Send a funny meme to your best friend",
+        "questionFr": "Envoyez un meme drôle à votre meilleur ami",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Do a cartwheel in the middle of the room",
-        "QuestionFr": "Faites un saltos au milieu de la pièce"
+        "questionEn": "Do a cartwheel in the middle of the room",
+        "questionFr": "Faites un saltos au milieu de la pièce",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Speak in a funny accent for the next 5 minutes",
-        "QuestionFr": "Parlez dans un accent rigolo pendant les 5 prochaines minutes"
+        "questionEn": "Speak in a funny accent for the next 5 minutes",
+        "questionFr": "Parlez dans un accent rigolo pendant les 5 prochaines minutes",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Text your mom saying you did something funny",
-        "QuestionFr": "Envoyez un message à votre mère en disant que vous avez fait quelque chose de drôle"
+        "questionEn": "Text your mom saying you did something funny",
+        "questionFr": "Envoyez un message à votre mère en disant que vous avez fait quelque chose de drôle",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Let someone do your makeup however they want",
-        "QuestionFr": "Laissez quelqu'un faire votre maquillage comme il veut"
+        "questionEn": "Let someone do your makeup however they want",
+        "questionFr": "Laissez quelqu'un faire votre maquillage comme il veut",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Send a random emoji to the first person in your contact list",
-        "QuestionFr": "Envoyez un emoji aléatoire à la première personne dans votre liste de contacts"
+        "questionEn": "Send a random emoji to the first person in your contact list",
+        "questionFr": "Envoyez un emoji aléatoire à la première personne dans votre liste de contacts",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Pretend to be a statue for 2 minutes",
-        "QuestionFr": "Faites semblant d'être une statue pendant 2 minutes"
+        "questionEn": "Pretend to be a statue for 2 minutes",
+        "questionFr": "Faites semblant d'être une statue pendant 2 minutes",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Speak in rhymes for the next 3 minutes",
-        "QuestionFr": "Parlez en rimes pendant les 3 prochaines minutes"
+        "questionEn": "Speak in rhymes for the next 3 minutes",
+        "questionFr": "Parlez en rimes pendant les 3 prochaines minutes",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Do your best impression of a famous celebrity",
-        "QuestionFr": "Faites votre meilleure imitation d'une célébrité"
+        "questionEn": "Do your best impression of a famous celebrity",
+        "questionFr": "Faites votre meilleure imitation d'une célébrité",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Tell an embarrassing story from your childhood",
-        "QuestionFr": "Racontez une histoire embarrassante de votre enfance"
+        "questionEn": "Tell an embarrassing story from your childhood",
+        "questionFr": "Racontez une histoire embarrassante de votre enfance",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Give a 1-minute speech about why pineapple belongs on pizza",
-        "QuestionFr": "Faites un discours de 1 minute sur pourquoi l'ananas appartient sur une pizza"
+        "questionEn": "Give a 1-minute speech about why pineapple belongs on pizza",
+        "questionFr": "Faites un discours de 1 minute sur pourquoi l'ananas appartient sur une pizza",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Let someone else pick your outfit for the next hour",
-        "QuestionFr": "Laissez quelqu'un d'autre choisir votre tenue pour la prochaine heure"
+        "questionEn": "Let someone else pick your outfit for the next hour",
+        "questionFr": "Laissez quelqu'un d'autre choisir votre tenue pour la prochaine heure",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Do your best impersonation of a baby",
-        "QuestionFr": "Faites votre meilleure imitation d'un bébé"
+        "questionEn": "Do your best impersonation of a baby",
+        "questionFr": "Faites votre meilleure imitation d'un bébé",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Run around the room 10 times",
-        "QuestionFr": "Faites 10 tours de la pièce en courant"
+        "questionEn": "Run around the room 10 times",
+        "questionFr": "Faites 10 tours de la pièce en courant",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Do 20 jumping jacks",
-        "QuestionFr": "Faites 20 sauts de grenouille"
+        "questionEn": "Do 20 jumping jacks",
+        "questionFr": "Faites 20 sauts de grenouille",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Act like you're on a cooking show for the next minute",
-        "QuestionFr": "Faites semblant d'être dans une émission de cuisine pendant la prochaine minute"
+        "questionEn": "Act like you're on a cooking show for the next minute",
+        "questionFr": "Faites semblant d'être dans une émission de cuisine pendant la prochaine minute",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Send a voice message saying 'I love you' to your best friend",
-        "QuestionFr": "Envoyez un message vocal disant 'Je t'aime' à votre meilleur ami"
+        "questionEn": "Send a voice message saying 'I love you' to your best friend",
+        "questionFr": "Envoyez un message vocal disant 'Je t'aime' à votre meilleur ami",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Pretend you're a news anchor and give a short report",
-        "QuestionFr": "Faites semblant d'être un présentateur de nouvelles et donnez un court rapport"
+        "questionEn": "Pretend you're a news anchor and give a short report",
+        "questionFr": "Faites semblant d'être un présentateur de nouvelles et donnez un court rapport",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Wear your clothes inside out for the next 10 minutes",
-        "QuestionFr": "Mettez vos vêtements à l'envers pendant les 10 prochaines minutes"
+        "questionEn": "Wear your clothes inside out for the next 10 minutes",
+        "questionFr": "Mettez vos vêtements à l'envers pendant les 10 prochaines minutes",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Act like a cat for 2 minutes",
-        "QuestionFr": "Agissez comme un chat pendant 2 minutes"
+        "questionEn": "Act like a cat for 2 minutes",
+        "questionFr": "Agissez comme un chat pendant 2 minutes",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Give a random compliment to everyone in the room",
-        "QuestionFr": "Faites un compliment aléatoire à tout le monde dans la pièce"
+        "questionEn": "Give a random compliment to everyone in the room",
+        "questionFr": "Faites un compliment aléatoire à tout le monde dans la pièce",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Speak only in questions for the next 5 minutes",
-        "QuestionFr": "Parlez uniquement en questions pendant les 5 prochaines minutes"
+        "questionEn": "Speak only in questions for the next 5 minutes",
+        "questionFr": "Parlez uniquement en questions pendant les 5 prochaines minutes",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Do a dramatic reading of a text message from your phone",
-        "QuestionFr": "Faites une lecture dramatique d'un message texte de votre téléphone"
+        "questionEn": "Do a dramatic reading of a text message from your phone",
+        "questionFr": "Faites une lecture dramatique d'un message texte de votre téléphone",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Give someone a piggyback ride around the room",
-        "QuestionFr": "Donnez un tour de dos à quelqu'un autour de la pièce"
+        "questionEn": "Give someone a piggyback ride around the room",
+        "questionFr": "Donnez un tour de dos à quelqu'un autour de la pièce",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Run in place for 1 minute",
-        "QuestionFr": "Courez sur place pendant 1 minute"
+        "questionEn": "Run in place for 1 minute",
+        "questionFr": "Courez sur place pendant 1 minute",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Do your best impression of a robot for the next minute",
-        "QuestionFr": "Faites votre meilleure imitation de robot pendant la prochaine minute"
+        "questionEn": "Do your best impression of a robot for the next minute",
+        "questionFr": "Faites votre meilleure imitation de robot pendant la prochaine minute",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Let someone choose a song for you to sing",
-        "QuestionFr": "Laissez quelqu'un choisir une chanson pour vous faire chanter"
+        "questionEn": "Let someone choose a song for you to sing",
+        "questionFr": "Laissez quelqu'un choisir une chanson pour vous faire chanter",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Act like a waiter and take everyone's drink orders",
-        "QuestionFr": "Faites semblant d'être serveur et prenez les commandes de boissons de tout le monde"
+        "questionEn": "Act like a waiter and take everyone's drink orders",
+        "questionFr": "Faites semblant d'être serveur et prenez les commandes de boissons de tout le monde",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Give a 1-minute motivational speech",
-        "QuestionFr": "Faites un discours motivant d'une minute"
+        "questionEn": "Give a 1-minute motivational speech",
+        "questionFr": "Faites un discours motivant d'une minute",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Do your best impression of a famous movie scene",
-        "QuestionFr": "Faites votre meilleure imitation d'une scène célèbre de film"
+        "questionEn": "Do your best impression of a famous movie scene",
+        "questionFr": "Faites votre meilleure imitation d'une scène célèbre de film",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Dance like no one is watching for 2 minutes",
-        "QuestionFr": "Dansez comme si personne ne vous regardait pendant 2 minutes"
+        "questionEn": "Dance like no one is watching for 2 minutes",
+        "questionFr": "Dansez comme si personne ne vous regardait pendant 2 minutes",
+        "difficultyName": "Soft"
     },
     {
-        "QuestionEn": "Do a dramatic reading of a random text from your phone",
-        "QuestionFr": "Faites une lecture dramatique d'un message aléatoire de votre téléphone"
+        "questionEn": "Do a dramatic reading of a random text from your phone",
+        "questionFr": "Faites une lecture dramatique d'un message aléatoire de votre téléphone",
+        "difficultyName": "Soft"
+    },
+    {
+        "questionEn": "Hop on one leg for 1 minute",
+        "questionFr": "Sautez sur une jambe pendant 1 minute",
+        "difficultyName": "Soft"
+    },
+    {
+        "questionEn": "Pretend to be a superhero and save the day",
+        "questionFr": "Faites semblant d'être un super-héros et sauvez la situation",
+        "difficultyName": "Soft"
+    },
+    {
+        "questionEn": "Give a high five to everyone in the room",
+        "questionFr": "Faites un high five à tout le monde dans la pièce",
+        "difficultyName": "Soft"
+    },
+    {
+        "questionEn": "Pretend to be a chef and explain how to make your favorite dish",
+        "questionFr": "Faites semblant d'être un chef et expliquez comment préparer votre plat préféré",
+        "difficultyName": "Soft"
+    },
+    {
+        "questionEn": "Act like you're stuck in quicksand for 1 minute",
+        "questionFr": "Faites semblant d'être coincé dans des sables mouvants pendant 1 minute",
+        "difficultyName": "Soft"
+    },
+    {
+        "questionEn": "Pretend to be a famous historical figure for 2 minutes",
+        "questionFr": "Faites semblant d'être une figure historique célèbre pendant 2 minutes",
+        "difficultyName": "Soft"
+    },
+    {
+        "questionEn": "Act like a game show host and create a trivia question",
+        "questionFr": "Faites semblant d'être un animateur de jeu télévisé et créez une question de trivia",
+        "difficultyName": "Soft"
+    },
+    {
+        "questionEn": "Pretend to be a weather reporter and give the forecast",
+        "questionFr": "Faites semblant d'être un météorologue et donnez les prévisions",
+        "difficultyName": "Soft"
+    },
+    {
+        "questionEn": "Try to juggle with any 3 objects",
+        "questionFr": "Essayez de jongler avec 3 objets quelconques",
+        "difficultyName": "Soft"
+    },
+    {
+        "questionEn": "Pretend to be a robot that is running out of battery",
+        "questionFr": "Faites semblant d'être un robot qui manque de batterie",
+        "difficultyName": "Soft"
+    },
+    {
+        "questionEn": "Pretend to be a teacher and explain something funny",
+        "questionFr": "Faites semblant d'être un enseignant et expliquez quelque chose de drôle",
+        "difficultyName": "Soft"
+    },
+    {
+        "questionEn": "Do your best impression of a popular cartoon character",
+        "questionFr": "Faites votre meilleure imitation d'un personnage de dessin animé populaire",
+        "difficultyName": "Soft"
+    },
+    {
+        "questionEn": "Pretend to be a famous artist and describe your masterpiece",
+        "questionFr": "Faites semblant d'être un artiste célèbre et décrivez votre chef-d'œuvre",
+        "difficultyName": "Soft"
     }
 ]

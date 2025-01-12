@@ -138,8 +138,9 @@ namespace WAF_API_Presentation.Controllers
             {
                 return StatusCode(400, ex.Message);
             }
-            catch (Exception)
+            catch (Exception ex )
             {
+                Console.WriteLine(ex.Message);
                 return StatusCode(420, "Enhance Your Calm !");
             }
         }

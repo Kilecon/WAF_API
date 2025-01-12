@@ -19,16 +19,16 @@ namespace WAF_API_Application.Services.WouldYouRatherService
 
         protected override Task<WouldYouRatherDto> CreateSpecificAsync(CreateWouldYouRatherCmd cmd, string id)
         {
-            var dare = _factory.CreateIntance(cmd, id);
+            var wyr = _factory.CreateIntance(cmd, id);
 
-            return Task.FromResult(dare.ToDto());
+            return Task.FromResult(wyr.ToDto());
         }
 
         protected override Task<WouldYouRatherDto> UpdateSpecificAsync(UpdateWouldYouRatherCmd cmd)
         {
-            var dare = _factory.UpdateIntance(cmd);
+            var wyr = _factory.UpdateIntance(cmd);
 
-            return Task.FromResult(dare.ToDto());
+            return Task.FromResult(wyr.ToDto());
         }
     }
 }

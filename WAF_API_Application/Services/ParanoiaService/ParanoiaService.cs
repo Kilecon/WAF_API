@@ -19,16 +19,16 @@ namespace WAF_API_Application.Services.ParanoiaService
 
         protected override Task<ParanoiaDto> CreateSpecificAsync(CreateParanoiaCmd cmd, string id)
         {
-            var dare = _factory.CreateIntance(cmd, id);
+            var paranoia = _factory.CreateIntance(cmd, id);
 
-            return Task.FromResult(dare.ToDto());
+            return Task.FromResult(paranoia.ToDto());
         }
 
         protected override Task<ParanoiaDto> UpdateSpecificAsync(UpdateParanoiaCmd cmd)
         {
-            var dare = _factory.UpdateIntance(cmd);
+            var paranoia = _factory.UpdateIntance(cmd);
 
-            return Task.FromResult(dare.ToDto());
+            return Task.FromResult(paranoia.ToDto());
         }
     }
 }

@@ -26,16 +26,16 @@ namespace WAF_API_Application.Services.NotationService
 
         protected Task<NotationDto> CreateSpecificAsync(CreateNotationCmd cmd, string id)
         {
-            var dare = _factory.CreateIntance(cmd, id);
+            var notation = _factory.CreateIntance(cmd, id);
 
-            return Task.FromResult(dare.ToDto());
+            return Task.FromResult(notation.ToDto());
         }
 
         protected Task<NotationDto> UpdateSpecificAsync(UpdateNotationCmd cmd)
         {
-            var dare = _factory.UpdateIntance(cmd);
+            var notation = _factory.UpdateIntance(cmd);
 
-            return Task.FromResult(dare.ToDto());
+            return Task.FromResult(notation.ToDto());
         }
 
         public async Task<NotationDto?> CreateAsync(CreateNotationCmd cmd)

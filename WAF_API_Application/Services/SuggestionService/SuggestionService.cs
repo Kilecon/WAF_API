@@ -23,9 +23,9 @@ namespace WAF_API_Application.Services.SuggestionService
 
         protected Task<SuggestionDto> CreateSpecificAsync(CreateSuggestionCmd cmd, string id)
         {
-            var dare = _factory.CreateIntance(cmd, id);
+            var suggestion = _factory.CreateIntance(cmd, id);
 
-            return Task.FromResult(dare.ToDto());
+            return Task.FromResult(suggestion.ToDto());
         }
         
 

@@ -1,614 +1,744 @@
 [
   {
-    "QuestionEn": "Who do you think people should be more grateful for ?",
-    "QuestionFr": "À qui pensez-vous que les gens devraient être plus reconnaissants ?"
+    "questionEn": "Who do you think people should be more grateful for ?",
+    "questionFr": "À qui pensez-vous que les gens devraient être plus reconnaissants ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's got the worst mood ?",
-    "QuestionFr": "Qui a la pire humeur ?"
+    "questionEn": "Who's got the worst mood ?",
+    "questionFr": "Qui a la pire humeur ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to move to stay with a partner ?",
-    "QuestionFr": "Qui est le plus susceptible de déménager pour rester avec un partenaire ?"
+    "questionEn": "Who's most likely to move to stay with a partner ?",
+    "questionFr": "Qui est le plus susceptible de déménager pour rester avec un partenaire ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to spread a rumor ?",
-    "QuestionFr": "Qui est le plus susceptible de répandre une rumeur ?"
+    "questionEn": "Who's most likely to spread a rumor ?",
+    "questionFr": "Qui est le plus susceptible de répandre une rumeur ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think eats the most in an average day ?",
-    "QuestionFr": "Selon vous, qui mange le plus dans une journée moyenne ?"
+    "questionEn": "Who do you think eats the most in an average day ?",
+    "questionFr": "Selon vous, qui mange le plus dans une journée moyenne ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who is most likely to be friend zoned after a terrible kiss ?",
-    "QuestionFr": "Qui est le plus susceptible d'être friend zoned après un baiser ?"
+    "questionEn": "Who is most likely to be friend zoned after a terrible kiss ?",
+    "questionFr": "Qui est le plus susceptible d'être friend zoned après un baiser ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to secretly have a crush on you ?",
-    "QuestionFr": "Qui est le plus susceptible d'avoir secrètement le béguin pour vous ?"
+    "questionEn": "Who's most likely to secretly have a crush on you ?",
+    "questionFr": "Qui est le plus susceptible d'avoir secrètement le béguin pour vous ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to be unemployed ?",
-    "QuestionFr": "Qui est le plus susceptible d'être au chômage ?"
+    "questionEn": "Who's most likely to be unemployed ?",
+    "questionFr": "Qui est le plus susceptible d'être au chômage ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's the most likely to never have children ?",
-    "QuestionFr": "Qui est le plus susceptible de ne jamais avoir d'enfants ?"
+    "questionEn": "Who's the most likely to never have children ?",
+    "questionFr": "Qui est le plus susceptible de ne jamais avoir d'enfants ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to have never dated anyone ?",
-    "QuestionFr": "Qui est le plus susceptible de ne jamais être sorti avec quelqu'un ?"
+    "questionEn": "Who's most likely to have never dated anyone ?",
+    "questionFr": "Qui est le plus susceptible de ne jamais être sorti avec quelqu'un ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to crash their first car ?",
-    "QuestionFr": "Qui est le plus susceptible de planter sa première voiture ?"
+    "questionEn": "Who's most likely to crash their first car ?",
+    "questionFr": "Qui est le plus susceptible de planter sa première voiture ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to marry a celebrity ?",
-    "QuestionFr": "Qui est le plus susceptible d'épouser une célébrité ?"
+    "questionEn": "Who's most likely to marry a celebrity ?",
+    "questionFr": "Qui est le plus susceptible d'épouser une célébrité ?"
   },
   {
-    "QuestionEn": "Who's most likely to start their own YouTube channel ?",
-    "QuestionFr": "Qui est le plus susceptible de créer sa propre chaîne YouTube ?"
+    "questionEn": "Who's most likely to start their own YouTube channel ?",
+    "questionFr": "Qui est le plus susceptible de créer sa propre chaîne YouTube ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to go on a fad diet ?",
-    "QuestionFr": "Qui est le plus susceptible de suivre un régime à la mode ?"
+    "questionEn": "Who's most likely to go on a fad diet ?",
+    "questionFr": "Qui est le plus susceptible de suivre un régime à la mode ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's the dumbest here ?",
-    "QuestionFr": "Qui est le plus bête ici ?"
+    "questionEn": "Who's the dumbest here ?",
+    "questionFr": "Qui est le plus bête ici ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who would you pick to be stuck on a desert island with ?",
-    "QuestionFr": "Avec qui choisirais-tu pour être coincé sur une île déserte ?"
+    "questionEn": "Who would you pick to be stuck on a desert island with ?",
+    "questionFr": "Avec qui choisirais-tu pour être coincé sur une île déserte ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think will live the longest ?",
-    "QuestionFr": "Selon vous, qui vivra le plus longtemps ?"
+    "questionEn": "Who do you think will live the longest ?",
+    "questionFr": "Selon vous, qui vivra le plus longtemps ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think has dated the most people ?",
-    "QuestionFr": "Selon vous, qui est sorti avec le plus de gens ?"
+    "questionEn": "Who do you think has dated the most people ?",
+    "questionFr": "Selon vous, qui est sorti avec le plus de gens ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who here is most likely to get rejected ?",
-    "QuestionFr": "Qui ici est le plus susceptible d'être rejeté ?"
+    "questionEn": "Who here is most likely to get rejected ?",
+    "questionFr": "Qui ici est le plus susceptible d'être rejeté ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to keep a photo of their crush in their wallet ?",
-    "QuestionFr": "Qui est le plus susceptible de garder une photo de son crush dans son portefeuille ?"
+    "questionEn": "Who's most likely to keep a photo of their crush in their wallet ?",
+    "questionFr": "Qui est le plus susceptible de garder une photo de son crush dans son portefeuille ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think is least similar to you ?",
-    "QuestionFr": "Selon vous, qui vous ressemble le moins ?"
+    "questionEn": "Who do you think is least similar to you ?",
+    "questionFr": "Selon vous, qui vous ressemble le moins ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who would you want to take care of you when you're sick ?",
-    "QuestionFr": "Qui voudriez-vous voir prendre soin de vous quand vous êtes malade ?"
+    "questionEn": "Who would you want to take care of you when you're sick ?",
+    "questionFr": "Qui voudriez-vous voir prendre soin de vous quand vous êtes malade ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's the most annoying person here ?",
-    "QuestionFr": "Qui est la personne la plus ennuyeuse ici ?"
+    "questionEn": "Who's the most annoying person here ?",
+    "questionFr": "Qui est la personne la plus ennuyeuse ici ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think has the most trouble getting over an ex ?",
-    "QuestionFr": "Selon vous, qui a le plus de mal à oublier son ex ?"
+    "questionEn": "Who do you think has the most trouble getting over an ex ?",
+    "questionFr": "Selon vous, qui a le plus de mal à oublier son ex ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think has the weirdest taste in music ?",
-    "QuestionFr": "Selon vous, qui a les goûts musicaux les plus étranges ?"
+    "questionEn": "Who do you think has the weirdest taste in music ?",
+    "questionFr": "Selon vous, qui a les goûts musicaux les plus étranges ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to decide to disappear without a trace ?",
-    "QuestionFr": "Qui est le plus susceptible de décider de disparaître sans laisser de trace ?"
+    "questionEn": "Who's most likely to decide to disappear without a trace ?",
+    "questionFr": "Qui est le plus susceptible de décider de disparaître sans laisser de trace ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's the biggest nerd here ?",
-    "QuestionFr": "Qui est le plus gros nerd ici ?"
+    "questionEn": "Who's the biggest nerd here ?",
+    "questionFr": "Qui est le plus gros nerd ici ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who has the worst ego here ?",
-    "QuestionFr": "Qui a le pire ego ici ?"
+    "questionEn": "Who has the worst ego here ?",
+    "questionFr": "Qui a le pire ego ici ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who is most likely to attract toxic people ?",
-    "QuestionFr": "Qui a le plus de chances d'attirer des gens toxiques ?"
+    "questionEn": "Who is most likely to attract toxic people ?",
+    "questionFr": "Qui a le plus de chances d'attirer des gens toxiques ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to abuse being an admin ?",
-    "QuestionFr": "Qui est le plus susceptible d'abuser d'être administrateur ?"
+    "questionEn": "Who's most likely to abuse being an admin ?",
+    "questionFr": "Qui est le plus susceptible d'abuser d'être administrateur ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Which person here would you not like to be stuck in an elevator with ?",
-    "QuestionFr": "Avec quelle personne ici n'aimeriez-vous pas être coincé dans un ascenseur ?"
+    "questionEn": "Which person here would you not like to be stuck in an elevator with ?",
+    "questionFr": "Avec quelle personne ici n'aimeriez-vous pas être coincé dans un ascenseur ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to be on a reality TV show ?",
-    "QuestionFr": "Qui est le plus susceptible de participer à une émission de télé-réalité ?"
+    "questionEn": "Who's most likely to be on a reality TV show ?",
+    "questionFr": "Qui est le plus susceptible de participer à une émission de télé-réalité ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think the most people have a crush on here ?",
-    "QuestionFr": "Selon vous, pour qui le plus de gens ont le béguin ici ?"
+    "questionEn": "Who do you think the most people have a crush on here ?",
+    "questionFr": "Selon vous, pour qui le plus de gens ont le béguin ici ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's the most likely to stalk an ex ?",
-    "QuestionFr": "Qui est le plus susceptible de harceler un ex ?"
+    "questionEn": "Who's the most likely to stalk an ex ?",
+    "questionFr": "Qui est le plus susceptible de harceler un ex ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think gets the most social anxiety from playing paranoia ?",
-    "QuestionFr": "Selon vous, qui ressent le plus d'anxiété sociale en jouant à la paranoïa ?"
+    "questionEn": "Who's most likely to be a gambling addict ?",
+    "questionFr": "Qui est le plus susceptible d'être un accro au jeu ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to be a gambling addict ?",
-    "QuestionFr": "Qui est le plus susceptible d'être un accro au jeu ?"
+    "questionEn": "Who would never wear the same outfit twice if they could ?",
+    "questionFr": "Qui ne porterait jamais deux fois la même tenue s'il le pouvait ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who would never wear the same outfit twice if they could ?",
-    "QuestionFr": "Qui ne porterait jamais deux fois la même tenue s'il le pouvait ?"
+    "questionEn": "Who's most likely to start randomly dancing in public ?",
+    "questionFr": "Qui est le plus susceptible de commencer à danser en public au hasard ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to start randomly dancing in public ?",
-    "QuestionFr": "Qui est le plus susceptible de commencer à danser en public au hasard ?"
+    "questionEn": "Who's the most flirty person here ?",
+    "questionFr": "Qui est la personne la plus séduisante ici ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's the most flirty person here ?",
-    "QuestionFr": "Qui est la personne la plus séduisante ici ?"
+    "questionEn": "Who's the least romantic person here ?",
+    "questionFr": "Qui est la personne la moins romantique ici ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's the least romantic person here ?",
-    "QuestionFr": "Qui est la personne la moins romantique ici ?"
+    "questionEn": "Who's most likely a high school dropout ?",
+    "questionFr": "Qui est le plus susceptible de décrocher scolairement ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely a high school dropout ?",
-    "QuestionFr": "Qui est le plus susceptible de décrocher scolairement ?"
+    "questionEn": "Who do you think drinks the most alcohol ?",
+    "questionFr": "Selon vous, qui boit le plus d'alcool ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think drinks the most alcohol ?",
-    "QuestionFr": "Selon vous, qui boit le plus d'alcool ?"
+    "questionEn": "Who do you think gets high most often ?",
+    "questionFr": "Selon vous, qui se défonce le plus souvent ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think gets high most often ?",
-    "QuestionFr": "Selon vous, qui se défonce le plus souvent ?"
+    "questionEn": "Who do you think has the cringiest social media profiles ?",
+    "questionFr": "Selon vous, qui a les profils les plus cringes sur les réseaux sociaux ?"
   },
   {
-    "QuestionEn": "Who do you think has the cringiest social media profiles ?",
-    "QuestionFr": "Selon vous, qui a les profils les plus craquants sur les réseaux sociaux ?"
+    "questionEn": "Who do you think is the funniest ?",
+    "questionFr": "Selon vous, qui est le plus drôle ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think is the funniest ?",
-    "QuestionFr": "Selon vous, qui est le plus drôle ?"
+    "questionEn": "Who's most likely to get bullied at school ?",
+    "questionFr": "Qui est le plus susceptible d'être harcelé à l'école ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to get bullied at school ?",
-    "QuestionFr": "Qui est le plus susceptible d'être harcelé à l'école ?"
+    "questionEn": "Who do you think is the worst at speling ?",
+    "questionFr": "Selon vous, qui est le plus mauvais en orthographe ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think is the worst at speling ?",
-    "QuestionFr": "Selon vous, qui est le plus mauvais en orthographe ?"
+    "questionEn": "Who's most likely to get internet famous ?",
+    "questionFr": "Qui est le plus susceptible de devenir célèbre sur Internet ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to get internet famous ?",
-    "QuestionFr": "Qui est le plus susceptible de devenir célèbre sur Internet ?"
+    "questionEn": "Who has the worst memory ?",
+    "questionFr": "Qui a la pire mémoire ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who has the worst memory ?",
-    "QuestionFr": "Qui a la pire mémoire ?"
+    "questionEn": "Who here is most likely to become an athlete ?",
+    "questionFr": "Qui ici est le plus susceptible de devenir un athlète ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who here is most likely to become an athlete ?",
-    "QuestionFr": "Qui ici est le plus susceptible de devenir un athlète ?"
+    "questionEn": "Who's most likely to sneak/have snuck into a bar underage ?",
+    "questionFr": "Qui est le plus susceptible de se faufiler/s'être faufilé dans un bar en étant mineur ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to sneak/have snuck into a bar underage ?",
-    "QuestionFr": "Qui est le plus susceptible de se faufiler/s'être faufilé dans un bar en étant mineur ?"
+    "questionEn": "Who's the 'main character' of the group ?",
+    "questionFr": "Qui est le 'main character' du groupe ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's the 'main character' of the group ?",
-    "QuestionFr": "Qui est le \"personnage principal\" du groupe ?"
+    "questionEn": "Who do you think is the most dramatic ?",
+    "questionFr": "Selon vous, qui est le plus dramatique ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think is the biggest simp ?",
-    "QuestionFr": "Selon vous, qui est le plus grand simp ?"
+    "questionEn": "Who's most likely to forget their partner's name ?",
+    "questionFr": "Qui est le plus susceptible d'oublier le nom de son partenaire ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think is the most dramatic ?",
-    "QuestionFr": "Selon vous, qui est le plus dramatique ?"
+    "questionEn": "Who's the least innocent one here ?",
+    "questionFr": "Qui est le moins innocent ici ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to forget their partner's name ?",
-    "QuestionFr": "Qui est le plus susceptible d'oublier le nom de son partenaire ?"
+    "questionEn": "Who do you think cries the most ?",
+    "questionFr": "Selon vous, qui pleure le plus ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's the least innocent one here ?",
-    "QuestionFr": "Qui est le moins innocent ici ?"
+    "questionEn": "Who do you think dreams the most about love ?",
+    "questionFr": "Selon vous, qui rêve le plus d'amour ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think cries the most ?",
-    "QuestionFr": "Selon vous, qui pleure le plus ?"
+    "questionEn": "Who do you think has the worst mood swings ?",
+    "questionFr": "Selon vous, qui a les pires sautes d'humeur ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think dreams the most about love ?",
-    "QuestionFr": "Selon vous, qui rêve le plus d'amour ?"
+    "questionEn": "Who do you think receives the most compliments ?",
+    "questionFr": "Selon vous, qui reçoit le plus de compliments ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think has the worst mood swings ?",
-    "QuestionFr": "Selon vous, qui a les pires sautes d'humeur ?"
+    "questionEn": "Who's most likely to go to hell ?",
+    "questionFr": "Qui est le plus susceptible d'aller en enfer ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think receives the most compliments ?",
-    "QuestionFr": "Selon vous, qui reçoit le plus de compliments ?"
+    "questionEn": "Who's most likely to be in an 'open relationship ?'",
+    "questionFr": "Qui est le plus susceptible d'être dans une « relation ouverte » ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to go to hell ?",
-    "QuestionFr": "Qui est le plus susceptible d'aller en enfer ?"
+    "questionEn": "Who's the most likely to be a huge germaphobe ?",
+    "questionFr": "Qui est le plus susceptible d'être un énorme germaphobe ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to be in an 'open relationship ?'",
-    "QuestionFr": "Qui est le plus susceptible d'être dans une « relation ouverte » ?"
+    "questionEn": "Who do you think has the most friends ?",
+    "questionFr": "Selon vous, qui a le plus d'amis ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's the most likely to be a huge germaphobe ?",
-    "QuestionFr": "Qui est le plus susceptible d'être un énorme germaphobe ?"
+    "questionEn": "Who here would make the best parent ?",
+    "questionFr": "Qui ici ferait le meilleur parent ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think has the most friends ?",
-    "QuestionFr": "Selon vous, qui a le plus d'amis ?"
+    "questionEn": "Who's most likely to meet up with an online friend ?",
+    "questionFr": "Qui est le plus susceptible de rencontrer un ami en ligne ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who here would make the best parent ?",
-    "QuestionFr": "Qui ici ferait le meilleur parent ?"
+    "questionEn": "Who do you think would 'accidentally' leak their nudes ?",
+    "questionFr": "Selon vous, qui divulguerait «accidentellement» ses nudes ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to meet up with an online friend ?",
-    "QuestionFr": "Qui est le plus susceptible de rencontrer un ami en ligne ?"
+    "questionEn": "Who would go out of their way just to have sex with someone ?",
+    "questionFr": "Qui ferait tout son possible juste pour avoir des relations sexuelles avec quelqu'un ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think would 'accidentally' leak their nudes ?",
-    "QuestionFr": "Selon vous, qui divulguerait «accidentellement» ses nus ?"
+    "questionEn": "Who has the cutest butt ?",
+    "questionFr": "Qui a les fesses les plus mignonnes ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who would go out of their way just to have sex with someone ?",
-    "QuestionFr": "Qui ferait tout son possible juste pour avoir des relations sexuelles avec quelqu'un ?"
+    "questionEn": "Who do you think has had sex in the weirdest place ?",
+    "questionFr": "Selon vous, qui a eu des relations sexuelles dans l'endroit le plus étrange ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who has the cutest butt ?",
-    "QuestionFr": "Qui a les fesses les plus mignonnes ?"
+    "questionEn": "Who here is the horniest ?",
+    "questionFr": "Qui ici est le plus excité ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think has had sex in the weirdest place ?",
-    "QuestionFr": "Selon vous, qui a eu des relations sexuelles dans l'endroit le plus étrange ?"
+    "questionEn": "Who's most likely to give an STD to someone else ?",
+    "questionFr": "Qui est le plus susceptible de transmettre une MST à quelqu'un d'autre ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who here is the horniest ?",
-    "QuestionFr": "Qui ici est le plus excité ?"
+    "questionEn": "Who's most likely to never had an orgasm ?",
+    "questionFr": "Qui est le plus susceptible de n'avoir jamais eu d'orgasme ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to give an STD to someone else ?",
-    "QuestionFr": "Qui est le plus susceptible de transmettre une MST à quelqu'un d'autre ?"
+    "questionEn": "Who's most likely to know a lot of pornstars ?",
+    "questionFr": "Qui est le plus susceptible de connaître beaucoup de stars du porno ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to never had an orgasm ?",
-    "QuestionFr": "Qui est le plus susceptible de n'avoir jamais eu d'orgasme ?"
+    "questionEn": "Who's most likely to do anal ?",
+    "questionFr": "Qui est le plus susceptible de faire de l'anal ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to know a lot of pornstars ?",
-    "QuestionFr": "Qui est le plus susceptible de connaître beaucoup de stars du porno ?"
+    "questionEn": "Who's most likely to say the wrong name during sex ?",
+    "questionFr": "Qui est le plus susceptible de dire le mauvais nom pendant les rapports sexuels ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to do anal ?",
-    "QuestionFr": "Qui est le plus susceptible de faire de l'anal ?"
+    "questionEn": "Who's most likely to grab a stranger's ass ?",
+    "questionFr": "Qui est le plus susceptible d'attraper le cul d'un inconnu ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to say the wrong name during sex ?",
-    "QuestionFr": "Qui est le plus susceptible de dire le mauvais nom pendant les rapports sexuels ?"
+    "questionEn": "Who's most likely to be a fetish ?",
+    "questionFr": "Qui est le plus susceptible d'être un fétichiste ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to grab a stranger's ass ?",
-    "QuestionFr": "Qui est le plus susceptible d'attraper le cul d'un inconnu ?"
+    "questionEn": "Who's most likely to be secretly kinky ?",
+    "questionFr": "Qui est le plus susceptible d'être secrètement pervers ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to have a piss fetish ?",
-    "QuestionFr": "Qui est le plus susceptible d'avoir un fétichisme de la pisse ?"
+    "questionEn": "Who's most likely to lose/have lost their virginity as a teen ?",
+    "questionFr": "Qui est le plus susceptible de perdre/avoir perdu sa virginité à l'adolescence ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to be secretly kinky ?",
-    "QuestionFr": "Qui est le plus susceptible d'être secrètement pervers ?"
+    "questionEn": "Who's most likely to have sex in a gas station bathroom ?",
+    "questionFr": "Qui est le plus susceptible d'avoir des relations sexuelles dans les toilettes d'une station-service ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to lose/have lost their virginity as a teen ?",
-    "QuestionFr": "Qui est le plus susceptible de perdre/avoir perdu sa virginité à l'adolescence ?"
+    "questionEn": "Who do you think has the dirtiest thoughts ?",
+    "questionFr": "Selon vous, qui a les pensées les plus sales ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to have sex in a gas station bathroom ?",
-    "QuestionFr": "Qui est le plus susceptible d'avoir des relations sexuelles dans les toilettes d'une station-service ?"
+    "questionEn": "Who do you want to have sex with the most ?",
+    "questionFr": "Avec qui as-tu le plus envie de coucher ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think has the dirtiest thoughts ?",
-    "QuestionFr": "Selon vous, qui a les pensées les plus sales ?"
+    "questionEn": "Who's most likely to have PornHub bookmarked ?",
+    "questionFr": "Qui est le plus susceptible d'avoir PornHub mis en favori ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you want to have sex with the most ?",
-    "QuestionFr": "Avec qui as-tu le plus envie de coucher ?"
+    "questionEn": "Who's most likely to prefer car sex to bedroom sex ?",
+    "questionFr": "Qui est le plus susceptible de préférer le sexe en voiture au sexe dans la chambre ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to have PornHub bookmarked ?",
-    "QuestionFr": "Qui est le plus susceptible d'avoir PornHub mis en favori ?"
+    "questionEn": "Who's most likely to get a genital tattoo ?",
+    "questionFr": "Qui est le plus susceptible de se faire tatouer les parties génitales ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to prefer car sex to bedroom sex ?",
-    "QuestionFr": "Qui est le plus susceptible de préférer le sexe en voiture au sexe dans la chambre ?"
+    "questionEn": "Who's most likely to get caught having sex in a dressing room ?",
+    "questionFr": "Qui est le plus susceptible de se faire prendre en train de faire l'amour dans une cabine d'essayage ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to get a genital tattoo ?",
-    "QuestionFr": "Qui est le plus susceptible de se faire tatouer les parties génitales ?"
+    "questionEn": "Who's most likely to give sex as a Valentine's day gift ?",
+    "questionFr": "Qui est le plus susceptible d'offrir du sexe comme cadeau de Saint-Valentin ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to get caught having sex in a dressing room ?",
-    "QuestionFr": "Qui est le plus susceptible de se faire prendre en train de faire l'amour dans une cabine d'essayage ?"
+    "questionEn": "Who is the most likely to walk around their house naked ?",
+    "questionFr": "Qui est le plus susceptible de se promener nu chez lui ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to give sex as a Valentine's day gift ?",
-    "QuestionFr": "Qui est le plus susceptible d'offrir du sexe comme cadeau de Saint-Valentin ?"
+    "questionEn": "Who do you think has the weirdest sexual history ?",
+    "questionFr": "Selon vous, qui a l'histoire sexuelle la plus étrange ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who is the most likely to walk around their house naked ?",
-    "QuestionFr": "Qui est le plus susceptible de se promener nu chez lui ?"
+    "questionEn": "Who is the most likely to laugh during sex ?",
+    "questionFr": "Qui est le plus susceptible de rire pendant le sex ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think has the weirdest sexual history ?",
-    "QuestionFr": "Selon vous, qui a l'histoire sexuelle la plus étrange ?"
+    "questionEn": "Who do you think would have sex multiple times in a day ?",
+    "questionFr": "Selon vous, qui aurait des relations sexuelles plusieurs fois par jour ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who is the most likely to laugh during sex ?",
-    "QuestionFr": "Qui est le plus susceptible de rire pendant le sex ?"
+    "questionEn": "Who would go on vacation just to have sex with the locals ?",
+    "questionFr": "Qui partirait en vacances juste pour coucher avec les locaux ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think would have sex multiple times in a day ?",
-    "QuestionFr": "Selon vous, qui aurait des relations sexuelles plusieurs fois par jour ?"
+    "questionEn": "Who's most likely to be a cuck ?",
+    "questionFr": "Qui est le plus susceptible d'être un cocu ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who would go on vacation just to have sex with the locals ?",
-    "QuestionFr": "Qui partirait en vacances juste pour coucher avec les locaux ?"
+    "questionEn": "Who's most likely to have sex with their ex after they break up ?",
+    "questionFr": "Qui est le plus susceptible d'avoir des relations sexuelles avec son ex après sa rupture ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's the biggest top here ?",
-    "QuestionFr": "Qui est le plus grand top ici ?"
+    "questionEn": "Who's most likely to make a sex tape ?",
+    "questionFr": "Qui est le plus susceptible de faire une sex tape ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to be a cuck ?",
-    "QuestionFr": "Qui est le plus susceptible d'être un cocu ?"
+    "questionEn": "Who's most likely to always orgasm last ?",
+    "questionFr": "Qui est le plus susceptible de toujours avoir un orgasme en dernier ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to have sex with their ex after they break up ?",
-    "QuestionFr": "Qui est le plus susceptible d'avoir des relations sexuelles avec son ex après sa rupture ?"
+    "questionEn": "Who is the most flexible in bed ?",
+    "questionFr": "Qui est le plus souple au lit ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to make a sex tape ?",
-    "QuestionFr": "Qui est le plus susceptible de faire une sex tape ?"
+    "questionEn": "Who's most likely to have sex with a friend's parent ?",
+    "questionFr": "Qui est le plus susceptible d'avoir des relations sexuelles avec le parent d'un ami ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to always orgasm last ?",
-    "QuestionFr": "Qui est le plus susceptible de toujours avoir un orgasme en dernier ?"
+    "questionEn": "Who's most likely to be a nymphomaniac ?",
+    "questionFr": "Qui est le plus susceptible d'être nymphomane ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who is the most flexible in bed ?",
-    "QuestionFr": "Qui est le plus souple au lit ?"
+    "questionEn": "Who's most likely to wax their privates ?",
+    "questionFr": "Qui est le plus susceptible de s'épiler les parties intimes ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to have sex with a friend's parent ?",
-    "QuestionFr": "Qui est le plus susceptible d'avoir des relations sexuelles avec le parent d'un ami ?"
+    "questionEn": "Who's most likely to fake an orgasm ?",
+    "questionFr": "Qui est le plus susceptible de simuler un orgasme ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to be a nymphomaniac ?",
-    "QuestionFr": "Qui est le plus susceptible d'être nymphomane ?"
+    "questionEn": "Who would want to try the weirdest sex positions ?",
+    "questionFr": "Qui voudrait essayer les positions sexuelles les plus étranges ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to wax their privates ?",
-    "QuestionFr": "Qui est le plus susceptible de s'épiler les parties intimes ?"
+    "questionEn": "Who is the most likely to cry during sex ?",
+    "questionFr": "Qui est le plus susceptible de pleurer pendant l'acte ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to fake an orgasm ?",
-    "QuestionFr": "Qui est le plus susceptible de simuler un orgasme ?"
+    "questionEn": "Who's most likely to have a one night stand ?",
+    "questionFr": "Qui est le plus susceptible d'avoir une aventure d'un soir ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who would want to try the weirdest sex positions ?",
-    "QuestionFr": "Qui voudrait essayer les positions sexuelles les plus étranges ?"
+    "questionEn": "Who's most likely to have sex for money ?",
+    "questionFr": "Qui est le plus susceptible d'avoir des relations sexuelles pour de l'argent ?"
   },
   {
-    "QuestionEn": "Who's most likely to have 'lost their virginity' to an inanimate object ?",
-    "QuestionFr": "Qui est le plus susceptible d'avoir \"perdu sa virginité\" au profit d'un objet inanimé ?"
+    "questionEn": "Who's most likely to be a bottom/sub ?",
+    "questionFr": "Qui est le plus susceptible d'être un bottom/sub ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who is the most likely to cry during sex ?",
-    "QuestionFr": "Qui est le plus susceptible de pleurer pendant l'acte ?"
+    "questionEn": "Who's most likely to be a virgin ?",
+    "questionFr": "Qui est le plus susceptible d'être vierge ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to have a one night stand ?",
-    "QuestionFr": "Qui est le plus susceptible d'avoir une aventure d'un soir ?"
+    "questionEn": "Who's most likely to have a 'friend with benefits ?'",
+    "questionFr": "Qui est le plus susceptible d'avoir un « ami avec des avantages » ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to have sex for money ?",
-    "QuestionFr": "Qui est le plus susceptible d'avoir des relations sexuelles pour de l'argent ?"
+    "questionEn": "Who do you think would give/accept a blowjob to/from a stranger ?",
+    "questionFr": "Selon vous, qui donnerait/accepterait une pipe à/d'un inconnu ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to be a bottom/sub ?",
-    "QuestionFr": "Qui est le plus susceptible d'être un bottom/sub ?"
+    "questionEn": "Who’s most likely to shove a banana up their ass",
+    "questionFr": "Qui est le plus susceptible de se fourrer une banane dans le cul",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to be a virgin ?",
-    "QuestionFr": "Qui est le plus susceptible d'être vierge ?"
+    "questionEn": "Who do you think would be the worst in bed ?",
+    "questionFr": "Selon vous, qui serait le pire au lit ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to have a 'friend with benefits ?'",
-    "QuestionFr": "Qui est le plus susceptible d'avoir un « ami avec des avantages » ?"
+    "questionEn": "Who's most likely to own the most lingerie ?",
+    "questionFr": "Qui est le plus susceptible de posséder le plus de lingerie ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think would give/accept a blowjob to/from a stranger ?",
-    "QuestionFr": "Selon vous, qui donnerait/accepterait une pipe à/d'un inconnu ?"
+    "questionEn": "Who's most likely to date a sex worker ?",
+    "questionFr": "Qui est le plus susceptible de sortir avec une travailleuse du sexe ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who’s most likely to shove a banana up their ass",
-    "QuestionFr": "Qui est le plus susceptible de se fourrer une banane dans le cul"
+    "questionEn": "Who's most likely to hang out in a gay club ?",
+    "questionFr": "Qui est le plus susceptible de traîner dans un club gay ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think would be the worst in bed ?",
-    "QuestionFr": "Selon vous, qui serait le pire au lit ?"
+    "questionEn": "Who do you think only has sex when they're drunk ?",
+    "questionFr": "Selon vous, qui n'a de relations sexuelles que lorsqu'il est ivre ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to own the most lingerie ?",
-    "QuestionFr": "Qui est le plus susceptible de posséder le plus de lingerie ?"
+    "questionEn": "Who's most likely to be a switch (both dom and sub) ?",
+    "questionFr": "Qui est le plus susceptible d'être un switch (à la fois dom et sub) ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to date a sex worker ?",
-    "QuestionFr": "Qui est le plus susceptible de sortir avec une travailleuse du sexe ?"
+    "questionEn": "Who do you think has the most sex here ?",
+    "questionFr": "Selon vous, qui a le plus de relations sexuelles ici ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to hang out in a gay club ?",
-    "QuestionFr": "Qui est le plus susceptible de traîner dans un club gay ?"
+    "questionEn": "Who's most likely to get a piercing on their privates ?",
+    "questionFr": "Qui est le plus susceptible de se faire percer les parties intimes ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think only has sex when they're drunk ?",
-    "QuestionFr": "Selon vous, qui n'a de relations sexuelles que lorsqu'il est ivre ?"
+    "questionEn": "Who do you think has the highest sex drive ?",
+    "questionFr": "Selon vous, qui a la libido la plus élevée ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to be a switch (both dom and sub) ?",
-    "QuestionFr": "Qui est le plus susceptible d'être un switch (à la fois dom et sub) ?"
+    "questionEn": "Who's most likely to have had a threesome ?",
+    "questionFr": "Qui est le plus susceptible d'avoir fait un plan à trois ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think has the most sex here ?",
-    "QuestionFr": "Selon vous, qui a le plus de relations sexuelles ici ?"
+    "questionEn": "Who's most likely to lie about their age to have sex ?",
+    "questionFr": "Qui est le plus susceptible de mentir sur son âge pour avoir des relations sexuelles ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to get a piercing on their privates ?",
-    "QuestionFr": "Qui est le plus susceptible de se faire percer les parties intimes ?"
+    "questionEn": "Who do you want to have sex with the least ?",
+    "questionFr": "Avec qui as-tu le moins envie de coucher ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think has the highest sex drive ?",
-    "QuestionFr": "Selon vous, qui a la libido la plus élevée ?"
+    "questionEn": "Who's most likely to get turned on in class/at work ?",
+    "questionFr": "Qui est le plus susceptible d'être excité en classe/au travail ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to have had a threesome ?",
-    "QuestionFr": "Qui est le plus susceptible d'avoir fait un plan à trois ?"
+    "questionEn": "Who's most likely to be a top/dom ?",
+    "questionFr": "Qui est le plus susceptible d'être un top/dom ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to lie about their age to have sex ?",
-    "QuestionFr": "Qui est le plus susceptible de mentir sur son âge pour avoir des relations sexuelles ?"
+    "questionEn": "Who do you think is most likely to have a pregnancy scare ?",
+    "questionFr": "Selon vous, qui est le plus susceptible d'avoir une peur de la grossesse ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you want to have sex with the least ?",
-    "QuestionFr": "Avec qui as-tu le moins envie de coucher ?"
+    "questionEn": "Who's most likely to be into BDSM ?",
+    "questionFr": "Qui est le plus susceptible d'être dans le BDSM ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to get turned on in class/at work ?",
-    "QuestionFr": "Qui est le plus susceptible d'être excité en classe/au travail ?"
+    "questionEn": "Who do you think has the highest body count ?",
+    "questionFr": "Selon vous, qui a le plus grand body count ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to be a top/dom ?",
-    "QuestionFr": "Qui est le plus susceptible d'être un top/dom ?"
+    "questionEn": "Who's most likely to only have sex with the lights off ?",
+    "questionFr": "Qui est le plus susceptible de n'avoir des relations sexuelles qu'avec les lumières éteintes ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think is most likely to have a pregnancy scare ?",
-    "QuestionFr": "Selon vous, qui est le plus susceptible d'avoir une peur de la grossesse ?"
+    "questionEn": "Who do you think would stay a virgin the longest ?",
+    "questionFr": "Selon vous, qui resterait vierge le plus longtemps ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to be into BDSM ?",
-    "QuestionFr": "Qui est le plus susceptible d'être dans le BDSM ?"
+    "questionEn": "Who's most likely to get emotional during sex ?",
+    "questionFr": "Qui est le plus susceptible d'être émotif pendant les rapports sexuels ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think has the highest body count ?",
-    "QuestionFr": "Selon vous, qui a le plus grand body count ?"
+    "questionEn": "Who's the most desperate here ?",
+    "questionFr": "Qui est le plus désespéré ici ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to only have sex with the lights off ?",
-    "QuestionFr": "Qui est le plus susceptible de n'avoir des relations sexuelles qu'avec les lumières éteintes ?"
+    "questionEn": "Who do you think would make the most money as a stripper ?",
+    "questionFr": "Selon vous, qui gagnerait le plus d'argent en tant que strip-teaseuse ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think would stay a virgin the longest ?",
-    "QuestionFr": "Selon vous, qui resterait vierge le plus longtemps ?"
+    "questionEn": "Who's most likely to have an OnlyFans/private snapchat ?",
+    "questionFr": "Qui est le plus susceptible d'avoir un Snapchat OnlyFans/privé ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to get emotional during sex ?",
-    "QuestionFr": "Qui est le plus susceptible d'être émotif pendant les rapports sexuels ?"
+    "questionEn": "Who's most likely to have an STD ?",
+    "questionFr": "Qui est le plus susceptible d'avoir une MST ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's the most desperate here ?",
-    "QuestionFr": "Qui est le plus désespéré ici ?"
+    "questionEn": "Who do you think has received the most dick pics ?",
+    "questionFr": "Selon vous, qui a reçu le plus de photos de bites ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think would make the most money as a stripper ?",
-    "QuestionFr": "Selon vous, qui gagnerait le plus d'argent en tant que strip-teaseuse ?"
+    "questionEn": "Who's most likely to always orgasm first during sex ?",
+    "questionFr": "Qui est le plus susceptible d'avoir toujours l'orgasme en premier pendant les rapports sexuels ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to have an OnlyFans/private snapchat ?",
-    "QuestionFr": "Qui est le plus susceptible d'avoir un Snapchat OnlyFans/privé ?"
+    "questionEn": "Who do you think wants to have sex with you the most ?",
+    "questionFr": "Selon vous, qui veut le plus avoir des relations sexuelles avec vous ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to have an STD ?",
-    "QuestionFr": "Qui est le plus susceptible d'avoir une MST ?"
+    "questionEn": "Who's most likely to own a sex toy ?",
+    "questionFr": "Qui est le plus susceptible de posséder un jouet sexuel ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think has received the most dick pics ?",
-    "QuestionFr": "Selon vous, qui a reçu le plus de photos de bites ?"
+    "questionEn": "Who do you think lies about their dick size or boob size the most ?",
+    "questionFr": "Selon vous, qui ment le plus sur la taille de sa bite ou de ses seins ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to always orgasm first during sex ?",
-    "QuestionFr": "Qui est le plus susceptible d'avoir toujours l'orgasme en premier pendant les rapports sexuels ?"
+    "questionEn": "Who do you think moans the loudest during sex ?",
+    "questionFr": "Selon vous, qui gémit le plus fort pendant les rapports sexuels ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think wants to have sex with you the most ?",
-    "QuestionFr": "Selon vous, qui veut le plus avoir des relations sexuelles avec vous ?"
+    "questionEn": "Who here is the most lewd ?",
+    "questionFr": "Qui ici est le plus obscène ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to own a sex toy ?",
-    "QuestionFr": "Qui est le plus susceptible de posséder un jouet sexuel ?"
+    "questionEn": "Who do you think is the sexiest ?",
+    "questionFr": "Selon vous, qui est le plus sexy ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think lies about their dick size or boob size the most ?",
-    "QuestionFr": "Selon vous, qui ment le plus sur la taille de sa bite ou de ses seins ?"
+    "questionEn": "Who is most likely to choose size over performance ?",
+    "questionFr": "Qui est le plus susceptible de choisir la taille plutôt que la performance ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think moans the loudest during sex ?",
-    "QuestionFr": "Selon vous, qui gémit le plus fort pendant les rapports sexuels ?"
+    "questionEn": "Who's most likely to have kissed someone below the belt ?",
+    "questionFr": "Qui est le plus susceptible d'avoir embrassé quelqu'un en dessous de la ceinture ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who here is the most lewd ?",
-    "QuestionFr": "Qui ici est le plus obscène ?"
+    "questionEn": "Who's most likely to ditch the condom ?",
+    "questionFr": "Qui est le plus susceptible d'abandonner le préservatif ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think is the sexiest ?",
-    "QuestionFr": "Selon vous, qui est le plus sexy ?"
+    "questionEn": "Who do you think masturbates the most here ?",
+    "questionFr": "Selon vous, qui se masturbe le plus ici ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who is most likely to choose size over performance ?",
-    "QuestionFr": "Qui est le plus susceptible de choisir la taille plutôt que la performance ?"
+    "questionEn": "Who's most likely to have or have had phone sex ?",
+    "questionFr": "Qui est le plus susceptible d'avoir ou d'avoir eu des relations sexuelles par téléphone ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to have kissed someone below the belt ?",
-    "QuestionFr": "Qui est le plus susceptible d'avoir embrassé quelqu'un en dessous de la ceinture ?"
+    "questionEn": "Who's most likely to have a scat fetish ?",
+    "questionFr": "Qui est le plus susceptible d'avoir un fétiche scat ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who's most likely to ditch the condom ?",
-    "QuestionFr": "Qui est le plus susceptible d'abandonner le préservatif ?"
+    "questionEn": "Who do you think has no sex life ?",
+    "questionFr": "Selon vous, qui n'a pas de vie sexuelle ?",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Who do you think masturbates the most here ?",
-    "QuestionFr": "Selon vous, qui se masturbe le plus ici ?"
-  },
-  {
-    "QuestionEn": "Who's most likely to have or have had phone sex ?",
-    "QuestionFr": "Qui est le plus susceptible d'avoir ou d'avoir eu des relations sexuelles par téléphone ?"
-  },
-  {
-    "QuestionEn": "Who's most likely to have a scat fetish ?",
-    "QuestionFr": "Qui est le plus susceptible d'avoir un fétiche scat ?"
-  },
-  {
-    "QuestionEn": "Who do you think has no sex life ?",
-    "QuestionFr": "Selon vous, qui n'a pas de vie sexuelle ?"
-  },
-  {
-    "QuestionEn": "Who's most likely to get pregnant without realizing ?",
-    "QuestionFr": "Qui est le plus susceptible de tomber enceinte sans s'en rendre compte ?"
+    "questionEn": "Who's most likely to get pregnant without realizing ?",
+    "questionFr": "Qui est le plus susceptible de tomber enceinte sans s'en rendre compte ?",
+    "difficultyName": "Hot"
   }
 ]

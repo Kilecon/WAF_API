@@ -1,426 +1,538 @@
 [
   {
-    "QuestionEn": "Never have I ever dated a friend's sibling",
-    "QuestionFr": "Je n'ai jamais fréquenté le frère d'un ami"
+    "questionEn": "Never have I ever dated a friend's sibling",
+    "questionFr": "Je n'ai jamais fréquenté le frère d'un ami",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever been handcuffed to a bed",
-    "QuestionFr": "Je n'ai jamais été menotté à un lit"
+    "questionEn": "Never have I ever been handcuffed to a bed",
+    "questionFr": "Je n'ai jamais été menotté à un lit",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever been in a threesome",
-    "QuestionFr": "Je n'ai jamais été dans un trio"
+    "questionEn": "Never have I ever been in a threesome",
+    "questionFr": "Je n'ai jamais été dans un plan à trois",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever gotten turned on at the wrong time",
-    "QuestionFr": "Je n'ai jamais été allumé au mauvais moment"
+    "questionEn": "Never have I ever gotten turned on at the wrong time",
+    "questionFr": "Je n'ai jamais été allumé au mauvais moment",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever seen porn",
-    "QuestionFr": "Je n'ai jamais vu de porno"
+    "questionEn": "Never have I ever seen porn",
+    "questionFr": "Je n'ai jamais vu de porno",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever gotten into a drunken fight",
-    "QuestionFr": "Je n'ai jamais participé à une bagarre ivre"
+    "questionEn": "Never have I ever gotten into a drunken fight",
+    "questionFr": "Je n'ai jamais participé à une bagarre ivre",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever had a hangover",
-    "QuestionFr": "Je n'ai jamais eu la gueule de bois"
+    "questionEn": "Never have I ever had a hangover",
+    "questionFr": "Je n'ai jamais eu la gueule de bois",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever called an ex while drunk",
-    "QuestionFr": "Je n'ai jamais appelé un ex en état d'ébriété"
+    "questionEn": "Never have I ever called an ex while drunk",
+    "questionFr": "Je n'ai jamais appelé un ex en état d'ébriété",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever lied about having sex",
-    "QuestionFr": "Je n'ai jamais menti à propos d'avoir des relations sexuelles"
+    "questionEn": "Never have I ever lied about having sex",
+    "questionFr": "Je n'ai jamais menti à propos d'avoir des relations sexuelles",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever drank so much I got sick",
-    "QuestionFr": "Je n'ai jamais autant bu que je suis tombé malade"
+    "questionEn": "Never have I ever drank so much I got sick",
+    "questionFr": "Je n'ai jamais autant bu que je suis tombé malade",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever sent sexy selfies to someone",
-    "QuestionFr": "Je n'ai jamais envoyé de selfies sexy à quelqu'un"
+    "questionEn": "Never have I ever sent sexy selfies to someone",
+    "questionFr": "Je n'ai jamais envoyé de selfies sexy à quelqu'un",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever had sex in public",
-    "QuestionFr": "Je n'ai jamais fait l'amour en public"
+    "questionEn": "Never have I ever had sex in public",
+    "questionFr": "Je n'ai jamais fait l'amour en public",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever been tied up during sex",
-    "QuestionFr": "Je n'ai jamais été attaché pendant les rapports sexuels"
+    "questionEn": "Never have I ever been tied up during sex",
+    "questionFr": "Je n'ai jamais été attaché pendant les rapports sexuels",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever roleplayed",
-    "QuestionFr": "Je n'ai jamais joué de rôle"
+    "questionEn": "Never have I ever roleplayed",
+    "questionFr": "Je n'ai jamais joué de rôle",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever checked my phone during sex",
-    "QuestionFr": "Je n'ai jamais vérifié mon téléphone pendant les rapports sexuels"
+    "questionEn": "Never have I ever checked my phone during sex",
+    "questionFr": "Je n'ai jamais vérifié mon téléphone pendant les rapports sexuels",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever made out with someone at school",
-    "QuestionFr": "Je n'ai jamais embrassé quelqu'un à l'école"
+    "questionEn": "Never have I ever made out with someone at school",
+    "questionFr": "Je n'ai jamais embrassé quelqu'un à l'école",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever slept with a stranger",
-    "QuestionFr": "Je n'ai jamais couché avec un étranger"
+    "questionEn": "Never have I ever slept with a stranger",
+    "questionFr": "Je n'ai jamais couché avec un étranger",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever mixed beer, wine, and hard alcohol during an evening of drinking",
-    "QuestionFr": "Jamais je n'ai mélangé de la bière, du vin et de l'alcool fort au cours d'une soirée bien arrosée"
+    "questionEn": "Never have I ever mixed beer, wine, and hard alcohol during an evening of drinking",
+    "questionFr": "Jamais je n'ai mélangé de la bière, du vin et de l'alcool fort au cours d'une soirée bien arrosée",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever been in a \"friends with benefits\" relationship",
-    "QuestionFr": "Je n'ai jamais été dans une relation \"d'amis avec avantages\""
+    "questionEn": "Never have I ever been in a \"friends with benefits\" relationship",
+    "questionFr": "Je n'ai jamais été dans une relation \"d'amis avec avantages\"",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever had alcohol before my 21st birthday",
-    "QuestionFr": "Je n'ai jamais bu d'alcool avant mon 21e anniversaire"
+    "questionEn": "Never have I ever had alcohol before my 21st birthday",
+    "questionFr": "Je n'ai jamais bu d'alcool avant mon 21e anniversaire",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever tasted cum",
-    "QuestionFr": "Je n'ai jamais goûté de sperme"
+    "questionEn": "Never have I ever tasted cum",
+    "questionFr": "Je n'ai jamais goûté de sperme",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever had sex multiple times in one night",
-    "QuestionFr": "Je n'ai jamais fait l'amour plusieurs fois en une nuit"
+    "questionEn": "Never have I ever had sex multiple times in one night",
+    "questionFr": "Je n'ai jamais fait l'amour plusieurs fois en une nuit",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever had to sneak out of bed the next morning",
-    "QuestionFr": "Je n'ai jamais eu à me faufiler hors du lit le lendemain matin"
+    "questionEn": "Never have I ever had to sneak out of bed the next morning",
+    "questionFr": "Je n'ai jamais eu à me faufiler hors du lit le lendemain matin",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever slept with a coworker",
-    "QuestionFr": "Je n'ai jamais couché avec un collègue"
+    "questionEn": "Never have I ever slept with a coworker",
+    "questionFr": "Je n'ai jamais couché avec un collègue",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever masturbated with someone else",
-    "QuestionFr": "Je ne me suis jamais masturbé avec quelqu'un d'autre"
+    "questionEn": "Never have I ever masturbated with someone else",
+    "questionFr": "Je ne me suis jamais masturbé avec quelqu'un d'autre",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever had sex in nature",
-    "QuestionFr": "Je n'ai jamais eu de relations sexuelles dans la nature"
+    "questionEn": "Never have I ever had sex in nature",
+    "questionFr": "Je n'ai jamais eu de relations sexuelles dans la nature",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever lied about the appearance of my genitals",
-    "QuestionFr": "Je n'ai jamais menti sur l'apparence de mes organes génitaux"
+    "questionEn": "Never have I ever lied about the appearance of my genitals",
+    "questionFr": "Je n'ai jamais menti sur l'apparence de mes organes génitaux",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever slept with someone older than me",
-    "QuestionFr": "Je n'ai jamais couché avec quelqu'un de plus vieux que moi"
+    "questionEn": "Never have I ever slept with someone older than me",
+    "questionFr": "Je n'ai jamais couché avec quelqu'un de plus vieux que moi",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever faked multiple orgasms",
-    "QuestionFr": "Je n'ai jamais simulé des orgasmes multiples"
+    "questionEn": "Never have I ever faked multiple orgasms",
+    "questionFr": "Je n'ai jamais simulé des orgasmes multiples",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever thought sexually about someone in this group",
-    "QuestionFr": "Je n'ai jamais pensé sexuellement à quelqu'un du groupe"
+    "questionEn": "Never have I ever thought sexually about someone in this group",
+    "questionFr": "Je n'ai jamais pensé sexuellement à quelqu'un du groupe",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever tried sake",
-    "QuestionFr": "Je n'ai jamais essayé le saké"
+    "questionEn": "Never have I ever tried sake",
+    "questionFr": "Je n'ai jamais essayé le saké",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever tried bondage",
-    "QuestionFr": "Je n'ai jamais essayé le bondage"
+    "questionEn": "Never have I ever tried bondage",
+    "questionFr": "Je n'ai jamais essayé le bondage",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever been undressed by someone",
-    "QuestionFr": "Je n'ai jamais été déshabillé par quelqu'un"
+    "questionEn": "Never have I ever been undressed by someone",
+    "questionFr": "Je n'ai jamais été déshabillé par quelqu'un",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever paid for porn",
-    "QuestionFr": "Je n'ai jamais payé pour du porno"
+    "questionEn": "Never have I ever paid for porn",
+    "questionFr": "Je n'ai jamais payé pour du porno",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever showered with someone",
-    "QuestionFr": "Je n'ai jamais pris de douche avec quelqu'un"
+    "questionEn": "Never have I ever showered with someone",
+    "questionFr": "Je n'ai jamais pris de douche avec quelqu'un",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever texted something inappropriate to the wrong person,",
-    "QuestionFr": "Je n'ai jamais envoyé quelque chose d'inapproprié à la mauvaise personne,"
+    "questionEn": "Never have I ever texted something inappropriate to the wrong person,",
+    "questionFr": "Je n'ai jamais envoyé quelque chose d'inapproprié à la mauvaise personne,",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever tried weed",
-    "QuestionFr": "Je n'ai jamais essayé l'herbe"
+    "questionEn": "Never have I ever tried weed",
+    "questionFr": "Je n'ai jamais essayé l'herbe",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever been caught watching porn",
-    "QuestionFr": "Je n'ai jamais été surpris en train de regarder du porno"
+    "questionEn": "Never have I ever been caught watching porn",
+    "questionFr": "Je n'ai jamais été surpris en train de regarder du porno",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever been attracted to a family member",
-    "QuestionFr": "Je n'ai jamais été attiré par un membre de ma famille"
+    "questionEn": "Never have I ever been attracted to a family member",
+    "questionFr": "Je n'ai jamais été attiré par un membre de ma famille",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever been in a gangbang/harem",
-    "QuestionFr": "Je n'ai jamais été dans un gangbang/harem"
+    "questionEn": "Never have I ever been in a gangbang/harem",
+    "questionFr": "Je n'ai jamais été dans un gangbang/harem",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever used an embarrassing novelty condom (for example, that glows in the dark or has a picture of Darth Vader on it)",
-    "QuestionFr": "Je n'ai jamais utilisé un préservatif de nouveauté embarrassant (par exemple, qui brille dans le noir ou qui porte une image de Dark Vador dessus)"
+    "questionEn": "Never have I ever used an embarrassing novelty condom (for example, that glows in the dark or has a picture of Darth Vader on it)",
+    "questionFr": "Je n'ai jamais utilisé un préservatif de nouveauté embarrassant (par exemple, qui brille dans le noir ou qui porte une image de Dark Vador dessus)",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever lied about my virginity",
-    "QuestionFr": "Je n'ai jamais menti sur ma virginité"
+    "questionEn": "Never have I ever lied about my virginity",
+    "questionFr": "Je n'ai jamais menti sur ma virginité",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever had sex without having an orgasm",
-    "QuestionFr": "Je n'ai jamais eu de relations sexuelles sans avoir d'orgasme"
+    "questionEn": "Never have I ever had sex without having an orgasm",
+    "questionFr": "Je n'ai jamais eu de relations sexuelles sans avoir d'orgasme",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever hired a prostitute",
-    "QuestionFr": "Je n'ai jamais engagé de prostituée"
+    "questionEn": "Never have I ever hired a prostitute",
+    "questionFr": "Je n'ai jamais engagé de prostituée",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever done a beer pong",
-    "QuestionFr": "Je n'ai jamais fait de beer pong"
+    "questionEn": "Never have I ever done a beer pong",
+    "questionFr": "Je n'ai jamais fait de beer pong",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever received a blowjob",
-    "QuestionFr": "Je n'ai jamais reçu de pipe"
+    "questionEn": "Never have I ever received a blowjob",
+    "questionFr": "Je n'ai jamais reçu de pipe",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever tried to use music to set the mood",
-    "QuestionFr": "Je n'ai jamais essayé d'utiliser la musique pour créer l'ambiance"
+    "questionEn": "Never have I ever tried to use music to set the mood",
+    "questionFr": "Je n'ai jamais essayé d'utiliser la musique pour créer l'ambiance",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever spoken about sex with my parents",
-    "QuestionFr": "Je n'ai jamais parlé de sexe avec mes parents"
+    "questionEn": "Never have I ever spoken about sex with my parents",
+    "questionFr": "Je n'ai jamais parlé de sexe avec mes parents",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever made out at a cinema",
-    "QuestionFr": "Je n'ai jamais embrassé un cinéma"
+    "questionEn": "Never have I ever made out at a cinema",
+    "questionFr": "Je n'ai jamais embrassé au cinéma",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever been asked to leave a bar",
-    "QuestionFr": "Jamais on ne m'a demandé de quitter un bar"
+    "questionEn": "Never have I ever been asked to leave a bar",
+    "questionFr": "Jamais on ne m'a demandé de quitter un bar",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever had sex on a first date",
-    "QuestionFr": "Je n'ai jamais eu de relations sexuelles lors d'un premier rendez-vous"
+    "questionEn": "Never have I ever had sex on a first date",
+    "questionFr": "Je n'ai jamais eu de relations sexuelles lors d'un premier rendez-vous",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever watched porn with someone else",
-    "QuestionFr": "Je n'ai jamais regardé de porno avec quelqu'un d'autre"
+    "questionEn": "Never have I ever watched porn with someone else",
+    "questionFr": "Je n'ai jamais regardé de porno avec quelqu'un d'autre",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever had my genitals fondled",
-    "QuestionFr": "Je n'ai jamais eu mes organes génitaux caressés"
+    "questionEn": "Never have I ever had my genitals fondled",
+    "questionFr": "Je n'ai jamais eu mes organes génitaux caressés",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever watched porn with a family member",
-    "QuestionFr": "Je n'ai jamais regardé de porno avec un membre de ma famille"
+    "questionEn": "Never have I ever watched porn with a family member",
+    "questionFr": "Je n'ai jamais regardé de porno avec un membre de ma famille",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever worn someone else's underwear",
-    "QuestionFr": "Je n'ai jamais porté les sous-vêtements de quelqu'un d'autre"
+    "questionEn": "Never have I ever worn someone else's underwear",
+    "questionFr": "Je n'ai jamais porté les sous-vêtements de quelqu'un d'autre",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever been in a 69 sex position",
-    "QuestionFr": "Je n'ai jamais été dans un 69"
+    "questionEn": "Never have I ever been in a 69 sex position",
+    "questionFr": "Je n'ai jamais été dans un 69",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever masturbated using a fruit",
-    "QuestionFr": "Je ne me suis jamais masturbé avec un fruit"
+    "questionEn": "Never have I ever masturbated using a fruit",
+    "questionFr": "Je ne me suis jamais masturbé avec un fruit",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever made a sex tape",
-    "QuestionFr": "Je n'ai jamais fait de sex tape"
+    "questionEn": "Never have I ever made a sex tape",
+    "questionFr": "Je n'ai jamais fait de sex tape",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever used a sex toy on myself",
-    "QuestionFr": "Je n'ai jamais utilisé un jouet sexuel sur moi-même"
+    "questionEn": "Never have I ever used a sex toy on myself",
+    "questionFr": "Je n'ai jamais utilisé un jouet sexuel sur moi-même",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever role-played during sex",
-    "QuestionFr": "Je n'ai jamais joué de rôle pendant les rapports sexuels"
+    "questionEn": "Never have I ever role-played during sex",
+    "questionFr": "Je n'ai jamais joué de rôle pendant les rapports sexuels",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever been injured in bed",
-    "QuestionFr": "Je n'ai jamais été blessé au lit"
+    "questionEn": "Never have I ever been injured in bed",
+    "questionFr": "Je n'ai jamais été blessé au lit",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever slept with someone younger than me",
-    "QuestionFr": "Je n'ai jamais couché avec quelqu'un de plus jeune que moi"
+    "questionEn": "Never have I ever slept with someone younger than me",
+    "questionFr": "Je n'ai jamais couché avec quelqu'un de plus jeune que moi",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever given a blowjob",
-    "QuestionFr": "Je n'ai jamais fait de pipe"
+    "questionEn": "Never have I ever given a blowjob",
+    "questionFr": "Je n'ai jamais fait de pipe",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever worn a buttplug",
-    "QuestionFr": "Je n'ai jamais porté de plug anal"
+    "questionEn": "Never have I ever worn a buttplug",
+    "questionFr": "Je n'ai jamais porté de plug anal",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever gotten sperm on my face",
-    "QuestionFr": "Je n'ai jamais eu de sperme sur mon visage"
+    "questionEn": "Never have I ever gotten sperm on my face",
+    "questionFr": "Je n'ai jamais eu de sperme sur mon visage",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever used a common household item as a dildo",
-    "QuestionFr": "Je n'ai jamais utilisé un article ménager courant comme gode"
+    "questionEn": "Never have I ever used a common household item as a dildo",
+    "questionFr": "Je n'ai jamais utilisé un article ménager courant comme gode",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever looked on Google for sex advice",
-    "QuestionFr": "Je n'ai jamais cherché sur Google des conseils sexuels"
+    "questionEn": "Never have I ever looked on Google for sex advice",
+    "questionFr": "Je n'ai jamais cherché sur Google des conseils sexuels",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever smoked before turning 18",
-    "QuestionFr": "Je n'ai jamais fumé avant d'avoir 18 ans"
+    "questionEn": "Never have I ever smoked before turning 18",
+    "questionFr": "Je n'ai jamais fumé avant d'avoir 18 ans",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever had sex while standing up",
-    "QuestionFr": "Je n'ai jamais eu de relations sexuelles debout"
+    "questionEn": "Never have I ever had sex while standing up",
+    "questionFr": "Je n'ai jamais eu de relations sexuelles debout",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever made out with someone I didn't know 24 hours before",
-    "QuestionFr": "Je n'ai jamais embrassé quelqu'un que je ne connaissais pas 24 heures auparavant"
+    "questionEn": "Never have I ever made out with someone I didn't know 24 hours before",
+    "questionFr": "Je n'ai jamais embrassé quelqu'un que je ne connaissais pas 24 heures auparavant",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever had sex for money",
-    "QuestionFr": "Je n'ai jamais fait l'amour pour de l'argent"
+    "questionEn": "Never have I ever had sex for money",
+    "questionFr": "Je n'ai jamais fait l'amour pour de l'argent",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever used a flavoured condom",
-    "QuestionFr": "Je n'ai jamais utilisé de préservatif aromatisé"
+    "questionEn": "Never have I ever used a flavoured condom",
+    "questionFr": "Je n'ai jamais utilisé de préservatif aromatisé",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever complimented someone's genitals",
-    "QuestionFr": "Je n'ai jamais complimenté les organes génitaux de quelqu'un"
+    "questionEn": "Never have I ever complimented someone's genitals",
+    "questionFr": "Je n'ai jamais complimenté les organes génitaux de quelqu'un",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever slept with a classmate",
-    "QuestionFr": "Je n'ai jamais couché avec un camarade de classe"
+    "questionEn": "Never have I ever slept with a classmate",
+    "questionFr": "Je n'ai jamais couché avec un camarade de classe",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever rejected someone who wanted to have sex with me",
-    "QuestionFr": "Je n'ai jamais rejeté quelqu'un qui voulait coucher avec moi"
+    "questionEn": "Never have I ever rejected someone who wanted to have sex with me",
+    "questionFr": "Je n'ai jamais rejeté quelqu'un qui voulait coucher avec moi",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever used tobacco",
-    "QuestionFr": "Je n'ai jamais consommé de tabac"
+    "questionEn": "Never have I ever used tobacco",
+    "questionFr": "Je n'ai jamais consommé de tabac",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever received a hickey",
-    "QuestionFr": "Je n'ai jamais reçu de suçon"
+    "questionEn": "Never have I ever received a hickey",
+    "questionFr": "Je n'ai jamais reçu de suçon",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever had sex without protection (Use protection !)",
-    "QuestionFr": "Je n'ai jamais eu de relations sexuelles sans protection (Protégez-vous !)"
+    "questionEn": "Never have I ever had sex without protection (Use protection !)",
+    "questionFr": "Je n'ai jamais eu de relations sexuelles sans protection (Protégez-vous !)",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever been into a sex shop",
-    "QuestionFr": "Je n'ai jamais été dans un sex-shop"
+    "questionEn": "Never have I ever been into a sex shop",
+    "questionFr": "Je n'ai jamais été dans un sex-shop",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever been naked with someone with the lights on",
-    "QuestionFr": "Je n'ai jamais été nu avec quelqu'un avec les lumières allumées"
+    "questionEn": "Never have I ever been naked with someone with the lights on",
+    "questionFr": "Je n'ai jamais été nu avec quelqu'un avec les lumières allumées",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever have I bought a round of drinks for my friends",
-    "QuestionFr": "Je n'ai jamais acheté une tournée de boissons pour mes amis"
+    "questionEn": "Never have I ever have I bought a round of drinks for my friends",
+    "questionFr": "Je n'ai jamais acheté une tournée de boissons pour mes amis",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever played a game involving stripping",
-    "QuestionFr": "Je n'ai jamais joué à un jeu de strip-tease"
+    "questionEn": "Never have I ever played a game involving stripping",
+    "questionFr": "Je n'ai jamais joué à un jeu de strip-tease",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever fingered a partner",
-    "QuestionFr": "Je n'ai jamais doigté un partenaire"
+    "questionEn": "Never have I ever fingered a partner",
+    "questionFr": "Je n'ai jamais doigté un partenaire",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever fantasied about a three-some",
-    "QuestionFr": "Je n'ai jamais fantasmé sur un plan à trois"
+    "questionEn": "Never have I ever fantasied about a three-some",
+    "questionFr": "Je n'ai jamais fantasmé sur un plan à trois",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever had sex",
-    "QuestionFr": "Je n'ai jamais eu de relations sexuelles"
+    "questionEn": "Never have I ever had sex",
+    "questionFr": "Je n'ai jamais eu de relations sexuelles",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever received a noise complaint due to sex",
-    "QuestionFr": "Je n'ai jamais reçu de plainte pour bruit à cause du sexe"
+    "questionEn": "Never have I ever received a noise complaint due to sex",
+    "questionFr": "Je n'ai jamais reçu de plainte pour bruit à cause du sexe",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever given a hand-job",
-    "QuestionFr": "Je n'ai jamais fait de branlette"
+    "questionEn": "Never have I ever given a hand-job",
+    "questionFr": "Je n'ai jamais fait de branlette",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever have I dated someone 10 years older than me",
-    "QuestionFr": "Je n'ai jamais fréquenté quelqu'un de 10 ans de plus que moi"
+    "questionEn": "Never have I ever have I dated someone 10 years older than me",
+    "questionFr": "Je n'ai jamais fréquenté quelqu'un de 10 ans de plus que moi",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever heard someone else having sex",
-    "QuestionFr": "Je n'ai jamais entendu quelqu'un d'autre avoir des relations sexuelles"
+    "questionEn": "Never have I ever heard someone else having sex",
+    "questionFr": "Je n'ai jamais entendu quelqu'un d'autre avoir des relations sexuelles",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever used a stronger drug than marijuana",
-    "QuestionFr": "Je n'ai jamais utilisé une drogue plus forte que la marijuana"
+    "questionEn": "Never have I ever used a stronger drug than marijuana",
+    "questionFr": "Je n'ai jamais utilisé une drogue plus forte que la marijuana",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever gone speed dating",
-    "QuestionFr": "Je n'ai jamais fait de speed dating"
+    "questionEn": "Never have I ever gone speed dating",
+    "questionFr": "Je n'ai jamais fait de speed dating",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever injured myself while masturbating",
-    "QuestionFr": "Je ne me suis jamais blessé en me masturbant"
+    "questionEn": "Never have I ever injured myself while masturbating",
+    "questionFr": "Je ne me suis jamais blessé en me masturbant",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever used a sex toy on someone else",
-    "QuestionFr": "Je n'ai jamais utilisé un jouet sexuel sur quelqu'un d'autre"
+    "questionEn": "Never have I ever used a sex toy on someone else",
+    "questionFr": "Je n'ai jamais utilisé un jouet sexuel sur quelqu'un d'autre",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever had sex with someone I didn't find attractive",
-    "QuestionFr": "Je n'ai jamais eu de relations sexuelles avec quelqu'un que je n'ai pas trouvé attirant"
+    "questionEn": "Never have I ever had sex with someone I didn't find attractive",
+    "questionFr": "Je n'ai jamais eu de relations sexuelles avec quelqu'un que je n'ai pas trouvé attirant",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever wanted to sleep with a friend's parent",
-    "QuestionFr": "Je n'ai jamais voulu coucher avec le parent d'un ami"
+    "questionEn": "Never have I ever wanted to sleep with a friend's parent",
+    "questionFr": "Je n'ai jamais voulu coucher avec le parent d'un ami",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever taken someone's virginity",
-    "QuestionFr": "Je n'ai jamais pris la virginité de quelqu'un"
+    "questionEn": "Never have I ever taken someone's virginity",
+    "questionFr": "Je n'ai jamais pris la virginité de quelqu'un",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever had sex with more than three people in a single night",
-    "QuestionFr": "Je n'ai jamais eu de relations sexuelles avec plus de trois personnes en une seule nuit"
+    "questionEn": "Never have I ever had sex with more than three people in a single night",
+    "questionFr": "Je n'ai jamais eu de relations sexuelles avec plus de trois personnes en une seule nuit",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever spent the night with someone",
-    "QuestionFr": "Je n'ai jamais passé la nuit avec quelqu'un"
+    "questionEn": "Never have I ever spent the night with someone",
+    "questionFr": "Je n'ai jamais passé la nuit avec quelqu'un",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever had phone sex",
-    "QuestionFr": "Je n'ai jamais eu de relations sexuelles par téléphone"
+    "questionEn": "Never have I ever had phone sex",
+    "questionFr": "Je n'ai jamais eu de relations sexuelles par téléphone",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever tried vodka",
-    "QuestionFr": "Je n'ai jamais essayé la vodka"
+    "questionEn": "Never have I ever tried vodka",
+    "questionFr": "Je n'ai jamais essayé la vodka",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever used lube",
-    "QuestionFr": "Je n'ai jamais utilisé de lubrifiant"
+    "questionEn": "Never have I ever used lube",
+    "questionFr": "Je n'ai jamais utilisé de lubrifiant",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever urinated on another person",
-    "QuestionFr": "Je n'ai jamais uriné sur une autre personne"
+    "questionEn": "Never have I ever urinated on another person",
+    "questionFr": "Je n'ai jamais uriné sur une autre personne",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever played strip poker/strip versions of other games",
-    "QuestionFr": "Je n'ai jamais joué au strip poker ou d'autres jeux similaires"
+    "questionEn": "Never have I ever played strip poker/strip versions of other games",
+    "questionFr": "Je n'ai jamais joué au strip poker ou d'autres jeux similaires",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever had sex without a condom",
-    "QuestionFr": "Je n'ai jamais eu de relations sexuelles sans préservatif"
+    "questionEn": "Never have I ever had sex without a condom",
+    "questionFr": "Je n'ai jamais eu de relations sexuelles sans préservatif",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever used a dotted condom",
-    "QuestionFr": "Je n'ai jamais utilisé de préservatif à pois"
+    "questionEn": "Never have I ever used a dotted condom",
+    "questionFr": "Je n'ai jamais utilisé de préservatif à pois",
+    "difficultyName": "Hot"
   },
   {
-    "QuestionEn": "Never have I ever been interrupted while having sex",
-    "QuestionFr": "Je n'ai jamais été interrompu lors d'un rapport sexuel"
+    "questionEn": "Never have I ever been interrupted while having sex",
+    "questionFr": "Je n'ai jamais été interrompu lors d'un rapport sexuel",
+    "difficultyName": "Hot"
+  },
+  
+  {
+    "questionEn": "Never have I ever sent a nude photo to someone",
+    "questionFr": "Je n'ai jamais envoyé de photo nue à quelqu'un",
+    "difficultyName": "Hot"
   }
 ]

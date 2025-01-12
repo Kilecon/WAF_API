@@ -1,278 +1,337 @@
 [
   {
     "QuestionEn": "Leave an R-rated voicemail for player of your choice",
-    "QuestionFr": "Laissez un message vocal chaud pour le joueur de votre choix"
+    "QuestionFr": "Laissez un message vocal chaud pour le joueur de votre choix",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Ask someone to go to a strip club with you",
-    "QuestionFr": "Demandez a quelqu'un d'aller dans un strip club avec toi"
-  },
-  {
-    "QuestionEn": "Make out with the person with their name last in alphabetical order",
-    "QuestionFr": "Faitez une sortie avec la personne dont le nom est le dernier dans l'ordre alphabétique"
+    "QuestionFr": "Demandez a quelqu'un d'aller dans un strip club avec toi",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Send a dirty text to your ex",
-    "QuestionFr": "Envoyez un message sale à votre ex"
+    "QuestionFr": "Envoyez un message sale à votre ex",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Pick one person here to go into a closet or small room with you for 5 minutes",
-    "QuestionFr": "Choisissez une personne ici pour entrer dans un placard ou une petite pièce avec vous pendant 5 minutes"
+    "QuestionFr": "Choisissez une personne ici pour entrer dans un placard ou une petite pièce avec vous pendant 5 minutes",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Describe your ideal kiss in detail",
-    "QuestionFr": "Décrivez votre baiser idéal en détail"
+    "QuestionFr": "Décrivez votre baiser idéal en détail",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Yell something dirty",
-    "QuestionFr": "Criez quelque chose de sale"
+    "QuestionFr": "Criez quelque chose de sale",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Kiss someone's neck here",
-    "QuestionFr": "Embrassez le cou de quelqu'un ici"
+    "QuestionFr": "Embrassez le cou de quelqu'un ici",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Announce who you think is the sexiest here",
-    "QuestionFr": "Annoncez qui vous pensez être le plus sexy ici"
+    "QuestionFr": "Annoncez qui vous pensez être le plus sexy ici",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Stay either shirtless or pantsless for the rest of the game",
-    "QuestionFr": "Restez torse nu ou sans pantalon pour le reste de la partie"
+    "QuestionFr": "Restez torse nu ou sans pantalon pour le reste de la partie",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Fake an orgasm for the group",
-    "QuestionFr": "Faux un orgasme pour le groupe"
+    "QuestionFr": "Faux un orgasme pour le groupe",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Kiss a person of your choice in this group",
-    "QuestionFr": "Embrassez une personne de votre choix dans ce groupe"
+    "QuestionFr": "Embrassez une personne de votre choix dans ce groupe",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Pick one person in the group, and try to convince them to kiss you for 2 minutes. They have to refuse for 2 minutes, and then it's up to them",
-    "QuestionFr": "Choisissez une personne dans le groupe et essayez de la convaincre de vous embrasser pendant 2 minutes. "
+    "QuestionFr": "Choisissez une personne dans le groupe et essayez de la convaincre de vous embrasser pendant 2 minutes.",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Give your most sexual moan",
-    "QuestionFr": "Donnez votre gémissement le plus sexuel"
+    "QuestionFr": "Donnez votre gémissement le plus sexuel",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Imitate a female orgasm",
-    "QuestionFr": "Imitez un orgasme féminin"
+    "QuestionFr": "Imitez un orgasme féminin",
+    "DifficultyName": "Hot"
   },
   {
-    "QuestionEn": "Type \"p\" into your search bar and share a screenshot of the results",
-    "QuestionFr": "Tapez \"p\" dans votre barre de recherche et partage une capture d'écran des résultats"
+    "QuestionEn": "Type \"p\" into your search bar and share a screensHot of the results",
+    "QuestionFr": "Tapez \"p\" dans votre barre de recherche et partage une capture d'écran des résultats",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Point at one person blindfolded, and kiss the person that you picked",
-    "QuestionFr": "Pointez une personne avec les yeux bandés et embrassez la personne que vous avez choisie"
+    "QuestionFr": "Pointez une personne avec les yeux bandés et embrassez la personne que vous avez choisie",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Describe one of your sexual experiences vividly for the group",
-    "QuestionFr": "Décrivez de façon vivante une de vos expériences sexuelles pour le groupe"
+    "QuestionFr": "Décrivez de façon vivante une de vos expériences sexuelles pour le groupe",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Either give a lap dance to someone or pick someone to give you a lapdance",
-    "QuestionFr": "Donnez un lap dance à quelqu'un ou choisissez quelqu'un pour vous donner un lap dance"
+    "QuestionFr": "Donnez un lap dance à quelqu'un ou choisissez quelqu'un pour vous donner un lap dance",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Go commando for the rest of the game",
-    "QuestionFr": "Imitez un millitaire pour le reste du jeu"
-  },
-  {
-    "QuestionEn": "Make out with the person with their name first in alphabetical order",
-    "QuestionFr": "Faites une sortie avec la personne avec son nom en premier dans l'ordre alphabétique"
+    "QuestionFr": "Imitez un millitaire pour le reste du jeu",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Ask the third person in your DMs to join you for a threesome",
-    "QuestionFr": "Demandez à la troisième personne dans vos DM de vous rejoindre pour un plan à trois"
+    "QuestionFr": "Demandez à la troisième personne dans vos DM de vous rejoindre pour un plan à trois",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Show everyone the earliest picture in your camera roll",
-    "QuestionFr": "Montrez à tout le monde la première photo de votre pellicule"
+    "QuestionFr": "Montrez à tout le monde la première pHoto de votre pellicule",
+    "DifficultyName": "Hot"
   },
   {
-    "QuestionEn": "Screenshot your most played songs and show it to the group",
-    "QuestionFr": "Faites une capture d'écran de vos chansons les plus jouées et montrez-les au groupe"
+    "QuestionEn": "ScreensHot your most played songs and show it to the group",
+    "QuestionFr": "Faites une capture d'écran de vos chansons les plus jouées et montrez-les au groupe",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Show everyone the funniest meme in your camera roll",
-    "QuestionFr": "Montrez à tout le monde le mème le plus drôle de votre pellicule"
+    "QuestionFr": "Montrez à tout le monde le mème le plus drôle de votre pellicule",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Send a sentence without the words: but, a, the, or",
-    "QuestionFr": "Envoyez une phrase sans les mots : mais, un, le ou"
+    "QuestionFr": "Envoyez une phrase sans les mots : mais, un, le ou",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Spin an imaginary hula hoop around your waist for 30 seconds",
-    "QuestionFr": "Faites tourner un cerceau imaginaire autour de votre taille pendant 30 seconds"
+    "QuestionFr": "Faites tourner un cerceau imaginaire autour de votre taille pendant 30 seconds",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Screen share your search history from today",
-    "QuestionFr": "Partagez votre historique de recherche à partir d'aujourd'hui"
+    "QuestionFr": "Partagez votre historique de recherche à partir d'aujourd'hui",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Talk with a Russian accent for the next 3 rounds",
-    "QuestionFr": "Parlez avec un accent russe pour les 3 prochains tours"
+    "QuestionFr": "Parlez avec un accent russe pour les 3 prochains tours",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Talk with a Africain accent for the next 3 rounds",
-    "QuestionFr": "Parlez avec un accent Africain pour les 3 prochains tours"
+    "QuestionFr": "Parlez avec un accent Africain pour les 3 prochains tours",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Talk with a German accent for the next 3 rounds",
-    "QuestionFr": "Parlez avec un accent Allemand pour les 3 prochains tours"
+    "QuestionFr": "Parlez avec un accent Allemand pour les 3 prochains tours",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Sit in the lap of the person to your left for 3 turns",
-    "QuestionFr": "Asseyez-vous sur les genoux de la personne à votre gauche pendant 3 tours"
+    "QuestionFr": "Asseyez-vous sur les genoux de la personne à votre gauche pendant 3 tours",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Rate everyone here 1-10 in terms of looks",
-    "QuestionFr": "Évaluez tout le monde ici de 1 à 10 en termes d'apparence"
+    "QuestionFr": "Évaluez tout le monde ici de 1 à 10 en termes d'apparence",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Do an impression of your favorite celebrity",
-    "QuestionFr": "Faites une impression de votre célébrité préférée"
+    "QuestionFr": "Faites une impression de votre célébrité préférée",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Ask a friend for their mom's phone number",
-    "QuestionFr": "Demander à un ami le numéro de téléphone de sa mère"
+    "QuestionFr": "Demander à un ami le numéro de téléphone de sa mère",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Text the last 6 people in your DMs 'I love you'",
-    "QuestionFr": "Envoyez un SMS aux 6 dernières personnes de vos DM \"Je t'aime\""
+    "QuestionFr": "Envoyez un SMS aux 6 dernières personnes de vos DM \"Je t'aime\"",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Prank call someone",
-    "QuestionFr": "Blague appelez someone"
+    "QuestionFr": "Blague appelez un numéro inconnu",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "List everyone as the kind of animal you see them as",
-    "QuestionFr": "Énumérez tout le monde comme le genre d'animal que vous voyez comme"
+    "QuestionFr": "Énumérez pour chaque personne le genre d'animal auquel vous les associez",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Don't charge your phone until 2 days",
-    "QuestionFr": "Ne chargez pas votre téléphone pendant 2 jours"
+    "QuestionFr": "Ne chargez pas votre téléphone pendant 2 jours",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Voice act a cartoon character of the group's choice",
-    "QuestionFr": "Faites la voix d'un personnage de dessin animé au choix du groupe"
+    "QuestionFr": "Faites la voix d'un personnage de dessin animé au choix du groupe",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Let the group pose you in an embarrassing position and take a picture",
-    "QuestionFr": "Laissez le groupe vous poser dans une position embarrassante et prenez une photo"
+    "QuestionFr": "Laissez le groupe vous poser dans une position embarrassante et prenez une pHoto",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Imitate a behaviour of who you like",
-    "QuestionFr": "Imitez un comportement de qui vous voulez"
+    "QuestionFr": "Imitez un comportement de qui vous voulez",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Pretend to date someone for a day",
-    "QuestionFr": "Faire semblant de sortir avec quelqu'un du groupe pendant une journée"
+    "QuestionFr": "Faire semblant de sortir avec quelqu'un du groupe pendant une journée",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Prank call McDonalds",
-    "QuestionFr": "Prank McDonalds au téléphone"
+    "QuestionFr": "Prank McDonalds au téléphone",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Lick the bottom of your shoe/foot",
-    "QuestionFr": "Léchez le dessous de votre chaussure/pied"
+    "QuestionFr": "Léchez le dessous de votre chaussure/pied",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Let someone go through your Amazon purchase history and read it out to the group",
-    "QuestionFr": "Laissez quelqu'un parcourir votre historique d'achat Amazon et le lire au groupe"
+    "QuestionFr": "Laissez quelqu'un parcourir votre historique d'achat Amazon et le lire au groupe",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Say UWU for as long as possible",
-    "QuestionFr": "Dites UWU aussi longtemps que possible"
+    "QuestionFr": "Dites UWU aussi longtemps que possible",
+    "DifficultyName": "Hot"
   },
   {
-    "QuestionEn": "Take a shot of lemon juice, and take one more every time someone picks dare",
-    "QuestionFr": "Prenez une dose de jus de citron et prenez-en une de plus chaque fois que quelqu'un realise une action"
+    "QuestionEn": "Take a sHot of lemon juice, and take one more every time someone picks dare",
+    "QuestionFr": "Prenez une dose de jus de citron et prenez-en une de plus chaque fois que quelqu'un realise une action",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Make a poem using the words orange and moose",
-    "QuestionFr": "Faites un poème en utilisant les mots orange et orignal"
+    "QuestionFr": "Faites un poème en utilisant les mots orange et orignal",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Tell the group about your worst experience on a date",
-    "QuestionFr": "Racontez au groupe votre pire expérience lors d'un rendez-vous"
+    "QuestionFr": "Racontez au groupe votre pire expérience lors d'un rendez-vous",
+    "DifficultyName": "Hot"
   },
   {
-    "QuestionEn": "Have someone in the group ask a question that you must answer",
-    "QuestionFr": "Demandez à quelqu'un du groupe de poser une question à laquelle vous devez répondre"
+    "QuestionEn": "Have someone in the group ask a Question that you must answer",
+    "QuestionFr": "Demandez à quelqu'un du groupe de poser une Question à laquelle vous devez répondre",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Everyone go get a drink of water",
-    "QuestionFr": "Allez tous boire un verre d'eau"
+    "QuestionFr": "Allez tous boire un verre d'eau",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "List everything in your wallet",
-    "QuestionFr": "Listez tout dans votre portefeuille"
+    "QuestionFr": "Listez tout dans votre portefeuille",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Call someone you're playing with 'mommy' or 'daddy'",
-    "QuestionFr": "Appelez quelqu'un avec qui vous jouez 'maman' ou 'papa'"
+    "QuestionFr": "Appelez quelqu'un avec qui vous jouez 'maman' ou 'papa'",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Slap the last person who talked besides yourself",
-    "QuestionFr": "Giflez la dernière personne qui a parlé à part vous"
+    "QuestionFr": "Giflez la dernière personne qui a parlé à part vous",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Try to lick your elbow",
-    "QuestionFr": "Essayez de lécher votre coude"
+    "QuestionFr": "Essayez de lécher votre coude",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Show everyone your screen time",
-    "QuestionFr": "Montrez à tout le monde votre temps d'écran"
+    "QuestionFr": "Montrez à tout le monde votre temps d'écran",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Send a text to your crush explaining your favorite movie plot in vivid detail",
-    "QuestionFr": "Envoyez un texte à votre crush expliquant l'intrigue de votre film préféré avec des détails saisissants"
+    "QuestionFr": "Envoyez un texte à votre crush expliquant l'intrigue de votre film préféré avec des détails saisissants",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Name one thing you would change about each person here",
-    "QuestionFr": "Nommez une chose que vous changeriez chez chaque personne ici"
+    "QuestionFr": "Nommez une chose que vous changeriez chez chaque personne ici",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Tell your best friend that you'll always be with them no matter what :)",
-    "QuestionFr": "Dites à votre meilleur ami que vous serez toujours avec lui quoi qu'il arrive :)"
+    "QuestionFr": "Dites à votre meilleur ami que vous serez toujours avec lui quoi qu'il arrive :)",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Lick the neck of the person next to you",
-    "QuestionFr": "Léchez le cou de la personne à côté de vous"
+    "QuestionFr": "Léchez le cou de la personne à côté de vous",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Make out with one person in the group for 30 seconds",
-    "QuestionFr": "Embrassez une personne du groupe pendant 30 secondes"
+    "QuestionFr": "Embrassez une personne du groupe pendant 30 secondes",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Show your BDSM test results",
-    "QuestionFr": "Montrez vos résultats de test BDSM"
+    "QuestionFr": "Montrez vos résultats de test BDSM",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Ask a person of your choice in your DMs to fuck you",
-    "QuestionFr": "Demandez à une personne de votre choix dans vos DM de vous baiser"
+    "QuestionFr": "Demandez à une personne de votre choix dans vos DM de vous baiser",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Look player of you choice in the eyes and whisper 'I'm coming' five times",
-    "QuestionFr": "Regardez le joueur de votre choix dans les yeux et chuchotez « j'arrive » cinq fois"
+    "QuestionFr": "Regardez le joueur de votre choix dans les yeux et chucHotez « j'arrive » cinq fois",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Write a dirty fantasy for the group around 300 words long",
-    "QuestionFr": "Écrivez un fantasme sale pour le groupe d'environ 300 mots"
+    "QuestionFr": "Écrivez un fantasme sale pour le groupe d'environ 300 mots",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Tell a dirty joke",
-    "QuestionFr": "Racontez une sale blague"
+    "QuestionFr": "Racontez une sale blague",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Tell everyone your darkest secret",
-    "QuestionFr": "Dites à tout le monde votre secret le plus sombre"
+    "QuestionFr": "Dites à tout le monde votre secret le plus sombre",
+    "DifficultyName": "Hot"
   },
   {
     "QuestionEn": "Kiss someone here three times",
-    "QuestionFr": "Embrassez quelqu'un ici trois fois"
+    "QuestionFr": "Embrassez quelqu'un ici trois fois",
+    "DifficultyName": "Hot"
   }
 ]
