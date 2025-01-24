@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  web-api:
+    image: web-api-demo  # Nom de l'image, doit correspondre à celle que tu build
+    build: .
+    ports:
+      - "5001:8080"  # Assurez-vous que le port correspond à celui sur lequel votre app écoute
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    restart: always  # Redémarre automatiquement si le conteneur plante

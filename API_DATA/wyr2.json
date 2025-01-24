@@ -1,0 +1,1172 @@
+[
+  {
+    "questionEn": "Would you rather have the ability to fly OR become invisible ?",
+    "questionFr": "Préférez-vous avoir la capacité de voler OU devenir invisible ?",
+    "proposalAEn": "Fly",
+    "proposalAFr": "Voler",
+    "proposalBEn": "Become invisible",
+    "proposalBFr": "Devenir invisible",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather never age physically OR never age mentally ?",
+    "questionFr": "Préférez-vous ne jamais vieillir physiquement OU ne jamais vieillir mentalement ?",
+    "proposalAEn": "Never age physically",
+    "proposalAFr": "Ne jamais vieillir physiquement",
+    "proposalBEn": "Never age mentally",
+    "proposalBFr": "Ne jamais vieillir mentalement",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather lose the ability to speak OR the ability to hear ?",
+    "questionFr": "Préférez-vous perdre la capacité de parler OU la capacité d'entendre ?",
+    "proposalAEn": "Lose the ability to speak",
+    "proposalAFr": "Perdre la capacité de parler",
+    "proposalBEn": "Lose the ability to hear",
+    "proposalBFr": "Perdre la capacité d'entendre",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live in the past OR in the future ?",
+    "questionFr": "Préférez-vous vivre dans le passé OU dans le futur ?",
+    "proposalAEn": "In the past",
+    "proposalAFr": "Dans le passé",
+    "proposalBEn": "In the future",
+    "proposalBFr": "Dans le futur",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather be always 10 minutes late OR always 20 minutes early ?",
+    "questionFr": "Préférez-vous être toujours 10 minutes en retard OU toujours 20 minutes en avance ?",
+    "proposalAEn": "Always 10 minutes late",
+    "proposalAFr": "Toujours 10 minutes en retard",
+    "proposalBEn": "Always 20 minutes early",
+    "proposalBFr": "Toujours 20 minutes en avance",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have unlimited money OR unlimited time ?",
+    "questionFr": "Préférez-vous avoir de l'argent illimité OU du temps illimité ?",
+    "proposalAEn": "Unlimited money",
+    "proposalAFr": "Argent illimité",
+    "proposalBEn": "Unlimited time",
+    "proposalBFr": "Temps illimité",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather be able to talk to animals OR speak all human languages ?",
+    "questionFr": "Préférez-vous pouvoir parler aux animaux OU parler toutes les langues humaines ?",
+    "proposalAEn": "Talk to animals",
+    "proposalAFr": "Parler aux animaux",
+    "proposalBEn": "Speak all human languages",
+    "proposalBFr": "Parler toutes les langues humaines",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have no internet for a year OR no phone for a year ?",
+    "questionFr": "Préférez-vous ne pas avoir d'internet pendant un an OU ne pas avoir de téléphone pendant un an ?",
+    "proposalAEn": "No internet for a year",
+    "proposalAFr": "Pas d'internet pendant un an",
+    "proposalBEn": "No phone for a year",
+    "proposalBFr": "Pas de téléphone pendant un an",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live in a world without music OR a world without movies ?",
+    "questionFr": "Préférez-vous vivre dans un monde sans musique OU dans un monde sans films ?",
+    "proposalAEn": "Without music",
+    "proposalAFr": "Sans musique",
+    "proposalBEn": "Without movies",
+    "proposalBFr": "Sans films",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always know the truth OR always believe a lie ?",
+    "questionFr": "Préférez-vous toujours connaître la vérité OU toujours croire un mensonge ?",
+    "proposalAEn": "Always know the truth",
+    "proposalAFr": "Toujours connaître la vérité",
+    "proposalBEn": "Always believe a lie",
+    "proposalBFr": "Toujours croire un mensonge",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have the power to read minds OR the power to control time ?",
+    "questionFr": "Préférez-vous avoir le pouvoir de lire dans les pensées OU le pouvoir de contrôler le temps ?",
+    "proposalAEn": "Read minds",
+    "proposalAFr": "Lire dans les pensées",
+    "proposalBEn": "Control time",
+    "proposalBFr": "Contrôler le temps",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather never eat your favorite food again OR eat only your favorite food forever ?",
+    "questionFr": "Préférez-vous ne jamais manger votre plat préféré à nouveau OU manger uniquement votre plat préféré pour toujours ?",
+    "proposalAEn": "Never eat favorite food",
+    "proposalAFr": "Ne jamais manger son plat préféré",
+    "proposalBEn": "Eat only favorite food",
+    "proposalBFr": "Manger uniquement son plat préféré",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather explore space OR explore the deep sea ?",
+    "questionFr": "Préférez-vous explorer l'espace OU explorer les profondeurs de l'océan ?",
+    "proposalAEn": "Explore space",
+    "proposalAFr": "Explorer l'espace",
+    "proposalBEn": "Explore the deep sea",
+    "proposalBFr": "Explorer les profondeurs de l'océan",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather lose all your memories from the past OR never be able to make new memories ?",
+    "questionFr": "Préférez-vous perdre tous vos souvenirs du passé OU ne jamais pouvoir créer de nouveaux souvenirs ?",
+    "proposalAEn": "Lose all past memories",
+    "proposalAFr": "Perdre tous les souvenirs du passé",
+    "proposalBEn": "Never make new memories",
+    "proposalBFr": "Ne jamais créer de nouveaux souvenirs",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live without social media OR live without TV shows and movies ?",
+    "questionFr": "Préférez-vous vivre sans les réseaux sociaux OU vivre sans séries et films ?",
+    "proposalAEn": "Without social media",
+    "proposalAFr": "Sans réseaux sociaux",
+    "proposalBEn": "Without TV shows and movies",
+    "proposalBFr": "Sans séries et films",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always have to tell the truth OR always have to lie ?",
+    "questionFr": "Préférez-vous devoir toujours dire la vérité OU toujours mentir ?",
+    "proposalAEn": "Always tell the truth",
+    "proposalAFr": "Toujours dire la vérité",
+    "proposalBEn": "Always lie",
+    "proposalBFr": "Toujours mentir",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have no taste buds OR no sense of smell ?",
+    "questionFr": "Préférez-vous ne pas avoir de papilles gustatives OU ne pas avoir d'odorat ?",
+    "proposalAEn": "No taste buds",
+    "proposalAFr": "Pas de papilles gustatives",
+    "proposalBEn": "No sense of smell",
+    "proposalBFr": "Pas d'odorat",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather spend a year in jail OR lose a year of your life ?",
+    "questionFr": "Préférez-vous passer un an en prison OU perdre un an de votre vie ?",
+    "proposalAEn": "Spend a year in jail",
+    "proposalAFr": "Passer un an en prison",
+    "proposalBEn": "Lose a year of life",
+    "proposalBFr": "Perdre un an de vie",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather be rich and unhappy OR poor and happy ?",
+    "questionFr": "Préférez-vous être riche et malheureux OU pauvre et heureux ?",
+    "proposalAEn": "Rich and unhappy",
+    "proposalAFr": "Riche et malheureux",
+    "proposalBEn": "Poor and happy",
+    "proposalBFr": "Pauvre et heureux",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live in a big city with a small apartment OR in a rural area with a big house ?",
+    "questionFr": "Préférez-vous vivre dans une grande ville avec un petit appartement OU dans une zone rurale avec une grande maison ?",
+    "proposalAEn": "Big city, small apartment",
+    "proposalAFr": "Grande ville, petit appartement",
+    "proposalBEn": "Rural area, big house",
+    "proposalBFr": "Zone rurale, grande maison",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always be too hot OR always be too cold ?",
+    "questionFr": "Préférez-vous avoir toujours trop chaud OU toujours trop froid ?",
+    "proposalAEn": "Too hot",
+    "proposalAFr": "Trop chaud",
+    "proposalBEn": "Too cold",
+    "proposalBFr": "Trop froid",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather be able to travel anywhere for free OR eat at any restaurant for free ?",
+    "questionFr": "Préférez-vous pouvoir voyager partout gratuitement OU manger dans n'importe quel restaurant gratuitement ?",
+    "proposalAEn": "Travel anywhere for free",
+    "proposalAFr": "Voyager partout gratuitement",
+    "proposalBEn": "Eat at any restaurant for free",
+    "proposalBFr": "Manger dans n'importe quel restaurant gratuitement",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather forget your own birthday OR everyone else's birthday ?",
+    "questionFr": "Préférez-vous oublier votre propre anniversaire OU l'anniversaire de tout le monde ?",
+    "proposalAEn": "Forget my own birthday",
+    "proposalAFr": "Oublier mon propre anniversaire",
+    "proposalBEn": "Forget everyone else's birthday",
+    "proposalBFr": "Oublier l'anniversaire des autres",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather only be able to whisper OR only be able to shout ?",
+    "questionFr": "Préférez-vous ne pouvoir que chuchoter OU ne pouvoir que crier ?",
+    "proposalAEn": "Only whisper",
+    "proposalAFr": "Chuchoter seulement",
+    "proposalBEn": "Only shout",
+    "proposalBFr": "Crier seulement",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have a pause button for your life OR a rewind button ?",
+    "questionFr": "Préférez-vous avoir un bouton pause pour votre vie OU un bouton rembobiner ?",
+    "proposalAEn": "Pause button",
+    "proposalAFr": "Bouton pause",
+    "proposalBEn": "Rewind button",
+    "proposalBFr": "Bouton rembobiner",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have the ability to never be tired OR the ability to never be hungry ?",
+    "questionFr": "Préférez-vous avoir la capacité de ne jamais être fatigué OU de ne jamais avoir faim ?",
+    "proposalAEn": "Never be tired",
+    "proposalAFr": "Ne jamais être fatigué",
+    "proposalBEn": "Never be hungry",
+    "proposalBFr": "Ne jamais avoir faim",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live on a deserted island OR in a crowded city with no privacy ?",
+    "questionFr": "Préférez-vous vivre sur une île déserte OU dans une ville bondée sans aucune intimité ?",
+    "proposalAEn": "Deserted island",
+    "proposalAFr": "Île déserte",
+    "proposalBEn": "Crowded city",
+    "proposalBFr": "Ville bondée",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather win the lottery but lose all your friends OR stay poor with all your friends ?",
+    "questionFr": "Préférez-vous gagner à la loterie mais perdre tous vos amis OU rester pauvre avec tous vos amis ?",
+    "proposalAEn": "Win the lottery, lose friends",
+    "proposalAFr": "Gagner à la loterie, perdre les amis",
+    "proposalBEn": "Stay poor, keep friends",
+    "proposalBFr": "Rester pauvre, garder les amis",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always have bad breath OR always have sweaty hands ?",
+    "questionFr": "Préférez-vous avoir toujours mauvaise haleine OU avoir toujours les mains moites ?",
+    "proposalAEn": "Bad breath",
+    "proposalAFr": "Mauvaise haleine",
+    "proposalBEn": "Sweaty hands",
+    "proposalBFr": "Mains moites",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have the ability to change the past OR know the future ?",
+    "questionFr": "Préférez-vous avoir la capacité de changer le passé OU de connaître l'avenir ?",
+    "proposalAEn": "Change the past",
+    "proposalAFr": "Changer le passé",
+    "proposalBEn": "Know the future",
+    "proposalBFr": "Connaître l'avenir",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather never need to sleep OR never need to eat ?",
+    "questionFr": "Préférez-vous ne jamais avoir besoin de dormir OU ne jamais avoir besoin de manger ?",
+    "proposalAEn": "Never need to sleep",
+    "proposalAFr": "Ne jamais dormir",
+    "proposalBEn": "Never need to eat",
+    "proposalBFr": "Ne jamais manger",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always have a full battery on your phone OR unlimited Wi-Fi everywhere ?",
+    "questionFr": "Préférez-vous avoir toujours une batterie pleine sur votre téléphone OU un Wi-Fi illimité partout ?",
+    "proposalAEn": "Full battery",
+    "proposalAFr": "Batterie pleine",
+    "proposalBEn": "Unlimited Wi-Fi",
+    "proposalBFr": "Wi-Fi illimité",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather only be able to listen to one song forever OR never listen to music again ?",
+    "questionFr": "Préférez-vous écouter une seule chanson pour toujours OU ne plus jamais écouter de musique ?",
+    "proposalAEn": "One song forever",
+    "proposalAFr": "Une chanson pour toujours",
+    "proposalBEn": "No music again",
+    "proposalBFr": "Plus de musique",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather forget how to read OR forget how to write ?",
+    "questionFr": "Préférez-vous oublier comment lire OU oublier comment écrire ?",
+    "proposalAEn": "Forget how to read",
+    "proposalAFr": "Oublier comment lire",
+    "proposalBEn": "Forget how to write",
+    "proposalBFr": "Oublier comment écrire",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live without your favorite drink OR live without your favorite food ?",
+    "questionFr": "Préférez-vous vivre sans votre boisson préférée OU sans votre plat préféré ?",
+    "proposalAEn": "Without favorite drink",
+    "proposalAFr": "Sans boisson préférée",
+    "proposalBEn": "Without favorite food",
+    "proposalBFr": "Sans plat préféré",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather travel 100 years into the past OR 100 years into the future ?",
+    "questionFr": "Préférez-vous voyager 100 ans dans le passé OU 100 ans dans le futur ?",
+    "proposalAEn": "100 years into the past",
+    "proposalAFr": "100 ans dans le passé",
+    "proposalBEn": "100 years into the future",
+    "proposalBFr": "100 ans dans le futur",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live on the moon OR live under the sea ?",
+    "questionFr": "Préférez-vous vivre sur la lune OU sous la mer ?",
+    "proposalAEn": "Live on the moon",
+    "proposalAFr": "Vivre sur la lune",
+    "proposalBEn": "Live under the sea",
+    "proposalBFr": "Vivre sous la mer",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather never use a computer again OR never use a smartphone again ?",
+    "questionFr": "Préférez-vous ne plus jamais utiliser d'ordinateur OU ne plus jamais utiliser de smartphone ?",
+    "proposalAEn": "No computer",
+    "proposalAFr": "Pas d'ordinateur",
+    "proposalBEn": "No smartphone",
+    "proposalBFr": "Pas de smartphone",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have the ability to teleport OR have super strength ?",
+    "questionFr": "Préférez-vous avoir la capacité de vous téléporter OU avoir une super force ?",
+    "proposalAEn": "Teleport",
+    "proposalAFr": "Se téléporter",
+    "proposalBEn": "Super strength",
+    "proposalBFr": "Super force",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live in a world without books OR a world without movies ?",
+    "questionFr": "Préférez-vous vivre dans un monde sans livres OU dans un monde sans films ?",
+    "proposalAEn": "Without books",
+    "proposalAFr": "Sans livres",
+    "proposalBEn": "Without movies",
+    "proposalBFr": "Sans films",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always feel itchy OR always feel sticky ?",
+    "questionFr": "Préférez-vous vous sentir toujours irrité OU toujours collant ?",
+    "proposalAEn": "Always feel itchy",
+    "proposalAFr": "Toujours irrité",
+    "proposalBEn": "Always feel sticky",
+    "proposalBFr": "Toujours collant",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather be the funniest person in the room OR the smartest person in the room ?",
+    "questionFr": "Préférez-vous être la personne la plus drôle de la pièce OU la personne la plus intelligente ?",
+    "proposalAEn": "Funniest",
+    "proposalAFr": "La plus drôle",
+    "proposalBEn": "Smartest",
+    "proposalBFr": "La plus intelligente",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live one life that lasts 1000 years OR live 10 lives that last 100 years each ?",
+    "questionFr": "Préférez-vous vivre une vie qui dure 1000 ans OU vivre 10 vies qui durent chacune 100 ans ?",
+    "proposalAEn": "One life for 1000 years",
+    "proposalAFr": "Une vie de 1000 ans",
+    "proposalBEn": "10 lives of 100 years",
+    "proposalBFr": "10 vies de 100 ans",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always have to wear wet socks OR always have to wear heavy winter clothes in summer ?",
+    "questionFr": "Préférez-vous porter des chaussettes mouillées en permanence OU porter des vêtements d'hiver en été ?",
+    "proposalAEn": "Wet socks",
+    "proposalAFr": "Chaussettes mouillées",
+    "proposalBEn": "Winter clothes in summer",
+    "proposalBFr": "Vêtements d'hiver en été",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have unlimited pizza for life OR unlimited pasta ?",
+    "questionFr": "Préférez-vous avoir des pizzas illimitées pour la vie OU des pâtes illimitées ?",
+    "proposalAEn": "Unlimited pizza",
+    "proposalAFr": "Pizzas illimitées",
+    "proposalBEn": "Unlimited pasta",
+    "proposalBFr": "Pâtes illimitées",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather be able to stop time for 10 seconds OR predict the future for 10 minutes ?",
+    "questionFr": "Préférez-vous arrêter le temps pendant 10 secondes OU prédire l'avenir pendant 10 minutes ?",
+    "proposalAEn": "Stop time",
+    "proposalAFr": "Arrêter le temps",
+    "proposalBEn": "Predict the future",
+    "proposalBFr": "Prédire l'avenir",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live without chocolate OR live without cheese ?",
+    "questionFr": "Préférez-vous vivre sans chocolat OU vivre sans fromage ?",
+    "proposalAEn": "Without chocolate",
+    "proposalAFr": "Sans chocolat",
+    "proposalBEn": "Without cheese",
+    "proposalBFr": "Sans fromage",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live in a world where it’s always daytime OR always nighttime ?",
+    "questionFr": "Préférez-vous vivre dans un monde où il fait toujours jour OU toujours nuit ?",
+    "proposalAEn": "Always daytime",
+    "proposalAFr": "Toujours jour",
+    "proposalBEn": "Always nighttime",
+    "proposalBFr": "Toujours nuit",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have the ability to control fire OR the ability to control water ?",
+    "questionFr": "Préférez-vous avoir le pouvoir de contrôler le feu OU l'eau ?",
+    "proposalAEn": "Control fire",
+    "proposalAFr": "Contrôler le feu",
+    "proposalBEn": "Control water",
+    "proposalBFr": "Contrôler l'eau",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live in a mansion in the middle of nowhere OR in a small apartment in a bustling city ?",
+    "questionFr": "Préférez-vous vivre dans un manoir au milieu de nulle part OU dans un petit appartement dans une ville animée ?",
+    "proposalAEn": "Mansion in nowhere",
+    "proposalAFr": "Manoir isolé",
+    "proposalBEn": "Small city apartment",
+    "proposalBFr": "Petit appartement en ville",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather be able to speak every language fluently OR be able to play every instrument perfectly ?",
+    "questionFr": "Préférez-vous parler toutes les langues couramment OU jouer parfaitement de tous les instruments ?",
+    "proposalAEn": "Speak every language",
+    "proposalAFr": "Parler toutes les langues",
+    "proposalBEn": "Play every instrument",
+    "proposalBFr": "Jouer de tous les instruments",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always have to sing instead of speaking OR dance everywhere you go ?",
+    "questionFr": "Préférez-vous devoir toujours chanter au lieu de parler OU danser partout où vous allez ?",
+    "proposalAEn": "Sing instead of speaking",
+    "proposalAFr": "Chanter au lieu de parler",
+    "proposalBEn": "Dance everywhere",
+    "proposalBFr": "Danser partout",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather never celebrate your birthday again OR never celebrate holidays again ?",
+    "questionFr": "Préférez-vous ne plus jamais célébrer votre anniversaire OU ne plus jamais célébrer les fêtes ?",
+    "proposalAEn": "No birthday celebrations",
+    "proposalAFr": "Pas d'anniversaire",
+    "proposalBEn": "No holiday celebrations",
+    "proposalBFr": "Pas de fêtes",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live in a house made of glass OR a house with no windows ?",
+    "questionFr": "Préférez-vous vivre dans une maison en verre OU une maison sans fenêtres ?",
+    "proposalAEn": "Glass house",
+    "proposalAFr": "Maison en verre",
+    "proposalBEn": "No windows house",
+    "proposalBFr": "Maison sans fenêtres",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always be overdressed OR always be underdressed ?",
+    "questionFr": "Préférez-vous être toujours trop habillé OU toujours pas assez habillé ?",
+    "proposalAEn": "Always overdressed",
+    "proposalAFr": "Toujours trop habillé",
+    "proposalBEn": "Always underdressed",
+    "proposalBFr": "Toujours pas assez habillé",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have a head the size of a watermelon OR the size of a tennis ball ?",
+    "questionFr": "Préférez-vous avoir une tête de la taille d'une pastèque OU de la taille d'une balle de tennis ?",
+    "proposalAEn": "Watermelon-sized head",
+    "proposalAFr": "Tête de pastèque",
+    "proposalBEn": "Tennis ball-sized head",
+    "proposalBFr": "Tête de balle de tennis",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live in a world without coffee OR a world without tea ?",
+    "questionFr": "Préférez-vous vivre dans un monde sans café OU dans un monde sans thé ?",
+    "proposalAEn": "No coffee",
+    "proposalAFr": "Sans café",
+    "proposalBEn": "No tea",
+    "proposalBFr": "Sans thé",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always know what people are thinking OR always know what will happen next ?",
+    "questionFr": "Préférez-vous toujours savoir ce que les gens pensent OU toujours savoir ce qui va se passer ?",
+    "proposalAEn": "Know people's thoughts",
+    "proposalAFr": "Savoir ce que pensent les gens",
+    "proposalBEn": "Know what happens next",
+    "proposalBFr": "Savoir ce qui va se passer",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather eat only sweet foods forever OR only salty foods forever ?",
+    "questionFr": "Préférez-vous ne manger que des aliments sucrés pour toujours OU que des aliments salés ?",
+    "proposalAEn": "Sweet foods",
+    "proposalAFr": "Aliments sucrés",
+    "proposalBEn": "Salty foods",
+    "proposalBFr": "Aliments salés",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live with a loud roommate OR a very messy roommate ?",
+    "questionFr": "Préférez-vous vivre avec un colocataire bruyant OU très désordonné ?",
+    "proposalAEn": "Loud roommate",
+    "proposalAFr": "Colocataire bruyant",
+    "proposalBEn": "Messy roommate",
+    "proposalBFr": "Colocataire désordonné",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather lose the ability to see color OR the ability to hear music ?",
+    "questionFr": "Préférez-vous perdre la capacité de voir les couleurs OU celle d'entendre de la musique ?",
+    "proposalAEn": "Lose color vision",
+    "proposalAFr": "Perdre la vision des couleurs",
+    "proposalBEn": "Lose music hearing",
+    "proposalBFr": "Perdre l'audition de la musique",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live in the mountains OR live by the beach ?",
+    "questionFr": "Préférez-vous vivre à la montagne OU au bord de la mer ?",
+    "proposalAEn": "Mountains",
+    "proposalAFr": "À la montagne",
+    "proposalBEn": "Beach",
+    "proposalBFr": "Au bord de la mer",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always have to eat spicy food OR bland food ?",
+    "questionFr": "Préférez-vous toujours manger des aliments épicés OU fades ?",
+    "proposalAEn": "Spicy food",
+    "proposalAFr": "Aliments épicés",
+    "proposalBEn": "Bland food",
+    "proposalBFr": "Aliments fades",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have a photographic memory OR be able to forget any memory you want ?",
+    "questionFr": "Préférez-vous avoir une mémoire photographique OU pouvoir oublier n'importe quel souvenir que vous voulez ?",
+    "proposalAEn": "Photographic memory",
+    "proposalAFr": "Mémoire photographique",
+    "proposalBEn": "Forget memories",
+    "proposalBFr": "Oublier des souvenirs",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always have a cold OR always have a headache ?",
+    "questionFr": "Préférez-vous avoir toujours un rhume OU toujours un mal de tête ?",
+    "proposalAEn": "Always have a cold",
+    "proposalAFr": "Toujours un rhume",
+    "proposalBEn": "Always have a headache",
+    "proposalBFr": "Toujours un mal de tête",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather never be able to cry again OR never be able to laugh again ?",
+    "questionFr": "Préférez-vous ne plus jamais pouvoir pleurer OU ne plus jamais pouvoir rire ?",
+    "proposalAEn": "Never cry again",
+    "proposalAFr": "Ne plus pleurer",
+    "proposalBEn": "Never laugh again",
+    "proposalBFr": "Ne plus rire",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have a job you love with low pay OR a job you hate with high pay ?",
+    "questionFr": "Préférez-vous avoir un emploi que vous aimez avec un faible salaire OU un emploi que vous détestez avec un salaire élevé ?",
+    "proposalAEn": "Job I love, low pay",
+    "proposalAFr": "Emploi aimé, faible salaire",
+    "proposalBEn": "Job I hate, high pay",
+    "proposalBFr": "Emploi détesté, salaire élevé",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather never use a fork again OR never use a knife again ?",
+    "questionFr": "Préférez-vous ne plus jamais utiliser de fourchette OU de couteau ?",
+    "proposalAEn": "No fork",
+    "proposalAFr": "Pas de fourchette",
+    "proposalBEn": "No knife",
+    "proposalBFr": "Pas de couteau",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always feel hungry OR always feel thirsty ?",
+    "questionFr": "Préférez-vous toujours vous sentir affamé OU toujours avoir soif ?",
+    "proposalAEn": "Always hungry",
+    "proposalAFr": "Toujours faim",
+    "proposalBEn": "Always thirsty",
+    "proposalBFr": "Toujours soif",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have unlimited money but no time OR unlimited time but no money ?",
+    "questionFr": "Préférez-vous avoir de l'argent illimité mais pas de temps OU du temps illimité mais pas d'argent ?",
+    "proposalAEn": "Unlimited money, no time",
+    "proposalAFr": "Argent illimité, pas de temps",
+    "proposalBEn": "Unlimited time, no money",
+    "proposalBFr": "Temps illimité, pas d'argent",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live in a world without the internet OR a world without electricity ?",
+    "questionFr": "Préférez-vous vivre dans un monde sans internet OU dans un monde sans électricité ?",
+    "proposalAEn": "No internet",
+    "proposalAFr": "Sans internet",
+    "proposalBEn": "No electricity",
+    "proposalBFr": "Sans électricité",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have a pet dragon OR a pet unicorn ?",
+    "questionFr": "Préférez-vous avoir un dragon de compagnie OU une licorne de compagnie ?",
+    "proposalAEn": "Pet dragon",
+    "proposalAFr": "Dragon de compagnie",
+    "proposalBEn": "Pet unicorn",
+    "proposalBFr": "Licorne de compagnie",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather never get tired OR never get bored ?",
+    "questionFr": "Préférez-vous ne jamais être fatigué OU ne jamais vous ennuyer ?",
+    "proposalAEn": "Never tired",
+    "proposalAFr": "Jamais fatigué",
+    "proposalBEn": "Never bored",
+    "proposalBFr": "Jamais ennuyé",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have a rewind button for your life OR a pause button ?",
+    "questionFr": "Préférez-vous avoir un bouton pour rembobiner votre vie OU pour la mettre en pause ?",
+    "proposalAEn": "Rewind button",
+    "proposalAFr": "Bouton rembobiner",
+    "proposalBEn": "Pause button",
+    "proposalBFr": "Bouton pause",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always speak in rhymes OR always sing your words ?",
+    "questionFr": "Préférez-vous toujours parler en rimes OU toujours chanter vos paroles ?",
+    "proposalAEn": "Speak in rhymes",
+    "proposalAFr": "Parler en rimes",
+    "proposalBEn": "Sing words",
+    "proposalBFr": "Chanter les paroles",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather be able to fly like a bird OR swim like a dolphin ?",
+    "questionFr": "Préférez-vous pouvoir voler comme un oiseau OU nager comme un dauphin ?",
+    "proposalAEn": "Fly like a bird",
+    "proposalAFr": "Voler comme un oiseau",
+    "proposalBEn": "Swim like a dolphin",
+    "proposalBFr": "Nager comme un dauphin",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather be stuck in a broken elevator OR stranded on a deserted island ?",
+    "questionFr": "Préférez-vous être coincé dans un ascenseur en panne OU bloqué sur une île déserte ?",
+    "proposalAEn": "Broken elevator",
+    "proposalAFr": "Ascenseur en panne",
+    "proposalBEn": "Deserted island",
+    "proposalBFr": "Île déserte",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always know when someone is lying OR always get away with lying ?",
+    "questionFr": "Préférez-vous toujours savoir quand quelqu'un ment OU toujours vous en sortir en mentant ?",
+    "proposalAEn": "Know when lying",
+    "proposalAFr": "Savoir quand on ment",
+    "proposalBEn": "Get away with lying",
+    "proposalBFr": "S'en sortir en mentant",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have an extra arm OR an extra leg ?",
+    "questionFr": "Préférez-vous avoir un bras supplémentaire OU une jambe supplémentaire ?",
+    "proposalAEn": "Extra arm",
+    "proposalAFr": "Bras supplémentaire",
+    "proposalBEn": "Extra leg",
+    "proposalBFr": "Jambe supplémentaire",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have a magical wardrobe that can teleport you anywhere OR a fridge that always has your favorite food ?",
+    "questionFr": "Préférez-vous une armoire magique qui peut vous téléporter partout OU un frigo qui contient toujours vos plats préférés ?",
+    "proposalAEn": "Magical wardrobe",
+    "proposalAFr": "Armoire magique",
+    "proposalBEn": "Favorite food fridge",
+    "proposalBFr": "Frigo préféré",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather be famous for something embarrassing OR never be famous at all ?",
+    "questionFr": "Préférez-vous être célèbre pour quelque chose d'embarrassant OU ne jamais être célèbre ?",
+    "proposalAEn": "Famous for embarrassing",
+    "proposalAFr": "Célèbre pour embarrassant",
+    "proposalBEn": "Never famous",
+    "proposalBFr": "Jamais célèbre",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather eat only vegetables forever OR only meat forever ?",
+    "questionFr": "Préférez-vous ne manger que des légumes pour toujours OU que de la viande ?",
+    "proposalAEn": "Only vegetables",
+    "proposalAFr": "Que des légumes",
+    "proposalBEn": "Only meat",
+    "proposalBFr": "Que de la viande",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live in a world where animals can talk OR where humans can fly ?",
+    "questionFr": "Préférez-vous vivre dans un monde où les animaux peuvent parler OU où les humains peuvent voler ?",
+    "proposalAEn": "Animals talk",
+    "proposalAFr": "Animaux qui parlent",
+    "proposalBEn": "Humans fly",
+    "proposalBFr": "Humains qui volent",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather never be able to sit again OR never be able to stand again ?",
+    "questionFr": "Préférez-vous ne plus jamais pouvoir vous asseoir OU ne plus jamais pouvoir vous tenir debout ?",
+    "proposalAEn": "Never sit",
+    "proposalAFr": "Ne jamais s'asseoir",
+    "proposalBEn": "Never stand",
+    "proposalBFr": "Ne jamais se tenir debout",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have a rewind button for one day each week OR fast-forward through boring moments ?",
+    "questionFr": "Préférez-vous avoir un bouton rembobiner pour un jour par semaine OU passer les moments ennuyeux ?",
+    "proposalAEn": "Rewind one day",
+    "proposalAFr": "Rembobiner un jour",
+    "proposalBEn": "Fast-forward boring",
+    "proposalBFr": "Passer l'ennui",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have a voice like a robot OR a voice like a cartoon character ?",
+    "questionFr": "Préférez-vous avoir une voix de robot OU une voix de personnage de dessin animé ?",
+    "proposalAEn": "Robot voice",
+    "proposalAFr": "Voix de robot",
+    "proposalBEn": "Cartoon voice",
+    "proposalBFr": "Voix de dessin animé",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always have slow internet OR never have air conditioning ?",
+    "questionFr": "Préférez-vous toujours avoir une connexion internet lente OU ne jamais avoir de climatisation ?",
+    "proposalAEn": "Slow internet",
+    "proposalAFr": "Internet lent",
+    "proposalBEn": "No air conditioning",
+    "proposalBFr": "Pas de climatisation",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have to shout everything you say OR whisper everything you say ?",
+    "questionFr": "Préférez-vous devoir crier tout ce que vous dites OU murmurer tout ce que vous dites ?",
+    "proposalAEn": "Shout everything",
+    "proposalAFr": "Crier tout",
+    "proposalBEn": "Whisper everything",
+    "proposalBFr": "Murmurer tout",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have to live in a haunted house OR a house with no privacy ?",
+    "questionFr": "Préférez-vous vivre dans une maison hantée OU dans une maison sans intimité ?",
+    "proposalAEn": "Haunted house",
+    "proposalAFr": "Maison hantée",
+    "proposalBEn": "No privacy",
+    "proposalBFr": "Pas d'intimité",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have a pet you can communicate with OR a robot that does everything for you ?",
+    "questionFr": "Préférez-vous avoir un animal avec lequel vous pouvez communiquer OU un robot qui fait tout pour vous ?",
+    "proposalAEn": "Communicate with pet",
+    "proposalAFr": "Communiquer avec l'animal",
+    "proposalBEn": "Robot for everything",
+    "proposalBFr": "Robot qui fait tout",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather never age physically OR never age mentally ?",
+    "questionFr": "Préférez-vous ne jamais vieillir physiquement OU ne jamais vieillir mentalement ?",
+    "proposalAEn": "Never age physically",
+    "proposalAFr": "Ne jamais vieillir physiquement",
+    "proposalBEn": "Never age mentally",
+    "proposalBFr": "Ne jamais vieillir mentalement",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always wake up 30 minutes late OR always wake up 30 minutes early ?",
+    "questionFr": "Préférez-vous vous réveiller toujours 30 minutes en retard OU toujours 30 minutes en avance ?",
+    "proposalAEn": "30 minutes late",
+    "proposalAFr": "30 minutes en retard",
+    "proposalBEn": "30 minutes early",
+    "proposalBFr": "30 minutes en avance",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always have to eat your least favorite food OR never be able to eat your favorite food again ?",
+    "questionFr": "Préférez-vous devoir toujours manger votre plat que vous détestez OU ne plus jamais pouvoir manger votre plat préféré ?",
+    "proposalAEn": "Eat least favorite food",
+    "proposalAFr": "Manger le plat détesté",
+    "proposalBEn": "Never eat favorite food",
+    "proposalBFr": "Ne plus manger le plat préféré",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live without social media OR live without TV and movies ?",
+    "questionFr": "Préférez-vous vivre sans réseaux sociaux OU sans télévision et films ?",
+    "proposalAEn": "No social media",
+    "proposalAFr": "Sans réseaux sociaux",
+    "proposalBEn": "No TV and movies",
+    "proposalBFr": "Sans télévision et films",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always be too hot OR always be too cold ?",
+    "questionFr": "Préférez-vous toujours avoir trop chaud OU toujours avoir trop froid ?",
+    "proposalAEn": "Always too hot",
+    "proposalAFr": "Toujours trop chaud",
+    "proposalBEn": "Always too cold",
+    "proposalBFr": "Toujours trop froid",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather never be able to speak again OR never be able to stop talking ?",
+    "questionFr": "Préférez-vous ne plus jamais pouvoir parler OU ne plus jamais pouvoir vous arrêter de parler ?",
+    "proposalAEn": "Never speak again",
+    "proposalAFr": "Ne plus parler",
+    "proposalBEn": "Never stop talking",
+    "proposalBFr": "Ne plus s'arrêter de parler",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have a time machine OR a teleportation device ?",
+    "questionFr": "Préférez-vous avoir une machine à voyager dans le temps OU un dispositif de téléportation ?",
+    "proposalAEn": "Time machine",
+    "proposalAFr": "Machine à voyager dans le temps",
+    "proposalBEn": "Teleportation device",
+    "proposalBFr": "Dispositif de téléportation",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live in a tiny house in the city OR a mansion in the countryside ?",
+    "questionFr": "Préférez-vous vivre dans une petite maison en ville OU dans un manoir à la campagne ?",
+    "proposalAEn": "Tiny house in the city",
+    "proposalAFr": "Petite maison en ville",
+    "proposalBEn": "Mansion in the countryside",
+    "proposalBFr": "Manoir à la campagne",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather only eat desserts OR never eat desserts again ?",
+    "questionFr": "Préférez-vous ne manger que des desserts OU ne plus jamais manger de desserts ?",
+    "proposalAEn": "Only eat desserts",
+    "proposalAFr": "Manger que des desserts",
+    "proposalBEn": "Never eat desserts",
+    "proposalBFr": "Ne plus manger de desserts",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always feel like you are being watched OR never feel noticed by anyone ?",
+    "questionFr": "Préférez-vous toujours avoir l'impression d'être observé OU ne jamais avoir l'impression d'être remarqué par quelqu'un ?",
+    "proposalAEn": "Always being watched",
+    "proposalAFr": "Toujours observé",
+    "proposalBEn": "Never noticed",
+    "proposalBFr": "Jamais remarqué",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have perfect hair every day OR perfect skin ?",
+    "questionFr": "Préférez-vous avoir des cheveux parfaits chaque jour OU une peau parfaite ?",
+    "proposalAEn": "Perfect hair",
+    "proposalAFr": "Cheveux parfaits",
+    "proposalBEn": "Perfect skin",
+    "proposalBFr": "Peau parfaite",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather lose the ability to read OR the ability to write ?",
+    "questionFr": "Préférez-vous perdre la capacité de lire OU la capacité d'écrire ?",
+    "proposalAEn": "Lose reading ability",
+    "proposalAFr": "Perdre la capacité de lire",
+    "proposalBEn": "Lose writing ability",
+    "proposalBFr": "Perdre la capacité d'écrire",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather be famous for discovering something important OR inventing something fun ?",
+    "questionFr": "Préférez-vous être célèbre pour avoir découvert quelque chose d'important OU pour avoir inventé quelque chose de ludique ?",
+    "proposalAEn": "Discover something important",
+    "proposalAFr": "Découvrir quelque chose d'important",
+    "proposalBEn": "Invent something fun",
+    "proposalBFr": "Inventer quelque chose de ludique",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have a personal chef OR a personal driver ?",
+    "questionFr": "Préférez-vous avoir un chef personnel OU un chauffeur personnel ?",
+    "proposalAEn": "Personal chef",
+    "proposalAFr": "Chef personnel",
+    "proposalBEn": "Personal driver",
+    "proposalBFr": "Chauffeur personnel",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather spend one year on a deserted island OR ten years in a big city with no friends ?",
+    "questionFr": "Préférez-vous passer un an sur une île déserte OU dix ans dans une grande ville sans amis ?",
+    "proposalAEn": "Deserted island",
+    "proposalAFr": "Île déserte",
+    "proposalBEn": "City with no friends",
+    "proposalBFr": "Ville sans amis",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have a photographic memory OR be a genius in math ?",
+    "questionFr": "Préférez-vous avoir une mémoire photographique OU être un génie en mathématiques ?",
+    "proposalAEn": "Photographic memory",
+    "proposalAFr": "Mémoire photographique",
+    "proposalBEn": "Genius in math",
+    "proposalBFr": "Génie en maths",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live 100 years in the future OR 100 years in the past ?",
+    "questionFr": "Préférez-vous vivre 100 ans dans le futur OU 100 ans dans le passé ?",
+    "proposalAEn": "100 years in the future",
+    "proposalAFr": "100 ans dans le futur",
+    "proposalBEn": "100 years in the past",
+    "proposalBFr": "100 ans dans le passé",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have unlimited energy OR unlimited creativity ?",
+    "questionFr": "Préférez-vous avoir une énergie illimitée OU une créativité illimitée ?",
+    "proposalAEn": "Unlimited energy",
+    "proposalAFr": "Énergie illimitée",
+    "proposalBEn": "Unlimited creativity",
+    "proposalBFr": "Créativité illimitée",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather be able to control the weather OR talk to animals ?",
+    "questionFr": "Préférez-vous pouvoir contrôler la météo OU parler aux animaux ?",
+    "proposalAEn": "Control the weather",
+    "proposalAFr": "Contrôler la météo",
+    "proposalBEn": "Talk to animals",
+    "proposalBFr": "Parler aux animaux",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always feel itchy OR always feel sticky ?",
+    "questionFr": "Préférez-vous toujours avoir des démangeaisons OU toujours vous sentir collant ?",
+    "proposalAEn": "Always itchy",
+    "proposalAFr": "Toujours des démangeaisons",
+    "proposalBEn": "Always sticky",
+    "proposalBFr": "Toujours collant",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always have to laugh at sad moments OR cry at happy moments ?",
+    "questionFr": "Préférez-vous toujours devoir rire lors de moments tristes OU pleurer lors de moments heureux ?",
+    "proposalAEn": "Laugh at sad moments",
+    "proposalAFr": "Rire lors de moments tristes",
+    "proposalBEn": "Cry at happy moments",
+    "proposalBFr": "Pleurer lors de moments heureux",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live in a house made entirely of glass OR a house without windows ?",
+    "questionFr": "Préférez-vous vivre dans une maison entièrement en verre OU dans une maison sans fenêtres ?",
+    "proposalAEn": "Glass house",
+    "proposalAFr": "Maison en verre",
+    "proposalBEn": "No windows",
+    "proposalBFr": "Sans fenêtres",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always lose your keys OR always lose your phone ?",
+    "questionFr": "Préférez-vous toujours perdre vos clés OU toujours perdre votre téléphone ?",
+    "proposalAEn": "Lose your keys",
+    "proposalAFr": "Perdre vos clés",
+    "proposalBEn": "Lose your phone",
+    "proposalBFr": "Perdre votre téléphone",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather live in a world without music OR a world without art ?",
+    "questionFr": "Préférez-vous vivre dans un monde sans musique OU dans un monde sans art ?",
+    "proposalAEn": "No music",
+    "proposalAFr": "Sans musique",
+    "proposalBEn": "No art",
+    "proposalBFr": "Sans art",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather never be able to use a GPS again OR never be able to take a flight again ?",
+    "questionFr": "Préférez-vous ne plus jamais pouvoir utiliser un GPS OU ne plus jamais pouvoir prendre l'avion ?",
+    "proposalAEn": "No GPS",
+    "proposalAFr": "Sans GPS",
+    "proposalBEn": "No flights",
+    "proposalBFr": "Sans vols",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have the power to read minds OR the power to control minds ?",
+    "questionFr": "Préférez-vous avoir le pouvoir de lire dans les pensées OU le pouvoir de contrôler les esprits ?",
+    "proposalAEn": "Read minds",
+    "proposalAFr": "Lire dans les pensées",
+    "proposalBEn": "Control minds",
+    "proposalBFr": "Contrôler les esprits",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have to sing every word you speak OR dance every step you take ?",
+    "questionFr": "Préférez-vous devoir chanter chaque mot que vous dites OU danser chaque pas que vous faites ?",
+    "proposalAEn": "Sing every word",
+    "proposalAFr": "Chanter chaque mot",
+    "proposalBEn": "Dance every step",
+    "proposalBFr": "Danser chaque pas",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always have a pebble in your shoe OR always have an itch you can’t scratch ?",
+    "questionFr": "Préférez-vous toujours avoir un caillou dans votre chaussure OU toujours avoir une démangeaison impossible à gratter ?",
+    "proposalAEn": "Pebble in shoe",
+    "proposalAFr": "Caillou dans la chaussure",
+    "proposalBEn": "Itch you can't scratch",
+    "proposalBFr": "Démangeaison impossible à gratter",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always be 10 minutes late OR always be 20 minutes early ?",
+    "questionFr": "Préférez-vous être toujours en retard de 10 minutes OU toujours en avance de 20 minutes ?",
+    "proposalAEn": "10 minutes late",
+    "proposalAFr": "10 minutes en retard",
+    "proposalBEn": "20 minutes early",
+    "proposalBFr": "20 minutes en avance",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have to wear wet socks forever OR wear itchy clothes forever ?",
+    "questionFr": "Préférez-vous devoir porter des chaussettes mouillées pour toujours OU porter des vêtements qui grattent pour toujours ?",
+    "proposalAEn": "Wet socks",
+    "proposalAFr": "Chaussettes mouillées",
+    "proposalBEn": "Itchy clothes",
+    "proposalBFr": "Vêtements qui grattent",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have unlimited free travel OR unlimited free food at restaurants ?",
+    "questionFr": "Préférez-vous voyager gratuitement de façon illimitée OU manger gratuitement dans les restaurants de façon illimitée ?",
+    "proposalAEn": "Free travel",
+    "proposalAFr": "Voyager gratuitement",
+    "proposalBEn": "Free food",
+    "proposalBFr": "Manger gratuitement",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather lose all your memories from childhood OR lose all your recent memories ?",
+    "questionFr": "Préférez-vous perdre tous vos souvenirs d'enfance OU tous vos souvenirs récents ?",
+    "proposalAEn": "Lose childhood memories",
+    "proposalAFr": "Perdre souvenirs d'enfance",
+    "proposalBEn": "Lose recent memories",
+    "proposalBFr": "Perdre souvenirs récents",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather be able to breathe underwater OR walk on water ?",
+    "questionFr": "Préférez-vous pouvoir respirer sous l'eau OU marcher sur l'eau ?",
+    "proposalAEn": "Breathe underwater",
+    "proposalAFr": "Respirer sous l'eau",
+    "proposalBEn": "Walk on water",
+    "proposalBFr": "Marcher sur l'eau",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always speak your mind OR never speak at all ?",
+    "questionFr": "Préférez-vous toujours dire ce que vous pensez OU ne jamais parler ?",
+    "proposalAEn": "Always speak your mind",
+    "proposalAFr": "Toujours dire ce que vous pensez",
+    "proposalBEn": "Never speak",
+    "proposalBFr": "Ne jamais parler",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather be able to live 1,000 years OR live 10 lives of 100 years each ?",
+    "questionFr": "Préférez-vous vivre 1 000 ans OU vivre 10 vies de 100 ans chacune ?",
+    "proposalAEn": "Live 1,000 years",
+    "proposalAFr": "Vivre 1 000 ans",
+    "proposalBEn": "Live 10 lives",
+    "proposalBFr": "Vivre 10 vies",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather never feel pain OR never feel fear ?",
+    "questionFr": "Préférez-vous ne jamais ressentir la douleur OU ne jamais ressentir la peur ?",
+    "proposalAEn": "Never feel pain",
+    "proposalAFr": "Ne jamais ressentir la douleur",
+    "proposalBEn": "Never feel fear",
+    "proposalBFr": "Ne jamais ressentir la peur",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always win at board games OR always win at video games ?",
+    "questionFr": "Préférez-vous toujours gagner aux jeux de société OU toujours gagner aux jeux vidéo ?",
+    "proposalAEn": "Win board games",
+    "proposalAFr": "Gagner aux jeux de société",
+    "proposalBEn": "Win video games",
+    "proposalBFr": "Gagner aux jeux vidéo",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather have to shout everything OR whisper everything ?",
+    "questionFr": "Préférez-vous devoir tout crier OU tout murmurer ?",
+    "proposalAEn": "Shout everything",
+    "proposalAFr": "Tout crier",
+    "proposalBEn": "Whisper everything",
+    "proposalBFr": "Tout murmurer",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather explore outer space OR the deep ocean ?",
+    "questionFr": "Préférez-vous explorer l'espace OU les profondeurs de l'océan ?",
+    "proposalAEn": "Explore outer space",
+    "proposalAFr": "Explorer l'espace",
+    "proposalBEn": "Explore the deep ocean",
+    "proposalBFr": "Explorer l'océan",
+    "difficultyName": "Soft"
+  },
+  {
+    "questionEn": "Would you rather always have to eat with your hands OR never be able to eat warm food again ?",
+    "questionFr": "Préférez-vous devoir toujours manger avec vos mains OU ne plus jamais pouvoir manger de nourriture chaude ?",
+    "proposalAEn": "Eat with hands",
+    "proposalAFr": "Manger avec les mains",
+    "proposalBEn": "No warm food",
+    "proposalBFr": "Pas de nourriture chaude",
+    "difficultyName": "Soft"
+  }
+]
