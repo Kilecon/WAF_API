@@ -47,7 +47,7 @@ namespace WAF_API_Infrastructure.Repositories
             }
         }
 
-        public Task<IEnumerable<SuggestionDto>> GetSeveralItems(int count)
+        public Task<IEnumerable<SuggestionDto>> GetSeveralItems(int count, string difficulty)
         {
             throw new NotImplementedException();
         }

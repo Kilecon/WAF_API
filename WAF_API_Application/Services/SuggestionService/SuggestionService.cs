@@ -84,7 +84,7 @@ namespace WAF_API_Application.Services.SuggestionService
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<SuggestionDto>> GetSeveralAsync(int count)
+        public Task<IEnumerable<SuggestionDto>> GetSeveralAsync(int count, string difficulty)
         {
             throw new NotImplementedException();
         }

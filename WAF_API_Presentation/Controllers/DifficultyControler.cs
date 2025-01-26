@@ -79,42 +79,6 @@ namespace WAF_API_Presentation.Controllers
                 return StatusCode(420, "Enhance Your Calm !");
             }
         }
-        
-        /// <summary>
-        /// Get Some Randoms "DifficultyDto" Documents
-        /// </summary>
-        /// <param name="count">The number of the "DifficultyDto" Document we want to get</param>
-        /// <returns>The "DifficultyDto" Document</returns>
-        [HttpGet("Get{count}")]
-        [ProducesResponseType(typeof(DifficultyDto), 200)]
-        [ProducesResponseType(400)]
-        [ProducesResponseType(404)]
-        [ProducesResponseType(418)]
-        [ProducesResponseType(420)]
-        public async Task<ActionResult<DifficultyDto>> GetSeveralNotes(int count)
-        {
-            try
-            {
-                var Note = await _noteService.GetSeveralAsync(count);
-                return StatusCode(200, Note);
-            }
-            catch (InvalidIdException ex)
-            {
-                return StatusCode(400, ex.Message);
-            }
-            catch (NotInDbException ex)
-            {
-                return StatusCode(404, ex.Message);
-            }
-            catch (StoreInDbException ex)
-            {
-                return StatusCode(418, ex.Message);
-            }
-            catch (Exception)
-            {
-                return StatusCode(420, "Enhance Your Calm !");
-            }
-        }
 
         /// <summary>
         /// Creates new "DifficultyDto" Documents

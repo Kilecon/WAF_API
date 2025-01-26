@@ -63,7 +63,7 @@
         /// </summary>
         /// <param name="count">The id<see cref="int"/></param>
         /// <returns>The <see cref="Task"/></returns>
-        Task<IEnumerable<TDto>> GetSeveralItems(int count);
+        Task<IEnumerable<TDto>> GetSeveralItems(int count, string difficulty);
 
         /// <summary>
         /// Performs an upsert operation for multiple items at once.

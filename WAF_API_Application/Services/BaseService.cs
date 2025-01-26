@@ -123,11 +123,11 @@ namespace WAF_API_Application.Services
         /// </summary>
         /// <param name="count">The id<see cref="int"/></param>
         /// <returns>The <see cref="Task{IEnumerable{TDto}}"/></returns>
-        public async Task<IEnumerable<TDto>> GetSeveralAsync(int count)
+        public async Task<IEnumerable<TDto>> GetSeveralAsync(int count, string difficulty)
         {
             try
             {
-                return await _repo.GetSeveralItems(count);
+                return await _repo.GetSeveralItems(count, difficulty);
 
             }
             catch (NotInDbException)

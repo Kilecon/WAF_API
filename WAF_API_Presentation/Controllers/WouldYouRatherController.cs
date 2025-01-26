@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using WAF_API_Application.Services.WouldYouRatherService;
 using WAF_API_Domain.WouldYouRather.Dtos;
 using WAF_API_Domain.WouldYouRather.Commands;
+using WAF_API_Domain.Dare.Dtos;
 
 namespace WAF_API_Presentation.Controllers
 {
@@ -90,11 +91,11 @@ namespace WAF_API_Presentation.Controllers
         [ProducesResponseType(404)]
         [ProducesResponseType(418)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<WouldYouRatherDto>> GetSeveralNotes(int count)
+        public async Task<ActionResult<WouldYouRatherDto>> GetSeveralNotes(int count, string difficulty)
         {
             try
             {
-                var Note = await _noteService.GetSeveralAsync(count);
+                var Note = await _noteService.GetSeveralAsync(count, difficulty);
                 return StatusCode(200, Note);
             }
             catch (InvalidIdException ex)

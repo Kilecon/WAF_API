@@ -195,7 +195,7 @@ namespace WAF_API_Infrastructure.Repositories
             }
         }
 
-        public async Task<IEnumerable<TDto>> GetSeveralItems(int number)
+        public async Task<IEnumerable<TDto>> GetSeveralItems(int number, string difficultyName)
         {
             if (number <= 0)
             {
@@ -205,6 +205,7 @@ namespace WAF_API_Infrastructure.Repositories
             var pipeline = new[]
                 {
                 new BsonDocument("$match", new BsonDocument("TypeName", typeof(TDto).Name)),
+                new BsonDocument("$match", new BsonDocument("Payload.DifficultyName", difficultyName)),
                 new BsonDocument("$sample", new BsonDocument("size", number))
                 };
 

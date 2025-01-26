@@ -172,7 +172,7 @@ namespace WAF_API_Application.Services.NotationService
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<NotationDto>> GetSeveralAsync(int count)
+        public Task<IEnumerable<NotationDto>> GetSeveralAsync(int count, string difficulty)
         {
             throw new NotImplementedException();
         }

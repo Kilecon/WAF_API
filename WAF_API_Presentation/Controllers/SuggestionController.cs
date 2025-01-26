@@ -43,43 +43,6 @@ namespace WAF_API_Presentation.Controllers
                 return StatusCode(420, "Enhance Your Calm !");
             }
         }
-        
-        /// <summary>
-        /// Retrieves a "SuggestionDto" Document by its ID
-        /// </summary>
-        /// <param name="count">The number of the "SuggestionDto" Document we want to get</param>
-        /// <returns>The "ParanoiaDto" Document</returns>
-        [HttpGet("Get/{count}")]
-        [ProducesResponseType(typeof(SuggestionDto), 200)]
-        [ProducesResponseType(400)]
-        [ProducesResponseType(404)]
-        [ProducesResponseType(418)]
-        [ProducesResponseType(420)]
-        public async Task<ActionResult<SuggestionDto>> GetSeveralNotes(int count)
-        {
-            try
-            {
-                var Note = await _noteService.GetSeveralAsync(count);
-                return StatusCode(200, Note);
-            }
-            catch (InvalidIdException ex)
-            {
-                return StatusCode(400, ex.Message);
-            }
-            catch (NotInDbException ex)
-            {
-                return StatusCode(404, ex.Message);
-            }
-            catch (StoreInDbException ex)
-            {
-                return StatusCode(418, ex.Message);
-            }
-            catch (Exception)
-            {
-                return StatusCode(420, "Enhance Your Calm !");
-            }
-        }
-
 
         /// <summary>
         /// Retrieves a "SuggestionDto" Document by its ID

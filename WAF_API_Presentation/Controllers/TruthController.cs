@@ -10,6 +10,7 @@ using WAF_API_Domain.Truth.Commands;
 using WAF_API_Exceptions.ApplicationExceptions;
 using WAF_API_Exceptions.DomainExceptions;
 using WAF_API_Exceptions.InfrastructureExceptions;
+using WAF_API_Domain.Dare.Dtos;
 
 namespace WAF_API_Presentation.Controllers
 {
@@ -92,11 +93,11 @@ namespace WAF_API_Presentation.Controllers
         [ProducesResponseType(404)]
         [ProducesResponseType(418)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<TruthDto>> GetSeveralNotes(int count)
+        public async Task<ActionResult<TruthDto>> GetSeveralNotes(int count, string difficulty)
         {
             try
             {
-                var Note = await _noteService.GetSeveralAsync(count);
+                var Note = await _noteService.GetSeveralAsync(count, difficulty);
                 return StatusCode(200, Note);
             }
             catch (InvalidIdException ex)

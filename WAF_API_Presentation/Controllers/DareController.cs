@@ -91,11 +91,11 @@ namespace WAF_API_Presentation.Controllers
         [ProducesResponseType(404)]
         [ProducesResponseType(418)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<DareDto>> GetSeveralNotes(int count)
+        public async Task<ActionResult<DareDto>> GetSeveralNotes(int count, string difficulty)
         {
             try
             {
-                var Note = await _noteService.GetSeveralAsync(count);
+                var Note = await _noteService.GetSeveralAsync(count, difficulty);
                 return StatusCode(200, Note);
             }
             catch (InvalidIdException ex)

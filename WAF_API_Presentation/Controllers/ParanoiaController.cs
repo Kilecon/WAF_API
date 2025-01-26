@@ -9,6 +9,7 @@ using WAF_API_Application.Services.DareService;
 using WAF_API_Application.Services.ParanoiaService;
 using WAF_API_Domain.Paranoia.Dtos;
 using WAF_API_Domain.Paranoia.Commands;
+using WAF_API_Domain.Dare.Dtos;
 namespace WAF_API_Presentation.Controllers
 {
     /// <summary>
@@ -79,11 +80,12 @@ namespace WAF_API_Presentation.Controllers
                 return StatusCode(420, "Enhance Your Calm !");
             }
         }
-        
+
         /// <summary>
         /// Retrieves a "ParanoiaDto" Document by its ID
         /// </summary>
         /// <param name="count">The number of the "ParanoiaDto" Document we want to get</param>
+        /// <param name="difficulty"></param>
         /// <returns>The "ParanoiaDto" Document</returns>
         [HttpGet("Get/{count}")]
         [ProducesResponseType(typeof(ParanoiaDto), 200)]
@@ -91,11 +93,11 @@ namespace WAF_API_Presentation.Controllers
         [ProducesResponseType(404)]
         [ProducesResponseType(418)]
         [ProducesResponseType(420)]
-        public async Task<ActionResult<ParanoiaDto>> GetSeveralNotes(int count)
+        public async Task<ActionResult<ParanoiaDto>> GetSeveralNotes(int count, string difficulty)
         {
             try
             {
-                var Note = await _noteService.GetSeveralAsync(count);
+                var Note = await _noteService.GetSeveralAsync(count, difficulty);
                 return StatusCode(200, Note);
             }
             catch (InvalidIdException ex)

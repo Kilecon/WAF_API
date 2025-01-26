@@ -54,7 +54,7 @@ namespace WAF_API_Application.Services
         /// The GetSeveralAsync
         /// </summary>
         /// <returns>The <see cref="Task{IEnumerable{TDto}}"/></returns>
-        Task<IEnumerable<TDto>> GetSeveralAsync(int count);
+        Task<IEnumerable<TDto>> GetSeveralAsync(int count, string difficulty);
 
         /// <summary>
         /// Performs an upsert operation for multiple items at once.
